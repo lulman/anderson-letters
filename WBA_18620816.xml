@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//Main DTD Driver File//EN" "http://www.tei-c.org/release/xml/teip4/schema/dtd/tei2.dtd" [
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.linking 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.transcr 'INCLUDE'>
+<!ENTITY % TEI.XML 'INCLUDE'>
+
+<!-- If necessary, identify the files containing extensions of the TEI DTD
+by removing the commenting around the following declarations and
+editing the filenames.
+
+<!ENTITY % TEI.extensions.ent SYSTEM 'XXXXXX.ent' >
+<!ENTITY % TEI.extensions.dtd SYSTEM 'XXXXXX.dtd' >
+
+ -->
+
+<!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+%ISOpub;
+<!ATTLIST xref url CDATA #IMPLIED>
+<!ATTLIST pb mmid CDATA #IMPLIED>
+]>
+
+<TEI.2 id="WBA_18620816">
+<!-- Replace "DOCUMENT_ID" in the <TEI.2> element with the filename of your XML file (minus the .xml extension). 
+Use the following filename convention: WBAyyyymmdd. For example, I would name the XML transcript of a 
+letter written on 18 July 1863 as follows: WBA18630718. Use the date on which you have determined the letter
+was written, not necessarily the date Anderson wrote in his dateline. -->
+   
+   <teiHeader type="AACR2">
+      <!--The type attribute in teiHeader element above indicates that the header provides 
+      enough information to create a bibliographic record that complies with the 
+      Anglo-American Cataloguing Rules, 2nd ed. (1978; rev. 1988).-->
+      
+      <fileDesc>
+         <!--The  file description tagged <fileDesc>, contains "a full bibliographical description 
+         of the computer file itself, from which a user of the text could derive a proper bibliographic 
+         citation, or which a librarian or archivist could use in creating a catalogue entry recording 
+         its presence within a library or archive" (TEI P4X, ch. 5).-->
+         
+         <titleStmt>
+            <title>Letter from William B. Anderson to wife Mary Louisa Anderson on August 16, 1862 Regarding Daily Tasks and Hardships of Occupation</title>
+            <!-- The title of your electronic file, which will also be the title of your project. 
+               Avoid generic, uninformative titles. Try to indicate something about the story of the document 
+               (Who wrote it? What is it? When was it written? Why is it important or interesting?) -->
+            
+            <editor>Martha R. Fissel</editor>
+            <!-- Your full name (first middle last). -->
+            
+            <respStmt>
+               <resp>Creation of initial machine-readable transcript: </resp>
+               <name type="person">Steve Agricola</name>
+               <resp>Creation of digital images: </resp>
+               <name type="person">Laura Denning</name>
+               <resp>Conversion to TEI.2-conformant markup: </resp>
+               <name type="person">Martha R. Fissel</name>
+               <!-- Your full name (first middle last). -->
+               
+            </respStmt>
+         </titleStmt>
+         
+         <editionStmt>
+            <p>1st Edition.</p>
+         </editionStmt>
+         
+         <extent> Approx. 28 kilobytes </extent>
+         
+         <publicationStmt>
+            <!-- one of (address authority availability date distributor idno p pubPlace publisher) -->
+            <!-- Use the following for the Valentine Peers papers. Otherwise you can simply
+            indicate your own address. -->
+            
+            <publisher>The Ohio State University Library. <address>
+                  <addrLine n="1">Rare Books and Manuscripts Library</addrLine>
+                  <addrLine n="2">327 Main Library</addrLine>
+                  <addrLine n="3">1858 Neil Avenue Mall</addrLine>
+                  <addrLine n="4">Columbus, OH 43210</addrLine>
+               </address>
+            </publisher>
+            
+            <pubPlace>Columbus, OH</pubPlace>
+            
+            <idno type="CallNumber_Box_Folder_Item">XX_XX_XX_XX</idno>
+            <!-- The <idno> element is only required for documents with a standard id number
+            such as a library call number. The Anderson papers did not have a call number at the
+            beginning of our course, but we will check before we finish.-->
+            
+            <availability>
+               <p>The W. B. Anderson Collection is the property of the Rare Books and Manuscripts
+                  Library of The Ohio State University Libraries. Any use of the material should
+                  acknowledge such ownership.</p>
+               <p id="CreativeCommons">  <!--Creative Commons License-->
+              <![CDATA[<a rel="license" href="http://creativecommons.org/licenses/by/2.5/">
+               <img alt="Creative Commons License" border="0" src="http://creativecommons.org/images/public/somerights20.png"/></a>
+                  <br/>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/2.5/">
+                     Creative Commons Attribution 2.5 License</a>.]]>
+                  <!--/Creative Commons License--><!-- <rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                  <Work rdf:about="">
+                  <license rdf:resource="http://creativecommons.org/licenses/by/2.5/" />
+                  <dc:title>Letter Written by William B. Anderson to Louisa Anderson August 16, 1862</dc:title>
+                  <dc:date>2006</dc:date>
+                  <dc:description>This is part of a collection of letters written by William B. Anderson, a riverboat captain during the Civil War. This particular letter is written to his wife, Louisa Anderson, and can be found at the Ohio State University Rare Books and Manuscripts Department in the Main Library</dc:description>
+                  <dc:creator><Agent><dc:title>Martha R. Fissel</dc:title></Agent></dc:creator>
+                  </Work>
+                  <License rdf:about="http://creativecommons.org/licenses/by/2.5/"><permits rdf:resource="http://web.resource.org/cc/Reproduction"/><permits rdf:resource="http://web.resource.org/cc/Distribution"/><requires rdf:resource="http://web.resource.org/cc/Notice"/><requires rdf:resource="http://web.resource.org/cc/Attribution"/><permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/></License></rdf:RDF> -->
+            </p>
+            </availability>
+           
+            <date>2006-06-01</date>
+            
+         </publicationStmt>
+         
+         <sourceDesc>
+            <biblFull>
+               
+               <titleStmt>
+                  
+                  <title level="u">Letter from William B. Anderson to wife Mary Louisa Anderson on August 16, 1862</title>
+                  <!--The "level" attribute "indicates whether this is the title of an article, book, journal, 
+                  series, or unpublished material, indicated as a, b, j, s, or u" (TEI P4X, ch. 5.2.1).
+                     Write "no title" if your document has no title. -->
+                  
+                  <author>William B. Anderson</author>
+                  <!-- First middle last -->
+                  
+               </titleStmt>
+               
+               <extent>2 pp.</extent>
+               <!-- The size of your source document, in whatever units are appropriate (usually pages;
+               for example, 2 pp.) -->
+               
+               <publicationStmt>
+                  <p>Pulbication statement from the library.</p>
+               </publicationStmt>
+               
+               <notesStmt>
+                  <note>
+                     <p>
+                        William B. Anderson's letter dated August 16, 1862 from Cincinnati and
+                        addressed to his wife Louisa is written in ink on two sides of a 
+                        loose sheet of paper measuring approximately 7.5 inches wide by 9.0 inches 
+                        tall (19 x 23 cm) and ruled with horizontal blue lines spaced .33 inches 
+                        (0.8 cm) apart, except for a 1.5-inch (3.8 cm) unruled top margin. 
+                        All four edges of the letter, 
+                      are clean, suggesting that the sheet was bought as a package of looseleaf. 
+                        It appears originally to have been folded once crosswise and twice lengthwise. 
+                        At this writing, the ink appears brown and the paper off-white (cream). A .5-inch
+                        by .5-inch (1.3 x 1.3 cm) embossed printer's mark appears in the upper lefthand 
+                        corner of the sheet, 0.5 inches (1.3 cm) from the top edge and .25 inches 
+                        (0.6 cm) from the left edge. 
+                      .</p>
+                  <!-- TAKE NOTE: Your entire header should answer the following questions about your 
+                       source document. At this point in your header, you should discuss anything in this
+                       list not mentioned elsewhere in the header.
+                     
+                        1. What is the document (letter, will, etc.)?
+                        2. What does it say about itself (titles, descriptive notes, etc.)?
+                        3. What does it contain (no. of pages/sheets, enclosures, etc.)?
+                        4. How is it put together (folded sheets, binding, etc.)?
+                        5. What is it made of (paper, vellum, etc.)?
+                        6. What is its size (i.e., physical dimensions)?
+                        7. How is it packaged/contained (binding, envelope, folder, box, etc.)?
+                        8. How is it related to other versions (original, copy, print history)?
+                     
+                        You can use more than one paragraph (tagged <p> </p>).
+             
+                    
+          
+                   -->
+                     
+                  </note>
+               </notesStmt>
+               
+            </biblFull>
+         </sourceDesc>
+         
+      </fileDesc>
+      
+      <encodingDesc>
+         <!--The encoding description, tagged <encodingDesc>, describes "the relationship 
+         between an electronic text and its source or sources" (TEI P4X, ch. 5).-->
+         
+         <projectDesc>
+          
+            <!-- TAKE NOTE: Here’s where you describe the purpose of your project and tell the story of the document. 
+               A phrase is not enough. Tell the story behind the documents in a manner that establishes the 
+               significance of your documents to your intended audience. Further, I have asked you to contextualize your project as an electronic edition by 
+               discussing (and providing citations for) some key ideas from Levy or Electronic Textual Editing 
+               that informed your design. You can use more than one paragraph (tagged <p> </p>). Note: This description
+               is not the same as the short summary of your source document contained in the following element:
+               text/front/div1/p -->
+            <p> This letter, written by William B. Anderson to his wife Louisa, is part of a collecton from the Rare Books and 
+               Manuscripts Department at the Ohio State University Main Library in Columbus, Ohio. Most of the William B. Anderson letters describe
+               his daily tasks as a riverboat captain during the Civil War through basic correspondance with his wife. This particular letter, written on August 16, 1862,
+               is a heartfelt note that reveals emotion and grief about
+            Anderson's occupation as a riverboat captain.  Anderson's job was to board soldiers and take them away to where they were needed. He wrote
+               to his wife about how saddened he is to take these men away from their families. The William B. Anderson letters
+            are useful in constructing a personal view of life during the Civil War. Though textbooks and objective sources about the Civil War are informative
+            and helpful, the William B. Anderson Letters provide a personal touch for the reader and present a sentiment that may not be
+               present in objective sources. </p>
+            <p>This letter is significant because
+            it allows the reader to relate to Anderson and understand his hardships and feelings. In David Levys's Scrolling Forward, Levy discusses how letters
+            are a gateway to one's feelings. A letter "addresses a highly personal subject; and in its hand-produced marks it expresses some of the 
+            drama and pathos of the situation in which it is embedded" (Levy, 80&ndash;81). While examining the William B. Anderson letters, it is important for the reader to search the images provided
+            and see these hand-produced marks that reveal a certain degree of vulnerability in the author. Though electronic editions can at times lose the personal touch of the letters, the reader is
+            encouraged to search the images and visit the Rare Books and Manuscripts Department at the Ohio State University Main Library. </p>
+            <p><hi rend="bold">Works Cited</hi></p>
+            <p>Levy, David M. <title level="m">Scrolling Forward: Making Sense of Documents in the Digital
+               Age</title>. New York: Arcade, 2001.</p>
+            
+         </projectDesc>
+         
+         <editorialDecl>
+            <!--In addition to prose description, the Editorial Practices Declaration may contain 
+            specialized elements concerned with correction, normalization, quotation, hyphenation, 
+               segmentation, date and number format, and interpretive apparatus (TEI P4X, ch. 5.3.3).-->
+            
+            
+            <p>Title: Letter from William B. Anderson to his wife, Louisa, 16 August 1862.
+               Editor: Martha Fissel
+                           </p>
+            <p> Encoding of the Anderson letters emphasizes diplomatic transcription, with supplemental information allowing for semi-modernized, corrected, regularized, or expanded views included as the values of attributes associated with various elements. Accordingly, abbreviations, recoverable cancelations, punctuation, spelling, underscoring, capitalization, line breaks, and page breaks have all been transcribed or tagged as they appear in the original manuscripts. Regularized versions of all names and referring strings have been encoded as the values of "reg" attributes. Standard format values for all dates have been encoded in "value" attributes.
+               
+               Corrections and emendations in Anderson's hand have been encoded as cancelations and interlinear or marginal additions. In a few cases, omitted text has been supplied by the editors for the sake of clarity and encoded with the TEI  element.
+                  
+                  The following structural elements of the letters are also encoded: opener (including salutation and dateline), body, lines, paragraphs, pages, and closers (including salutation and signature). Notes and postscripts are identified as such.
+                  
+                  The critical apparatus used in particular views of the letters is explained at the bottom of each view.
+               At the time of publication (6 June 2006), the XML and XSL files related to this edition were stored in an XML publishing system operated by Humanities Information Systems (HIS), College of Humanities, The Ohio State University. For more information about HIS, see http://his.osu.edu/. Most image, audio, and video files linked to, or embedded in, this edition's  elements were stored in the Media Manager system maintained by the Colleges of Arts and Sciences of The Ohio State University. For more information about the Media Manager, see https://mediamanager.osu.edu/.
+                  
+                  
+                  
+            </p>
+            
+            
+            <!-- TAKE NOTE: Explain your editorial method:
+               
+               •	If you employ image files, describe how they were produced and note where they are stored.
+               •	Describe any editorial guidelines you followed (e.g., how you treated hyphenation, whether 
+                  you corrected apparent errors, and any other decisions about how to treat recurrent features).
+               •	Describe any special symbols that you use in your text to indicate additions, corrections, 
+                  cancellations, and so on. This important explanation provides a reader's guide to the text.
+               
+                  You can use more than one paragraph (tagged <p> </p>).
+            -->
+            
+         </editorialDecl>
+         
+         <refsDecl>
+            <p>The XML files that constitute this edition of the William B. Anderson letters are named according the letters' dates of composition, using the following naming convention: WBA_YYYYMMDD.xml. Dates of composition were determined from various sources of evidence: the datelines inscribed in the letters, internal evidence in the body of the letters, and perpetual calendars. If the year, month, or date on which a letter was written could not be determined, the appropriate part of the filename is rendered with 0s. XSL style sheet documents are named with the prefix "WBA" followed by an underscore and a descriptive phrase (e.g., "WBA_diplomatic.xsl).
+               
+               In general, this edition follows the Text Encoding Initiative's Guidelines for Electronic Text Encoding and Interchange, XML-compatible edition P4. For more information about TEI P4, see http://www.tei-c.org/P4X/. To facilitate embedding or linking to image, audio, and video files, this edition supplements the Text Encoding Initiative's DTD by adding a URL attribute and an MMID (i.e., Media Manager ID) attribute to the  Page Break Element. The values of the MMID attribute in page break elements and the file IDs in the URL attribute  that link to, or embed, image, audio, and video files contained in the Media Manager are generated by the Media Manager application.
+            </p>
+            
+            <!--  TAKE NOTE: This information helps your readers understand the encoded XML document:
+               
+               •	Explain any revisions to the TEI DTD.
+               •	Explain any special naming conventions used in your encoding (for example, the ID
+                  attributes of page break elements).
+               
+                  You can use more than one paragraph (tagged <p> </p>).
+            -->
+            
+         </refsDecl>
+         
+         <classDecl>
+            <taxonomy id="LCSH">
+               <bibl>
+                  <title>Library of Congress Subject Headings</title>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+         
+      </encodingDesc>
+      
+      <profileDesc>
+         <!--The text profile, tagged <profileDesc>, contains "classificatory and contextual information 
+         about the text, such as its subject matter, the situation in which it was produced, the 
+         individuals described by or participating in producing it, and so forth" (TEI P4X, ch. 5).-->
+         
+         <creation>
+            <date>1862-08-16</date>
+         </creation>
+         
+         <langUsage>
+            <!-- Note any languages that appear in your document. -->
+            <language id="eng">English</language>
+         </langUsage>
+         
+         <handList>
+            <!-- Identify any hands (i.e., individuals' handwriting) that appear in your document. -->
+            <hand first="yes" id="WBA" scribe="Anderson, William B."/>
+            <hand id="UNK" scribe="Unknown"/>
+         </handList>
+         
+         <textClass>
+            <keywords>
+               <!-- Supply a list of keywords for your document. -->
+               <term>KEYWORD01</term>
+               <term>KEYWORD02</term>
+            </keywords>
+         </textClass>
+         
+      </profileDesc>
+      
+      <revisionDesc>
+         
+         <!--The revision history, tagged <revisionDesc>, allows "the encoder to provide a history of 
+            changes made during the development of the electronic text" (TEI P4X, ch. 5).-->
+         
+         <!-- Add additional changes at the top of the list. -->
+         
+         <change>
+            <date>2006-08-11</date>
+            <respStmt>
+               <resp>Principal Editor</resp>
+               <name>H. Lewis Ulman</name>
+            </respStmt>
+            <item>Cross-check against independent transcription by Jamie Danker (principal editor evaluated discrepancies).</item>
+         </change>
+         
+         <change>
+            <date>2006-08-02</date>
+            <respStmt>
+               <resp>Principal Editor</resp>
+               <name>H. Lewis Ulman</name>
+            </respStmt>
+            <item>Spot-check corrections.</item>
+         </change>
+         
+         <change>
+            <date>2006-06-06</date>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Martha R. Fissel</name>
+            </respStmt>
+            <item>Completion of initial TEI-compliant encoding.</item>
+         </change>
+         
+         <!-- Indicate the date on which you completed your XML encoding. -->
+         
+         <change>
+            <date>2006-05-10</date>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Martha R. Fissel</name>
+            </respStmt>
+            <item>Correction of initial transcription.</item>
+            
+            <!-- Indicate the date on which you completed the correction of the initial transcription. -->
+            
+         </change>
+         <change>
+            <date>2005</date>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Steve Agricola</name>
+            </respStmt>
+            <item>Initial machine-readable transcription.</item>
+         </change>
+         
+      </revisionDesc>
+      
+   </teiHeader>
+   
+   <text>
+      <front>
+         <div1 n="1" type="abstract">
+            
+            <!-- This template uses divisions to distinguish parts of the front, body, and
+            back of the electronic document. You do not have to use divisions. -->
+            
+            <head>
+               <bibl>
+                  <title>Letter from William B. Anderson to wife Mary Louisa Anderson on August 16, 1862</title>
+                  <!-- This title should be the same as the one you supply in fileDesc/titleStmt/title. -->
+                  
+                  <date>1862-08-16 </date>
+                  <abbr>ALS</abbr>
+                  <!-- "ALS" means "autograph letter signed." -->
+                  <extent>2 pp.</extent>
+                  <idno rend="suppress">XXXXXXXXXX</idno>
+                  <!-- For the Anderson letters, we will assign ID numbers that reflect the date. -->
+               </bibl>               
+            </head>
+            
+            <p>In this letter, Anderson writes to his wife about his daily tasks and his hardships while being a riverboat captain.
+            He reports that a shaft has broken on the boat, and hopes the new part will arrive soon. Anderson continues his letter and describes how he feels about boarding soldiers on his riverboat. 
+            His emotions of grief and sadness overrun the second half of his letter, and he explains that he feels terrible watching families be torn apart. Anderson closes with warm wishes to his family
+               and that he hopes to hear from them soon.</p>
+            <p>Previous letter <xref type="prev" url="WBA_18620810">10 August 1862,</xref>
+               Next letter<xref type="next" url="WBA_18620824">24 August 1862</xref> </p>
+            <!-- Provide a short (3-5 sentences) descriptive summary of the letter you have
+             edited. Use active verbs that describe what Anderson _does_ in the letter: for example,
+             Anderson "requests," "describes," "reports," "relates," and so on. -->
+            
+         </div1>         
+      </front>
+      
+      <body>
+         <div1 n="1" type="[Letter]">
+            <!--Transcription of the body of the document begins here. If you use the div tag,
+            the type attribute should reflect the nature of your document (e.g., "letter"). -->
+            
+            <head/>
+            <!-- Note that the head can be entered as an empty element. Compare to the 
+            div element in the front of the document. -->
+            
+            <pb mmid="/0/076b0de8-f961-498d-9676-eabf1b446a02" n="1"/>
+            <!-- In order to build links to images of each page, we will use the Media Manager Item ID
+            as the value of the "id" attribute of each <pb> element. The "n" attribute should contain
+            a sequential page number within the letter (in the case of the Anderson letters, 1, 2, or 3).-->
+            
+            <opener>
+       <!-- The opener element contains any dateline and salutation appearing at the head of the letter.
+       You may omit this element if your document does not contain similar material.
+       Note that dates and names are tagged with standard versions in order to improve searching. -->            
+               
+               <dateline>
+                  <lb n="001"/><date value="1862-08-16">Cin<seg> <note target="n1">1</note> </seg> Sunday 16 August 1862 <seg> <note target="n2">2</note> </seg></date>
+             
+                   <name type="location" reg="Cincinnati, OH"> 
+                     <abbr expan="Cincinnati"></abbr></name>
+                  <address><name type="city" reg="Cincinnati, OH"></name></address>
+                    
+               </dateline>
+               
+               
+               <lb n="002"/><salute>My Dear</salute> 
+               <rs type="person"><rs type="recipient" reg="Anderson, Mary Louisa, née Fischgens (1837-1911)">Wife</rs></rs>
+               <seg>
+                  <note target="n3">3</note>
+               </seg>
+               
+            </opener>
+            
+            <p>
+        
+        <!-- Beginning with the body of the letter, lines in this template have been identified 
+               to allow for cross references and numbered to allow for numbered display. IDs must 
+               be unique within the document. However, you do not need to report line breaks at all 
+               if doing so serves no purpose in your edition. -->
+               
+             
+                  
+                 
+                  
+               <lb n="003"/> As <name type= "person"> John <seg> <note target="n4">4</note> </seg></name> 
+                         is going home I take 
+                        <lb n="004"/> the opportunity of dropping you a few lines
+                        <lb n="005"/> to inform you that I am well.  We arrived here
+                        <lb n="006"/> at noon today we have had bad luck since
+                        <lb n="007"/> I wrote you last. We broke our shaft on our up 
+                        <lb n="008"/> trip and shall have to lay here for several
+                        <lb n="009"/> days to have it mended or probably a
+                        <lb n="010"/> new one made.  I cannot learn what our
+                        <lb n="011"/> luck will be in getting it <sic corr="repaired">repared</sic> till Morning
+                           <lb n="012"/> I will probably get time to go up and see
+                           <lb n="013"/> you while the <sic corr="repairing">reparing</sic> is going on if I can
+                           <lb n="014"/> leave with any kind of propriety.  It was one
+                           <lb n="015"/> of the worst times that an accident could 
+                           <lb n="016"/> happen as <rs type="place" reg="Ohio River">the river</rs> is low and Government
+                           <lb n="017"/> wants us and at good prices we were pressed
+                           <lb n="018"/> into <abbr expan="Government">Gov</abbr> Service at <name type="place">Gallipolis</name> <seg> <note target="n5">5</note>
+                           </seg> but were released
+                           <lb n="019"/> on account of our broke shaft
+                           <lb n="020"/> We brought down part of 3 companies of 
+                           <lb n="021"/> soldiers from <name type="place" reg="Galiipolis, OH"> Gallipolis</name> to <name type="place">camp Portsmouth</name><seg> <note target="n6">6</note></seg>
+                           <lb n="022"/> and it would have made the hardest heart
+                           <lb n="023"/> melt to have heard the women and children
+                              <lb n="024"/> weeping on the wharf Boat while the men
+                              <lb n="025"/> were being ordered on board there was at least
+                              <lb n="026"/> 70 women &amp; 100 children there to take perhaps
+                              <lb n="027"/> the last leave of their husbands Brothers &amp; Sons
+                              
+               <pb mmid="/D/df9f4e9c-4d9d-4388-8b13-b97256cb692b" n="2"/> 
+               
+                              <lb n="028"/> who have answered the call for men
+                              <lb n="029"/> to try and restore peace and restore this
+                              <lb n="030"/> once Glorious Country to peace.  You see
+                              <lb n="031"/> or Know nothing about this war or the
+                              <lb n="032"/> effects produced upon families <del type="unrecoverable" rend="overstrike" hand="WBA">[deleted word]</del> by it
+                              <lb n="033"/> I am sick and tired of soldiers and soldiering
+                              <lb n="034"/> we see nor hear but little else and what
+                              <lb n="035"/> I am most fearfull of is that the end is
+                              <lb n="036"/> not close at hand we carry every trip more
+                              <lb n="037"/> or less sick and wounded men and any amount
+                              <lb n="038"/> of women on their way to look up their sons
+                              <lb n="039"/> Husbands or Brothers while I am writing the
+                              <lb n="040"/> wharf is covered from <name type="place">Broadway</name> to <name type="place">Main
+               <lb n="041"/> street</name> <seg><note target="n7">7</note></seg> with fresh recruits from <name type="place">Indiana</name> <seg><note target="n8">8</note></seg> &amp;
+                              <lb n="042"/> <name type="place">Ohio</name> <seg><note target="n9">9</note></seg>on their way to the <name type="place">Little Miami <abbr expan="Railroad">RR</abbr> </name>
+                                 <lb n="043"/> Depot <seg><note target="n10">10</note></seg>on their way to Camps to be uniformed
+                                 <lb n="044"/> I have not been down today to see <rs type="person" reg="Fischgens, Ann Mary, née Woolslayer">your mother</rs>
+                                 <lb n="045"/> but will before I write again or go up
+                                 <lb n="046"/> to see you I will not get to more than
+                                 <lb n="047"/> just go up one day and return the next
+                                 <lb n="048"/> if I do go at <sic corr="all">al</sic>.  Write to me soon and
+                                 <lb n="049"/> give me all the news and take care
+                                 <lb n="050"/> of yourself and all the children
+                                 <lb n="051"/> you need not be disappointed if I don’t
+                                 <lb n="052"/> go up through if I can learn alot I will
+                                 <lb n="053"/> be sure to write to me as soon as you
+                                 <lb n="054"/> get this in care of <name type="person" reg="Fisher, Isham"> Isham Fisher<seg><note target="n11">11</note></seg></name>
+                                  &amp; Co <name type="place" reg="Cincinnati, OH"><abbr expan="Cincinnati">Cin</abbr></name><seg><note target="n12">12</note></seg>
+                                    <lb n="055"/> give my love to the children 
+                                    </p>
+            
+           
+                  
+            
+            <!-- Closer begins here, for letters. -->
+            
+            <closer>
+               <lb n="56"/><salute>Your Affectionate Husband</salute>
+               <lb n="57"/>
+               <signed>
+                  <name reg="Anderson, William B. (1822-1897)" type="person">WB Anderson <seg><note target="n13">13</note></seg></name>
+               </signed>               
+            </closer>          
+
+         </div1>
+         
+         <div1 n="2" type="note">
+            <!-- Note how this template provides for a second top-level division, in this
+            case a note. If your document does not have a second top-level division, delete
+            this <div1> tag and its contents.-->
+            
+            <head/>
+            <opener/>
+            
+        <p></p>
+            
+            <closer/>
+            
+         </div1>
+         
+         
+      </body>
+      
+      <back>
+         <div1 type="Annotations" n="1">
+            <!-- Annotations begin here. -->
+            
+            <head>Notes</head>
+           
+            
+            <note id="n1">1. Location is Cincinnati, Ohio. Founded in 1788. Originally called Losaniville and name was changed to Cincinnati in 1790. Located in southwest Ohio along the Ohio River. <bibl>
+                  <title>Ohio History Central Online Encyclopedia</title> p. 1 </bibl></note>
+               
+               <note id="n2"> 2. Though Anderson writes the date as Sunday, August 16, 1862, he makes an error. In August 1862, August 16 falls
+               on a Saturday, not a Sunday. It is presumed that Anderson mistook the day of the letter written.</note>
+          
+            <note id="n3">3. Anderson, Mary Louisa, née Fischgens (1837-1911). Married William B. Anderson September 15, 1853. <bibl><title>History of Allegheny County</title> p. 298</bibl></note>
+            
+            
+       
+         <note id="n4">4. Id is unknown </note>
+            
+          <note id="n5">5. Location is Gallipolis, Ohio. Founded in 1790. Located in southern Ohio along Ohio River. <bibl><title>Ohio History Central Online Encylopedia</title> p. 1</bibl></note>
+            
+            <note id="n6">6. Location is Pourtsmouth, Ohio. Founded in 1803. Located in southern Ohio along Ohio River. Approximately seventy miles from Gallipolis, Ohio.<bibl><title> Ohio History Central Online Encyclopedia</title> p. 1
+               
+            </bibl></note>
+            
+            <note id="n7">7. Id is unknown. Presumed to be located in Indiana or Ohio. <bibl>
+               
+            </bibl></note>
+            <note id="n8">8. Location is state of Indiana. Became state in December 1816. Is neighboring state with Ohio.  <bibl><title> Northern Indiana Center for History</title> p. 1
+               
+            </bibl></note>
+            <note id="n9">9. Location is state of Ohio. Became state in February 1803. Is neighboring state with Indiana.<bibl><title> The Indiana Historian </title> p.1
+               
+            </bibl></note>
+            
+            <note id="n10">10.  The Little Miami Railroad was only the second railroad to be built in Ohio.  The state legislature granted the Little Miami Railroad Company a charter in March 1836.  The purpose was to connect the city of Cincinnati to Springfield.  The line was completed between 1837 and 1848. . <bibl><title> Ohio History Central</title> p. 1
+               
+            </bibl></note>
+            <note id="n11">11. Id is unknown <bibl>
+               
+            </bibl></note>
+            <note id="n12">12. Id is unknown<bibl>
+               
+            </bibl></note>
+            <note id="n13">13. William B. Anderson (1822-1897). Riverboat captain during the Civil War who carried supplies along the Ohio River.  <bibl><title> History of Allegheny County</title> p. 298
+               
+            </bibl></note>
+            
+            
+            
+            
+         </div1>
+         
+         <div1 type="Citations" n="2">
+            <!--List of Works Cited begins here-->
+            
+            <listBibl>
+               <head>Works Cited in Notes</head>
+               
+           
+               
+               <bibl id="n14"> 
+                  <editor>Ed. Ohio Historical Society.</editor><title level="a">Cincinnati</title> 
+                  <title level="m" >Ohio History Central Online Encyclopedia</title> 
+                  <biblScope type="URL">http://www.ohiohistorycentral.org/entry.php?rec=681</biblScope>
+                     <date>2005</date> 
+                     <biblScope type="DateOfVisit">18 May 2006</biblScope> 
+               </bibl>
+               <bibl id="n15"> 
+                  <editor>Ed. University of Pittsburgh.</editor><title level="a">History of Allegheny County</title> 
+                  <title level="m" >Historic Pittsburgh</title> 
+                  <biblScope type="URL">http://digital.library.pitt.edu/cgi-bin/t/text/pageviewer-idx?c=pitttext;cc=pitttext;sid=a0554c8c0d0293bd163189a618702757;q1=william%20b%20anderson;rgn=full%20text;idno=00afq9167m;view=image;seq=1066</biblScope>
+                  <date>2004</date> 
+                  <biblScope type="DateOfVisit">18 May 2006</biblScope> 
+                  
+               </bibl>
+               <bibl id="n16"> 
+                  <editor>Ed. Ohio Historical Society</editor><title level="a">Gallipolis</title> 
+                  <title level="m" >Ohio History Central Online Encyclopedia</title> 
+                  <biblScope type="URL">http://www.ohiohistorycentral.org/entry.php?rec=722</biblScope>
+                  <date>2005</date> 
+                  <biblScope type="DateOfVisit">17 May 2006</biblScope> 
+                  
+               </bibl>
+               <bibl id="n17"> 
+                  <editor>Ed. Ohio Historical Society</editor><title level="a">Portsmouth</title> 
+                  <title level="m" >Ohio History Central Online Encyclopedia</title> 
+                  <biblScope type="URL">http://www.ohiohistorycentral.org/entry.php?rec=793</biblScope>
+                  <date>2005</date> 
+                  <biblScope type="DateOfVisit">17 May 2006</biblScope> 
+                  
+               </bibl>
+               <bibl id="n18"> 
+                  <editor>Ed. Northern Indiana Historical Society</editor><title level="a">Facts and Figures on the State of Indiana</title> 
+                  <title level="m" >Northern Indiana Center for History</title> 
+                  <biblScope type="URL">http://www.centerforhistory.org/indiana_facts.html#date</biblScope>
+                  <date>2006</date> 
+                  <biblScope type="DateOfVisit">18 May 2006</biblScope> 
+               </bibl>
+               
+               
+               <bibl id="n19"> 
+                  <author> Carruth, Gordon</author><editor>The Indiana Historian</editor><title level="a">Indiana Territory</title> 
+                  <title level="m" >The Encyclopedia of American Facts and Dates</title> 
+                  <biblScope type="URL">http://www.statelib.lib.in.us/www/ihb/publications/tlterr.html</biblScope>
+                  <date>1993</date> 
+                  <biblScope type="DateOfVisit">18 May 2006</biblScope> 
+               </bibl>
+               
+               <bibl id="n20"> 
+                  <editor> Ed. Ohio Historical Society</editor><title level="a">Little Miami Railroad</title> 
+                  <title level="m" >Ohio History Central Online Encyclopedia</title> 
+                  <biblScope type="URL">http://www.ohiohistorycentral.org/entry.php?rec=744</biblScope>
+                  <date>2006</date> 
+                  <biblScope type="DateOfVisit">18 May 2006</biblScope> 
+               </bibl>
+          
+               </listBibl>
+         </div1>
+      </back>
+   </text>
+</TEI.2>

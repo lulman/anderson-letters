@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//Main DTD Driver File//EN" "http://www.tei-c.org/release/xml/teip4/schema/dtd/tei2.dtd" [
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.linking 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.transcr 'INCLUDE'>
+<!ENTITY % TEI.XML 'INCLUDE'>
+
+<!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+%ISOpub;
+<!ATTLIST xref url CDATA #IMPLIED>
+<!ATTLIST pb mmid CDATA #IMPLIED>
+]>
+
+<TEI.2 id="WBA_18620901">
+   
+   <teiHeader type="AACR2">
+     
+      <fileDesc>
+         
+         <titleStmt>
+            <title>Letter from William B. Anderson to his wife, Mary Louisa Anderson, on September 1st, 1862 from Cincinnati, Ohio.</title>
+        
+            <editor>Jenna Marlene Kamrass</editor>
+           
+            <respStmt>
+               <resp>Creation of initial machine-readable transcript: </resp>
+               <name type="person">Jenna Marlene Kamrass</name>
+               <resp>Creation of digital images: </resp>
+               <name type="person">Laura Denning</name>
+               <resp>Conversion to TEI.2-conformant markup: </resp>
+               <name type="person">Jenna Marlene Kamrass</name>
+               
+            </respStmt>
+         </titleStmt>
+         
+         <editionStmt>
+            <p>1st Edition.</p>
+         </editionStmt>
+         
+         <extent>ca. 18 kilobytes </extent>
+         
+         <publicationStmt>
+           
+            <publisher>The Ohio State University Library. <address>
+                  <addrLine n="1">Rare Books and Manuscripts Library</addrLine>
+                  <addrLine n="2">327 Main Library</addrLine>
+                  <addrLine n="3">1858 Neil Avenue Mall</addrLine>
+                  <addrLine n="4">Columbus, OH 43210</addrLine>
+               </address>
+            </publisher>
+            
+            <pubPlace>Columbus, OH</pubPlace>
+            
+            <idno type="CallNumber_Box_Folder_Item">XX_XX_XX_XX</idno>
+            
+            <availability>
+               <p>The W. B. Anderson Collection is the property of the Rare Books and Manuscripts
+                  Library of The Ohio State University Libraries. Any use of the material should
+                  acknowledge such ownership.</p>
+            </availability>
+            
+            <date>2006-06-01</date>
+            
+         </publicationStmt>
+         
+         
+         <sourceDesc>
+            <biblFull>
+               
+               <titleStmt>
+                  
+                  <title level="u">No Title</title>
+                 
+                  
+                  <author>William B. Anderson</author>
+                   
+               </titleStmt>
+               
+               <extent>1 pp.</extent>
+               
+               <publicationStmt>
+                  <p>Publication statement from the library.</p>
+               </publicationStmt>
+               
+               <notesStmt>
+                  <note>
+                     <p>This document is a letter from Captain William B. Anderson (1822-1897), to his wife, 
+                        Mary Louisa (Fischgens) Anderson. He wrote this from Cincinnati, on September 1st, 1862.  
+                        It is one page long, with no other notes or enclosures. It is written on lined notebook paper, 
+                        folded in half lengthwise and into thirds after that.  There is no surviving envelope that goes 
+                        with it, and it is approximately eight inches by ten inches in size.  There is a printer's mark 
+                        in the upper-left hand corner, in the shape of a shield surrounded by greenery, with a crown on 
+                        top.  The left edge of the paper is slightly ragged and worn, as if it had been torn from a
+                        composition book or a pad of paper bound on the left.  
+                     </p>
+                     
+                  </note>
+               </notesStmt>
+               
+            </biblFull>
+         </sourceDesc>
+         
+      </fileDesc>
+      
+      <encodingDesc>
+         
+         <projectDesc>
+            <p>This very short letter, written by William B. Anderson to his wife, Mary Louisa, in September of 1862,
+               is the 1862 edition of what we do on cell phones or by e-mail every day: discussing his day to day life, 
+               even when it seems mundane.  It addresses his happiness at the way business is going at the time of the 
+               letter, his concern at the way matters at home are going, and the various challenges that a riverboat 
+               captain on the Ohio River in the Civil War era might face.  His spelling is less than perfect, and his
+               grammar might leave much to be desired&mdash;much like the email or phone conversations that we might 
+               have with our distant relatives in 2006.</p>
+            <p>This letter resembles the other letters from William to Louisa that are in the collection in The 
+               Ohio State University Rare Books and Manuscripts Library.  It was written in Cincinnati, one of the 
+               many thriving ports that Anderson visited on the Ohio River, as were all but two of the letters in 
+               the collection.  The issues in the letter, which included family life, business, and day to day discussion,
+               are common themes throughout the collection. His poor grammar and spelling are also regular occurrences,
+               and in some of the letters, Anderson frequently apologizes for the mistakes that occur because of the 
+               speed with which he had to write.  These are some of the threads that tie the entire collection together.</p>
+            <p>However, this letter stands out from the others for a variety of reasons.  In many of the other letters 
+               in the collection, Anderson's cross&ndash;outs and spelling mistakes are numerous.  In this particular letter, there
+               are only a few glaring mistakes: the word "chute" is spelled "Shute" and
+               the word "business" has an extra 's'.  In addition, in this particular letter, business is actually going
+               quite well, whereas in most of the letters, it is not.  Anderson even references the bad business in
+               the last few lines of the letter.</p>
+            <p>Though this letter is an example of correspondence in an earlier time, it is interesting to note the
+               similarities to our correspondence today.  Obviously, there was not instant communication in 1862, but 
+               the topics of conversation were not so different from our own.  Hopefully, this collection will be a link
+               to the past, but also, a reminder that things might not have changed so very much, after all.</p>
+            
+            
+      </projectDesc>
+         
+         <editorialDecl>
+            <p>In this collection, the Anderson letters are transcribed diplomatically, meaning that
+               the words on the page are what is described.  Abbreivations, misspellings, capitalization,
+               punctuation, and all other elements found in these letters appear exactly as they do in the
+               original collection.  All names and places are encoded with a "value" tag, and all dates appear
+               in a standard format.</p>
+            
+            <p>To view the project's complete markup guidelines, 
+               <xref url="http://people.cohums.ohio-state.edu/ulman1/Anderson_Letters/Markup.htm">click here</xref>.</p>
+            <p>At the time of publication (6 June 2006), the XML and XSL files related to this
+               edition were stored in an XML publishing system operated by Humanities
+               Information Systems (HIS), College of Humanities, The Ohio State University. For
+               more information about HIS, see <xref url="http://his.osu.edu/">http://his.osu.edu/</xref>. 
+               The image in this particular transcription is stored in the Media Manager system maintained 
+               by the Colleges of Arts and Sciences of The Ohio State University, found here<xref url="https://mediamanager.osu.edu/">https://mediamanager.osu.edu/</xref>.</p>
+            
+         </editorialDecl>
+         
+         <refsDecl>
+            <p>The XML files that constitute this edition of the William B. Anderson letters
+               are named according the letters' dates of composition, using the following naming
+               convention: WBA_YYYYMMDD.xml. Dates of composition were determined from
+               various sources of evidence: the datelines inscribed in the letters, internal
+               evidence in the body of the letters, and perpetual calendars. If the year,
+               month, or date on which a letter was written could not be determined, the 
+               appropriate part of the filename is rendered with 0s. XSL style
+               sheet documents are named with the prefix "WBA" followed by an underscore
+               and a descriptive phrase (e.g., "WBA_diplomatic.xsl).</p>
+            <p>In general, this edition follows the Text Encoding Initiative's Guidelines
+               for Electronic Text Encoding and Interchange, XML-compatible edition P4.
+               For more information about TEI P4, see <xref url="http://www.tei-c.org/P4X/">http://www.tei-c.org/P4X/</xref>.
+               To facilitate embedding or linking to image, audio, and video files, this edition
+               supplements the Text Encoding Initiative's DTD by adding a URL attribute to 
+               the &lt;xref&gt; element and an MMID (i.e., Media Manager ID) attribute to the 
+               &lt;pb&gt; element. The values of the MMID attribute in &lt;pb&gt; elements and
+               the file IDs in the URL attribute of &lt;xref&gt; elements that link to, or embed, 
+               image, audio, and video files contained in the Media Manager are generated 
+               by the Media Manager application.</p>
+           
+         </refsDecl>
+         
+         <classDecl>
+            <taxonomy id="LCSH">
+               <bibl>
+                  <title>Library of Congress Subject Headings</title>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+         
+      </encodingDesc>
+      
+      <profileDesc>
+
+         
+         <creation>
+            <date>2006-07-28</date>
+         </creation>
+         
+         <langUsage>
+            <language id="eng">English</language>
+         </langUsage>
+         
+         <handList>
+            <hand id="WBA" scribe="William B. Anderson"/>
+         </handList>
+         
+         <textClass>
+            <keywords>
+               <term>William B. Anderson</term>
+            </keywords>
+         </textClass>
+         
+      </profileDesc>
+      
+      <revisionDesc>
+        
+         <change>
+            <date>2006-08-11</date>
+            <respStmt>
+               <resp>Principal Editor</resp>
+               <name>H. Lewis Ulman</name>
+            </respStmt>
+            <item>Cross-check against independent transcription by Jamie Danker (principal editor evaluated discrepancies).</item>
+         </change>
+         
+         <change>
+            <date>2006-08-08</date>
+            <respStmt>
+               <resp>Principal Editor</resp>
+               <name>H. Lewis Ulman</name>
+            </respStmt>
+            <item>Spot-check corrections.</item>
+         </change>
+         
+         <change>
+            <date>2006-07-28</date>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Jenna Kamrass</name>
+            </respStmt>
+            <item>Completion of initial TEI-compliant encoding.</item>
+         </change>
+         
+         <change>
+            <date>2006-04-16</date>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Jenna Kamrass</name>
+            </respStmt>
+            <item>Correction of initial transcription.</item>
+            
+         </change>
+         <change>
+            <date>2005</date>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Steve Agricola</name>
+            </respStmt>
+            <item>Initial machine-readable transcription.</item>
+         </change>
+         
+      </revisionDesc>
+      
+   </teiHeader>
+   
+   <text>
+      <front>
+         <div1 n="1" type="abstract">
+    
+            
+            
+      <head>
+         <bibl>
+            <title>Letter from William B. Anderson to his wife, Mary Louisa Anderson, on September 1st, 1862 from Cincinnati, Ohio</title>
+                  
+            <date>1862-09-01</date>
+               <abbr>ALS</abbr>
+                  <extent>1 pp.</extent>
+                  <idno rend="suppress">18620901</idno>
+           </bibl>               
+       </head> 
+       
+            
+            <p>In this document, William B. Anderson lists his itinerary and the business conducted at each port of call.  
+               He brings oats to Gallipolis, Ohio; retrieves wheat from
+               Graham's Station, West Virginia, and brings it to Blennerhasset's Island, West Virginia.  During his travels,
+               it was necessary to build a chute and hire oxen in order to bring the wheat to Blennerhasset's Island.  
+               In the latter part of the letter, Anderson discusses his hope to sell his boat, as business is stopped 
+               now that the previous travels are finished.  He finishes by sending his love to his wife and children.
+            </p>
+            <p>Previous letter <xref type="prev">[not yet edited]</xref> 
+               Next letter <xref type="next" url="WBA_18620917">17 September 1862</xref></p>
+         </div1>
+         </front>
+                 
+
+      
+      <body>
+         <div1 n="1" type="Letter">
+                  <figure rend="embedImg">
+                  <head>[Dateline]</head>
+                  <figDesc>
+                     <xref url="https://images.asc.ohio-state.edu/is/image/mediamanager/5/54bee70e-bdcc-4dd8-ab05-87aeb7b07aa0.jpg?scale=0.5&amp;rgn=825,125,625,100&amp;fmt=png"></xref>
+                    
+                  </figDesc>
+               </figure>
+            
+            <pb mmid="/5/54bee70e-bdcc-4dd8-ab05-87aeb7b07aa0" n="1"/>
+
+            <opener>
+               <dateline>
+                  <lb n="001"/><date value="1862-09-21">Cin   Sept 1st   1862,</date>
+                </dateline>
+               
+               <lb n="002"/><salute>My Dear <name type="person" reg="Mary Louisa Anderson">Wife<seg><note target="n1">1</note></seg></name> </salute>
+               
+            </opener>
+            
+            <p>
+               <lb n="003"/>Yours came safe to hand &amp; I was
+               <lb n="004"/>glad to hear from you though sorry to hear that
+               <lb n="005"/>all was not well but hope that before this all are
+               <lb n="006"/>fully recoved.  I have been quite unwell since I left
+               <lb n="007"/>here but have got better so took a load of Oats
+               <lb n="008"/>for the Government up to <name type="place" reg="Gallipolis, OH">Gallipolis</name><seg><note target="n2">2</note></seg> and from there
+               <lb n="009"/>we went up to take our Wheat that we left
+               <lb n="010"/>at <name type="place" reg="Grahams Station, WV">Grahams Station</name><seg><note target="n3">3</note></seg> and and succeeded in getting
+               <lb n="011"/>up as far as the foot of <name type="place" reg="Blennerhasset's Island, WV">Blennerhassets Island</name><seg><note target="n4">4</note></seg>
+               <lb n="012"/>and there we dug a <sic corr="chute">Shute</sic> wide and deep enough
+               <lb n="013"/>to draw a flat drawing but 13 inches over and at
+               <lb n="014"/>3 lads got our wheat over and then hired a man
+               <lb n="015"/>and a team of oxen to haul the flat <sic corr="off">of</sic> and left
+               <lb n="016"/>the 2nd clerk there to attend to it  we arrived here
+               <lb n="017"/>this morning and will leave at noon for <name type="place" reg="Maysville, KY">Maysville</name><seg><note target="n5">5</note></seg> with a
+               <lb n="018"/>load of Mules and then I don’t know what we will
+               <lb n="019"/>do though on our return I will write again  I am
+               <lb n="020"/>quite busy now but will probably have more <del type="recoverable" hand="WBA" rend="overstrike">time</del>
+               <lb n="021"/>to write about when I come back again  I
+               <lb n="022"/>may sell the boat I will try to <sic corr="anyhow">any how</sic>
+               <lb n="023"/> I hope to be home soon and will most
+               <lb n="024"/>likely lay up if I don’t sell things are very
+               <lb n="025"/>checkered and all <sic corr="business">bussiness</sic> is stopped give my 
+               <lb n="026"/>love to the children and take care of them
+               <lb n="027"/>and you		  
+          </p>
+            
+            <closer>
+               <salute>Your affectionate husband</salute>
+               <lb n="028"/>PS. Write as before
+               <signed>
+                  <name reg="Anderson, William (1822-1897)" type="person">WB Anderson</name>
+               </signed>        
+               
+            </closer>          
+
+         </div1>
+         <lb/>
+         <lb/>
+         </body>
+         <back>
+            <div1 type="Annotations" n="1">
+              
+               <head>Notes</head>
+               
+               <note id="n1">1. Mary Louisa Fischgens married William B. Anderson on September 15th, 1853.
+                  <bibl>
+                     <title>The Anderson Family</title>, 1 
+                  </bibl>
+               </note>
+              
+               <note id="n2">2. Gallipolis, Ohio is located in Gallia county, in the southeastern tip of Ohio. 
+                  It is a port city on the Ohio River. 
+                  <bibl>
+                     <title>"Gallipolis, Ohio." Wikipedia, the free encyclopedia.</title>
+                  </bibl></note>
+               <note id="n3">3. Graham's Station, West Virgina is now known as Bluefield, West Virigina.  
+                  It was a port city on the Ohio River.
+                  <bibl>
+                     <title>"Bluefield, WV."  Wikipedia, the free enclyclopedia.</title>
+                  </bibl></note>
+               <note id="n4">4. Blennerhasset's Island, West Virginia is an island in the Ohio River, and was originally a slave plantation.
+               <bibl>
+                  <title>"Blennerhasset Island Historical State Park."</title>
+               </bibl></note>
+               <note id="n5">5. Maysville, Kentucky is located on the Ohio River, in the northeast corner of the state.
+               <bibl>
+                  <title>"Maysville, KY." Wikipedia, the free online encyclopedia."</title>
+               </bibl></note>
+            </div1>
+            
+            <div1 type="Citations" n="2">
+               
+               <listBibl>
+                  <head>Works Cited in Notes</head>
+                  
+                  
+                  <bibl id="BISP">
+                     <title level="m">Blennerhasset's Island State Park</title>
+                     <pubPlace>WWW publication: 
+                         <figure rend="link">
+                          <figDesc>
+                             <xref url="http://www.blennerhassettislandstatepark.com">http://www.blennerhassettislandstatepark.com/</xref>.
+                          </figDesc>
+                         </figure>
+                    </pubPlace>
+                    <publisher>Blennerhasset's Island State Park Website</publisher>
+                  </bibl>
+
+                  <bibl id="GOW">
+                     <title level="m">Gallipolis, Ohio</title>
+                     <pubPlace>WWW publication: 
+                        <figure rend="link">
+                           <figDesc><xref url="http://en.wikipedia.org/wiki/Gallipolis%2C_Ohio">http://en.wikipedia.org/wiki/Gallipolis%2C_Ohio</xref>.</figDesc>
+                        </figure>
+                     </pubPlace>
+                     <publisher>Wikipedia, the free online encyclopedia</publisher>
+                     <date>May 18, 2006</date>
+                  </bibl>
+                  
+                  <bibl id="HOAC">
+                     <title level="m">History of Allegheny county, Pennsylvania: Including its early settlement and 
+                     progress to the present time; a description of its historic and interesting localities; 
+                     its cities, towns and villages; religious, educational, social and military history; mining, 
+                     manufacturing and commercial interests, improvements, resources, statistics, etc.; also, 
+                     biographies of many of its representative citizens</title>
+                     <pubPlace>Chicago</pubPlace>
+                     <publisher>A. Warner &amp; Co.</publisher>
+                     <date>1889</date>
+                  </bibl>
+
+                  <bibl id="MKW">
+                     <title level="m">Maysville, Kentucky</title>
+                     <pubPlace>WWW publication: 
+                        <figure rend="link">
+                           <figDesc><xref url="http://en.wikipedia.org/wiki/Maysville%2C_Kentucky">http://en.wikipedia.org/wiki/Maysville%2C_Kentucky</xref>.</figDesc>
+                        </figure>
+                     </pubPlace>
+                     <publisher>Wikipedia, the free online encyclopedia</publisher>
+                     <date>May 18, 2006</date>
+                   </bibl>
+                  
+               </listBibl>
+            </div1>
+         </back>
+   </text>
+</TEI.2>

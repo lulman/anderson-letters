@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//Main DTD Driver File//EN" "http://www.tei-c.org/release/xml/teip4/schema/dtd/tei2.dtd" [
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.linking 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.transcr 'INCLUDE'>
+<!ENTITY % TEI.XML 'INCLUDE'>
+
+<!-- If necessary, identify the files containing extensions of the TEI DTD
+by removing the commenting around the following declarations and
+editing the filenames.
+
+<!ENTITY % TEI.extensions.ent SYSTEM 'XXXXXX.ent' >
+<!ENTITY % TEI.extensions.dtd SYSTEM 'XXXXXX.dtd' >
+
+ -->
+
+<!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+%ISOpub;
+<!ATTLIST xref url CDATA #IMPLIED>
+<!ATTLIST pb mmid CDATA #IMPLIED>
+]>
+
+<TEI.2 id="WBA_18630801">
+<!-- Replace "DOCUMENT_ID" in the <TEI.2> element with the filename of your XML file (minus the .xml extension). 
+Use the following filename convention: WBAyyyymmdd. For example, I would name the XML transcript of a 
+letter written on 18 July 1863 as follows: WBA18630718. Use the date on which you have determined the letter
+was written, not necessarily the date Anderson wrote in his dateline. -->
+   
+   <teiHeader type="AACR2">
+      <!--The type attribute in teiHeader element above indicates that the header provides 
+      enough information to create a bibliographic record that complies with the 
+      Anglo-American Cataloguing Rules, 2nd ed. (1978; rev. 1988).-->
+      
+      <fileDesc>
+         <!--The  file description tagged <fileDesc>, contains "a full bibliographical description 
+         of the computer file itself, from which a user of the text could derive a proper bibliographic 
+         citation, or which a librarian or archivist could use in creating a catalogue entry recording 
+         its presence within a library or archive" (TEI P4X, ch. 5).-->
+         
+         <titleStmt>
+            <title>W. B. Anderson Letter--8/1/1863--A busy moment for family and business.</title>
+            <!-- The title of your electronic file, which will also be the title of your project. 
+               Avoid generic, uninformative titles. Try to indicate something about the story of the document 
+               (Who wrote it? What is it? When was it written? Why is it important or interesting?) -->
+            
+            <editor>Richard (Dickie) J. Selfe</editor>
+            <!-- Your full name (first middle last). -->
+            
+            <respStmt>
+               <resp>Creation of initial machine-readable transcript: </resp>
+               <name type="person">Steve Agricola</name>
+               <resp>Creation of digital images: </resp>
+               <name type="person">Laura Denning</name>
+               <resp>Conversion to TEI.2-conformant markup: </resp>
+               <name type="person">Richard (Dickie) J. Selfe</name>
+               <!-- Your full name (first middle last). -->
+               
+            </respStmt>
+         </titleStmt>
+         
+         <editionStmt>
+            <p>1st Edition.</p>
+         </editionStmt>
+         
+         <extent>ca. 24 kilobytes </extent>
+         
+         <publicationStmt>
+            <!-- one of (address authority availability date distributor idno p pubPlace publisher) -->
+            <!-- Use the following for the Valentine Peers papers. Otherwise you can simply
+            indicate your own address. -->
+            
+            <publisher>The Ohio State University Library. <address>
+                  <addrLine n="1">Rare Books and Manuscripts Library</addrLine>
+                  <addrLine n="2">327 Main Library</addrLine>
+                  <addrLine n="3">1858 Neil Avenue Mall</addrLine>
+                  <addrLine n="4">Columbus, OH 43210</addrLine>
+               </address>
+            </publisher>
+            
+            <pubPlace>Columbus, OH</pubPlace>
+            
+            <idno type="CallNumber_Box_Folder_Item">XX_XX_XX_XX</idno>
+            <!-- The <idno> element is only required for documents with a standard id number
+            such as a library call number. The Anderson papers did not have a call number at the
+            beginning of our course, but we will check before we finish.-->
+            
+            <availability>
+               <p>The W. B. Anderson Collection is the property of the Rare Books and Manuscripts
+                  Library of The Ohio State University Libraries. Any use of the material should
+                  acknowledge such ownership.</p>
+                  <p id="CreativeCommons"><!--Creative Commons License--><![CDATA[<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/">
+                     <img alt="Creative Commons License" border="0" src="http://creativecommons.org/images/public/somerights20.png"/>
+                     </a><br/>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/">
+                     Creative Commons Attribution-NonCommercial-ShareAlike 2.5 License</a>]]>. 
+                     This license doesn not transfer any rights regarding naterial used in the edition by permission of a third party. 
+                     <!--/Creative Commons License--><!-- <rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                     <Work rdf:about="">
+                     <license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.5/" />
+                     <dc:title>W. B. Anderson Letter-8/1/1863-A busy moment for family and business.</dc:title>
+                     <dc:date>2006</dc:date>
+                     <dc:description>This short William B. Anderson letter was purchased by the Rare Books Collections at The Ohio State University and was written on August 1, 1863. It provides a fine example of nineteenth century letter writing, letters that often contained personal comments, business logistics, and financial information. One can get a sense of the frenetic life of a riverboat captain at this crucial time in the history of the United States. The primary purpose of this electronic edition is to make available, to those with internet access, several "translations" or versions of an otherwise fragile and relatively inaccessible object that might be of interest to postal, cultural, transportation, or war historians around the world (Hewett, 2006).</dc:description>
+                     <dc:creator><Agent><dc:title>Richard (Dickie) Selfe</dc:title></Agent></dc:creator>
+                     <dc:rights><Agent><dc:title>Richard (Dickie) Selfe</dc:title></Agent></dc:rights>
+                     <dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+                     </Work>
+                     <License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.5/"><permits rdf:resource="http://web.resource.org/cc/Reproduction"/><permits rdf:resource="http://web.resource.org/cc/Distribution"/><requires rdf:resource="http://web.resource.org/cc/Notice"/><requires rdf:resource="http://web.resource.org/cc/Attribution"/><prohibits rdf:resource="http://web.resource.org/cc/CommercialUse"/><permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/><requires rdf:resource="http://web.resource.org/cc/ShareAlike"/></License></rdf:RDF> --></p>            
+               
+            </availability>
+            
+            <date>2006-06-01</date>
+            
+         </publicationStmt>
+         
+         <sourceDesc>
+            <biblFull>
+               
+               <titleStmt>
+                  
+                  <title level="u">W. B. Anderson Letter--8/1/1863--A busy moment for family and business.</title>
+                  <!--The "level" attribute "indicates whether this is the title of an article, book, journal, 
+                  series, or unpublished material, indicated as a, b, j, s, or u" (TEI P4X, ch. 5.2.1).
+                     Write "no title" if your document has no title. -->
+                  
+                  <author>William B. Anderson</author>
+                  <!-- First middle last -->
+                  
+               </titleStmt>
+               
+               <extent>1 pp.</extent>
+               <!-- The size of your source document, in whatever units are appropriate (usually pages;
+               for example, 2 pp.) -->
+               
+               <publicationStmt>
+                  <p>Publication statement from the library.</p>
+               </publicationStmt>
+               
+               <notesStmt>
+                  <note>
+                     <p>In this one-page, hurried letter to his wife--which followed  a longer letter just the day  
+                     before--Anderson suggests many things about the times and activities on the riverboat. He mentions the transport of 
+                     animals (200 mules) along with personal commitments: Anderson met
+                     his wife's mother and Ella (an unknown relative or friend) on the boat (Glide II) and was about to leave for dinner. 
+                     Before the afternoon departure, he was also intent upon sending business funds to his wife and money for family expenses: 
+                     All this in one page on lined notebook paper with little punctuation and a postscript anticipating 
+                     a subsequent letter from Nashville.</p>
+                  <!-- TAKE NOTE: Your entire header should answer the following questions about your 
+                       source document. At this point in your header, you should discuss anything in this
+                       list not mentioned elsewhere in the header.
+                     
+                        1. What is the document (letter, will, etc.)?
+                        2. What does it say about itself (titles, descriptive notes, etc.)?
+                        3. What does it contain (no. of pages/sheets, enclosures, etc.)?
+                        4. How is it put together (folded sheets, binding, etc.)?
+                        5. What is it made of (paper, vellum, etc.)?
+                        6. What is its size (i.e., physical dimensions)?
+                        7. How is it packaged/contained (binding, envelope, folder, box, etc.)?
+                        8. How is it related to other versions (original, copy, print history)?
+                     
+                        You can use more than one paragraph (tagged <p> </p>).
+                   -->
+                     
+                  </note>
+               </notesStmt>
+               
+            </biblFull>
+         </sourceDesc>
+         
+      </fileDesc>
+      
+      <encodingDesc>
+         <!--The encoding description, tagged <encodingDesc>, describes "the relationship 
+         between an electronic text and its source or sources" (TEI P4X, ch. 5).-->
+         
+         <projectDesc>
+            <p>This short William B. Anderson letter was purchased by the Rare Books Collections at The Ohio State University
+               and was written on August
+               1, 1863. It provides a fine example of nineteenth century letter writing, letters that often contained personal comments, 
+               business logistics, 
+               and financial information. One can get a sense of the frenetic life of a riverboat captain at this crucial time 
+               in the history of the United States. The primary purpose of this electronic edition is to make available, to 
+               those with internet access, several "translations" or versions of an otherwise fragile and relatively inaccessible 
+               object that might be of interest to postal, cultural, transportation, or war historians around the world 
+               (Hewett, 2006).  
+               <figure rend="embedAud">
+                  <head type="">Hewett on Early Letters</head>
+                  <figDesc>
+                     <xref url="https://mediamanager.osu.edu/index.cfm?fuseaction=do.downloadThis&amp;ItemID=d8e94be1-953f-4e2d-837d-4d53129f3412&amp;CollectionID=ee712e6d-7c82-4bcf-9632-545d7bdcecf5">Click here to listen to a brief portion of Elizabeth Hewett's talk.</xref>
+                  </figDesc>
+               </figure>
+               
+            </p>
+            <p>In this letter, Anderson is rushing to prepare for "dinner" with his mother and sister-in law while anticipating
+            thethe boarding of 200 mules onto his riverboat. In this one-page letter he is dispatching business and personal funds 
+               for his wife while anticipating a "4:00 or 5:00" departure for Nashville. It seems to be the equivalent 
+            of a hectic email, instant message, or cell phone call in today's (May 15, 2006) world. 
+            </p>
+            <p>In many ways, this letter reveals what David Levy calls "the invisible infrastructure" or "behind-the-scenes work" 
+            that maked this form of communication so very important during this period of history (158). Levy suggests that 
+            by looking carefully at mundane documents like cash register receipts and personal letters, we are closer 
+            to understanding that "this world-making, or culture-making, business is an immense effort, every ongoing" (159). 
+            </p>
+            <p>Many simple observations surface in this short letter. We see paper marks on some ruled notebook paper that has been
+               torn out and mailed. We can make out, possibly, some partially erased notes on the back of the document. In this letter 
+               we see hurried abbreviatoins, short hand, and 
+            missing punctuation that we often lament and associate with  our current younger generation's transactional prose 
+               via text messaging, email, and
+            instant messaging. This letter illustrates the "hurry" and the need for efficiency that resulted from a busy 
+               lifestyle that existed 143 years before. One is tempted to extrapolate from these observations that the
+               American psyche might be to blame for this type of discourse, and not the generation or individuals who 
+               demonstrate hurried comminicative styles. </p>
+               <p>We can also imagine the value that others (his wife)
+            place on such documents: a financial value clearly, as he mentions both business and personal finances, but 
+            also the comfort of mundane daily personal correspondence in a time of great uncertainty and even danger (as other letters 
+                  suggest).</p>
+            <p><hi rend="bold">Works Cited</hi></p>
+               <p>Hewitt, Elizabeth. Lecture to English 569C, Digital Media and English Studies. The Ohio State University. 
+                  6 Apr. 2006.</p>
+               <p>Levy, David M. <title level="m">Scrolling Forward: Making Sense of Documents in the Digital
+                  Age</title>. New York: Arcade, 2001.</p>
+            <!-- TAKE NOTE: Here���s where you describe the purpose of your project and tell the story of the document. 
+               A phrase is not enough. Tell the story behind the documents in a manner that establishes the 
+               significance of your documents to your intended audience. Further, I have asked you to contextualize 
+               your project as an electronic edition by 
+               discussing (and providing citations for) some key ideas from Levy or Electronic Textual Editing 
+               that informed your design. You can use more than one paragraph (tagged <p> </p>). Note: This description
+               is not the same as the short summary of your source document contained in the following element:
+               text/front/div1/p -->
+            
+         </projectDesc>
+         
+         <editorialDecl>
+            <!--In addition to prose description, the Editorial Practices Declaration may contain 
+            specialized elements concerned with correction, normalization, quotation, hyphenation, 
+               segmentation, date and number format, and interpretive apparatus (TEI P4X, ch. 5.3.3).-->
+            
+            <p>Encoding of the Anderson letters emphasizes diplomatic transcription, with supplemental information 
+               allowing for semi-modernized, corrected, regularized, or expanded views included as the values 
+               of attributes associated with various elements. Accordingly, abbreviations, recoverable cancelations, 
+               punctuation, spelling, underscoring, capitalization, line breaks, and page breaks have all been 
+               transcribed or tagged as they appear in the original manuscripts. Regularized versions of all names 
+               and referring strings have been encoded as the values of "reg" attributes. Standard format values 
+               for all dates have been encoded in "value" attributes.</p>
+               
+            <p>Corrections and emendations in Anderson's hand have been encoded as cancelations and interlinear 
+                  or marginal additions. In a few cases, omitted text has been supplied by the editors for the sake 
+                  of clarity and encoded with the TEI "supplied" element.</p>
+                  
+             <p>The following structural elements of the letters are also encoded: opener (including salutation 
+                and dateline), body, lines, paragraphs, pages, and closers (including salutation and signature). 
+                Notes and postscripts are identified as such.</p>
+                  
+             <p>The critical apparatus used in particular views of the letters is explained at the bottom of each 
+                view.</p>
+             
+             <p>At the time of publication (6 June 2006), the XML and XSL files related to this edition were 
+                stored in an XML publishing system operated by Humanities Information Systems (HIS), 
+                College of Humanities, The Ohio State University. For more information about HIS, 
+                see http://his.osu.edu/. Most image, audio, and video files linked to, or embedded in, 
+                this edition via "figure" elements were stored in the Media Manager system maintained 
+                by the Colleges of Arts and Sciences of The Ohio State University. For more information about 
+                the Media Manager, see https://mediamanager.osu.edu/.</p>
+           
+            
+            <!-- TAKE NOTE: Explain your editorial method:
+               
+              If you employ image files, describe how they were produced and note where they are stored.
+              Describe any editorial guidelines you followed (e.g., how you treated hyphenation, whether 
+              you corrected apparent errors, and any other decisions about how to treat recurrent features).
+              Describe any special symbols that you use in your text to indicate additions, corrections, 
+              cancellations, and so on. This important explanation provides a reader's guide to the text.
+               
+                  You can use more than one paragraph (tagged <p> </p>).
+            -->
+            
+         </editorialDecl>
+         
+         <refsDecl>
+            <p></p>
+            
+            <!--  TAKE NOTE: This information helps your readers understand the encoded XML document:
+               
+               Explain any revisions to the TEI DTD.
+               Explain any special naming conventions used in your encoding (for example, the ID
+               attributes of page break elements).
+               
+               You can use more than one paragraph (tagged <p> </p>).
+            -->
+            
+         </refsDecl>
+         
+         <classDecl>
+            <taxonomy id="LCSH">
+               <bibl>
+                  <title>Library of Congress Subject Headings</title>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+         
+      </encodingDesc>
+      
+      <profileDesc>
+         <!--The text profile, tagged <profileDesc>, contains "classificatory and contextual information 
+         about the text, such as its subject matter, the situation in which it was produced, the 
+         individuals described by or participating in producing it, and so forth" (TEI P4X, ch. 5).-->
+         
+         <creation>
+            <date>2006-06-01</date>
+         </creation>
+         
+         <langUsage>
+            <!-- Note any languages that appear in your document. -->
+            <language id="eng">English</language>
+         </langUsage>
+         
+         <handList>
+            <!-- Identify any hands (i.e., individuals' handwriting) that appear in your document. -->
+            <hand id="WBA" scribe="Anderson, William B. (1822-1897)" first="yes"/>
+            <hand id="UNK" scribe="Unknown"/>
+         </handList>
+         
+         <textClass>
+            <keywords>
+               <!-- Supply a list of keywords for your document. -->
+               <term>letter</term>
+               <term>punctuation</term>
+               <term>mules</term>
+               <term>mother in law</term>
+               <term>sister in law</term>
+               <term>personal finances</term>
+               <term>business finances</term>
+               <term>post script</term>
+               <term>Cincinnati, Ohio</term>
+               <term>Nashville, Tennessee</term>
+            </keywords>
+         </textClass>
+         
+      </profileDesc>
+      
+      <revisionDesc>
+         
+         <!--The revision history, tagged <revisionDesc>, allows "the encoder to provide a history of 
+            changes made during the development of the electronic text" (TEI P4X, ch. 5).-->
+         
+         <!-- Add additional changes at the top of the list. -->
+         
+         <change>
+            <date>2006-08-18</date>
+            <respStmt>
+               <resp>Principal Editor</resp>
+               <name>H. Lewis Ulman</name>
+            </respStmt>
+            <item>Cross-check against independent transcription by Jamie Danker (principal editor evaluated discrepancies).</item>
+         </change>
+         
+         <change>
+            <date>2006-06-06</date>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Richard (Dickie) Selfe</name>
+            </respStmt>
+            <item>Completion of initial TEI-compliant encoding.</item>
+         </change>
+         
+         <!-- Indicate the date on which you completed your XML encoding. -->
+         
+         <change>
+            <date>2006-04-22</date>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Richard (Dickie) Selfe</name>
+            </respStmt>
+            <item>Correction of initial transcription.</item>
+            
+            <!-- Indicate the date on which you completed the correction of the initial transcription. -->
+            
+         </change>
+         <change>
+            <date>2005</date>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Steve Agricola</name>
+            </respStmt>
+            <item>Initial machine-readable transcription.</item>
+         </change>
+         
+      </revisionDesc>
+      
+   </teiHeader>
+   
+   <text>
+      <front>
+         <div1 n="1" type="abstract">
+            
+            <!-- This template uses divisions to distinguish parts of the front, body, and
+            back of the electronic document. You do not have to use divisions. -->
+            
+            <head>
+               <bibl>
+                  <title>W. B. Anderson Letter--8/1/1863--A busy moment for family and business.</title>
+                  <!-- This title should be the same as the one you supply in fileDesc/titleStmt/title. -->
+                  
+                  <date>1863-08-01</date>
+                  <abbr>ALS</abbr>
+                  <!-- "ALS" means "autograph letter signed." -->
+                  <extent>1 pp.</extent>
+                  <idno rend="suppress">XXXXXXXXXX</idno>
+                  <!-- For the Anderson letters, we will assign ID numbers that reflect the date. -->
+               </bibl>               
+            </head>
+            
+            <p>Anderson shoots off a short letter announcing a dinner with his wife's mother and Ella 
+            (as yet an unknown relative or friend mentioned in several of Anderson's letters). 
+            He suggests that the boat (Glide II) will leave that afternoon from Cincinnati for Nashville with 200 mules 
+            aboard. He sends by Adams Express $3600 for business-related expenses (Adams Express was a very profitable 
+               delivery company started in the 1850s and had parallel systems of delivery in the south during the war (Pixley, 2002).
+               and reminds his wife that he sent $60 for family expenses with the previous letter.</p>
+                     
+            <p>Previous Letter<xref type="prev" url="WBA_18630718">31 July 1863</xref>
+               Next Letter<xref type="next" url="WBA_18640810">10 August 1864</xref></p>
+                     
+            <p><hi rend="bold">Work Cited</hi></p>
+            <p>Pixley, Marshall. The Adams Express Company. http://www.floridareenactorsonline.com/adamsexpress.htm. 
+               Retrieved on 28 May 2006.</p>
+            <!-- Provide a short (3-5 sentences) descriptive summary of the letter you have
+             edited. Use active verbs that describe what Anderson _does_ in the letter: for example,
+             Anderson "requests," "describes," "reports," "relates," and so on. -->
+            
+         </div1>         
+      </front>
+      
+      <body>
+         <div1 n="2" type="[Letter]">
+            <!--Transcription of the body of the document begins here. If you use the div tag,
+            the type attribute should reflect the nature of your document (e.g., "letter"). -->
+            
+            <head/>
+            <!-- Note that the head can be entered as an empty element. Compare to the 
+            div element in the front of the document. -->
+            
+            <pb mmid="/9/9e9b8053-ad96-4c23-a413-d4a1237fff0e" n="1"/>
+            <!-- In order to build links to images of each page, we will use the Media Manager Item ID
+            as the value of the "id" attribute of each <pb> element. The "n" attribute should contain
+            a sequential page number within the letter (in the case of the Anderson letters, 1, 2, or 3).-->
+            
+            <opener>
+       <!-- The opener element contains any dateline and salutation appearing at the head of the letter.
+       You may omit this element if your document does not contain similar material.
+       Note that dates and names are tagged with standard versions in order to improve searching. -->            
+               
+               <dateline>
+                  <figure rend="embedImg">
+                     <head>Printer's mark</head>
+                     <figDesc>
+                        <xref url="https://images.asc.ohio-state.edu/is/image/mediamanager/9/9e9b8053-ad96-4c23-a413-d4a1237fff0e.jpg?scale=0.6&amp;rgn=90,150,180,180&amp;fmt=png"></xref>
+                     </figDesc>
+                  </figure>                  <lb n="001"/><date value="1863-08-01"><name reg="Cincinnati, OH" type="place">Cin</name> 
+                     Aug 1st 1863</date>
+                  <!-- If you need to emend or further specify the date as Anderson wrote it, include
+                  a footnote at this point explaining the reason for the emendation and specifying the
+                     emended date.-->    
+               </dateline>
+               <lb n="002"/><salute> <abbr expan="Dear" type="word">Dr</abbr>
+                  <rs type="recipient">
+                  <rs reg="Anderson, Mary Louisa, née Fischgens (1837-1911)" type="person">Wife</rs></rs>
+                  </salute>   
+               
+                  <seg>
+                     <note target="n1">1</note>
+                  </seg>
+               
+            </opener>
+            
+            <p>
+               
+        <!-- Beginning with the body of the letter, lines in this template have been identified 
+               to allow for cross references and numbered to allow for numbered display. IDs must 
+               be unique within the document. However, you do not need to report line breaks at all 
+               if doing so serves no purpose in your edition. -->
+               
+               <lb n="003"/> As we leave this Evening
+               <lb n="004"/> I thot I would drop you a line
+               <lb n="005"/> to let you know that I have seen 
+               <lb n="006"/> your <name reg="Anna Mary Woolslayer" type="person"> mother</name> she
+               <seg>
+                  <note target="n2">2</note>
+               </seg> &amp; 
+               <name type="unknown">Ella</name> 
+               <seg>
+                  <note target="n3">3</note>
+               </seg>are on the <name reg="Glide No. 2" type="boat">Boat
+                  <seg>
+                     <note target="n4">4</note>
+                  </seg></name>
+               <lb n="007"/> now &amp; have been for an hour I have
+               <lb n="008"/> to go up <name reg="Cincinnati, OH" type="place">town</name> 
+                  and they are waiting till 
+               <lb n="009"/> I get ready we are to have 200 mules
+               <lb n="010"/> down after dinner &amp; shall get out by
+               <lb n="011"/> 4 or 5 oclock I have no news to 
+               <lb n="012"/> write about I send by Adams Express
+               <seg>
+                  <note target="n5">5</note>
+               </seg>
+               <lb n="013"/> to <name reg="Pittsburgh, PA" type="place">Pitt</name> today 
+                  (3600.<del type="unrecoverable" rend="overstrike" hand="WBA">[deleted numbers]</del> Three thousand six hundred
+               <lb n="014"/>  <abbr expan="Dollars" type="ordinal">Dolls</abbr> to pay our 
+               <abbr expan="first" type="ordinal">1st</abbr> 
+                  notes give my respects 
+               <lb n="015"/> to all I am in a hurry and have not
+               <lb n="016"/> time write or think of any thing that
+               <lb n="017"/> will interest you give my respects to 
+               <lb n="018"/> all I sent a letter last night by 
+                  <name reg="unknown" type="person">Elias</name> 
+               <lb n="019"/> and $60.00 in cash for you Kiss all the small 
+               <lb n="020"/> ones for me good bye</p>
+            
+            <!-- Note that paragraph breaks do not need to correspond to page breaks -->
+            
+            
+            <!-- Closer begins here, for letters. -->
+            
+            <closer>
+               <lb n="021"/> <salute>Yours affectionately</salute>
+               <lb n="022"/>
+               <signed>
+                  <name reg="Anderson, William (October 10, 1822-1897)" type="person">WB Anderson</name>
+               </signed>               
+            </closer>          
+
+         </div1>
+         
+         <div1 n="3" type="postscript">
+            <!-- Note how this template provides for a second top-level division, in this
+            case a note. If your document does not have a second top-level division, delete
+            this <div1> tag and its contents.-->
+            
+            <head/>
+            <opener/>
+            
+            <p>
+               <lb n="023"/>P.S. I will write from <name reg="Nashville, TN" type="place">Nashville</name>
+               <lb n="024"/>again 
+            </p>
+            
+            <closer>
+               <signed>
+                  <name reg="Anderson, William (1822-1897)" type="person">WBA</name>
+               </signed></closer>
+            
+         </div1>
+         
+         
+      </body>
+      
+      <back>
+         <div1 type="Annotations" n="4">
+            <!-- Annotations begin here. -->
+            
+            <head>Notes</head>
+            
+            <note id="n1">1. Mary Louisa Fischgens (1837-1911) and William B. Anderson were married September
+               15, 1853 in Cincinnati, Ohio. They had five children. <bibl><title level="m">History
+                  of Allegheny County </title>298</bibl>.
+            </note>
+            <note id="n2">2. Anna Mary Woolslayer, from Pittsburgh<bibl>
+               <title>History of Allegheny County</title> 289</bibl>
+            </note>
+            <note id="n3">3. As of 6/6/06, no record of this friend or family member has been found.
+            </note>
+            <note id="n4">4. The date of the letter seems to indicate that Anderson was piloting his Glide II
+               at this point in history.<bibl>
+                  <title level="m">History of Allegheny County</title> 289 </bibl>
+            </note>
+            <note id="n5">5. This is a popular freight / delivery company with national distribution and 
+               an intersting history. Owned by a northerner, there is some speculation that a sister company, 
+               sold off early in the war operated in the south throughout the war.<bibl>
+               <title>The Adams Express Company</title> </bibl>
+            </note>
+            
+         </div1>
+         
+         <div1 type="Citations" n="5">
+            <!--List of Works Cited begins here-->              
+               <listBibl>
+                  <head>Works Cited in Notes</head>
+                 <bibl id="HOAC">
+                     <title level="m">History of Allegheny county, Pennsylvania: Including its early settlement and 
+                        progress to the present time; a description of its historic and interesting localities; 
+                        its cities, towns and villages; religious, educational, social and military history; mining, 
+                        manufacturing and commercial interests, improvements, resources, statistics, etc.; also, 
+                        biographies of many of its representative citizens</title>
+                     <pubPlace>Chicago</pubPlace>
+                     <publisher>A. Warner &amp; Co.</publisher>
+                     <date>1889</date>
+                 </bibl>
+                 <bibl id="AEC">
+                     <title level="m">The Adams Express Company</title>
+                     <pubPlace>Online</pubPlace>
+                    <publisher>http://www.floridareenactorsonline.com/adamsexpress.htm</publisher>
+                     <date>retrieved on 5/30/06</date>
+                  </bibl>
+               </listBibl>
+          </div1>
+            
+      </back>
+   </text>
+</TEI.2>

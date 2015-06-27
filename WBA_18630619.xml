@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//Main DTD Driver File//EN" "http://www.tei-c.org/release/xml/teip4/schema/dtd/tei2.dtd" [
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.linking 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.transcr 'INCLUDE'>
+<!ENTITY % TEI.XML 'INCLUDE'>
+
+<!-- If necessary, identify the files containing extensions of the TEI DTD
+by removing the commenting around the following declarations and
+editing the filenames.
+
+<!ENTITY % TEI.extensions.ent SYSTEM 'XXXXXX.ent' >
+<!ENTITY % TEI.extensions.dtd SYSTEM 'XXXXXX.dtd' >
+
+ -->
+
+<!ENTITY % ISOlat1 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat1.ent'>
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-lat2.ent'>
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-num.ent'>
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM 'http://www.tei-c.org/Entity_Sets/Unicode/iso-pub.ent'>
+%ISOpub;
+<!ATTLIST xref url CDATA #IMPLIED>
+<!ATTLIST pb mmid CDATA #IMPLIED>
+]>
+
+<TEI.2 id="WBA_18630619">
+   <!-- Replace "DOCUMENT_ID" in the <TEI.2> element with the filename of your XML file (minus the .xml extension). 
+Use the following filename convention: WBAyyyymmdd. For example, I would name the XML transcript of a 
+letter written on 18 July 1863 as follows: WBA18630718. Use the date on which you have determined the letter
+was written, not necessarily the date Anderson wrote in his dateline. -->
+   
+   <teiHeader type="AACR2">
+      <!--The type attribute in teiHeader element above indicates that the header provides 
+      enough information to create a bibliographic record that complies with the 
+      Anglo-American Cataloguing Rules, 2nd ed. (1978; rev. 1988).-->
+      
+      <fileDesc>
+         <!--The  file description tagged <fileDesc>, contains "a full bibliographical description 
+         of the computer file itself, from which a user of the text could derive a proper bibliographic 
+         citation, or which a librarian or archivist could use in creating a catalogue entry recording 
+         its presence within a library or archive" (TEI P4X, ch. 5).-->
+         
+         <titleStmt>
+            <title>My Dear Wife: A Riverboat Captain's Missive to His Love</title>
+            <!-- The title of your electronic file, which will also be the title of your project. 
+               Avoid generic, uninformative titles. Try to indicate something about the story of the document 
+               (Who wrote it? What is it? When was it written? Why is it important or interesting?) -->
+            
+            <editor>Marie E. Pesut</editor>
+            <!-- Your full name (first middle last). -->
+            
+            <respStmt>
+               <resp>Creation of initial machine-readable transcript: </resp>
+               <name type="person">Steve Agricola</name>
+               <resp>Creation of digital images: </resp>
+               <name type="person">Laura Denning</name>
+               <resp>Conversion to TEI.2-conformant markup: </resp>
+               <name type="person">Marie E. Pesut</name>
+               <!-- Your full name (first middle last). -->
+               
+            </respStmt>
+         </titleStmt>
+         
+         <editionStmt>
+            <p>1st Edition.</p>
+         </editionStmt>
+         
+         <extent>24 kilobytes</extent>
+         
+         <publicationStmt>
+            <!-- one of (address authority availability date distributor idno p pubPlace publisher) -->
+            <!-- Use the following for the Valentine Peers papers. Otherwise you can simply
+            indicate your own address. -->
+            
+            <publisher>The Ohio State University Library. <address>
+                  <addrLine n="1">Rare Books and Manuscripts Library</addrLine>
+                  <addrLine n="2">327 Main Library</addrLine>
+                  <addrLine n="3">1858 Neil Avenue Mall</addrLine>
+                  <addrLine n="4">Columbus, OH 43210</addrLine>
+               </address>
+            </publisher>
+            
+            <pubPlace>Columbus, OH</pubPlace>
+            
+            <availability>
+               <p>The W. B. Anderson Collection is the property of the Rare Books and Manuscripts
+                  Library of The Ohio State University Libraries. Any use of the material should
+                  acknowledge such ownership.</p>
+               <p id="CreativeCommons">This license does not transfer any rights 
+                  regarding material used in the edition by permission of a third party.
+                  <!--Creative Commons License-->
+                  <![CDATA[<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/"><img alt="Creative Commons License" border="0" src="http://creativecommons.org/images/public/somerights20.png"/></a><br/>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/">Creative Commons Attribution-NonCommercial-ShareAlike 2.5 License</a>.]]><!--/Creative Commons License--><!-- <rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                     <Work rdf:about="">
+                     <license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.5/" />
+                     <dc:title>My Dear Wife: A Riverboat Captain's Missive to His Love</dc:title>
+                     <dc:date>2006</dc:date>
+                     <dc:creator><Agent><dc:title>Marie E. Pesut</dc:title></Agent></dc:creator>
+                     <dc:rights><Agent><dc:title>Marie E. Pesut</dc:title></Agent></dc:rights>
+                     <dc:type rdf:resource="http://purl.org/dc/dcmitype/InteractiveResource" />
+                     </Work>
+                     <License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.5/"><permits rdf:resource="http://web.resource.org/cc/Reproduction"/><permits rdf:resource="http://web.resource.org/cc/Distribution"/><requires rdf:resource="http://web.resource.org/cc/Notice"/><requires rdf:resource="http://web.resource.org/cc/Attribution"/><prohibits rdf:resource="http://web.resource.org/cc/CommercialUse"/><permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/><requires rdf:resource="http://web.resource.org/cc/ShareAlike"/></License></rdf:RDF> -->
+                  </p>
+            </availability>
+            
+            <date>2006-06-06</date>
+            
+         </publicationStmt>
+         
+         <sourceDesc>
+            <biblFull>
+               
+               <titleStmt>
+                  
+                  <title level="u">No title</title>
+                  <!--The "level" attribute "indicates whether this is the title of an article, book, journal, 
+                  series, or unpublished material, indicated as a, b, j, s, or u" (TEI P4X, ch. 5.2.1).
+                     Write "no title" if your document has no title. -->
+                  
+                  <author>W. B. Anderson</author>
+                  <!-- First middle last -->
+                  
+               </titleStmt>
+               
+               <extent>2 p.</extent>
+               <!-- The size of your source document, in whatever units are appropriate (usually pages;
+               for example, 2 pp.) -->
+               
+               <publicationStmt>
+                  <p>Publication statement from the library.</p>
+               </publicationStmt>
+               
+               <notesStmt>
+                  <note>
+                     <p>This letter, penned around June 19th, 1863, contains the information shared between husband and wife
+                     concerning the former's job as a river boat captain, the unpredictable nature of river trade, and
+                     a summation of the captain's bout with illness. The single folded sheet, yellowed with age, has
+                     writing on both the front and back in black ink, as well as a printer's mark in the upper left hand corner.  Along with 
+                     previous and subsequent letters, Anderson's June 19th writing helps to form a cohesive image of everyday life.</p>
+                  <!-- TAKE NOTE: Your entire header should answer the following questions about your 
+                       source document. At this point in your header, you should discuss anything in this
+                       list not mentioned elsewhere in the header.
+                     
+                        1. What is the document (letter, will, etc.)?
+                        2. What does it say about itself (titles, descriptive notes, etc.)?
+                        3. What does it contain (no. of pages/sheets, enclosures, etc.)?
+                        4. How is it put together (folded sheets, binding, etc.)?
+                        5. What is it made of (paper, vellum, etc.)?
+                        6. What is its size (i.e., physical dimensions)?
+                        7. How is it packaged/contained (binding, envelope, folder, box, etc.)?
+                        8. How is it related to other versions (original, copy, print history)?
+                     
+                        You can use more than one paragraph (tagged <p> </p>).
+                   -->
+                     <figure rend="link">
+                        <head>Letter of  June 19th, 1863</head>
+                        <figDesc>
+                           <xref url="https://images.asc.ohio-state.edu/is/image/mediamanager/E/e06062da-d7e0-424c-b850-fdcd54e05aca.jpg?scale=0.5&amp;rgn=80,100,150,160&amp;op_brightness=-50&amp;op_contrast=25&amp;fmt=png">Click here</xref>
+                        </figDesc>
+                     </figure>
+                     
+                     <figure rend="embedImg">
+                        <head>Letter of June 19th, 1863</head>
+                        <figDesc>
+                           <xref url="https://images.asc.ohio-state.edu/is/image/mediamanager/C/cc918f45-896e-4226-a419-9261be2361ac.jpg?scale=0.5&amp;rgn=80,120,150,160&amp;op_brightness=-50&amp;op_contrast=25&amp;fmt=png"></xref>
+                        </figDesc>
+                     </figure>
+                     William B. Anderson's letter dated June 19th, 1863 from St. Louis, Missouri, is
+                     addressed to his wife Louisa and is written in ink on both sides of a 
+                     loose sheet of off-white paper measuring approximately 7.5 inches wide by 9.0 inches 
+                     tall (19 x 23 cm).  The paper is ruled with horizontal lines of a blue color that are spaced .33 
+                     inches (0.8 cm) apart, except for a 1.5-inch (3.8 cm) top margin that is unruled. 
+                     The sheet's left edge is not a clean line like the remaining three, suggesting that it was
+                     most likely  torn from a notepad of some sort.  Written in black ink, the letter appears to 
+                     have originally been folded once horizontally and twice vertically. 
+                     A .5-inch by .5-inch (1.3 x 1.3 cm) embossed printer's mark appears in the upper left 
+                     corner of the sheet, 0.5 inches (1.3 cm) from the top edge of the paper and .25 inches 
+                     (0.6 cm) from the left edge. Although the exact origins of the mark is inconclusive, it
+                     resembles a similarly sized and placed printer's mark on a letter dated July 1, 1863, that
+                     reads: "MT HOLLY PAPER CO." 
+                  </note>
+               </notesStmt>
+               
+            </biblFull>
+         </sourceDesc>
+         
+      </fileDesc>
+      
+      <encodingDesc>
+         <!--The encoding description, tagged <encodingDesc>, describes "the relationship 
+         between an electronic text and its source or sources" (TEI P4X, ch. 5).-->
+         
+         <projectDesc>
+            <p>In the words of David Levy, "no document, no genre, is an island" (29).  This certainly rings true for the letters of
+             W.B. Anderson.  The transcription of Anderson's private letter to his wife serves to reveal insight into aspects of daily
+             and personal life in the 19th century.  Because Anderson exists as a model of the 19th century average man, the 
+             letter allows us to understand the unreliable nature of riverboat business, illness, medication, and the struggles of maintaining
+             a marriage that is separated by distance - all factors that were unavoidable for many 19th century families.</p>
+            <p>The translation of his words as they appear on paper are significant indicators of the degree
+             of education an individual such as Anderson would have experienced.  Furthermore, by examining the span of time and
+             distance between the captain's letters to his wife, we are able to better understand the scope of a career on a 19th
+             century riverboat.  Anderson frequently insisted that his wife reply to his letters soon - the infrequency of her writing is 
+             indicative of both the realities of her busy life and the unreliable nature of the early American postal system (Hewitt).  
+             Additonally, the letter allows us to have insight into the illnesses and ailments of the day, which, judging from the subject 
+             matter of the letter, were frequent and persistent realities to the life of a riverboat captain.  Anderson lists several maladies that plagued
+             him - ague, bilious fever, and neuralgia - and discusses how these complicated his daily work at length.</p>
+            <p><hi rend="bold">Works Cited</hi></p>
+            <p>Hewitt, Elizabeth. Lecture to English 569C, Digital Media and English Studies. The Ohio State University. 
+              6 Apr. 2006.</p>
+            <p>Levy, David M. <title level="m">Scrolling Forward: Making Sense of Documents in the Digital
+               Age</title>. New York: Arcade, 2001.</p>
+           
+            
+            <!-- TAKE NOTE: Here’s where you describe the purpose of your project and tell the story of the document. 
+               A phrase is not enough. Tell the story behind the documents in a manner that establishes the 
+               significance of your documents to your intended audience. Further, I have asked you to contextualize your project as an electronic edition by 
+               discussing (and providing citations for) some key ideas from Levy or Electronic Textual Editing 
+               that informed your design. You can use more than one paragraph (tagged <p> </p>). Note: This description
+               is not the same as the short summary of your source document contained in the following element:
+               text/front/div1/p -->
+            
+         </projectDesc>
+         
+         <editorialDecl>
+            <!--In addition to prose description, the Editorial Practices Declaration may contain 
+            specialized elements concerned with correction, normalization, quotation, hyphenation, 
+               segmentation, date and number format, and interpretive apparatus (TEI P4X, ch. 5.3.3).-->
+            
+            <p>Encoding of the Anderson letters emphasizes diplomatic transcription, with supplemental
+               information allowing for semi-modernized, corrected, regularized, or expanded views included as 
+               the values of attributes associated with various elements. Accordingly, abbreviations, recoverable
+               cancelations, punctuation, spelling, underscoring, capitalization, line breaks, and page breaks 
+               have all been transcribed or tagged as they appear in the original manuscripts. Regularized
+               versions of all names and referring strings have been encoded as the values of "reg"
+               attributes. Standard format values for all dates have been encoded in "value" attributes.</p>
+            <p>Corrections and emendations in Anderson's hand have been encoded as cancelations and interlinear 
+               or marginal additions. In a few cases, omitted text has been supplied by the editors for the sake 
+               of clarity and encoded with the TEI &lt;supplied&gt; element.</p>
+            <p>The following structural elements of the letters are also encoded: opener (including salutation
+               and dateline), body, lines, paragraphs, pages, and closers (including salutation and 
+               signature). Notes and postscripts are identified as such.</p>
+            <p>The critical apparatus used in particular views of the letters is explained at the bottom of each view.</p>
+            <p>To view the project's complete markup guidelines, 
+               <xref url="http://people.cohums.ohio-state.edu/ulman1/WBAnderson_Letters/AndersonLettersMarkup.cfm">click here</xref>.</p>
+            <p>At the time of publication (6 June 2006), the XML and XSL files related to this
+               edition were stored in an XML publishing system operated by Humanities
+               Information Systems (HIS), College of Humanities, The Ohio State University. For
+               more information about HIS, see <xref url="http://his.osu.edu/">http://his.osu.edu/</xref>. 
+               Most image, audio, and video 
+               files linked to, or embedded in, this edition via &lt;figure&gt; elements were 
+               stored in the Media Manager system maintained by the Colleges of Arts and 
+               Sciences of The Ohio State University. For more information about the Media Manager,
+               see <xref url="https://mediamanager.osu.edu/">https://mediamanager.osu.edu/</xref>.</p>
+            
+            <!-- TAKE NOTE: Explain your editorial method:
+               
+               •	If you employ image files, describe how they were produced and note where they are stored.
+               •	Describe any editorial guidelines you followed (e.g., how you treated hyphenation, whether 
+                  you corrected apparent errors, and any other decisions about how to treat recurrent features).
+               •	Describe any special symbols that you use in your text to indicate additions, corrections, 
+                  cancellations, and so on. This important explanation provides a reader's guide to the text.
+               
+                  You can use more than one paragraph (tagged <p> </p>).
+            -->
+            
+         </editorialDecl>
+         
+         <refsDecl>
+            <p>The XML files that constitute this edition of the William B. Anderson letters
+               are named according the letters' dates of composition, using the following naming
+               convention: WBA_YYYYMMDD.xml. Dates of composition were determined from
+               various sources of evidence: the datelines inscribed in the letters, internal
+               evidence in the body of the letters, and perpetual calendars. If the year,
+               month, or date on which a letter was written could not be determined, the 
+               appropriate part of the filename is rendered with 0s. XSL style
+               sheet documents are named with the prefix "WBA" followed by an underscore
+               and a descriptive phrase (e.g., "WBA_diplomatic.xsl).</p>
+            <p>In general, this edition follows the Text Encoding Initiative's Guidelines
+               for Electronic Text Encoding and Interchange, XML-compatible edition P4.
+               For more information about TEI P4, see <xref url="http://www.tei-c.org/P4X/">http://www.tei-c.org/P4X/</xref>.
+               To facilitate embedding or linking to image, audio, and video files, this edition
+               supplements the Text Encoding Initiative's DTD by adding a URL attribute to 
+               the &lt;xref&gt; element and an MMID (i.e., Media Manager ID) attribute to the 
+               &lt;pb&gt; element. The values of the MMID attribute in &lt;pb&gt; elements and
+               the file IDs in the URL attribute of &lt;xref&gt; elements that link to, or embed, 
+               image, audio, and video files contained in the Media Manager are generated 
+               by the Media Manager application.</p>
+            
+            <!--  TAKE NOTE: This information helps your readers understand the encoded XML document:
+               
+               •	Explain any revisions to the TEI DTD.
+               •	Explain any special naming conventions used in your encoding (for example, the ID
+                  attributes of page break elements).
+               
+                  You can use more than one paragraph (tagged <p> </p>).
+            -->
+            
+         </refsDecl>
+         
+         <classDecl>
+            <taxonomy id="LCSH">
+               <bibl>
+                  <title>Library of Congress Subject Headings</title>
+               </bibl>
+            </taxonomy>
+         </classDecl>
+         
+      </encodingDesc>
+      
+      <profileDesc>
+         <!--The text profile, tagged <profileDesc>, contains "classificatory and contextual information 
+         about the text, such as its subject matter, the situation in which it was produced, the 
+         individuals described by or participating in producing it, and so forth" (TEI P4X, ch. 5).-->
+         
+         <creation>
+            <date>2006-06-06</date>
+         </creation>
+         
+         <langUsage>
+            <!-- Note any languages that appear in your document. -->
+            <language id="eng">English</language>
+         </langUsage>
+         
+         <handList>
+            <!-- Identify any hands (i.e., individuals' handwriting) that appear in your document. -->
+            <hand id="WBA" scribe="Anderson, William B." first="yes"/>
+            
+         </handList>
+         
+         <textClass>
+            <keywords>
+               <!-- Supply a list of keywords for your document. -->
+               <term>Anderson, William B. (1822-1897)</term>
+               <term>Anderson, Mary Louisa neé Fischgens (1837-1911)</term>
+               <term>Ferguson, Belle</term>
+               <term>Gray, Capt. R.C.</term>
+               <term>ague</term>
+               <term>bilious fever</term>
+               <term>neuralgia</term>
+               <term>Louisville</term>
+               <term>St. Louis</term>
+               <term>Boat Fever</term>
+            </keywords>
+         </textClass>
+         
+      </profileDesc>
+      
+      <revisionDesc>
+         
+         <!--The revision history, tagged <revisionDesc>, allows "the encoder to provide a history of 
+            changes made during the development of the electronic text" (TEI P4X, ch. 5).-->
+         
+         <!-- Add additional changes at the top of the list. -->
+         
+         <change>
+            <date>2006-08-15</date>
+            <respStmt>
+               <resp>Principal Editor</resp>
+               <name>H. Lewis Ulman</name>
+            </respStmt>
+            <item>Cross-check against independent transcription by Jamie Danker (principal editor evaluated discrepancies).</item>
+         </change>
+         
+         <change>
+            <date>2006-07-27</date>
+            <respStmt>
+               <resp>Principal Editor</resp>
+               <name>H. Lewis Ulman</name>
+            </respStmt>
+            <item>Spot-check corrections.</item>
+         </change>
+         
+         <change>
+            <date>2006-06-06</date>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Marie E. Pesut</name>
+            </respStmt>
+            <item>Completion of initial TEI-compliant encoding.</item>
+         </change>
+         
+         <!-- Indicate the date on which you completed your XML encoding. -->
+         
+         <change>
+            <date>2006-06-06</date>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Marie E. Pesut</name>
+            </respStmt>
+            <item>Correction of initial transcription.</item>
+            
+            <!-- Indicate the date on which you completed the correction of the initial transcription. -->
+            
+         </change>
+         <change>
+            <date>2006-06-06</date>
+            <respStmt>
+               <resp>Editor</resp>
+               <name>Marie E. Pesut</name>
+            </respStmt>
+            <item>Initial machine-readable transcription.</item>
+         </change>
+         
+      </revisionDesc>
+      
+   </teiHeader>
+   
+   <text>
+      <front>
+         <div1 n="1" type="abstract">
+            
+            <!-- This template uses divisions to distinguish parts of the front, body, and
+            back of the electronic document. You do not have to use divisions. -->
+            
+            <head>
+               <bibl>
+                  <title>My Dear Wife: A Riverboat Captain's Missive to His Love</title>
+                  <!-- This title should be the same as the one you supply in fileDesc/titleStmt/title. -->
+                  
+                  <date>1863-06-19</date>
+                  <abbr>W.B.Anderson</abbr>
+                  <!-- "ALS" means "autograph letter signed." -->
+                  <extent>2 p.</extent>
+                  <idno rend="suppress">XXXXXXXXXX</idno>
+                  <!-- For the Anderson letters, we will assign ID numbers that reflect the date. -->
+               </bibl>               
+            </head>
+            
+            <p>On June 19th, 1863, riverboat captain William B. Anderson penned a letter to his wife 
+               from St. Louis, Missouri, in which he informs his spouse of matters concerning river
+               travel, his salary, and a bout of illness that left him bedridden.</p>
+            <!-- Provide a short (3-5 sentences) descriptive summary of the letter you have
+             edited. Use active verbs that describe what Anderson _does_ in the letter: for example,
+             Anderson "requests," "describes," "reports," "relates," and so on. -->
+            <p>Previous letter <xref type="prev" url="WBA_18621016">16 October 1862 (Not yet edited)</xref>
+               Next letter<xref type="next" url="WBA_18630701">01 July 1863</xref></p>
+         </div1>         
+      </front>
+      
+      <body>
+         <div1 n="1" type="[Letter]">
+            <!--Transcription of the body of the document begins here. If you use the div tag,
+            the type attribute should reflect the nature of your document (e.g., "letter"). -->
+            
+            <head/>
+            <!-- Note that the head can be entered as an empty element. Compare to the 
+            div element in the front of the document. -->
+            
+      
+            <opener>
+       <!-- The opener element contains any dateline and salutation appearing at the head of the letter.
+       You may omit this element if your document does not contain similar material.
+       Note that dates and names are tagged with standard versions in order to improve searching. -->            
+               
+              <pb mmid="/A/acb4cba0-d23f-4bee-a8f5-41ded57b7824" n="1"/>
+               
+               <dateline>
+                  <lb n="001"/><date value="1863-06-19">St Louis Saturday June 19th 63 <seg><note target="n1">1</note></seg></date>
+                </dateline>
+               <lb/>
+               <lb n="002"/><salute>My Dear Wife <seg><note target="n2">2</note></seg></salute>
+                    
+                  
+               
+            </opener>
+            
+
+        
+            <p>
+        
+        <!-- Beginning with the body of the letter, lines in this template have been identified 
+               to allow for cross references and numbered to allow for numbered display. IDs must 
+               be unique within the document. However, you do not need to report line breaks at all 
+               if doing so serves no purpose in your edition. -->
+               
+         <lb n="003"/>I will commence a letter to you 
+         <lb n="004"/>this afternoon &amp; Finish it tomorrow we arrived
+         <lb n="005"/>here last night about Midnight we had
+         <lb n="006"/>a fair trip around &amp; if we get as good a one
+         <lb n="007"/>back we will make a little money times are very
+         <lb n="008"/>dull &amp; and prices poor we had all the freight we could 
+         <lb n="009"/>carry on the water I have several small lots engaged
+         <lb n="010"/>to go back to  <name type="place">Louisville</name> &amp; Cin. &amp; I think by Monday
+         <lb n="011"/>night we shall have all we can carry I had thought
+         <lb n="012"/>somebody would be here and offer to buy the boat but
+         <lb n="013"/>the Boat fervor has subsided greatly I had a visit
+         <lb n="014"/>from <name type="person">Capt. R. C. Gray</name> <seg><note target="n3">3</note></seg> today &amp; he says that he thinks that
+         <lb n="015"/>the upper <name type="place">Mississippi river</name> trade would pay us better
+         <lb n="016"/>than the <name type="place">St Louis</name> and <name type="place">Cin.</name> trade but I dont wish to go up 
+         <lb n="017"/>there for the present. I had an offer at <name type="place">Cin.</name> to sell &amp; I will
+         <lb n="018"/>know what I can do when I return if the party accepts my
+         <lb n="019"/>offer I will be home Shortly.</p>
+            <p>
+         <lb n="020"/>Sunday Evening I have been rather under the weather
+         <lb n="021"/>since I left <name type="place">Louisville</name> &amp; had today to have a 
+         <lb n="022"/>Doctor &amp; he gave me a lot of <sic corr="Medicine">Medacin</sic> and as
+         <lb n="023"/>Soon as I took of it got better he says I would 
+         <lb n="024"/>have had the ague <seg><note target="n4">4</note></seg> or a bad attack of Billious 
+         <lb n="025"/>fever <seg><note target="n5">5</note></seg> if I had not had relief soon I thought
+         <lb n="026"/>it was the Neuralgia <seg><note target="n6">6</note></seg> I had, for one side of
+               <pb mmid="/5/5f9ab980-da6b-4d49-9fce-fa3268140bcb" n="2"/>
+         <lb n="027"/>of my face &amp; jaw pained me constantly
+         <lb n="028"/>and my teeth ached &amp; I had one of them 
+         <lb n="029"/>pulled and it did not do any good and
+         <lb n="030"/>for 48 hours, I had not eaten one bite nor
+         <lb n="031"/>slept one minute.  I was not well one minute
+         <lb n="032"/>at a time until I took the medicine and it
+         <lb n="033"/>acted like a charm I am of course weak
+         <lb n="034"/>but feel well and tomorrow I want to go 
+         <lb n="035"/>and see <name type="person">Belle Ferguson</name> <seg><note target="n7">7</note></seg> I have not been out
+         <lb n="036"/>of my room nor in fact out of bed all
+         <lb n="037"/>day till this Evening. I would not have
+         <lb n="038"/>believed that a few doses of medicine would
+         <lb n="039"/>do so much in so short a time.  I will
+         <lb n="040"/>send you a paper or two tomorrow I
+         <lb n="041"/>hope you are well give my love to 
+         <lb n="042"/>the children excuse this poor letter
+         <lb n="043"/>for I can assure you that I have had 
+         <lb n="044"/>better to say – I will leave here for
+         <lb n="045"/>Cin Tomorrow night without I get
+         <lb n="046"/>disappointed. I have been unable to go 
+         <lb n="047"/>up Town to see how it looks but will
+         <lb n="048"/>Tomorrow if nothing happens &amp; my 
+         <lb n="049"/>health improves I <sic corr="feel">feell</sic> sure I will
+         <lb n="050"/>be all right again in a day or two
+        </p>
+         
+         <!-- Closer begins here, for letters. -->
+        
+         <closer>
+            <lb/>
+            <lb n="051"/><salute>Yours Affectionately</salute>
+            <lb/>
+            <lb n="052"/><signed>WBAnderson
+               <lb/>
+               <lb n="053"/>P.S. I will write again Tomorrow any how
+               <lb/>
+               <lb n="054"/>WBA
+               <name reg="Anderson, William B. (1822-1885)" type="person"></name>
+            </signed>               
+         </closer>          
+  
+       </div1>          
+ </body>
+      
+      <back>
+         <div1 type="Annotations" n="1">
+            <!-- Annotations begin here. -->
+            
+            <head>Notes</head>
+            
+            <note id="n1">1. June 19th of 1863 was a Sunday, not a Saturday. This is most likely an unintended error
+               on Anderson's part, possibly due to confusion resulting from a recent sickness that kept the river
+               boat captain confined to his bedchamber.</note>
+            <note id="n2">2. Anderson married Mary Louisa Fischgens on September 15th, 1853 in Cincinnati, Ohio. Born on
+               April 14th 1837 in Pittsburgh, Pennsylvania, Mary Louisa mothered five children with Anderson before her death
+               in Pittsburgh on August 25th, 1911.<bibl><title>History of Allegheny County</title>p. 298-299</bibl></note>
+            
+            <note id="n3">3. A business partner of Anderson's. Together they commissioned the construction of the steamer Denmark.<bibl><title>History of Allegheny County</title>p. 298</bibl></note>
+            
+               <note id="n4">4. A fever consisting of cold, hot, and sweating stages. The name ague was initially 
+               given to the burning or feverish stage, but afterwards usually applied to the cold or shivering stage, as being 
+               the most striking external characteristic of the ailment.<bibl><title>Oxford English Dictionary</title></bibl></note>
+            
+            <note id="n5">5. This antiquated term, the correct spelling of which is "bilious," was used in the 19th century 
+               to describe the presence of increased secretions of bile.<bibl><title>Oxford English Dictionary</title></bibl></note>
+            
+            <note id="n6">6. This term refers to pain in a location resulting from a nerve.<bibl><title>Oxford English Dictionary</title></bibl></note>
+            
+            <note id="n7">7. An unidentified aquaintance of Anderson's who resided in or near St. Louis, Missouri.</note>
+         </div1>
+         
+         <div1 type="Citations" n="2">
+            <!--List of Works Cited begins here-->
+            
+            <listBibl>
+               <head>Works Cited in Notes</head>
+               
+               <bibl id="HOAC">
+                  <title level="m">History of Allegheny County, Pennsylvania: Including its early settlement and 
+                     progress to the present time; a description of its historic and interesting localities; 
+                     its cities, towns and villages; religious, educational, social and military history; mining, 
+                     manufacturing and commercial interests, improvements, resources, statistics, etc.; also, 
+                     biographies of many of its representative citizens</title>
+                  <pubPlace>Chicago</pubPlace>
+                  <publisher>A. Warner &amp; Co.</publisher>
+                  <date>1889</date>
+                  </bibl>
+                <bibl id="OED">
+                  <title level="m">Oxford English Dictionary</title>
+                  <publisher>Oxford University Press</publisher>
+                  <date>2006</date>
+                   </bibl>
+           </listBibl>
+         </div1>
+      </back>
+   </text>
+</TEI.2>
