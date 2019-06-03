@@ -3,6 +3,7 @@
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
      <teiHeader>
          <fileDesc>
+           
              <titleStmt>
                <title>Selected Letters from the Dr. Ivan S. Gilbert collection of Stephens family travel letters,
                  1834-1949 1909-1917</title>
@@ -23,6 +24,7 @@
            </respStmt>
            
          </titleStmt>
+           
            <editionStmt>
              <p>First Edition</p>
            </editionStmt>
@@ -30,6 +32,7 @@
            <extent>approx. xxx kilobites</extent>
            
            <publicationStmt>
+             
              <publisher>The Ohio State University Library.
                <address>
                  <addrLine n="1">Rare Books and Manuscripts Library</addrLine>
@@ -46,7 +49,7 @@
           such as a library call number..-->
              
              <!-- TODO -->
-             <idno type="CallNumber">XXXXXX</idno>
+             <idno type="CallNumber">SPEC.RARE.CMS.0309</idno>
              
              <availability>
                <p>The W. B. Anderson Collection is the property of the Rare Books and Manuscripts
@@ -60,14 +63,20 @@
              
              <date>2006</date>
            </publicationStmt>
+           
            <sourceDesc>
+             
 	           <biblFull>
 	             <titleStmt>
-	               <title></title>
+	               <title level="u">Civil War correspondence, 1862-1864</title>
+	               <author>Anderson, William B. (b. 1822)</author>
 	             </titleStmt>
-	             <extent></extent>
+	             <extent>Twenty-one handwritten letters, 4 documents, and 1 CD-ROM.</extent>
 	             <publicationStmt>
-	               <p></p>
+	               <p>The W. B. Anderson Collection is the property of the Rare Books and Manuscripts
+	                 Library of The Ohio State University Libraries. Any use of the material should
+	                 acknowledge such ownership. The Ohio State University holds copyright to 
+	                 all images of manuscript pages used in the edition.</p>
 	             </publicationStmt>
 	             <notesStmt>
 	               <note type="descriptive">
@@ -78,29 +87,100 @@
 	               </note>
 	             </notesStmt>
 	           </biblFull>
+             
              <!-- SEE STEPHENS FOR OTHER LIST TYPES -->
              <listPlace>
                <head>Places Mentioned in the Text</head>
                <place></place>
              </listPlace>
+             
              <listBibl>
-               <bibl></bibl>
+               <head>Works Cited in Notes</head>
+               <bibl xml:id="HOAC" n="historyofallegheny">
+                 <title level="m">History of Allegheny County, Pennsylvania</title>
+                 <pubPlace>Chicago</pubPlace>
+                 <publisher>A. Warner &amp; Co. </publisher>
+                 <date>1889</date>
+               </bibl>
              </listBibl>
+             
 	        </sourceDesc>
+           
          </fileDesc>
+       
        <encodingDesc>
          <projectDesc>
-           <p></p>
+           <p>This edition represents a series of letters that William B. Anderson wrote to his wife, Louisa,
+             at the time of  the Civil War. During the war, Anderson piloted steam ships along the Ohio River, carrying
+             freight and passengers alike. At this time, letter writing was the most effective means of communication, and the
+             only way to keep domestic affairs in order.</p>
+           <p>The collection of letters penned by Anderson was purchased by the Ohio State Rare
+             Books and Manuscripts library. They purchased the letters in an effort to increase
+             their collection of wartime letters as well as documents that better illustrate the life-world of 
+             the historical periods that the letters were written in. 
+           </p>
+           <p>The reason for digitizing these documents is that the editors are trying to make these
+             documents as easily accessible to as many people as possible. These letters may be of intest
+             to historians interested in the Civil War, the Steamship Industry, or even postal historians. These
+             potential readers were given the most careful consideration in designing the digital texts. The hope is
+             that by making these annotated and edited documents available on the world wide web, that the documents will be "streamlined
+             and tailored in the service of ever greater efficiency" (Levy 69). Hopefully, the rich media and annotations
+             provided will help make these documents more easily understood while the technology itself makes them
+             more widely available to interested audiences.</p>
          </projectDesc>
          <editorialDecl>
-           <p></p>
+           <p>Encoding of the Anderson letters emphasizes diplomatic transcription, with supplemental
+             information allowing for semi-modernized, corrected, regularized, or expanded views included as 
+             the values of attributes associated with various elements. Accordingly, abbreviations, recoverable
+             cancelations, punctuation, spelling, underscoring, capitalization, line breaks, and page breaks 
+             have all been transcribed or tagged as they appear in the original manuscripts. Regularized
+             versions of all names and referring strings have been encoded as the values of "reg"
+             attributes. Standard format values for all dates have been encoded in "value" attributes.</p>
+           <p>Corrections and emendations in Anderson's hand have been encoded as cancelations and interlinear 
+             or marginal additions. In a few cases, omitted text has been supplied by the editors for the sake 
+             of clarity and encoded with the TEI &lt;supplied&gt; element.</p>
+           <p>The following structural elements of the letters are also encoded: opener (including salutation
+             and dateline), body, lines, paragraphs, pages, and closers (including salutation and 
+             signature). Notes and postscripts are identified as such.</p>
+           <p>The critical apparatus used in particular views of the letters is explained at the bottom of each view.</p>
+           <p>The XML and XSL files related to this
+             edition are all available in the KB.
+           </p>
          </editorialDecl>
          <refsDecl>
-           <p></p>
+           <p>The XML files that constitute this edition of the William B. Anderson letters
+             are named according the letters' dates of composition, using the following naming
+             convention: WBA_YYYYMMDD.xml. Dates of composition were determined from
+             various sources of evidence: the datelines inscribed in the letters, internal
+             evidence in the body of the letters, and perpetual calendars. If the year,
+             month, or date on which a letter was written could not be determined, the 
+             appropriate part of the filename is rendered with 0s. XSL style
+             sheet documents are named with the prefix "WBA" followed by an underscore
+             and a descriptive phrase (e.g., "WBA_diplomatic.xsl).</p>
+           <p>To facilitate embedding or linking to image, audio, and video files, this edition
+             supplements the Text Encoding Initiative's DTD by adding a URL attribute to 
+             the &lt;xref&gt; element and an MMID (i.e., Media Manager ID) attribute to the 
+             &lt;pb&gt; element. The values of the MMID attribute in &lt;pb&gt; elements and
+             the file IDs in the URL attribute of &lt;xref&gt; elements that link to, or embed, 
+             image, audio, and video files contained in the Media Manager are generated 
+             by the Media Manager application.</p>
          </refsDecl>
+         
+         <classDecl>
+           <taxonomy xml:id="LCSH">
+             <bibl>
+               <title>Library of Congress Subject Headings</title>
+             </bibl>
+           </taxonomy>
+         </classDecl>
+         
        </encodingDesc>
+       
        <profileDesc>
-         <creation></creation>
+         <creation>
+           <date>2006-06-06</date>
+         </creation>
+         
          <particDesc>
            <listPerson type="mentioned">
              <head></head>
@@ -118,304 +198,220 @@
          <langUsage>
            <language ident="eng">English</language>
          </langUsage>
+
+         <handNotes>
+           <handNote xml:id="WBA" medium="ink">Anderson, William B.</handNote>
+         </handNotes>
          
          <textClass>
            <keywords scheme="#LCSH">
-             <term></term>
+             <term>Anderson, William B. (1822-1897)</term>
+             <term>Anderson, Mary Louisa ne?? Fischgens (1837-1911)</term>
+             <term>Ohio -- Cincinnati</term>
+             <term>Kentucky -- Louisville</term>
+             <term>Woolslayer, Mary Ann</term>
+             <term>McNamer, Mary</term>
+             <term>River boats -- United States -- Sources</term>
+             <term>United States -- History -- Civil War, 1861-1865</term>
            </keywords>
          </textClass>
          
        </profileDesc>
        
        <revisionDesc>
-         <change></change>
+         <change>
+           <date>2006-08-22</date>
+           <name>
+             H. Lewis Ulman
+           </name>
+           <label>Manuscripts read aloud by assistant (Catherine A. Ulman) while principal editor 
+             checked transcriptions.</label>
+         </change>
+         
+         <change>
+           <date>2006-08-10</date>
+           <name>
+             H. Lewis Ulman
+           </name>
+           <label>Cross-check against independent transcription by Jamie Danker (principal editor evaluated discrepancies).</label>
+         </change>
+         
+         <change>
+           <date>2006-08-08</date>
+           <name>
+             H. Lewis Ulman
+           </name>
+           <label>Spot-check corrections</label>
+         </change>
+         
+         <change>
+           <date>2006-06-06</date>
+           <name>Meghan Elaine Griesemer</name>
+           <label>Initial release</label>
+         </change>
+         
+         <!-- Indicate the date on which you completed your XML encoding. -->
+         
+         <change>
+           <date>2006-06-06</date>
+           <name>Meghan Elaine Griesemer</name>
+           <label>Correction of initial transcription.</label>
+           
+           <!-- Indicate the date on which you completed the correction of the initial transcription. -->
+           
+         </change>
+         <change>
+           <date>2005</date>
+           <name>Steve Agricola</name>
+           <label>Initial machine-readable transcription.</label>
+         </change>
        </revisionDesc>
      </teiHeader>
+  
+  <!-- SAMPLE FOR CORPUS LETTERS -->
     
-    <!-- A SAMPLE LETTER FROM THE STEPHENS CORPUS FOLLOWS. CONFORM TO THIS! -->
-
-    <TEI xml:id="HLU_GMS2MAT_1909-07-06" n="1909-07-06">
-
-  <!-- The encoded transcription of the first letter in our edition (chronologically) begins here.
-       It's the one on which I am working, so you can consult it as a model, as long as you
-       remember that I may have to revise my encoding as the process of discovery proceeds -->
-    
-  <!-- First, we provide descriptive information about this particular letter and any 
-      accompanying materials (e.g., an envelope or enclosure) in this teiHeader element 
-      for the letter. -->
-    
+  <TEI xml:id="WBA_18620616" n="1862-06-16">
     <teiHeader>
       <fileDesc>
         <titleStmt>
-          <title>[Gladys M. Stephens to Mrs. A. T. Stephens, 06 July 1909]</title>
+          <title>Letter from William B. Anderson to his Wife, Louisa, 16 June 1862</title>
+          <author>Anderson, William B.</author>
         </titleStmt>
         <publicationStmt>
-          <p>Publication Information</p>
+          <p><!-- ... --></p>
         </publicationStmt>
         <sourceDesc>
-          <msDesc corresp="#GS19092209le">
+          <msDesc>
             <msIdentifier>
               <country>USA</country>
               <settlement>Columbus, OH</settlement>
               <repository>Rare Books and Manuscripts, The Ohio State University</repository>
-              <collection>Dr. Ivan S. Gilbert collection of Stephens family travel letters,
-                1834-1949 1909-1917</collection>
-              <idno>SPEC.RARE.CMS.327</idno>
+              <collection>William B. Anderson Collection</collection>
+              <idno>SPEC.RARE.CMS.0309</idno>
             </msIdentifier>
             <msContents>
-              <p>
-                <!-- Describe contents briefly (these notes need to be revised and cast in prose). -->
-                Writing from Seattle, Stephens describes the Alaska-Yukon-Pacific Exposition and the
-                city of Seattle, then reviews her correspondence with friends and family and lists
-                the contents of a package she plans to send to her mother. </p>
+              <p>William B. Anderson writes home to his wife, Louisa, from Cincinnati, Ohio. He is hauling Coal Boat men from Louisville, Kentucky. 
+                While in Cincinnati, Anderson visits his mother-in-law, the 'old lady,' as well as family friends. During the dry, dusty, June weather, 
+                a fire breaks out near the Ohio River and Third St, destroying several houses. He opens his riverboat up as an improptu shelter for the fire
+                victims, even filling the typically unoccupied Ladies' Cabins. Anderson closes the letter by inviting Louisa to accompany him on his next
+                trip to Cincinnati.</p>
             </msContents>
             <physDesc>
-              <!-- 
-                TAKE NOTE: Your entire header should answer the following questions about your 
-                source document. At this point in your header, you should discuss anything in 
-                this list not mentioned elsewhere in the header.
-                
-                1. What is the document (letter, will, etc.)?
-                2. What does it say about itself (titles, descriptive notes, etc.)?
-                3. What does it contain (no. of pages/sheets, enclosures, etc.)?
-                4. How is it put together (folded sheets, binding, etc.)?
-                5. What is it made of (paper, vellum, etc.)?
-                6. What is its size (i.e., physical dimensions)?
-                7. How is it packaged/contained (binding, envelope, folder, box, etc.)?
-                8. How is it related to other versions (original, copy, print history)?
-                
-                You can use more than one paragraph (tagged <p> </p>).
-              -->
-              <p> ALS. Four loose sheets of cream-colored Hotel Georgian letterhead stationery
-                measuring 6 x 9.5 inches. The front side contains a 2.5-inch letterhead, a 6.75-inch
-                body with blue lines spaced at .375-inch intervals, and a .25-inch bottom margin.
-                The back side contains a .75-inch unlined head, with the body lined as on the front
-                side. An oval watermark, variably placed on each sheet and measuring approximately
-                2.375 x 2.625 inches when entirely visible, reads, in outline letters, "MERCHANTS |
-                PRT'G CO | LURIE &amp; LURIE." The letterhead contains, in the upper left-hand
-                corner, a 1.375 x 2.4375-inch halftone image of the Hotel Georgian facade. </p>
-              <accMat corresp="#GS19090706env">
-                <!-- Note whether an envelope or enclosure accomplanies the letter --> Accompanied
-                by a stamped, cancelled, cream-colored envelope of Hotel Georgian stationery
-                measuring 6.5 x 3.625 inches. A 1.375 x 2.4375-inch halftone image of the Hotel
-                Georgian facade is printed on the left-hand side of the envelope above the hotel's
-                address. </accMat>
+              <p>ALS, 2pp.</p>
+              <accMat></accMat>
             </physDesc>
             <additional>
               <adminInfo>
-                <!-- Box and folder number from the finding aid -->
-                <note>Box 3, Folder 16</note>
+                <!-- Info from the finding aid -->
+                <note></note>
               </adminInfo>
             </additional>
           </msDesc>
-        </sourceDesc>
+         </sourceDesc>
       </fileDesc>
     </teiHeader>
-    <!-- Now we transcribe and encode the text of the letter and accompanying materials. -->
+    
     <text>
       <body>
-        <!-- Now the letter proper. Note how we are (tentatively) handling the printed letterhead.
-          Or perhaps we should us forme work <fw>. But I think not. -->
-        <div type="letter" xml:id="GS19090706let01" corresp="#GS19090706env01">
-          <pb facs="07-06-1909_GS_to_ATS_letter_p1.jpg"/>
-          <head type="letterhead">
-            <figure rend="link">
-              <head>Photograph of the Hotel Georgian</head>
-              <graphic
-                url="https://images.asc.ohio-state.edu/is/image/englishdocs07-06-1909_GS_to_ATS_letter_p1.jpg.jpg?scale=0.4&amp;rgn=0,0,360,500&amp;fmt=png"/>
-              <figDesc>Photograph of the facade of the Hotel Georgian.</figDesc>
-            </figure>
-            <lb/>Rates $1.00 up <lb/>Hotel Georgian <lb/>European Plan
-            <lb/><placeName ref="#Seattle">Seattle</placeName>,_______190___ </head>
+        <div type="letter" xml:id="WBA_18620616XXX" corresp="XXX" >
+          <pb facs="/0/0fae4c6e-0056-4419-9325-15799bf50925"/>
+          <head type="letterhead"></head>
+          <figure rend="link">
+            <head></head>
+            <graphic url=""></graphic>
+            <figDesc></figDesc>
+          </figure>
+          <lb/>
           <opener>
-            <handShift new="#GMSHand"/>
-            <lb/><dateline><date when="1909-07-06">7/6 9</date></dateline>
-            <lb/><salute>Dear <rs ref="#MATS">Mama</rs>,</salute>
+            <lb/><dateline><date when="1862-06-16"></date>June 16/62</dateline>
+            <lb/><salute>My Dear<rs type="recipient">Wife</rs></salute>
           </opener>
           <p>
-            <lb/>I have made my 
-            <!-- Is "Exposition Grounds" a place, a referring string, or an event? -->
-            <lb/>first trip to the <placeName>Exposition 
-              <lb/>Grounds</placeName>. They are simply
-            <lb/>dreams of beauty. Such 
-            <lb/>flowers—and such 
-            <lb/>quantities of them! There 
-            <lb/>is one place where there 
-            <lb/>are thousands <seg type="obliqueText" rendition="#ot1">and</seg> 
-            <lb/>thousands of white, 
-            <lb/>lavender <seg type="obliqueText" rendition="#ot1">and</seg> pure yellow 
-            <lb/>pansies. In one place 
-            <lb/>there are veritable terraces 
-            <lb/>of water with a falls between 
-            <lb/>This expanse is surrounded 
-            <lb/>by the most beautiful
-            <lb/>display of poppies I ever 
-            <pb facs="07-06-1909_GS_to_ATS_letter_p2.jpg"/>
-            <!-- Note that the paragraph continues on the following page. -->
-            <lb/>saw. Then there are
-            <lb/>flowers like those I brought
-            <lb/>home from Senior Prom.—
-            <!-- Is that really an "h" in the middle of "geraniums"? -->
-            <lb/>gerhaniums—<hi rend="underlined">dwarf</hi>
-            <lb/>sweet peas—every kind
-            <lb/>of flowers imaginable.
-            <lb/>Talk about roses, there
-            <lb/>are so many here that
-            <lb/>I can't think what
-            <lb/><placeName ref="#California">California</placeName> will be like.
-            <lb/>I went today with
-            <lb/>the <rs>Virginians</rs>. The men
-            <lb/>were hunting up old
-            <lb/>friends here in the
-            <lb/>city. I have a lot of
-            <lb/>truck, which I am going
-            <lb/>to send by mail. There
-            <lb/>are four pictures of
-            <lb/><placeName ref="#Yellowstone">Yellowstone</placeName> which are
-            <lb/>exquisite—they are
-            <lb/>as natural as pictures
-            <lb/>can be. My <rs>Princetonian</rs>
-            <!-- Is "and" written at an angle a form of highlighting? -->
-            <lb/>got them for me, and
-            <pb facs="07-06-1909_GS_to_ATS_letter_p3.jpg"/>
-            <!-- What do I do about the repeated letterhead? -->
-            <lb/>paid a dollar for
-            <lb/>them. The packages of tea
-            <lb/>I got at the Japanese
-            <lb/>tea garden from the
-            <lb/><rs>little Japanese girl</rs>. I
-            <!-- Is "Hayden" a person or a company? -->
-            <lb/>ordered (through Hayden)
-            <lb/>a 5 cent can of condense
-            <lb/>milk.
-          </p>
-          <!-- Marking a paragraph break because she stops the previous line part way across the
-            page. -->
-          <p>
-            <lb/>The buildings are <unclear>fine</unclear>
-            <lb/>at the fair. One of the
-            <lb/><rs>Virginian ladies</rs> said
-            <lb/>this fair is much superior
-            <!-- A rs for an event? Or an abbreviation? -->
-            <lb/>to <rs>the St. Louis</rs> and others
-            <lb/>because of its compactness
-            <lb/>as well as its beauty.
-            <lb/>The buildings will be
-            <lb/>used later as college <choice><abbr >b'l'd'gs</abbr><expan>buildings</expan></choice>.
-            <lb/>Today we only visited
-            <pb facs="07-06-1909_GS_to_ATS_letter_p4.jpg"/>
-            <lb/>those in the inner circle.
-            <lb/>The place is laid out in
-            <lb/>this way
-            <!-- How to encode the labels "Entrance" and "etc." on the diagram? -->
-            <figure rend="embed">               
-              <head>Layout of the fairgrounds.</head>
-              <graphic
-                url="https://images.asc.ohio-state.edu/is/image/englishdocs07-06-1909_GS_to_ATS_letter_p4.jpg.jpg?scale=0.2&amp;rgn=235,110,200,200&amp;fmt=png"/>
-              <figDesc>A freehand sketch of the layout of the fairgrounds.</figDesc>
-            </figure>
-            <lb/>The amusement street
-            <lb/>is called pay streak—a
-            <lb/>mining term. 
+            
+            <!-- Beginning with the body of the letter, lines in this template have been identified 
+               to allow for cross references and numbered to allow for numbered display. IDs must 
+               be unique within the document. However, you do not need to report line breaks at all 
+               if doing so serves no purpose in your edition. -->
+            
+            <!-- 
+            MODEL FOR NOTES
+            <note resp="ed" xml:id="ForestryBld">TEXT OF NOTE
+              <bibl><ref target="#UWash">Title</ref></bibl></note>
+
+            -->
+            
+            <lb n="003"/>I did not write to you 
+            <lb n="004"/>from <name type="place" reg=" Louisville, KY">Louisville</name> on account of our 
+            <lb n="005"/>short stay there &amp; thought we would 
+            <lb n="006"/><sic corr="beat">beet</sic> the Mail up, we will leave 
+            <lb n="007"/>here <sic corr="tonight">to night</sic> we had a good trip 
+            <lb n="008"/>of Coal boat men up here from <name type="place" reg=" Louisville, KY">Louisville</name>
+            <lb n="009"/>but our prospects are poor for a trip 
+            <lb n="010"/>of either Freight or <sic corr="passengers">Passenger</sic> up, though 
+            <lb n="011"/>upon the whole we make a paying trip  
+            <lb n="012"/>I will finish this half sheet just
+            <lb n="013"/>before we start &amp; then I can tell you
+            <lb n="014"/>more
+            
           </p>
           <p>
-            <lb/><rs ref="#Seattle">The city</rs> has several
-            <lb/>skyscrapers.
+            
+            <lb n="015"/>We have laid over and will leave this 
+            <lb n="016"/>Evening we are getting all we want I have 
+            <lb n="017"/>just been down to see your <rs type="person" reg="Fischgens, Mary Ann, née Woolslayer">mother</rs><note target="n2">2</note> she is not 
+            <lb n="018"/>very well Today sends her respects  <name type="person">Ella</name><note target="n3">3</note> 
+            <lb n="000"/>was at school I did not see her. There was 
+            <lb n="019"/>a large fire down between Third st and The river 
+            <lb n="000"/>yesterday just one <sic corr="square">squear</sic> above the old<sic corr="lady's"> ladys</sic>  
+            <lb n="020"/>and burnt a lot of Old Houses &amp; other property 
+            <lb n="000"/>we have had all our rooms but 3 in 
+            <lb n="021"/>the ladies Cabin full since last night but 
+            <lb n="022"/>we have not up <abbr expan="until">till</abbr> this time had a lady 
+            <lb n="023"/>passenger on our boat the <name type="person" reg="Woolslayer, Mary Ann">old lady</name> says 
+            <lb n="024"/>she would like to have you pay her a 
+            <lb n="025"/>visit so if you think you would enjoy 
+            
+            <pb facs="/6/649db1cc-1689-45f1-95af-1fe636b79e81" n="2"/>    
+            
+            <lb n="026"/>a trip I will offer you an invitation 
+            <lb n="027"/><del type="recoverable" rend="overwritten" hand="WBA">t</del>we will if no accident get up about 
+            <lb n="028"/>Saturday &amp; leave again about Tuesday 
+            <lb n="029"/><sic corr="today">to day</sic> it is all most suffocatingly hot 
+            <lb n="030"/>and the dust is so thick that I cannot 
+            <lb n="031"/>scarcely see the buildings along the wharf  
+            <lb n="032"/>&amp; I think we must surely have a gust soon  
+            <lb n="033"/>I will stop for I expect to spend Sunday 
+            <lb n="034"/>with you &amp; the small ones <note target="n4">4</note> 
           </p>
           <p>
-            <lb/>There is a Hawaiian
-            <lb/>village with real bare
-            <lb/>natives. We are going to
-            <lb/>visit it later. There also
-            <lb/>Esquimos and a village.
-            <lb/>I am sending you
-            <lb/>also the daily program.
-            <lb/>Have not found the
-            <lb/><persName>Goulds</persName> yet.            
-          </p>
-          <p>
-            <lb/>This morning it was
-            <lb/>raining and I slept until
-            <pb facs="07-06-1909_GS_to_ATS_letter_p5.jpg"/>
-            <!-- Again the letterhead. And note that she has been numbering sheets, not pages. -->
-            <lb/><hi rend="underlined">3</hi>
-            <lb/>8.25. We went to
-            <lb/><rs ref="#AYPE">the Expo</rs>. at 10.30—got
-            <lb/>back at 4.40. Some day
-            <lb/>we are going up <geogName ref="#Puget">Puget
-              <lb/><geogFeat>Sound</geogFeat></geogName>. I can do quite
-            <lb/>a stunt at eating now—
-            <lb/>devoured a small steak for
-            <lb/>my breakfast—a dish of
-            <lb/>strawberries, one of oatmeal,
-            <lb/>two muffins and three
-            <lb/>pancakes—and a cup of
-            <lb/>coffee. Sunburn is wearing
-            <lb/>off a trifle since I have
-            <lb/>left <rs ref="#Yellowstone">the park</rs>. They have a
-            <lb/>line of cable cars here, and
-            <lb/>some odd big ones. The
-            <lb/>population has increased
-            <lb/>150,000 in 2 years.
-            <pb facs="07-06-1909_GS_to_ATS_letter_p6.jpg"/>
-            <lb/>I am getting to be
-            <lb/>quite a critic on buildings
-            <lb/>with two builders.
-          </p>
-          <p>
-            <lb/>Havent done much on
-            <lb/>the writing stunt. I
-            <lb/>wrote <persName>Miss Childs</persName> a
-            <lb/>steamer letter, one to
-            <lb/><persName>Gus</persName>, I think I wrote
-            <lb/>one to <persName>Roswel</persName>, and a
-            <lb/>dozen lines to <persName>Nat</persName>
-            <lb/>telling him that I
-            <lb/>was having a dandy
-            <lb/>time—never knew
-            <lb/>where I was going next
-            <lb/>and did not know
-            <lb/>when I'd be home;
-            <lb/>and hoped that he'd
-            <lb/>have as pleasant a
-            <lb/>summer as I was
-            <lb/>having. Found nothing
-            <lb/>at the P.O. Gee! but
-            <lb/>I'd like to hear. Will
-            <lb/>probably be here until
-            <pb facs="07-06-1909_GS_to_ATS_letter_p7.jpg"/>
-            <lb/>the 20<hi rend="superscripted and underlined">th</hi> perhaps
-            <lb/>the 24<hi rend="superscripted and underlined">th</hi>. Am not sure
-            <lb/>as they don't say.
-          </p>
-          <p>
-            <lb/>Hope you—all are well.
+            <lb n="035"/>tell <name type="person">Mary McNamee</name><note target="n5">5</note> that WM was over 
+            <lb n="000"/>with us last evening and that he is well
+            <lb n="036"/>we will leave about 4 or 5 PM this 
+            <lb n="038"/>Tuesday <abbr expan="Evening">Eveng</abbr>
           </p>
           <closer>
-            <lb/><salute>Love and kisses</salute>
-            <lb/><signed><persName ref="#GMS">Gladys</persName></signed>
+            <lb/><salute>Affectionately &amp; <del type="recoverable" rend="overwritten" hand="WBA"></del>Truly Your</salute>
+            <lb/><signed><persName>WBA</persName></signed>
           </closer>
           <!-- If there were a <postscript>, we have a tag for that. -->
         </div>
         <!-- First, the envelope. -->
         <div type="envelope" xml:id="GS19090706env01" corresp="#GS19090706let01">
-          <pb facs="07-06-1909_GS_to_ATS_envelope.jpg"/>
+          <pb facs="XXX"/>
           <ab type="returnAddress">
-            <handShift new="#Stationery"/>
             <address>
-            <addrLine>Hotel Georgian</addrLine>
-            <addrLine>Fourth Avenue</addrLine>
-            <addrLine>Pike &amp; Union</addrLine>
-            <addrLine>Seattle, U. S. A.</addrLine>
+              <addrLine></addrLine>
+              <addrLine></addrLine>
+              <addrLine></addrLine>
+              <addrLine></addrLine>
             </address>
           </ab>
           <ab type="postalAddress">
-            <handShift new="#GMSHand"/>
             <persName>Mrs. A. T. Stephens</persName>
             <address>
-            <addrLine>26 Emerson street</addrLine>
-            <addrLine>Newton</addrLine>
-            <addrLine>Massachusetts</addrLine>
+              <addrLine>26 Emerson street</addrLine>
+              <addrLine>Newton</addrLine>
+              <addrLine>Massachusetts</addrLine>
             </address>
           </ab>
           <ab type="endorsement">
@@ -441,6 +437,7 @@
       </body>
     </text>
   </TEI>
+  
 
      <TEI xml:id="MyTextNumber1">
          <teiHeader>
