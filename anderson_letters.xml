@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
-     <teiHeader>
+     <teiHeader ana="AACR2">
          <fileDesc>
            
              <titleStmt>
-               <title>Selected Letters from the Dr. Ivan S. Gilbert collection of Stephens family travel letters,
-                 1834-1949 1909-1917</title>
+               <title>William B. Anderson's Civil War correspondence, 1862-1864</title>
              
                <editor><persName ref="#MEG">Meghan Elaine Griesemer</persName></editor>
                <editor role="Principal-editor"><persName ref="#HLU">H. Lewis Ulman</persName></editor>
@@ -91,7 +90,34 @@
              <!-- SEE STEPHENS FOR OTHER LIST TYPES -->
              <listPlace>
                <head>Places Mentioned in the Text</head>
-               <place></place>
+               <place type="city" xml:id="LouisvilleKY" source="#TGN">
+                 <placeName>Louisville</placeName>
+                 <desc>In his letter of June 16, Anderson notes that he did not 
+                 write to Louisa during a previous stop in Louisville, KY.</desc>
+                 <country>United States</country>
+                 <region type="state">Kentucky</region>
+                 <region type="county">Jefferson</region>
+                 <location>
+                   <geo>38.2500 -85.7500</geo>
+                 </location>
+                 <event type="stop" when="1862-06">
+                   <label></label>
+                 </event>
+               </place>
+               <place type="city" xml:id="CincinnatiOH" source="#TGN">
+                 <placeName>Cincinnati, OH</placeName>
+                 <desc></desc>
+                 <country>United States</country>
+                 <region type="state">Ohio</region>
+                 <region type="county">Hamilton</region>
+                 <location>
+                   <geo>39.1500 -84.4500</geo>
+                 </location>
+                 <event type="stop" when="1862-06-16">
+                   <label></label>
+                 </event>
+               </place>
+               
              </listPlace>
              
              <listBibl>
@@ -183,8 +209,23 @@
          
          <particDesc>
            <listPerson type="mentioned">
-             <head></head>
-             <person></person>
+             <head>People Mentioned in William B. Anderson's Letters</head>
+             <person xml:id="MLA" source="HOAC">
+               <persName>Mary Louisa Anderson (1837-1911)</persName>
+               <note type="biographical">Mary Louisa Fischgens (1837-1911) and Capt. William B. Anderson (1822-1897) were married September
+                 15, 1853 in Cincinnati, Ohio. They had five children.</note>
+               <birth when="1837"><placeName></placeName></birth>
+               <death when="1911"><placeName></placeName></death>
+               <bibl><ref target="HOAC"><title level="m">History of Allegheny County</title> (298).</ref></bibl>
+             </person>
+             <person xml:id="MAF" source="XXX">
+               <persName>Fischgens, Mary Ann, née Woolslayer</persName>
+               <note type="biographical">Mary Louisa Anderson's mother.</note>
+               <birth when="1800-01-01"><placeName></placeName></birth>
+               <death when="1800-01-01"><placeName></placeName></death>
+               <bibl><ref target="???"></ref></bibl>
+             </person>
+             
            </listPerson>
            
            <listPerson type="editors">
@@ -206,7 +247,7 @@
          <textClass>
            <keywords scheme="#LCSH">
              <term>Anderson, William B. (1822-1897)</term>
-             <term>Anderson, Mary Louisa ne?? Fischgens (1837-1911)</term>
+             <term>Anderson, Mary Louisa Fischgens (1837-1911)</term>
              <term>Ohio -- Cincinnati</term>
              <term>Kentucky -- Louisville</term>
              <term>Woolslayer, Mary Ann</term>
@@ -341,13 +382,13 @@
             -->
             
             <lb n="003"/>I did not write to you 
-            <lb n="004"/>from <name type="place" reg=" Louisville, KY">Louisville</name> on account of our 
+            <lb n="004"/>from <placeName ref=" LouisvilleKY">Louisville</placeName> on account of our 
             <lb n="005"/>short stay there &amp; thought we would 
-            <lb n="006"/><sic corr="beat">beet</sic> the Mail up, we will leave 
-            <lb n="007"/>here <sic corr="tonight">to night</sic> we had a good trip 
-            <lb n="008"/>of Coal boat men up here from <name type="place" reg=" Louisville, KY">Louisville</name>
+            <lb n="006"/><choice><corr>beat</corr><sic>beet</sic></choice> the Mail up, we will leave 
+            <lb n="007"/>here <choice><corr>tonight</corr><sic>to night</sic></choice> we had a good trip 
+            <lb n="008"/>of Coal boat men up here from <placeName ref=" LouisvilleKY">Louisville</placeName>
             <lb n="009"/>but our prospects are poor for a trip 
-            <lb n="010"/>of either Freight or <sic corr="passengers">Passenger</sic> up, though 
+            <lb n="010"/>of either Freight or <choice><corr>passengers</corr><sic>Passenger</sic></choice> up, though 
             <lb n="011"/>upon the whole we make a paying trip  
             <lb n="012"/>I will finish this half sheet just
             <lb n="013"/>before we start &amp; then I can tell you
@@ -358,15 +399,15 @@
             
             <lb n="015"/>We have laid over and will leave this 
             <lb n="016"/>Evening we are getting all we want I have 
-            <lb n="017"/>just been down to see your <rs type="person" reg="Fischgens, Mary Ann, née Woolslayer">mother</rs><note target="n2">2</note> she is not 
-            <lb n="018"/>very well Today sends her respects  <name type="person">Ella</name><note target="n3">3</note> 
+            <lb n="017"/>just been down to see your <rs ref="#MAF">mother</rs><ptr type="noteAnchor" target="mother"/><note resp="ed" xml:id="mother">Mary Louisa Anderson's mother.<bibl><ref target="HOAC"></ref></bibl>.</note> she is not 
+            <lb n="018"/>very well Today sends her respects  <persName>Ella</persName><ptr type="noteAnchor" target="ella"/><note resp="ed" xml:id="ella">Ella is unidentified.</note>
             <lb n="000"/>was at school I did not see her. There was 
             <lb n="019"/>a large fire down between Third st and The river 
-            <lb n="000"/>yesterday just one <sic corr="square">squear</sic> above the old<sic corr="lady's"> ladys</sic>  
+            <lb n="000"/>yesterday just one <choice><corr>square</corr><sic>squear</sic></choice> above the old<sic corr="lady's"> ladys</sic>  
             <lb n="020"/>and burnt a lot of Old Houses &amp; other property 
             <lb n="000"/>we have had all our rooms but 3 in 
             <lb n="021"/>the ladies Cabin full since last night but 
-            <lb n="022"/>we have not up <abbr expan="until">till</abbr> this time had a lady 
+            <lb n="022"/>we have not up till this time had a lady 
             <lb n="023"/>passenger on our boat the <name type="person" reg="Woolslayer, Mary Ann">old lady</name> says 
             <lb n="024"/>she would like to have you pay her a 
             <lb n="025"/>visit so if you think you would enjoy 
@@ -376,7 +417,7 @@
             <lb n="026"/>a trip I will offer you an invitation 
             <lb n="027"/><del type="recoverable" rend="overwritten" hand="WBA">t</del>we will if no accident get up about 
             <lb n="028"/>Saturday &amp; leave again about Tuesday 
-            <lb n="029"/><sic corr="today">to day</sic> it is all most suffocatingly hot 
+            <lb n="029"/><choice><corr>today</corr><sic>to day</sic></choice> it is all most suffocatingly hot 
             <lb n="030"/>and the dust is so thick that I cannot 
             <lb n="031"/>scarcely see the buildings along the wharf  
             <lb n="032"/>&amp; I think we must surely have a gust soon  
@@ -387,7 +428,7 @@
             <lb n="035"/>tell <name type="person">Mary McNamee</name><note target="n5">5</note> that WM was over 
             <lb n="000"/>with us last evening and that he is well
             <lb n="036"/>we will leave about 4 or 5 PM this 
-            <lb n="038"/>Tuesday <abbr expan="Evening">Eveng</abbr>
+            <lb n="038"/>Tuesday <choice><abbr>Eveng</abbr><expan>Evening</expan></choice>
           </p>
           <closer>
             <lb/><salute>Affectionately &amp; <del type="recoverable" rend="overwritten" hand="WBA"></del>Truly Your</salute>
