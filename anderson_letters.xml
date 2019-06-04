@@ -225,6 +225,13 @@
                <death when="1800-01-01"><placeName></placeName></death>
                <bibl><ref target="???"></ref></bibl>
              </person>
+             <person xml:id="WBA" source="HOAC">
+               <persName>William B. Anderson</persName>
+               <note type="biographical"></note>
+               <birth when="1822"><placeName></placeName></birth>
+               <death when="1897"><placeName></placeName></death>
+               <bibl><ref target="HOAC"><title level="m">History of Allegheny County</title> (298).</ref></bibl>
+             </person>
              
            </listPerson>
            
@@ -241,7 +248,7 @@
          </langUsage>
 
          <handNotes>
-           <handNote xml:id="WBA" medium="ink">Anderson, William B.</handNote>
+           <handNote xml:id="WBAink" medium="ink">Anderson, William B.</handNote>
          </handNotes>
          
          <textClass>
@@ -403,12 +410,12 @@
             <lb n="018"/>very well Today sends her respects  <persName>Ella</persName><ptr type="noteAnchor" target="ella"/><note resp="ed" xml:id="ella">Ella is unidentified.</note>
             <lb n="000"/>was at school I did not see her. There was 
             <lb n="019"/>a large fire down between Third st and The river 
-            <lb n="000"/>yesterday just one <choice><corr>square</corr><sic>squear</sic></choice> above the old<sic corr="lady's"> ladys</sic>  
+            <lb n="000"/>yesterday just one <choice><corr>square</corr><sic>squear</sic></choice> above the old <choice><corr>lady's"</corr><sic>ladys</sic></choice>  
             <lb n="020"/>and burnt a lot of Old Houses &amp; other property 
             <lb n="000"/>we have had all our rooms but 3 in 
             <lb n="021"/>the ladies Cabin full since last night but 
             <lb n="022"/>we have not up till this time had a lady 
-            <lb n="023"/>passenger on our boat the <name type="person" reg="Woolslayer, Mary Ann">old lady</name> says 
+            <lb n="023"/>passenger on our boat the <rs ref="#MAF">old lady</rs> says 
             <lb n="024"/>she would like to have you pay her a 
             <lb n="025"/>visit so if you think you would enjoy 
             
@@ -432,7 +439,7 @@
           </p>
           <closer>
             <lb/><salute>Affectionately &amp; <del type="recoverable" rend="overwritten" hand="WBA"></del>Truly Your</salute>
-            <lb/><signed><persName>WBA</persName></signed>
+            <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WBA</abbr></choice></persName></signed>
           </closer>
           <!-- If there were a <postscript>, we have a tag for that. -->
         </div>
