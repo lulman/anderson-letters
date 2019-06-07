@@ -79,10 +79,78 @@
 	             </publicationStmt>
 	             <notesStmt>
 	               <note type="descriptive">
-	                 <p></p>
+
 	               </note>
 	               <note type="introductory">
-	                 <p></p>
+	                 <p>
+	                   <figure rend="embed" n="250">
+	                     <head>Salutation from letter of 27 June 1862</head>
+	                     <graphic url="./image_sscox_orig_spine.jpg"/>
+	                     <figDesc>
+	                       Salutation from letter of 27 June 1862
+	                     </figDesc>
+	                   </figure>
+	                   Letter Call no.
+	                 </p>
+	                 
+	                 <p>Salutation from letter of 27 June 1862
+	                   In some ways, William B. Anderson's short letter of 27 June 1862 to his wife, Mary Louisa, 
+	                   typifies the twenty-one letters from William to Louisa that survive in the collection of the 
+	                   Rare Books and Manuscripts Library at The Ohio State University. It addresses three of the 
+	                   four broad topics about which he repeatedly writes to his wife during the summers of 1862, 1863, 
+	                   and 1864: managing domestic affairs and sustaining familial bonds when family members are 
+	                   separated for long periods by great distances; the rhetoric and logistics of mid-nineteenth-century 
+	                   correspondence; and the economic, logistical, and physical challenges of the riverboat business, 
+	                   especially on a waterway as critical as the Ohio River in the midst of the American Civil War 
+	                   (in other letters, Anderson also reflects more broadly on the uncertainties, vicissitudes, and 
+	                   suffering faced by civilians and soldiers alike in wartime).</p>
+	                 <p>However, this letter is also unique. All but two of the letters were written from Cincinnati, 
+	                   a thriving center of commerce on the Ohio River approximately halfway between its source at 
+	                   the confluence of the Allegheny and Monongahela Rivers in Pittsburgh, Pennsylvania and its confluence 
+	                   with the Mississippi River a mile or so south of Cairo, Illinois. The remaining letter in the collection 
+	                   was written from St. Louis, Missouri&#8212;though Anderson mentions writing from Louisville, Kentucky and 
+	                   Nashville, Tennessee as well. This letter was written from Pittsburgh, William and Louisa's home town. 
+	                   Presumably, he had been visiting his family and had expected to leave Pittsburgh by the Friday in late 
+	                   June when he wrote the letter; he writes to inform his wife of a delay.</p>
+	                 <p>As the collection in general reveals, delays were common, caused variously by negotiations over freight, 
+	                   water levels on the river, mechanical difficulties, and various military complications. 
+	                   Arrangements regarding freight seem to have kept Anderson in Pittsburgh overnight on June 27. 
+	                   He wants to secure a full load before leaving Pittsburgh because he "cannot depend upon getting 
+	                   any freight below here." He takes the opportunity to ask Louisa to send down "the Can of milk and 2 
+	                   jars of lard and my clothes and overcoat." The definite article stands out: <emph rend="italic">the</emph> 
+	                   Can of milk. 
+	                   One wonders whether, in his habitual haste (on which he often blames poor spelling and handwriting), 
+	                   he has simply rushed off and forgotten these items, and Louisa has sent him a note asking what she 
+	                   should do with them. In any case, in his haste to send her instructions, he crosses out the next 
+	                   two lines of his letter and recomposes them. Characteristically, the life of a riverboat captain 
+	                   seems frenetic.</p>
+	                 <p>It is also worth noting that he arranges to convey a note to his wife via "some one on the Shore at 
+	                   Shousetown." While the Andersons clearly handled much of their correspondence through the U.S. 
+	                   mail (he mentions post offices several times, and the collection includes one stamped envelope), 
+	                   they often convey both messages and goods through intermediaries traveling by rail or river.</p>
+	                 <p>Anderson's closing request constitutes something of a refrain in the letters. He asks Louisa to call 
+	                   on a Mr. Russell (probably John Russell, a local merchant) in order to collect money owed him, 
+	                   noting that he must meet his obligations on the crew's upcoming payday. Aside from suggesting that 
+	                   riverboat captains had to watch their cash flow carefully, this request reminds us that Louisa played 
+	                   a key role not only in caring for the Anderson household, including their four children (a fifth would 
+	                   be born in 1865), but also in tending to their business interests. Though we have only William 
+	                   Anderson's side of the correspondence, the letters reveal many details of Louisa's everyday life as well.</p>
+	                 <p>It is Louisa, presumably, whom we have to thank for initially preserving the letters, probably for 
+	                   the very common, personal reasons to which David Levy alludes in <title level="m">Scrolling Forward: Making Sense of 
+	                     Documents in the Digital Age</title>: "In the privacy of our own homes we are likely to hold on to any number 
+	                   of treasures: cards, letters, and notes written long ago, photographs, scrapbooks filled with mementoes 
+	                   from an earlier era. We can't throw them out, even if we can't say why. We may look at them rarely or 
+	                   not at all, yet still it is somehow comforting to know they are there. It's as if something of 
+	                   importance is embedded in their very substance. This has less to do with their information content 
+	                   per se than with the emotions they evoke and the personal relationships they signify and embody" (96&#8211;97). 
+	                   The Rare Books and Manuscripts Library at The Ohio State University purchased the letters in part 
+	                   because they fit into a larger goal of acquiring materials that reveal the "common man's view of great 
+	                   events," and war letters are one focus of that larger effort (Smith). The collection as a whole, and 
+	                   the letter of 27 June 1862 more specifically, should also prove interesting to business historians and 
+	                   students of letter writing in American culture (Hewitt). The passing of time has made the everyday 
+	                   information in the letters newly valuable, though the letters also retain the power Levy speaks of to 
+	                   evoke the emotional fabric of everyday life, especially when it becomes frayed in the course of great 
+	                   events.</p>
 	               </note>
 	             </notesStmt>
 	           </biblFull>
@@ -123,11 +191,21 @@
              <listBibl>
                <head>Works Cited in Notes</head>
                <bibl xml:id="HOAC" n="historyofallegheny">
-                 <title level="m">History of Allegheny County, Pennsylvania</title>
-                 <pubPlace>Chicago</pubPlace>
-                 <publisher>A. Warner &amp; Co. </publisher>
-                 <date>1889</date>
+                 <title level="m">History of Allegheny County, Pennsylvania</title>. Chicago: A. Warner &amp; Co., 1889.
                </bibl>
+               <bibl xml:id="hewitt" n="hewitt">
+                 <title level="u"> Lecture to English 569C, Digital Media and English Studies.</title> The Ohio State University. 
+                   6 Apr. 2006.
+               </bibl>
+               <bibl xml:id="Levy" n="Levy">
+                 <title level="m">Scrolling Forward: Making Sense of Documents in the Digital
+                   Age</title>. New York: Arcade, 2001.
+               </bibl>
+               <bibl xml:id="SmithG" n="SmithG">
+                 <title level="u">Lecture to English 569C, Digital Media and English Studies.</title>. The Ohio State University. 30 Mar. 2006.
+               </bibl>
+               
+               
              </listBibl>
              
 	        </sourceDesc>
@@ -487,7 +565,7 @@
   </TEI>
   
 
-     <TEI xml:id="MyTextNumber1">
+     <TEI xml:id="Letter02">
          <teiHeader>
              <fileDesc>
                  <titleStmt>
@@ -510,7 +588,7 @@
              </body>
          </text>
      </TEI>
-     <TEI xml:id="MyTextNumber2">
+  <TEI xml:id="Letter03">
          <teiHeader>
              <fileDesc>
                  <titleStmt>
@@ -533,5 +611,397 @@
              </body>
          </text>
      </TEI>
+  <TEI xml:id="Letter04">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title><!-- ... --></title>
+          <author><!-- ... --></author>
+        </titleStmt>
+        <publicationStmt>
+          <p><!-- ... --></p>
+        </publicationStmt>
+        <sourceDesc>
+          <p><!-- ... --></p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div>
+          <p><!-- ... --></p>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  <TEI xml:id="Letter05">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title><!-- ... --></title>
+          <author><!-- ... --></author>
+        </titleStmt>
+        <publicationStmt>
+          <p><!-- ... --></p>
+        </publicationStmt>
+        <sourceDesc>
+          <p><!-- ... --></p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div>
+          <p><!-- ... --></p>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  <TEI xml:id="Letter06">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title><!-- ... --></title>
+          <author><!-- ... --></author>
+        </titleStmt>
+        <publicationStmt>
+          <p><!-- ... --></p>
+        </publicationStmt>
+        <sourceDesc>
+          <p><!-- ... --></p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div>
+          <p><!-- ... --></p>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  <TEI xml:id="Letter07">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title><!-- ... --></title>
+          <author><!-- ... --></author>
+        </titleStmt>
+        <publicationStmt>
+          <p><!-- ... --></p>
+        </publicationStmt>
+        <sourceDesc>
+          <p><!-- ... --></p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div>
+          <p><!-- ... --></p>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  <TEI xml:id="Letter08">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title><!-- ... --></title>
+          <author><!-- ... --></author>
+        </titleStmt>
+        <publicationStmt>
+          <p><!-- ... --></p>
+        </publicationStmt>
+        <sourceDesc>
+          <p><!-- ... --></p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div>
+          <p><!-- ... --></p>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  <TEI xml:id="Letter09">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title><!-- ... --></title>
+          <author><!-- ... --></author>
+        </titleStmt>
+        <publicationStmt>
+          <p><!-- ... --></p>
+        </publicationStmt>
+        <sourceDesc>
+          <p><!-- ... --></p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div>
+          <p><!-- ... --></p>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  <TEI xml:id="Letter10">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title><!-- ... --></title>
+          <author><!-- ... --></author>
+        </titleStmt>
+        <publicationStmt>
+          <p><!-- ... --></p>
+        </publicationStmt>
+        <sourceDesc>
+          <p><!-- ... --></p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div>
+          <p><!-- ... --></p>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  <TEI xml:id="Letter11">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title><!-- ... --></title>
+          <author><!-- ... --></author>
+        </titleStmt>
+        <publicationStmt>
+          <p><!-- ... --></p>
+        </publicationStmt>
+        <sourceDesc>
+          <p><!-- ... --></p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div>
+          <p><!-- ... --></p>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  <TEI xml:id="Letter12">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title><!-- ... --></title>
+          <author><!-- ... --></author>
+        </titleStmt>
+        <publicationStmt>
+          <p><!-- ... --></p>
+        </publicationStmt>
+        <sourceDesc>
+          <p><!-- ... --></p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div>
+          <p><!-- ... --></p>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  <TEI xml:id="Letter13">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title><!-- ... --></title>
+          <author><!-- ... --></author>
+        </titleStmt>
+        <publicationStmt>
+          <p><!-- ... --></p>
+        </publicationStmt>
+        <sourceDesc>
+          <p><!-- ... --></p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div>
+          <p><!-- ... --></p>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  <TEI xml:id="Letter14">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title><!-- ... --></title>
+          <author><!-- ... --></author>
+        </titleStmt>
+        <publicationStmt>
+          <p><!-- ... --></p>
+        </publicationStmt>
+        <sourceDesc>
+          <p><!-- ... --></p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div>
+          <p><!-- ... --></p>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  <TEI xml:id="Letter15">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title><!-- ... --></title>
+          <author><!-- ... --></author>
+        </titleStmt>
+        <publicationStmt>
+          <p><!-- ... --></p>
+        </publicationStmt>
+        <sourceDesc>
+          <p><!-- ... --></p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div>
+          <p><!-- ... --></p>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  <TEI xml:id="Letter16">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title><!-- ... --></title>
+          <author><!-- ... --></author>
+        </titleStmt>
+        <publicationStmt>
+          <p><!-- ... --></p>
+        </publicationStmt>
+        <sourceDesc>
+          <p><!-- ... --></p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div>
+          <p><!-- ... --></p>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  <TEI xml:id="Letter17">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title><!-- ... --></title>
+          <author><!-- ... --></author>
+        </titleStmt>
+        <publicationStmt>
+          <p><!-- ... --></p>
+        </publicationStmt>
+        <sourceDesc>
+          <p><!-- ... --></p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div>
+          <p><!-- ... --></p>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  <TEI xml:id="Letter18">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title><!-- ... --></title>
+          <author><!-- ... --></author>
+        </titleStmt>
+        <publicationStmt>
+          <p><!-- ... --></p>
+        </publicationStmt>
+        <sourceDesc>
+          <p><!-- ... --></p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div>
+          <p><!-- ... --></p>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  <TEI xml:id="Letter19">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title><!-- ... --></title>
+          <author><!-- ... --></author>
+        </titleStmt>
+        <publicationStmt>
+          <p><!-- ... --></p>
+        </publicationStmt>
+        <sourceDesc>
+          <p><!-- ... --></p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div>
+          <p><!-- ... --></p>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  <TEI xml:id="Letter20">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title><!-- ... --></title>
+          <author><!-- ... --></author>
+        </titleStmt>
+        <publicationStmt>
+          <p><!-- ... --></p>
+        </publicationStmt>
+        <sourceDesc>
+          <p><!-- ... --></p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div>
+          <p><!-- ... --></p>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  
      <!-- More TEI Documents -->
 </teiCorpus>
