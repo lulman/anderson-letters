@@ -48,6 +48,7 @@
                <xsl:value-of
                   select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
             </title>
+            
             <!-- LOCAL JS CALLS -->
             <link rel="stylesheet" href="jquery-ui.css"/>
             <link href="anderson_letters.css" rel="stylesheet" type="text/css" />
@@ -137,8 +138,8 @@
                
                <div id="titleBar">
                   <p align="center"><span class="projectTitle"><xsl:apply-templates
-                     select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></span><br/></p>
-                  <hr/>
+                     select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></span><br/><br/></p>
+                   <hr/>
                </div> <!-- END titleBar -->
             </div> <!-- END masthead -->
             

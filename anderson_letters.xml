@@ -200,6 +200,27 @@
                    <label></label>
                  </event>
                </place>
+               <place type="city" xml:id="PittsburghPA" source="#TGN">
+                 <placeName>Pittsburgh</placeName>
+                 <desc></desc>
+                 <country>United States</country>
+                 <region type="state">Pennsylvania</region>
+                 <region type="county">Allegheny</region>
+                 <location>
+                   <geo>40.4333 -79.9833</geo>
+                 </location>
+               </place>
+               <place type="city" xml:id="MaysvilleKY" source="#TGN">
+                 <placeName>Maysville</placeName>
+                 <desc></desc>
+                 <country>United States</country>
+                 <region type="Kentucky"></region>
+                 <region type="Mason"></region>
+                 <location>
+                   <geo>38.6333 -83.7333</geo>
+                 </location>
+               </place>
+               
                
                
              </listPlace>
@@ -207,8 +228,8 @@
              <!-- FOR EACH LETTER, UPDATE BIBLIOGRAPHY -->
              <listBibl>
                <head>Works Cited in Notes</head>
-               <bibl xml:id="HOAC" n="historyofallegheny">
-                 <title level="m">History of Allegheny County, Pennsylvania</title>. Chicago: A. Warner &amp; Co., 1889.
+               <bibl xml:id="HOAC" n="Apfelbaum">
+                 Apfelbaum, Charles. <title level="m">History of Allegheny County, Pennsylvania</title>. Chicago: A. Warner &amp; Co., 1889.
                </bibl>
                <bibl xml:id="hewitt" n="hewitt">
                  <title level="u"> Lecture to English 569C, Digital Media and English Studies.</title> The Ohio State University. 
@@ -228,6 +249,17 @@
                <bibl xml:id="PittAtlas" n="1876">
                  <title level="a">1876 - Atlas of the Cities of Pittsburgh, Allegheny and Adjoining Boroughs: Plate 41</title>
                  <title level="m">Historic Pittsburgh</title>. http://images.library.pitt.edu/cgi-bin/maps/showmap.pl?client=maps&amp;image=76v01p41.
+               </bibl>
+               <bibl xml:id="JDE" n="DankerEmail">
+                 Danker, Jamie. <title level="u">"Re: Request for permission to reproduce two
+                   photos from your  Anderson family site"</title>. Email to H. Lewis Ulman. 20 May 2006.
+               </bibl>
+               <bibl xml:id="Green" n="Green">
+                 Green, Jerry. <title level="a">Steubenville, Ohio, and the Nineteenth-Century 
+                   Steamboat Trade</title>. <title level="m">Ohio History</title> 113 (Winter-Spring 2004): 18-30. http://publications.ohiohistory.org.
+               </bibl>               
+               <bibl xml:id="Neumeier" n="neumeier">
+                 Neumeier, Franz and Carmen Winkler. <title level="m">http://www.steamboats.org/cgi-bin/database.pl</title>
                </bibl>
                
                
@@ -335,6 +367,28 @@
                <death when="1897"><placeName></placeName></death>
                <bibl><ref target="HOAC"><title level="m">History of Allegheny County</title> (298).</ref></bibl>
              </person>
+             <person xml:id="WYA" source="HOAC">
+               <persName>William Y. Anderson</persName>
+               <note type="biographical">Son of William B. Anderson and Mary Louisa Fischgens Anderson. 
+                 He Married Nancy C. McKinely. He resided in Shoustown, Pa. He died of typhoid in PA, leaving a widow and 
+                 two children. He is buried in Allegheny Cemetery.  He left a widow and two young children.</note>
+               <birth when="1855"><placeName></placeName></birth>
+               <death when="1890"><placeName></placeName></death>
+               <bibl><ref target="HOAC"><title level="m">History
+                 of Allegheny County</title></ref>298</bibl>
+             </person>
+             <person xml:id="JLA" source="HOAC">
+               <persName>John L. Anderson</persName>
+               <note type="biographical">John L. Anderson (1859-1922). Son of William B. Anderson and Mary Louisa Fischgens Anderson. 
+                 Resided at the homestead. Wounded in Spottsylvania, Va., May 14, 1864, while serving the sixty-second 
+                 Pennsylvania volunteers from Antietam to Appomattox. He survived typhoid in 1890. He never married. He is 
+                 buried in the Allegheny Cemetery.</note>
+               <birth when="1859"><placeName></placeName></birth>
+               <death when="1922"><placeName></placeName></death>
+               <bibl><ref target="HOAC"><title level="m">History
+                 of Allegheny County</title></ref>298</bibl>
+             </person>
+             
              
            </listPerson>
            
@@ -482,7 +536,7 @@
     
     <text>
       <body>
-        <div type="letter" xml:id="WBA_18620616XXX" corresp="XXX" >
+        <div type="letter" xml:id="WBA_18620616_let" corresp="WBA_18620616_env" >
           <pb facs="/0/0fae4c6e-0056-4419-9325-15799bf50925"/>
           <head type="letterhead"></head>
           <figure rend="link">
@@ -565,7 +619,7 @@
           <!-- If there were a <postscript>, we have a tag for that. -->
         </div>
         <!-- First, the envelope. -->
-        <div type="envelope" xml:id="GS19090706env01" corresp="#GS19090706let01">
+        <div type="envelope" xml:id="WBA_18620616_env" corresp="#WBA_18620616_let">
           <pb facs="XXX"/>
           <ab type="returnAddress">
             <address>
@@ -576,33 +630,28 @@
             </address>
           </ab>
           <ab type="postalAddress">
-            <persName>Mrs. A. T. Stephens</persName>
+            <persName></persName>
             <address>
-              <addrLine>26 Emerson street</addrLine>
-              <addrLine>Newton</addrLine>
-              <addrLine>Massachusetts</addrLine>
+              <addrLine></addrLine>
+              <addrLine></addrLine>
+              <addrLine></addrLine>
             </address>
           </ab>
           <ab type="endorsement">
-            <handShift new="Unknown"/> 94<ptr type="noteAnchor" target="Endorsements"/>
-            <note resp="ed" xml:id="Endorsements">Similar numbers are penciled under the cancelled
-              postage stamp on several envelopes in the collection [FIGURE OUT PATTERN]. The second
-              number is circled.</note>
           </ab>
           <ab>
-            <stamp type="postmark"> SEATTLE, WASH. | JUL 6 | 9 - PM | 1909 </stamp>
-            <stamp type="cancellation"> WORLD'S FAIR SEATTLE </stamp>
+            <stamp type="postmark"></stamp>
+            <stamp type="cancellation"></stamp>
           </ab>
           <figure rend="link">
-            <head>Two-cent U.S. postage stamp.</head>
+            <head></head>
             <graphic
-              url="https://images.asc.ohio-state.edu/is/image/englishdocs07-06-1909_GS_to_ATS_envelope.jpg.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
-            <figDesc>U.S. POSTAGE | TWO CENTS [Portrait of Washington; perforated horizontally and
-              vertically; Design A139]</figDesc>
+              url=""/>
+            <figDesc></figDesc>
           </figure>
           <!-- See http://www.jamesdire.net/W-F.html -->
         </div>
-        <!-- Or an enclosure: <div type="enclosure" xml:id="GMS19090706enc01"></div> -->
+        <!-- Or an enclosure: <div type="enclosure" xml:id="WBA_18600101enc"></div> -->
       </body>
     </text>
   </TEI>
@@ -664,7 +713,7 @@
     
     <text>
       <body>
-        <div type="letter" xml:id="WBA_18620616XXX" corresp="XXX" >
+        <div type="letter" xml:id="X18620616" corresp="XXX" >
           <pb facs="/0/0fae4c6e-0056-4419-9325-15799bf50925"/>
           <head type="letterhead"></head>
           <figure rend="link">
@@ -712,7 +761,7 @@
           <!-- If there were a <postscript>, we have a tag for that. -->
         </div>
         <!-- First, the envelope. -->
-        <div type="envelope" xml:id="GS19090706env01" corresp="#GS19090706let01">
+        <div type="envelope" xml:id="XXX_env" corresp="#WBA_18600101_let">
           <pb facs="XXX"/>
           <ab type="returnAddress">
             <address>
@@ -723,38 +772,206 @@
             </address>
           </ab>
           <ab type="postalAddress">
-            <persName>Mrs. A. T. Stephens</persName>
+            <persName></persName>
             <address>
-              <addrLine>26 Emerson street</addrLine>
-              <addrLine>Newton</addrLine>
-              <addrLine>Massachusetts</addrLine>
+              <addrLine></addrLine>
+              <addrLine></addrLine>
+              <addrLine></addrLine>
             </address>
           </ab>
           <ab type="endorsement">
-<!--            <handShift new="Unknown"/> 94<ptr type="noteAnchor" target="Endorsements"/>
-            <note resp="ed" xml:id="Endorsements">Similar numbers are penciled under the cancelled
-              postage stamp on several envelopes in the collection [FIGURE OUT PATTERN]. The second
-              number is circled.</note>
--->          </ab>
+          </ab>
           <ab>
-            <stamp type="postmark"> SEATTLE, WASH. | JUL 6 | 9 - PM | 1909 </stamp>
-            <stamp type="cancellation"> WORLD'S FAIR SEATTLE </stamp>
+            <stamp type="postmark"></stamp>
+            <stamp type="cancellation"></stamp>
           </ab>
           <figure rend="link">
-            <head>Two-cent U.S. postage stamp.</head>
+            <head></head>
             <graphic
-              url="https://images.asc.ohio-state.edu/is/image/englishdocs07-06-1909_GS_to_ATS_envelope.jpg.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
-            <figDesc>U.S. POSTAGE | TWO CENTS [Portrait of Washington; perforated horizontally and
-              vertically; Design A139]</figDesc>
+              url=""/>
+            <figDesc></figDesc>
           </figure>
           <!-- See http://www.jamesdire.net/W-F.html -->
         </div>
-        <!-- Or an enclosure: <div type="enclosure" xml:id="GMS19090706enc01"></div> -->
+        <!-- Or an enclosure: <div type="enclosure" xml:id="WBA_18600101enc"></div> -->
+      </body>
+    </text>
+  </TEI>
+
+  <TEI xml:id="WBA_18620711" n="1862-07-11">
+    <!-- FILL IN THE VALUES ABOVE -->
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Personal letter from William B. Anderson to his wife, Louisa, 11 July 1862</title>
+          <author>Anderson, William B.</author>
+        </titleStmt>
+        <publicationStmt>
+          <p><!-- ... --></p>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc>
+            <msIdentifier>
+              <country>USA</country>
+              <settlement>Columbus, OH</settlement>
+              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
+              <collection>William B. Anderson Collection</collection>
+              <idno>SPEC.RARE.CMS.0309</idno>
+            </msIdentifier>
+            <msContents>
+              <p>Anderson tells his wife that his boat will attempt to beat another riverboat 
+                to Murraysville, WV. He explains that his sleep has been restless, inquires about their two sons and asks 
+                her to write more and to write back regarding business prospects. He is rushed, and signs off three times.</p>
+            </msContents>
+            <physDesc>
+              <p>William B. Anderson's letter dated July 11, 1862 from Cincinnati and
+                addressed to his wife Louisa is written in ink on both sides of a 
+                loose sheet of paper measuring approximately 7.5 inches wide by 12.5 inches 
+                tall (20 x 32 cm). The paper is not ruled as are others in this collection.  
+                The left edge of the sheet is slightly ragged, while the other three edges 
+                are clean, suggesting that the sheet was torn from a notepad or bound notebook. 
+                It appears originally to have been folded twice crosswise and not lengthwise, leaving
+                a 5 inch middle section without foldes. This may or may not illustrate the size of the envelope. 
+                At this writing, the ink appears brown and the paper off-white (cream). A .5-inch
+                by .5-inch (1.3 x 1.3 cm) embossed printer's mark appears in the upper lefthand 
+                corner of the sheet, 0.5 inches (1.3 cm) from the top edge and .25 inches 
+                (0.6 cm) from the left edge. Although the mark is indistinct, its shape 
+                closely matches that of a distinct, similarly sized and positioned printer's 
+                mark on a letter dated July 18, 1863, which reads "OWEN &amp; HURLBUT SO. LEE MASS" 
+                (see illustrations). Texture? Stiffness? Watermarks? I will have to visit 
+                the RBML.</p>
+              <accMat></accMat>
+            </physDesc>
+            <additional>
+              <adminInfo>
+                <!-- Info from the finding aid -->
+                <note></note>
+              </adminInfo>
+            </additional>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    
+    <text>
+      <body>
+        <div type="letter" xml:id="WBA_18620711_let">
+          <!-- REVISE THE VALUES ABOVE -->
+          <pb facs="/2/23c18d32-7a89-4e5a-8b2a-b01acbc985e7"/>
+          <head type="letterhead"></head>
+          <figure rend="link">
+            <head></head>
+            <graphic url=""></graphic>
+            <figDesc></figDesc>
+          </figure>
+          <lb/>
+          <opener>
+            <lb/><dateline><address><placeName type="city" ref="PittsburghPA"><del>Pitts </del></placeName>
+              <placeName type="city" ref="CincinnatiOH">Cin<ptr type="noteAnchor" target="Cin"/><note resp="ed" xml:id="Cin">The "2" is somewhat unclear. 
+                It resembles a "4". However, later in the letter, the
+                author tells his wife to "be sure to write as before" and that he has "enclosed an envelope in
+                yesterday's letter. The day before (Friday) July 11, 1962 would have been a Thursday, whereas the 
+                day before (Monday) July 11, 1964 would have been a Sunday. Assuming the author literally enclosed and mailed
+                a letter containing an envelope, the date must be 1962 as he could not have sent mail out on Sunday.</note>
+             </placeName></address>
+              
+              <date when="1862-07-11">July 11/62</date></dateline>
+            <lb/><salute>Dear <rs type="recipient" ref="MLA">Wife</rs></salute>
+          </opener>
+          <p>
+            <lb/> I have but a moment to
+            <lb/> drop you a line we are about to leave
+            <lb/>here it is now 1 Oclock and we are
+            <lb/>anxious to leave ahead of the <name type="ship">Fanny M Burny</name><ptr type="noteAnchor" target="McBurnie"/><note resp="ed" xml:id="McBurnie">The author 
+              is most definitely referring to a riverboat. Although the writing is unclear, 
+              he may be naming the Fanny McBurnie. If so, he has misspelled the name by replacing 
+              the ‘ie’ with a ‘y’, writing M. Burny. I found no record of a boat that went by such 
+              a spelling. However, the Fanny McBurnie (or McBurney) seems to have existed (need citation).</note>
+            <lb/>for by doing so we Can beat her to <seg type="softhyphen">
+            <lb/>=</seg>ville and by so doing will be benefitted
+            <lb/>Materially our prospects are poor &amp; we can
+            <lb/>not count on making much this trip but
+            <lb/>are bound <supplied reason ="omitted">to</supplied> Keep the Boat moving I
+            <lb/>Telegraphed to <placeName type="city" ref="PittsburghPA">Pitt</placeName> today to see what the 
+            <lb/>prospect of water was &amp; have not got an
+            <lb/>Answer to my dispatch yet,  I am extremely 
+            <lb/>Anxious to get home and will go as soon
+            <lb/>as water &amp; other circumstances will permit
+            <lb/>last night was the worst night I ever attempted
+            <lb/>to put in, I never saw the like of the mosquitoes
+            <lb/>I tried to Sleep in my room &amp; Failed and then
+            <lb/>failed and tried in the recess at the stern and
+            <lb/>failed then also &amp; then in the Boiler deck &amp;
+            <lb/>from that to the hurricane deck &amp; still failed
+            <lb/>and John and I started up town and got a
+            <lb/>good room at the spence house and slept from
+            <lb/>1 to 5 oclock which is the best sleep I have
+            <lb/>had for a week.  You would not think that
+            <lb/>the mosquitoes could be as large and <choice><corr>plentiful</corr><sic>plentifull</sic></choice> as
+            <lb/>they are John<seg><note target="n8">8</note></seg> says that they are worse than
+            <lb/>they were at California.  Enough of Complaints 
+            <lb/>I think you might string out your letters
+            <lb/>a little longer as you have a good and cool
+            <lb/>place to write and I have not,  give my love
+            <lb/>to the children and yourself  I am in a hurry
+            <lb/>Excuse bad writing  
+            <!-- TEXT OF THE LETTER between OPENER and CLOSER. ADD NOTES!  -->
+          </p> 
+          <closer>
+            <lb/>
+            <lb/><salute>Your Husband</salute>
+            <lb/>
+            <signed>
+              <persName ref="WBA">WB Anderson</persName>
+            </signed> 
+            <lb/>
+          </closer>
+          <!-- If there were a <postscript>, we have a tag for that. -->
+          <postscript>
+            <pb facs="/2/2bc9d12f-fefb-43ad-ac3f-9cad093271ee"/>
+            <p>
+              <lb/>Write to me and let me know how 
+              <lb/>old man <persName>Walsh</persName> is Coming on also what
+              <lb/>the prospects of Corn Potatoes &amp;C. are
+              <lb/>also what you and <rs type="person">the Maid</rs> have been
+              <lb/>doing and how she <choice><corr>turned</corr><sic>tured</sic></choice> out is 
+              <persName type="nickname">Willy</persName>
+              <lb/>at school &amp; has <persName>John</persName> got stout
+              <lb/>I am interrupted by <persName type="person">Jo</persName> &amp; others and must
+              <lb/>stop so good <choice><corr>bye</corr><sic>by</sic></choice> 
+            </p>
+          </postscript>
+            <closer>
+              <lb/>
+              <lb/><salute>Your <choice><corr>respectfully</corr><sic>respectfuly</sic></choice></salute>
+              <lb/>
+              <signed>
+                <persName ref="WBA" type="person">WB Anderson</persName>
+              </signed>
+              <lb/>
+            </closer>
+          <postscript>
+            <p>
+              <lb/>PS be sure to write as before
+              <lb/>I enclosed an <choice><corr>envelope</corr><sic>Envellop</sic></choice> in Yesterdays
+              <lb/>letter
+              
+            </p>
+            <closer>
+              <lb/>
+              <lb/>
+              <signed>
+                <persName ref="WBA" type="person">WBA</persName>
+              </signed>
+            </closer>
+          </postscript>
+        </div>
       </body>
     </text>
   </TEI>
   
-  <TEI xml:id="<!-- From TEI.2 id, LETTER 03 -->" n="<!-- Format 18YY-MM-DD -->">
+  <TEI xml:id="WBA_18000000" n="1800-00-00">
+    <!-- FILL IN THE VALUES ABOVE -->
     <teiHeader>
       <fileDesc>
         <titleStmt>
@@ -793,7 +1010,8 @@
     
     <text>
       <body>
-        <div type="letter" xml:id="WBA_18620616XXX" corresp="XXX" >
+        <div type="letter" xml:id="XWBA_18620616XXX" corresp="XXX" >
+          <!-- REVISE THE VALUES ABOVE -->
           <pb facs="/0/0fae4c6e-0056-4419-9325-15799bf50925"/>
           <head type="letterhead"></head>
           <figure rend="link">
@@ -815,15 +1033,15 @@
             -->
             
             <!-- TEXT OF THE LETTER between OPENER and CLOSER. ADD NOTES!  -->
-            
+          </p> 
             <closer>
               <lb/><salute><!-- From salute --></salute>
               <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WBA</abbr></choice></persName></signed>
             </closer>
-            <!-- If there were a <postscript>, we have a tag for that. -->
+          <!-- If there were a <postscript>, we have a tag for that. -->
         </div>
         <!-- First, the envelope. -->
-        <div type="envelope" xml:id="GS19090706env01" corresp="#GS19090706let01">
+        <div type="envelope" xml:id="envelope_ID" corresp="letter_ID">
           <pb facs="XXX"/>
           <ab type="returnAddress">
             <address>
@@ -834,1909 +1052,31 @@
             </address>
           </ab>
           <ab type="postalAddress">
-            <persName>Mrs. A. T. Stephens</persName>
+            <persName></persName>
             <address>
-              <addrLine>26 Emerson street</addrLine>
-              <addrLine>Newton</addrLine>
-              <addrLine>Massachusetts</addrLine>
+              <addrLine></addrLine>
+              <addrLine></addrLine>
+              <addrLine></addrLine>
             </address>
           </ab>
           <ab type="endorsement">
-            <!--            <handShift new="Unknown"/> 94<ptr type="noteAnchor" target="Endorsements"/>
-            <note resp="ed" xml:id="Endorsements">Similar numbers are penciled under the cancelled
-              postage stamp on several envelopes in the collection [FIGURE OUT PATTERN]. The second
-              number is circled.</note>
--->          </ab>
+          </ab>
           <ab>
-            <stamp type="postmark"> SEATTLE, WASH. | JUL 6 | 9 - PM | 1909 </stamp>
-            <stamp type="cancellation"> WORLD'S FAIR SEATTLE </stamp>
+            <stamp type="postmark"></stamp>
+            <stamp type="cancellation"></stamp>
           </ab>
           <figure rend="link">
-            <head>Two-cent U.S. postage stamp.</head>
+            <head></head>
             <graphic
-              url="https://images.asc.ohio-state.edu/is/image/englishdocs07-06-1909_GS_to_ATS_envelope.jpg.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
-            <figDesc>U.S. POSTAGE | TWO CENTS [Portrait of Washington; perforated horizontally and
-              vertically; Design A139]</figDesc>
+              url=""/>
+            <figDesc></figDesc>
           </figure>
           <!-- See http://www.jamesdire.net/W-F.html -->
         </div>
-        <!-- Or an enclosure: <div type="enclosure" xml:id="GMS19090706enc01"></div> -->
+        <!-- Or an enclosure: <div type="enclosure" xml:id="WBA_18600101enc"></div> -->
       </body>
     </text>
   </TEI>
-  
-  <TEI xml:id="<!-- From TEI.2 id, LETTER 04 -->" n="<!-- Format 18YY-MM-DD -->">
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title><!-- From same element --></title>
-          <author>Anderson, William B.</author>
-        </titleStmt>
-        <publicationStmt>
-          <p><!-- ... --></p>
-        </publicationStmt>
-        <sourceDesc>
-          <msDesc>
-            <msIdentifier>
-              <country>USA</country>
-              <settlement>Columbus, OH</settlement>
-              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
-              <collection>William B. Anderson Collection</collection>
-              <idno>SPEC.RARE.CMS.0309</idno>
-            </msIdentifier>
-            <msContents>
-              <p><!-- From <front><div1><p> (after <head>) --></p>
-            </msContents>
-            <physDesc>
-              <p><!-- From <notesStmt><note><p> --></p>
-              <accMat></accMat>
-            </physDesc>
-            <additional>
-              <adminInfo>
-                <!-- Info from the finding aid -->
-                <note></note>
-              </adminInfo>
-            </additional>
-          </msDesc>
-        </sourceDesc>
-      </fileDesc>
-    </teiHeader>
     
-    <text>
-      <body>
-        <div type="letter" xml:id="WBA_18620616XXX" corresp="XXX" >
-          <pb facs="/0/0fae4c6e-0056-4419-9325-15799bf50925"/>
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
-          <lb/>
-          <opener>
-            <lb/><dateline><date when="1862-06-16"></date>June 16/62</dateline>
-            <lb/><salute>My Dear<rs type="recipient">Wife</rs></salute>
-          </opener>
-          <p>
-            
-            <!-- Beginning with the body of the letter, lines in this template have been identified 
-               to allow for cross references and numbered to allow for numbered display. IDs must 
-               be unique within the document. However, you do not need to report line breaks at all 
-               if doing so serves no purpose in your edition. -->            
-            -->
-            
-            <!-- TEXT OF THE LETTER between OPENER and CLOSER. ADD NOTES!  -->
-            
-            <closer>
-              <lb/><salute><!-- From salute --></salute>
-              <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WBA</abbr></choice></persName></signed>
-            </closer>
-            <!-- If there were a <postscript>, we have a tag for that. -->
-        </div>
-        <!-- First, the envelope. -->
-        <div type="envelope" xml:id="GS19090706env01" corresp="#GS19090706let01">
-          <pb facs="XXX"/>
-          <ab type="returnAddress">
-            <address>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-            </address>
-          </ab>
-          <ab type="postalAddress">
-            <persName>Mrs. A. T. Stephens</persName>
-            <address>
-              <addrLine>26 Emerson street</addrLine>
-              <addrLine>Newton</addrLine>
-              <addrLine>Massachusetts</addrLine>
-            </address>
-          </ab>
-          <ab type="endorsement">
-            <!--            <handShift new="Unknown"/> 94<ptr type="noteAnchor" target="Endorsements"/>
-            <note resp="ed" xml:id="Endorsements">Similar numbers are penciled under the cancelled
-              postage stamp on several envelopes in the collection [FIGURE OUT PATTERN]. The second
-              number is circled.</note>
--->          </ab>
-          <ab>
-            <stamp type="postmark"> SEATTLE, WASH. | JUL 6 | 9 - PM | 1909 </stamp>
-            <stamp type="cancellation"> WORLD'S FAIR SEATTLE </stamp>
-          </ab>
-          <figure rend="link">
-            <head>Two-cent U.S. postage stamp.</head>
-            <graphic
-              url="https://images.asc.ohio-state.edu/is/image/englishdocs07-06-1909_GS_to_ATS_envelope.jpg.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
-            <figDesc>U.S. POSTAGE | TWO CENTS [Portrait of Washington; perforated horizontally and
-              vertically; Design A139]</figDesc>
-          </figure>
-          <!-- See http://www.jamesdire.net/W-F.html -->
-        </div>
-        <!-- Or an enclosure: <div type="enclosure" xml:id="GMS19090706enc01"></div> -->
-      </body>
-    </text>
-  </TEI>
-  
-  <TEI xml:id="<!-- From TEI.2 id, LETTER 02 -->" n="<!-- Format 18YY-MM-DD -->">
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title><!-- From same element --></title>
-          <author>Anderson, William B.</author>
-        </titleStmt>
-        <publicationStmt>
-          <p><!-- ... --></p>
-        </publicationStmt>
-        <sourceDesc>
-          <msDesc>
-            <msIdentifier>
-              <country>USA</country>
-              <settlement>Columbus, OH</settlement>
-              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
-              <collection>William B. Anderson Collection</collection>
-              <idno>SPEC.RARE.CMS.0309</idno>
-            </msIdentifier>
-            <msContents>
-              <p><!-- From <front><div1><p> (after <head>) --></p>
-            </msContents>
-            <physDesc>
-              <p><!-- From <notesStmt><note><p> --></p>
-              <accMat></accMat>
-            </physDesc>
-            <additional>
-              <adminInfo>
-                <!-- Info from the finding aid -->
-                <note></note>
-              </adminInfo>
-            </additional>
-          </msDesc>
-        </sourceDesc>
-      </fileDesc>
-    </teiHeader>
-    
-    <text>
-      <body>
-        <div type="letter" xml:id="WBA_18620616XXX" corresp="XXX" >
-          <pb facs="/0/0fae4c6e-0056-4419-9325-15799bf50925"/>
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
-          <lb/>
-          <opener>
-            <lb/><dateline><date when="1862-06-16"></date>June 16/62</dateline>
-            <lb/><salute>My Dear<rs type="recipient">Wife</rs></salute>
-          </opener>
-          <p>
-            
-            <!-- Beginning with the body of the letter, lines in this template have been identified 
-               to allow for cross references and numbered to allow for numbered display. IDs must 
-               be unique within the document. However, you do not need to report line breaks at all 
-               if doing so serves no purpose in your edition. -->            
-            -->
-            
-            <!-- TEXT OF THE LETTER between OPENER and CLOSER. ADD NOTES!  -->
-            
-            <closer>
-              <lb/><salute><!-- From salute --></salute>
-              <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WBA</abbr></choice></persName></signed>
-            </closer>
-            <!-- If there were a <postscript>, we have a tag for that. -->
-        </div>
-        <!-- First, the envelope. -->
-        <div type="envelope" xml:id="GS19090706env01" corresp="#GS19090706let01">
-          <pb facs="XXX"/>
-          <ab type="returnAddress">
-            <address>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-            </address>
-          </ab>
-          <ab type="postalAddress">
-            <persName>Mrs. A. T. Stephens</persName>
-            <address>
-              <addrLine>26 Emerson street</addrLine>
-              <addrLine>Newton</addrLine>
-              <addrLine>Massachusetts</addrLine>
-            </address>
-          </ab>
-          <ab type="endorsement">
-            <!--            <handShift new="Unknown"/> 94<ptr type="noteAnchor" target="Endorsements"/>
-            <note resp="ed" xml:id="Endorsements">Similar numbers are penciled under the cancelled
-              postage stamp on several envelopes in the collection [FIGURE OUT PATTERN]. The second
-              number is circled.</note>
--->          </ab>
-          <ab>
-            <stamp type="postmark"> SEATTLE, WASH. | JUL 6 | 9 - PM | 1909 </stamp>
-            <stamp type="cancellation"> WORLD'S FAIR SEATTLE </stamp>
-          </ab>
-          <figure rend="link">
-            <head>Two-cent U.S. postage stamp.</head>
-            <graphic
-              url="https://images.asc.ohio-state.edu/is/image/englishdocs07-06-1909_GS_to_ATS_envelope.jpg.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
-            <figDesc>U.S. POSTAGE | TWO CENTS [Portrait of Washington; perforated horizontally and
-              vertically; Design A139]</figDesc>
-          </figure>
-          <!-- See http://www.jamesdire.net/W-F.html -->
-        </div>
-        <!-- Or an enclosure: <div type="enclosure" xml:id="GMS19090706enc01"></div> -->
-      </body>
-    </text>
-  </TEI>
-  <TEI xml:id="<!-- From TEI.2 id, LETTER 02 -->" n="<!-- Format 18YY-MM-DD -->">
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title><!-- From same element --></title>
-          <author>Anderson, William B.</author>
-        </titleStmt>
-        <publicationStmt>
-          <p><!-- ... --></p>
-        </publicationStmt>
-        <sourceDesc>
-          <msDesc>
-            <msIdentifier>
-              <country>USA</country>
-              <settlement>Columbus, OH</settlement>
-              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
-              <collection>William B. Anderson Collection</collection>
-              <idno>SPEC.RARE.CMS.0309</idno>
-            </msIdentifier>
-            <msContents>
-              <p><!-- From <front><div1><p> (after <head>) --></p>
-            </msContents>
-            <physDesc>
-              <p><!-- From <notesStmt><note><p> --></p>
-              <accMat></accMat>
-            </physDesc>
-            <additional>
-              <adminInfo>
-                <!-- Info from the finding aid -->
-                <note></note>
-              </adminInfo>
-            </additional>
-          </msDesc>
-        </sourceDesc>
-      </fileDesc>
-    </teiHeader>
-    
-    <text>
-      <body>
-        <div type="letter" xml:id="WBA_18620616XXX" corresp="XXX" >
-          <pb facs="/0/0fae4c6e-0056-4419-9325-15799bf50925"/>
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
-          <lb/>
-          <opener>
-            <lb/><dateline><date when="1862-06-16"></date>June 16/62</dateline>
-            <lb/><salute>My Dear<rs type="recipient">Wife</rs></salute>
-          </opener>
-          <p>
-            
-            <!-- Beginning with the body of the letter, lines in this template have been identified 
-               to allow for cross references and numbered to allow for numbered display. IDs must 
-               be unique within the document. However, you do not need to report line breaks at all 
-               if doing so serves no purpose in your edition. -->            
-            -->
-            
-            <!-- TEXT OF THE LETTER between OPENER and CLOSER. ADD NOTES!  -->
-            
-            <closer>
-              <lb/><salute><!-- From salute --></salute>
-              <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WBA</abbr></choice></persName></signed>
-            </closer>
-            <!-- If there were a <postscript>, we have a tag for that. -->
-        </div>
-        <!-- First, the envelope. -->
-        <div type="envelope" xml:id="GS19090706env01" corresp="#GS19090706let01">
-          <pb facs="XXX"/>
-          <ab type="returnAddress">
-            <address>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-            </address>
-          </ab>
-          <ab type="postalAddress">
-            <persName>Mrs. A. T. Stephens</persName>
-            <address>
-              <addrLine>26 Emerson street</addrLine>
-              <addrLine>Newton</addrLine>
-              <addrLine>Massachusetts</addrLine>
-            </address>
-          </ab>
-          <ab type="endorsement">
-            <!--            <handShift new="Unknown"/> 94<ptr type="noteAnchor" target="Endorsements"/>
-            <note resp="ed" xml:id="Endorsements">Similar numbers are penciled under the cancelled
-              postage stamp on several envelopes in the collection [FIGURE OUT PATTERN]. The second
-              number is circled.</note>
--->          </ab>
-          <ab>
-            <stamp type="postmark"> SEATTLE, WASH. | JUL 6 | 9 - PM | 1909 </stamp>
-            <stamp type="cancellation"> WORLD'S FAIR SEATTLE </stamp>
-          </ab>
-          <figure rend="link">
-            <head>Two-cent U.S. postage stamp.</head>
-            <graphic
-              url="https://images.asc.ohio-state.edu/is/image/englishdocs07-06-1909_GS_to_ATS_envelope.jpg.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
-            <figDesc>U.S. POSTAGE | TWO CENTS [Portrait of Washington; perforated horizontally and
-              vertically; Design A139]</figDesc>
-          </figure>
-          <!-- See http://www.jamesdire.net/W-F.html -->
-        </div>
-        <!-- Or an enclosure: <div type="enclosure" xml:id="GMS19090706enc01"></div> -->
-      </body>
-    </text>
-  </TEI>
-  <TEI xml:id="<!-- From TEI.2 id, LETTER 02 -->" n="<!-- Format 18YY-MM-DD -->">
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title><!-- From same element --></title>
-          <author>Anderson, William B.</author>
-        </titleStmt>
-        <publicationStmt>
-          <p><!-- ... --></p>
-        </publicationStmt>
-        <sourceDesc>
-          <msDesc>
-            <msIdentifier>
-              <country>USA</country>
-              <settlement>Columbus, OH</settlement>
-              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
-              <collection>William B. Anderson Collection</collection>
-              <idno>SPEC.RARE.CMS.0309</idno>
-            </msIdentifier>
-            <msContents>
-              <p><!-- From <front><div1><p> (after <head>) --></p>
-            </msContents>
-            <physDesc>
-              <p><!-- From <notesStmt><note><p> --></p>
-              <accMat></accMat>
-            </physDesc>
-            <additional>
-              <adminInfo>
-                <!-- Info from the finding aid -->
-                <note></note>
-              </adminInfo>
-            </additional>
-          </msDesc>
-        </sourceDesc>
-      </fileDesc>
-    </teiHeader>
-    
-    <text>
-      <body>
-        <div type="letter" xml:id="WBA_18620616XXX" corresp="XXX" >
-          <pb facs="/0/0fae4c6e-0056-4419-9325-15799bf50925"/>
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
-          <lb/>
-          <opener>
-            <lb/><dateline><date when="1862-06-16"></date>June 16/62</dateline>
-            <lb/><salute>My Dear<rs type="recipient">Wife</rs></salute>
-          </opener>
-          <p>
-            
-            <!-- Beginning with the body of the letter, lines in this template have been identified 
-               to allow for cross references and numbered to allow for numbered display. IDs must 
-               be unique within the document. However, you do not need to report line breaks at all 
-               if doing so serves no purpose in your edition. -->            
-            -->
-            
-            <!-- TEXT OF THE LETTER between OPENER and CLOSER. ADD NOTES!  -->
-            
-            <closer>
-              <lb/><salute><!-- From salute --></salute>
-              <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WBA</abbr></choice></persName></signed>
-            </closer>
-            <!-- If there were a <postscript>, we have a tag for that. -->
-        </div>
-        <!-- First, the envelope. -->
-        <div type="envelope" xml:id="GS19090706env01" corresp="#GS19090706let01">
-          <pb facs="XXX"/>
-          <ab type="returnAddress">
-            <address>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-            </address>
-          </ab>
-          <ab type="postalAddress">
-            <persName>Mrs. A. T. Stephens</persName>
-            <address>
-              <addrLine>26 Emerson street</addrLine>
-              <addrLine>Newton</addrLine>
-              <addrLine>Massachusetts</addrLine>
-            </address>
-          </ab>
-          <ab type="endorsement">
-            <!--            <handShift new="Unknown"/> 94<ptr type="noteAnchor" target="Endorsements"/>
-            <note resp="ed" xml:id="Endorsements">Similar numbers are penciled under the cancelled
-              postage stamp on several envelopes in the collection [FIGURE OUT PATTERN]. The second
-              number is circled.</note>
--->          </ab>
-          <ab>
-            <stamp type="postmark"> SEATTLE, WASH. | JUL 6 | 9 - PM | 1909 </stamp>
-            <stamp type="cancellation"> WORLD'S FAIR SEATTLE </stamp>
-          </ab>
-          <figure rend="link">
-            <head>Two-cent U.S. postage stamp.</head>
-            <graphic
-              url="https://images.asc.ohio-state.edu/is/image/englishdocs07-06-1909_GS_to_ATS_envelope.jpg.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
-            <figDesc>U.S. POSTAGE | TWO CENTS [Portrait of Washington; perforated horizontally and
-              vertically; Design A139]</figDesc>
-          </figure>
-          <!-- See http://www.jamesdire.net/W-F.html -->
-        </div>
-        <!-- Or an enclosure: <div type="enclosure" xml:id="GMS19090706enc01"></div> -->
-      </body>
-    </text>
-  </TEI>
-  <TEI xml:id="<!-- From TEI.2 id, LETTER 02 -->" n="<!-- Format 18YY-MM-DD -->">
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title><!-- From same element --></title>
-          <author>Anderson, William B.</author>
-        </titleStmt>
-        <publicationStmt>
-          <p><!-- ... --></p>
-        </publicationStmt>
-        <sourceDesc>
-          <msDesc>
-            <msIdentifier>
-              <country>USA</country>
-              <settlement>Columbus, OH</settlement>
-              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
-              <collection>William B. Anderson Collection</collection>
-              <idno>SPEC.RARE.CMS.0309</idno>
-            </msIdentifier>
-            <msContents>
-              <p><!-- From <front><div1><p> (after <head>) --></p>
-            </msContents>
-            <physDesc>
-              <p><!-- From <notesStmt><note><p> --></p>
-              <accMat></accMat>
-            </physDesc>
-            <additional>
-              <adminInfo>
-                <!-- Info from the finding aid -->
-                <note></note>
-              </adminInfo>
-            </additional>
-          </msDesc>
-        </sourceDesc>
-      </fileDesc>
-    </teiHeader>
-    
-    <text>
-      <body>
-        <div type="letter" xml:id="WBA_18620616XXX" corresp="XXX" >
-          <pb facs="/0/0fae4c6e-0056-4419-9325-15799bf50925"/>
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
-          <lb/>
-          <opener>
-            <lb/><dateline><date when="1862-06-16"></date>June 16/62</dateline>
-            <lb/><salute>My Dear<rs type="recipient">Wife</rs></salute>
-          </opener>
-          <p>
-            
-            <!-- Beginning with the body of the letter, lines in this template have been identified 
-               to allow for cross references and numbered to allow for numbered display. IDs must 
-               be unique within the document. However, you do not need to report line breaks at all 
-               if doing so serves no purpose in your edition. -->            
-            -->
-            
-            <!-- TEXT OF THE LETTER between OPENER and CLOSER. ADD NOTES!  -->
-            
-            <closer>
-              <lb/><salute><!-- From salute --></salute>
-              <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WBA</abbr></choice></persName></signed>
-            </closer>
-            <!-- If there were a <postscript>, we have a tag for that. -->
-        </div>
-        <!-- First, the envelope. -->
-        <div type="envelope" xml:id="GS19090706env01" corresp="#GS19090706let01">
-          <pb facs="XXX"/>
-          <ab type="returnAddress">
-            <address>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-            </address>
-          </ab>
-          <ab type="postalAddress">
-            <persName>Mrs. A. T. Stephens</persName>
-            <address>
-              <addrLine>26 Emerson street</addrLine>
-              <addrLine>Newton</addrLine>
-              <addrLine>Massachusetts</addrLine>
-            </address>
-          </ab>
-          <ab type="endorsement">
-            <!--            <handShift new="Unknown"/> 94<ptr type="noteAnchor" target="Endorsements"/>
-            <note resp="ed" xml:id="Endorsements">Similar numbers are penciled under the cancelled
-              postage stamp on several envelopes in the collection [FIGURE OUT PATTERN]. The second
-              number is circled.</note>
--->          </ab>
-          <ab>
-            <stamp type="postmark"> SEATTLE, WASH. | JUL 6 | 9 - PM | 1909 </stamp>
-            <stamp type="cancellation"> WORLD'S FAIR SEATTLE </stamp>
-          </ab>
-          <figure rend="link">
-            <head>Two-cent U.S. postage stamp.</head>
-            <graphic
-              url="https://images.asc.ohio-state.edu/is/image/englishdocs07-06-1909_GS_to_ATS_envelope.jpg.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
-            <figDesc>U.S. POSTAGE | TWO CENTS [Portrait of Washington; perforated horizontally and
-              vertically; Design A139]</figDesc>
-          </figure>
-          <!-- See http://www.jamesdire.net/W-F.html -->
-        </div>
-        <!-- Or an enclosure: <div type="enclosure" xml:id="GMS19090706enc01"></div> -->
-      </body>
-    </text>
-  </TEI>
-  <TEI xml:id="<!-- From TEI.2 id, LETTER 02 -->" n="<!-- Format 18YY-MM-DD -->">
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title><!-- From same element --></title>
-          <author>Anderson, William B.</author>
-        </titleStmt>
-        <publicationStmt>
-          <p><!-- ... --></p>
-        </publicationStmt>
-        <sourceDesc>
-          <msDesc>
-            <msIdentifier>
-              <country>USA</country>
-              <settlement>Columbus, OH</settlement>
-              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
-              <collection>William B. Anderson Collection</collection>
-              <idno>SPEC.RARE.CMS.0309</idno>
-            </msIdentifier>
-            <msContents>
-              <p><!-- From <front><div1><p> (after <head>) --></p>
-            </msContents>
-            <physDesc>
-              <p><!-- From <notesStmt><note><p> --></p>
-              <accMat></accMat>
-            </physDesc>
-            <additional>
-              <adminInfo>
-                <!-- Info from the finding aid -->
-                <note></note>
-              </adminInfo>
-            </additional>
-          </msDesc>
-        </sourceDesc>
-      </fileDesc>
-    </teiHeader>
-    
-    <text>
-      <body>
-        <div type="letter" xml:id="WBA_18620616XXX" corresp="XXX" >
-          <pb facs="/0/0fae4c6e-0056-4419-9325-15799bf50925"/>
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
-          <lb/>
-          <opener>
-            <lb/><dateline><date when="1862-06-16"></date>June 16/62</dateline>
-            <lb/><salute>My Dear<rs type="recipient">Wife</rs></salute>
-          </opener>
-          <p>
-            
-            <!-- Beginning with the body of the letter, lines in this template have been identified 
-               to allow for cross references and numbered to allow for numbered display. IDs must 
-               be unique within the document. However, you do not need to report line breaks at all 
-               if doing so serves no purpose in your edition. -->            
-            -->
-            
-            <!-- TEXT OF THE LETTER between OPENER and CLOSER. ADD NOTES!  -->
-            
-            <closer>
-              <lb/><salute><!-- From salute --></salute>
-              <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WBA</abbr></choice></persName></signed>
-            </closer>
-            <!-- If there were a <postscript>, we have a tag for that. -->
-        </div>
-        <!-- First, the envelope. -->
-        <div type="envelope" xml:id="GS19090706env01" corresp="#GS19090706let01">
-          <pb facs="XXX"/>
-          <ab type="returnAddress">
-            <address>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-            </address>
-          </ab>
-          <ab type="postalAddress">
-            <persName>Mrs. A. T. Stephens</persName>
-            <address>
-              <addrLine>26 Emerson street</addrLine>
-              <addrLine>Newton</addrLine>
-              <addrLine>Massachusetts</addrLine>
-            </address>
-          </ab>
-          <ab type="endorsement">
-            <!--            <handShift new="Unknown"/> 94<ptr type="noteAnchor" target="Endorsements"/>
-            <note resp="ed" xml:id="Endorsements">Similar numbers are penciled under the cancelled
-              postage stamp on several envelopes in the collection [FIGURE OUT PATTERN]. The second
-              number is circled.</note>
--->          </ab>
-          <ab>
-            <stamp type="postmark"> SEATTLE, WASH. | JUL 6 | 9 - PM | 1909 </stamp>
-            <stamp type="cancellation"> WORLD'S FAIR SEATTLE </stamp>
-          </ab>
-          <figure rend="link">
-            <head>Two-cent U.S. postage stamp.</head>
-            <graphic
-              url="https://images.asc.ohio-state.edu/is/image/englishdocs07-06-1909_GS_to_ATS_envelope.jpg.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
-            <figDesc>U.S. POSTAGE | TWO CENTS [Portrait of Washington; perforated horizontally and
-              vertically; Design A139]</figDesc>
-          </figure>
-          <!-- See http://www.jamesdire.net/W-F.html -->
-        </div>
-        <!-- Or an enclosure: <div type="enclosure" xml:id="GMS19090706enc01"></div> -->
-      </body>
-    </text>
-  </TEI>
-  <TEI xml:id="<!-- From TEI.2 id, LETTER 02 -->" n="<!-- Format 18YY-MM-DD -->">
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title><!-- From same element --></title>
-          <author>Anderson, William B.</author>
-        </titleStmt>
-        <publicationStmt>
-          <p><!-- ... --></p>
-        </publicationStmt>
-        <sourceDesc>
-          <msDesc>
-            <msIdentifier>
-              <country>USA</country>
-              <settlement>Columbus, OH</settlement>
-              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
-              <collection>William B. Anderson Collection</collection>
-              <idno>SPEC.RARE.CMS.0309</idno>
-            </msIdentifier>
-            <msContents>
-              <p><!-- From <front><div1><p> (after <head>) --></p>
-            </msContents>
-            <physDesc>
-              <p><!-- From <notesStmt><note><p> --></p>
-              <accMat></accMat>
-            </physDesc>
-            <additional>
-              <adminInfo>
-                <!-- Info from the finding aid -->
-                <note></note>
-              </adminInfo>
-            </additional>
-          </msDesc>
-        </sourceDesc>
-      </fileDesc>
-    </teiHeader>
-    
-    <text>
-      <body>
-        <div type="letter" xml:id="WBA_18620616XXX" corresp="XXX" >
-          <pb facs="/0/0fae4c6e-0056-4419-9325-15799bf50925"/>
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
-          <lb/>
-          <opener>
-            <lb/><dateline><date when="1862-06-16"></date>June 16/62</dateline>
-            <lb/><salute>My Dear<rs type="recipient">Wife</rs></salute>
-          </opener>
-          <p>
-            
-            <!-- Beginning with the body of the letter, lines in this template have been identified 
-               to allow for cross references and numbered to allow for numbered display. IDs must 
-               be unique within the document. However, you do not need to report line breaks at all 
-               if doing so serves no purpose in your edition. -->            
-            -->
-            
-            <!-- TEXT OF THE LETTER between OPENER and CLOSER. ADD NOTES!  -->
-            
-            <closer>
-              <lb/><salute><!-- From salute --></salute>
-              <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WBA</abbr></choice></persName></signed>
-            </closer>
-            <!-- If there were a <postscript>, we have a tag for that. -->
-        </div>
-        <!-- First, the envelope. -->
-        <div type="envelope" xml:id="GS19090706env01" corresp="#GS19090706let01">
-          <pb facs="XXX"/>
-          <ab type="returnAddress">
-            <address>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-            </address>
-          </ab>
-          <ab type="postalAddress">
-            <persName>Mrs. A. T. Stephens</persName>
-            <address>
-              <addrLine>26 Emerson street</addrLine>
-              <addrLine>Newton</addrLine>
-              <addrLine>Massachusetts</addrLine>
-            </address>
-          </ab>
-          <ab type="endorsement">
-            <!--            <handShift new="Unknown"/> 94<ptr type="noteAnchor" target="Endorsements"/>
-            <note resp="ed" xml:id="Endorsements">Similar numbers are penciled under the cancelled
-              postage stamp on several envelopes in the collection [FIGURE OUT PATTERN]. The second
-              number is circled.</note>
--->          </ab>
-          <ab>
-            <stamp type="postmark"> SEATTLE, WASH. | JUL 6 | 9 - PM | 1909 </stamp>
-            <stamp type="cancellation"> WORLD'S FAIR SEATTLE </stamp>
-          </ab>
-          <figure rend="link">
-            <head>Two-cent U.S. postage stamp.</head>
-            <graphic
-              url="https://images.asc.ohio-state.edu/is/image/englishdocs07-06-1909_GS_to_ATS_envelope.jpg.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
-            <figDesc>U.S. POSTAGE | TWO CENTS [Portrait of Washington; perforated horizontally and
-              vertically; Design A139]</figDesc>
-          </figure>
-          <!-- See http://www.jamesdire.net/W-F.html -->
-        </div>
-        <!-- Or an enclosure: <div type="enclosure" xml:id="GMS19090706enc01"></div> -->
-      </body>
-    </text>
-  </TEI>
-  <TEI xml:id="<!-- From TEI.2 id, LETTER 02 -->" n="<!-- Format 18YY-MM-DD -->">
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title><!-- From same element --></title>
-          <author>Anderson, William B.</author>
-        </titleStmt>
-        <publicationStmt>
-          <p><!-- ... --></p>
-        </publicationStmt>
-        <sourceDesc>
-          <msDesc>
-            <msIdentifier>
-              <country>USA</country>
-              <settlement>Columbus, OH</settlement>
-              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
-              <collection>William B. Anderson Collection</collection>
-              <idno>SPEC.RARE.CMS.0309</idno>
-            </msIdentifier>
-            <msContents>
-              <p><!-- From <front><div1><p> (after <head>) --></p>
-            </msContents>
-            <physDesc>
-              <p><!-- From <notesStmt><note><p> --></p>
-              <accMat></accMat>
-            </physDesc>
-            <additional>
-              <adminInfo>
-                <!-- Info from the finding aid -->
-                <note></note>
-              </adminInfo>
-            </additional>
-          </msDesc>
-        </sourceDesc>
-      </fileDesc>
-    </teiHeader>
-    
-    <text>
-      <body>
-        <div type="letter" xml:id="WBA_18620616XXX" corresp="XXX" >
-          <pb facs="/0/0fae4c6e-0056-4419-9325-15799bf50925"/>
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
-          <lb/>
-          <opener>
-            <lb/><dateline><date when="1862-06-16"></date>June 16/62</dateline>
-            <lb/><salute>My Dear<rs type="recipient">Wife</rs></salute>
-          </opener>
-          <p>
-            
-            <!-- Beginning with the body of the letter, lines in this template have been identified 
-               to allow for cross references and numbered to allow for numbered display. IDs must 
-               be unique within the document. However, you do not need to report line breaks at all 
-               if doing so serves no purpose in your edition. -->            
-            -->
-            
-            <!-- TEXT OF THE LETTER between OPENER and CLOSER. ADD NOTES!  -->
-            
-            <closer>
-              <lb/><salute><!-- From salute --></salute>
-              <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WBA</abbr></choice></persName></signed>
-            </closer>
-            <!-- If there were a <postscript>, we have a tag for that. -->
-        </div>
-        <!-- First, the envelope. -->
-        <div type="envelope" xml:id="GS19090706env01" corresp="#GS19090706let01">
-          <pb facs="XXX"/>
-          <ab type="returnAddress">
-            <address>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-            </address>
-          </ab>
-          <ab type="postalAddress">
-            <persName>Mrs. A. T. Stephens</persName>
-            <address>
-              <addrLine>26 Emerson street</addrLine>
-              <addrLine>Newton</addrLine>
-              <addrLine>Massachusetts</addrLine>
-            </address>
-          </ab>
-          <ab type="endorsement">
-            <!--            <handShift new="Unknown"/> 94<ptr type="noteAnchor" target="Endorsements"/>
-            <note resp="ed" xml:id="Endorsements">Similar numbers are penciled under the cancelled
-              postage stamp on several envelopes in the collection [FIGURE OUT PATTERN]. The second
-              number is circled.</note>
--->          </ab>
-          <ab>
-            <stamp type="postmark"> SEATTLE, WASH. | JUL 6 | 9 - PM | 1909 </stamp>
-            <stamp type="cancellation"> WORLD'S FAIR SEATTLE </stamp>
-          </ab>
-          <figure rend="link">
-            <head>Two-cent U.S. postage stamp.</head>
-            <graphic
-              url="https://images.asc.ohio-state.edu/is/image/englishdocs07-06-1909_GS_to_ATS_envelope.jpg.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
-            <figDesc>U.S. POSTAGE | TWO CENTS [Portrait of Washington; perforated horizontally and
-              vertically; Design A139]</figDesc>
-          </figure>
-          <!-- See http://www.jamesdire.net/W-F.html -->
-        </div>
-        <!-- Or an enclosure: <div type="enclosure" xml:id="GMS19090706enc01"></div> -->
-      </body>
-    </text>
-  </TEI>
-  <TEI xml:id="<!-- From TEI.2 id, LETTER 02 -->" n="<!-- Format 18YY-MM-DD -->">
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title><!-- From same element --></title>
-          <author>Anderson, William B.</author>
-        </titleStmt>
-        <publicationStmt>
-          <p><!-- ... --></p>
-        </publicationStmt>
-        <sourceDesc>
-          <msDesc>
-            <msIdentifier>
-              <country>USA</country>
-              <settlement>Columbus, OH</settlement>
-              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
-              <collection>William B. Anderson Collection</collection>
-              <idno>SPEC.RARE.CMS.0309</idno>
-            </msIdentifier>
-            <msContents>
-              <p><!-- From <front><div1><p> (after <head>) --></p>
-            </msContents>
-            <physDesc>
-              <p><!-- From <notesStmt><note><p> --></p>
-              <accMat></accMat>
-            </physDesc>
-            <additional>
-              <adminInfo>
-                <!-- Info from the finding aid -->
-                <note></note>
-              </adminInfo>
-            </additional>
-          </msDesc>
-        </sourceDesc>
-      </fileDesc>
-    </teiHeader>
-    
-    <text>
-      <body>
-        <div type="letter" xml:id="WBA_18620616XXX" corresp="XXX" >
-          <pb facs="/0/0fae4c6e-0056-4419-9325-15799bf50925"/>
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
-          <lb/>
-          <opener>
-            <lb/><dateline><date when="1862-06-16"></date>June 16/62</dateline>
-            <lb/><salute>My Dear<rs type="recipient">Wife</rs></salute>
-          </opener>
-          <p>
-            
-            <!-- Beginning with the body of the letter, lines in this template have been identified 
-               to allow for cross references and numbered to allow for numbered display. IDs must 
-               be unique within the document. However, you do not need to report line breaks at all 
-               if doing so serves no purpose in your edition. -->            
-            -->
-            
-            <!-- TEXT OF THE LETTER between OPENER and CLOSER. ADD NOTES!  -->
-            
-            <closer>
-              <lb/><salute><!-- From salute --></salute>
-              <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WBA</abbr></choice></persName></signed>
-            </closer>
-            <!-- If there were a <postscript>, we have a tag for that. -->
-        </div>
-        <!-- First, the envelope. -->
-        <div type="envelope" xml:id="GS19090706env01" corresp="#GS19090706let01">
-          <pb facs="XXX"/>
-          <ab type="returnAddress">
-            <address>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-            </address>
-          </ab>
-          <ab type="postalAddress">
-            <persName>Mrs. A. T. Stephens</persName>
-            <address>
-              <addrLine>26 Emerson street</addrLine>
-              <addrLine>Newton</addrLine>
-              <addrLine>Massachusetts</addrLine>
-            </address>
-          </ab>
-          <ab type="endorsement">
-            <!--            <handShift new="Unknown"/> 94<ptr type="noteAnchor" target="Endorsements"/>
-            <note resp="ed" xml:id="Endorsements">Similar numbers are penciled under the cancelled
-              postage stamp on several envelopes in the collection [FIGURE OUT PATTERN]. The second
-              number is circled.</note>
--->          </ab>
-          <ab>
-            <stamp type="postmark"> SEATTLE, WASH. | JUL 6 | 9 - PM | 1909 </stamp>
-            <stamp type="cancellation"> WORLD'S FAIR SEATTLE </stamp>
-          </ab>
-          <figure rend="link">
-            <head>Two-cent U.S. postage stamp.</head>
-            <graphic
-              url="https://images.asc.ohio-state.edu/is/image/englishdocs07-06-1909_GS_to_ATS_envelope.jpg.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
-            <figDesc>U.S. POSTAGE | TWO CENTS [Portrait of Washington; perforated horizontally and
-              vertically; Design A139]</figDesc>
-          </figure>
-          <!-- See http://www.jamesdire.net/W-F.html -->
-        </div>
-        <!-- Or an enclosure: <div type="enclosure" xml:id="GMS19090706enc01"></div> -->
-      </body>
-    </text>
-  </TEI>
-  <TEI xml:id="<!-- From TEI.2 id, LETTER 02 -->" n="<!-- Format 18YY-MM-DD -->">
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title><!-- From same element --></title>
-          <author>Anderson, William B.</author>
-        </titleStmt>
-        <publicationStmt>
-          <p><!-- ... --></p>
-        </publicationStmt>
-        <sourceDesc>
-          <msDesc>
-            <msIdentifier>
-              <country>USA</country>
-              <settlement>Columbus, OH</settlement>
-              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
-              <collection>William B. Anderson Collection</collection>
-              <idno>SPEC.RARE.CMS.0309</idno>
-            </msIdentifier>
-            <msContents>
-              <p><!-- From <front><div1><p> (after <head>) --></p>
-            </msContents>
-            <physDesc>
-              <p><!-- From <notesStmt><note><p> --></p>
-              <accMat></accMat>
-            </physDesc>
-            <additional>
-              <adminInfo>
-                <!-- Info from the finding aid -->
-                <note></note>
-              </adminInfo>
-            </additional>
-          </msDesc>
-        </sourceDesc>
-      </fileDesc>
-    </teiHeader>
-    
-    <text>
-      <body>
-        <div type="letter" xml:id="WBA_18620616XXX" corresp="XXX" >
-          <pb facs="/0/0fae4c6e-0056-4419-9325-15799bf50925"/>
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
-          <lb/>
-          <opener>
-            <lb/><dateline><date when="1862-06-16"></date>June 16/62</dateline>
-            <lb/><salute>My Dear<rs type="recipient">Wife</rs></salute>
-          </opener>
-          <p>
-            
-            <!-- Beginning with the body of the letter, lines in this template have been identified 
-               to allow for cross references and numbered to allow for numbered display. IDs must 
-               be unique within the document. However, you do not need to report line breaks at all 
-               if doing so serves no purpose in your edition. -->            
-            -->
-            
-            <!-- TEXT OF THE LETTER between OPENER and CLOSER. ADD NOTES!  -->
-            
-            <closer>
-              <lb/><salute><!-- From salute --></salute>
-              <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WBA</abbr></choice></persName></signed>
-            </closer>
-            <!-- If there were a <postscript>, we have a tag for that. -->
-        </div>
-        <!-- First, the envelope. -->
-        <div type="envelope" xml:id="GS19090706env01" corresp="#GS19090706let01">
-          <pb facs="XXX"/>
-          <ab type="returnAddress">
-            <address>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-            </address>
-          </ab>
-          <ab type="postalAddress">
-            <persName>Mrs. A. T. Stephens</persName>
-            <address>
-              <addrLine>26 Emerson street</addrLine>
-              <addrLine>Newton</addrLine>
-              <addrLine>Massachusetts</addrLine>
-            </address>
-          </ab>
-          <ab type="endorsement">
-            <!--            <handShift new="Unknown"/> 94<ptr type="noteAnchor" target="Endorsements"/>
-            <note resp="ed" xml:id="Endorsements">Similar numbers are penciled under the cancelled
-              postage stamp on several envelopes in the collection [FIGURE OUT PATTERN]. The second
-              number is circled.</note>
--->          </ab>
-          <ab>
-            <stamp type="postmark"> SEATTLE, WASH. | JUL 6 | 9 - PM | 1909 </stamp>
-            <stamp type="cancellation"> WORLD'S FAIR SEATTLE </stamp>
-          </ab>
-          <figure rend="link">
-            <head>Two-cent U.S. postage stamp.</head>
-            <graphic
-              url="https://images.asc.ohio-state.edu/is/image/englishdocs07-06-1909_GS_to_ATS_envelope.jpg.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
-            <figDesc>U.S. POSTAGE | TWO CENTS [Portrait of Washington; perforated horizontally and
-              vertically; Design A139]</figDesc>
-          </figure>
-          <!-- See http://www.jamesdire.net/W-F.html -->
-        </div>
-        <!-- Or an enclosure: <div type="enclosure" xml:id="GMS19090706enc01"></div> -->
-      </body>
-    </text>
-  </TEI>
-  <TEI xml:id="<!-- From TEI.2 id, LETTER 02 -->" n="<!-- Format 18YY-MM-DD -->">
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title><!-- From same element --></title>
-          <author>Anderson, William B.</author>
-        </titleStmt>
-        <publicationStmt>
-          <p><!-- ... --></p>
-        </publicationStmt>
-        <sourceDesc>
-          <msDesc>
-            <msIdentifier>
-              <country>USA</country>
-              <settlement>Columbus, OH</settlement>
-              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
-              <collection>William B. Anderson Collection</collection>
-              <idno>SPEC.RARE.CMS.0309</idno>
-            </msIdentifier>
-            <msContents>
-              <p><!-- From <front><div1><p> (after <head>) --></p>
-            </msContents>
-            <physDesc>
-              <p><!-- From <notesStmt><note><p> --></p>
-              <accMat></accMat>
-            </physDesc>
-            <additional>
-              <adminInfo>
-                <!-- Info from the finding aid -->
-                <note></note>
-              </adminInfo>
-            </additional>
-          </msDesc>
-        </sourceDesc>
-      </fileDesc>
-    </teiHeader>
-    
-    <text>
-      <body>
-        <div type="letter" xml:id="WBA_18620616XXX" corresp="XXX" >
-          <pb facs="/0/0fae4c6e-0056-4419-9325-15799bf50925"/>
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
-          <lb/>
-          <opener>
-            <lb/><dateline><date when="1862-06-16"></date>June 16/62</dateline>
-            <lb/><salute>My Dear<rs type="recipient">Wife</rs></salute>
-          </opener>
-          <p>
-            
-            <!-- Beginning with the body of the letter, lines in this template have been identified 
-               to allow for cross references and numbered to allow for numbered display. IDs must 
-               be unique within the document. However, you do not need to report line breaks at all 
-               if doing so serves no purpose in your edition. -->            
-            -->
-            
-            <!-- TEXT OF THE LETTER between OPENER and CLOSER. ADD NOTES!  -->
-            
-            <closer>
-              <lb/><salute><!-- From salute --></salute>
-              <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WBA</abbr></choice></persName></signed>
-            </closer>
-            <!-- If there were a <postscript>, we have a tag for that. -->
-        </div>
-        <!-- First, the envelope. -->
-        <div type="envelope" xml:id="GS19090706env01" corresp="#GS19090706let01">
-          <pb facs="XXX"/>
-          <ab type="returnAddress">
-            <address>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-            </address>
-          </ab>
-          <ab type="postalAddress">
-            <persName>Mrs. A. T. Stephens</persName>
-            <address>
-              <addrLine>26 Emerson street</addrLine>
-              <addrLine>Newton</addrLine>
-              <addrLine>Massachusetts</addrLine>
-            </address>
-          </ab>
-          <ab type="endorsement">
-            <!--            <handShift new="Unknown"/> 94<ptr type="noteAnchor" target="Endorsements"/>
-            <note resp="ed" xml:id="Endorsements">Similar numbers are penciled under the cancelled
-              postage stamp on several envelopes in the collection [FIGURE OUT PATTERN]. The second
-              number is circled.</note>
--->          </ab>
-          <ab>
-            <stamp type="postmark"> SEATTLE, WASH. | JUL 6 | 9 - PM | 1909 </stamp>
-            <stamp type="cancellation"> WORLD'S FAIR SEATTLE </stamp>
-          </ab>
-          <figure rend="link">
-            <head>Two-cent U.S. postage stamp.</head>
-            <graphic
-              url="https://images.asc.ohio-state.edu/is/image/englishdocs07-06-1909_GS_to_ATS_envelope.jpg.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
-            <figDesc>U.S. POSTAGE | TWO CENTS [Portrait of Washington; perforated horizontally and
-              vertically; Design A139]</figDesc>
-          </figure>
-          <!-- See http://www.jamesdire.net/W-F.html -->
-        </div>
-        <!-- Or an enclosure: <div type="enclosure" xml:id="GMS19090706enc01"></div> -->
-      </body>
-    </text>
-  </TEI>
-  <TEI xml:id="<!-- From TEI.2 id, LETTER 02 -->" n="<!-- Format 18YY-MM-DD -->">
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title><!-- From same element --></title>
-          <author>Anderson, William B.</author>
-        </titleStmt>
-        <publicationStmt>
-          <p><!-- ... --></p>
-        </publicationStmt>
-        <sourceDesc>
-          <msDesc>
-            <msIdentifier>
-              <country>USA</country>
-              <settlement>Columbus, OH</settlement>
-              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
-              <collection>William B. Anderson Collection</collection>
-              <idno>SPEC.RARE.CMS.0309</idno>
-            </msIdentifier>
-            <msContents>
-              <p><!-- From <front><div1><p> (after <head>) --></p>
-            </msContents>
-            <physDesc>
-              <p><!-- From <notesStmt><note><p> --></p>
-              <accMat></accMat>
-            </physDesc>
-            <additional>
-              <adminInfo>
-                <!-- Info from the finding aid -->
-                <note></note>
-              </adminInfo>
-            </additional>
-          </msDesc>
-        </sourceDesc>
-      </fileDesc>
-    </teiHeader>
-    
-    <text>
-      <body>
-        <div type="letter" xml:id="WBA_18620616XXX" corresp="XXX" >
-          <pb facs="/0/0fae4c6e-0056-4419-9325-15799bf50925"/>
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
-          <lb/>
-          <opener>
-            <lb/><dateline><date when="1862-06-16"></date>June 16/62</dateline>
-            <lb/><salute>My Dear<rs type="recipient">Wife</rs></salute>
-          </opener>
-          <p>
-            
-            <!-- Beginning with the body of the letter, lines in this template have been identified 
-               to allow for cross references and numbered to allow for numbered display. IDs must 
-               be unique within the document. However, you do not need to report line breaks at all 
-               if doing so serves no purpose in your edition. -->            
-            -->
-            
-            <!-- TEXT OF THE LETTER between OPENER and CLOSER. ADD NOTES!  -->
-            
-            <closer>
-              <lb/><salute><!-- From salute --></salute>
-              <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WBA</abbr></choice></persName></signed>
-            </closer>
-            <!-- If there were a <postscript>, we have a tag for that. -->
-        </div>
-        <!-- First, the envelope. -->
-        <div type="envelope" xml:id="GS19090706env01" corresp="#GS19090706let01">
-          <pb facs="XXX"/>
-          <ab type="returnAddress">
-            <address>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-            </address>
-          </ab>
-          <ab type="postalAddress">
-            <persName>Mrs. A. T. Stephens</persName>
-            <address>
-              <addrLine>26 Emerson street</addrLine>
-              <addrLine>Newton</addrLine>
-              <addrLine>Massachusetts</addrLine>
-            </address>
-          </ab>
-          <ab type="endorsement">
-            <!--            <handShift new="Unknown"/> 94<ptr type="noteAnchor" target="Endorsements"/>
-            <note resp="ed" xml:id="Endorsements">Similar numbers are penciled under the cancelled
-              postage stamp on several envelopes in the collection [FIGURE OUT PATTERN]. The second
-              number is circled.</note>
--->          </ab>
-          <ab>
-            <stamp type="postmark"> SEATTLE, WASH. | JUL 6 | 9 - PM | 1909 </stamp>
-            <stamp type="cancellation"> WORLD'S FAIR SEATTLE </stamp>
-          </ab>
-          <figure rend="link">
-            <head>Two-cent U.S. postage stamp.</head>
-            <graphic
-              url="https://images.asc.ohio-state.edu/is/image/englishdocs07-06-1909_GS_to_ATS_envelope.jpg.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
-            <figDesc>U.S. POSTAGE | TWO CENTS [Portrait of Washington; perforated horizontally and
-              vertically; Design A139]</figDesc>
-          </figure>
-          <!-- See http://www.jamesdire.net/W-F.html -->
-        </div>
-        <!-- Or an enclosure: <div type="enclosure" xml:id="GMS19090706enc01"></div> -->
-      </body>
-    </text>
-  </TEI>
-  <TEI xml:id="<!-- From TEI.2 id, LETTER 02 -->" n="<!-- Format 18YY-MM-DD -->">
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title><!-- From same element --></title>
-          <author>Anderson, William B.</author>
-        </titleStmt>
-        <publicationStmt>
-          <p><!-- ... --></p>
-        </publicationStmt>
-        <sourceDesc>
-          <msDesc>
-            <msIdentifier>
-              <country>USA</country>
-              <settlement>Columbus, OH</settlement>
-              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
-              <collection>William B. Anderson Collection</collection>
-              <idno>SPEC.RARE.CMS.0309</idno>
-            </msIdentifier>
-            <msContents>
-              <p><!-- From <front><div1><p> (after <head>) --></p>
-            </msContents>
-            <physDesc>
-              <p><!-- From <notesStmt><note><p> --></p>
-              <accMat></accMat>
-            </physDesc>
-            <additional>
-              <adminInfo>
-                <!-- Info from the finding aid -->
-                <note></note>
-              </adminInfo>
-            </additional>
-          </msDesc>
-        </sourceDesc>
-      </fileDesc>
-    </teiHeader>
-    
-    <text>
-      <body>
-        <div type="letter" xml:id="WBA_18620616XXX" corresp="XXX" >
-          <pb facs="/0/0fae4c6e-0056-4419-9325-15799bf50925"/>
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
-          <lb/>
-          <opener>
-            <lb/><dateline><date when="1862-06-16"></date>June 16/62</dateline>
-            <lb/><salute>My Dear<rs type="recipient">Wife</rs></salute>
-          </opener>
-          <p>
-            
-            <!-- Beginning with the body of the letter, lines in this template have been identified 
-               to allow for cross references and numbered to allow for numbered display. IDs must 
-               be unique within the document. However, you do not need to report line breaks at all 
-               if doing so serves no purpose in your edition. -->            
-            -->
-            
-            <!-- TEXT OF THE LETTER between OPENER and CLOSER. ADD NOTES!  -->
-            
-            <closer>
-              <lb/><salute><!-- From salute --></salute>
-              <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WBA</abbr></choice></persName></signed>
-            </closer>
-            <!-- If there were a <postscript>, we have a tag for that. -->
-        </div>
-        <!-- First, the envelope. -->
-        <div type="envelope" xml:id="GS19090706env01" corresp="#GS19090706let01">
-          <pb facs="XXX"/>
-          <ab type="returnAddress">
-            <address>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-            </address>
-          </ab>
-          <ab type="postalAddress">
-            <persName>Mrs. A. T. Stephens</persName>
-            <address>
-              <addrLine>26 Emerson street</addrLine>
-              <addrLine>Newton</addrLine>
-              <addrLine>Massachusetts</addrLine>
-            </address>
-          </ab>
-          <ab type="endorsement">
-            <!--            <handShift new="Unknown"/> 94<ptr type="noteAnchor" target="Endorsements"/>
-            <note resp="ed" xml:id="Endorsements">Similar numbers are penciled under the cancelled
-              postage stamp on several envelopes in the collection [FIGURE OUT PATTERN]. The second
-              number is circled.</note>
--->          </ab>
-          <ab>
-            <stamp type="postmark"> SEATTLE, WASH. | JUL 6 | 9 - PM | 1909 </stamp>
-            <stamp type="cancellation"> WORLD'S FAIR SEATTLE </stamp>
-          </ab>
-          <figure rend="link">
-            <head>Two-cent U.S. postage stamp.</head>
-            <graphic
-              url="https://images.asc.ohio-state.edu/is/image/englishdocs07-06-1909_GS_to_ATS_envelope.jpg.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
-            <figDesc>U.S. POSTAGE | TWO CENTS [Portrait of Washington; perforated horizontally and
-              vertically; Design A139]</figDesc>
-          </figure>
-          <!-- See http://www.jamesdire.net/W-F.html -->
-        </div>
-        <!-- Or an enclosure: <div type="enclosure" xml:id="GMS19090706enc01"></div> -->
-      </body>
-    </text>
-  </TEI>
-  <TEI xml:id="<!-- From TEI.2 id, LETTER 02 -->" n="<!-- Format 18YY-MM-DD -->">
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title><!-- From same element --></title>
-          <author>Anderson, William B.</author>
-        </titleStmt>
-        <publicationStmt>
-          <p><!-- ... --></p>
-        </publicationStmt>
-        <sourceDesc>
-          <msDesc>
-            <msIdentifier>
-              <country>USA</country>
-              <settlement>Columbus, OH</settlement>
-              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
-              <collection>William B. Anderson Collection</collection>
-              <idno>SPEC.RARE.CMS.0309</idno>
-            </msIdentifier>
-            <msContents>
-              <p><!-- From <front><div1><p> (after <head>) --></p>
-            </msContents>
-            <physDesc>
-              <p><!-- From <notesStmt><note><p> --></p>
-              <accMat></accMat>
-            </physDesc>
-            <additional>
-              <adminInfo>
-                <!-- Info from the finding aid -->
-                <note></note>
-              </adminInfo>
-            </additional>
-          </msDesc>
-        </sourceDesc>
-      </fileDesc>
-    </teiHeader>
-    
-    <text>
-      <body>
-        <div type="letter" xml:id="WBA_18620616XXX" corresp="XXX" >
-          <pb facs="/0/0fae4c6e-0056-4419-9325-15799bf50925"/>
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
-          <lb/>
-          <opener>
-            <lb/><dateline><date when="1862-06-16"></date>June 16/62</dateline>
-            <lb/><salute>My Dear<rs type="recipient">Wife</rs></salute>
-          </opener>
-          <p>
-            
-            <!-- Beginning with the body of the letter, lines in this template have been identified 
-               to allow for cross references and numbered to allow for numbered display. IDs must 
-               be unique within the document. However, you do not need to report line breaks at all 
-               if doing so serves no purpose in your edition. -->            
-            -->
-            
-            <!-- TEXT OF THE LETTER between OPENER and CLOSER. ADD NOTES!  -->
-            
-            <closer>
-              <lb/><salute><!-- From salute --></salute>
-              <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WBA</abbr></choice></persName></signed>
-            </closer>
-            <!-- If there were a <postscript>, we have a tag for that. -->
-        </div>
-        <!-- First, the envelope. -->
-        <div type="envelope" xml:id="GS19090706env01" corresp="#GS19090706let01">
-          <pb facs="XXX"/>
-          <ab type="returnAddress">
-            <address>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-            </address>
-          </ab>
-          <ab type="postalAddress">
-            <persName>Mrs. A. T. Stephens</persName>
-            <address>
-              <addrLine>26 Emerson street</addrLine>
-              <addrLine>Newton</addrLine>
-              <addrLine>Massachusetts</addrLine>
-            </address>
-          </ab>
-          <ab type="endorsement">
-            <!--            <handShift new="Unknown"/> 94<ptr type="noteAnchor" target="Endorsements"/>
-            <note resp="ed" xml:id="Endorsements">Similar numbers are penciled under the cancelled
-              postage stamp on several envelopes in the collection [FIGURE OUT PATTERN]. The second
-              number is circled.</note>
--->          </ab>
-          <ab>
-            <stamp type="postmark"> SEATTLE, WASH. | JUL 6 | 9 - PM | 1909 </stamp>
-            <stamp type="cancellation"> WORLD'S FAIR SEATTLE </stamp>
-          </ab>
-          <figure rend="link">
-            <head>Two-cent U.S. postage stamp.</head>
-            <graphic
-              url="https://images.asc.ohio-state.edu/is/image/englishdocs07-06-1909_GS_to_ATS_envelope.jpg.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
-            <figDesc>U.S. POSTAGE | TWO CENTS [Portrait of Washington; perforated horizontally and
-              vertically; Design A139]</figDesc>
-          </figure>
-          <!-- See http://www.jamesdire.net/W-F.html -->
-        </div>
-        <!-- Or an enclosure: <div type="enclosure" xml:id="GMS19090706enc01"></div> -->
-      </body>
-    </text>
-  </TEI>
-  <TEI xml:id="<!-- From TEI.2 id, LETTER 02 -->" n="<!-- Format 18YY-MM-DD -->">
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title><!-- From same element --></title>
-          <author>Anderson, William B.</author>
-        </titleStmt>
-        <publicationStmt>
-          <p><!-- ... --></p>
-        </publicationStmt>
-        <sourceDesc>
-          <msDesc>
-            <msIdentifier>
-              <country>USA</country>
-              <settlement>Columbus, OH</settlement>
-              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
-              <collection>William B. Anderson Collection</collection>
-              <idno>SPEC.RARE.CMS.0309</idno>
-            </msIdentifier>
-            <msContents>
-              <p><!-- From <front><div1><p> (after <head>) --></p>
-            </msContents>
-            <physDesc>
-              <p><!-- From <notesStmt><note><p> --></p>
-              <accMat></accMat>
-            </physDesc>
-            <additional>
-              <adminInfo>
-                <!-- Info from the finding aid -->
-                <note></note>
-              </adminInfo>
-            </additional>
-          </msDesc>
-        </sourceDesc>
-      </fileDesc>
-    </teiHeader>
-    
-    <text>
-      <body>
-        <div type="letter" xml:id="WBA_18620616XXX" corresp="XXX" >
-          <pb facs="/0/0fae4c6e-0056-4419-9325-15799bf50925"/>
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
-          <lb/>
-          <opener>
-            <lb/><dateline><date when="1862-06-16"></date>June 16/62</dateline>
-            <lb/><salute>My Dear<rs type="recipient">Wife</rs></salute>
-          </opener>
-          <p>
-            
-            <!-- Beginning with the body of the letter, lines in this template have been identified 
-               to allow for cross references and numbered to allow for numbered display. IDs must 
-               be unique within the document. However, you do not need to report line breaks at all 
-               if doing so serves no purpose in your edition. -->            
-            -->
-            
-            <!-- TEXT OF THE LETTER between OPENER and CLOSER. ADD NOTES!  -->
-            
-            <closer>
-              <lb/><salute><!-- From salute --></salute>
-              <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WBA</abbr></choice></persName></signed>
-            </closer>
-            <!-- If there were a <postscript>, we have a tag for that. -->
-        </div>
-        <!-- First, the envelope. -->
-        <div type="envelope" xml:id="GS19090706env01" corresp="#GS19090706let01">
-          <pb facs="XXX"/>
-          <ab type="returnAddress">
-            <address>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-            </address>
-          </ab>
-          <ab type="postalAddress">
-            <persName>Mrs. A. T. Stephens</persName>
-            <address>
-              <addrLine>26 Emerson street</addrLine>
-              <addrLine>Newton</addrLine>
-              <addrLine>Massachusetts</addrLine>
-            </address>
-          </ab>
-          <ab type="endorsement">
-            <!--            <handShift new="Unknown"/> 94<ptr type="noteAnchor" target="Endorsements"/>
-            <note resp="ed" xml:id="Endorsements">Similar numbers are penciled under the cancelled
-              postage stamp on several envelopes in the collection [FIGURE OUT PATTERN]. The second
-              number is circled.</note>
--->          </ab>
-          <ab>
-            <stamp type="postmark"> SEATTLE, WASH. | JUL 6 | 9 - PM | 1909 </stamp>
-            <stamp type="cancellation"> WORLD'S FAIR SEATTLE </stamp>
-          </ab>
-          <figure rend="link">
-            <head>Two-cent U.S. postage stamp.</head>
-            <graphic
-              url="https://images.asc.ohio-state.edu/is/image/englishdocs07-06-1909_GS_to_ATS_envelope.jpg.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
-            <figDesc>U.S. POSTAGE | TWO CENTS [Portrait of Washington; perforated horizontally and
-              vertically; Design A139]</figDesc>
-          </figure>
-          <!-- See http://www.jamesdire.net/W-F.html -->
-        </div>
-        <!-- Or an enclosure: <div type="enclosure" xml:id="GMS19090706enc01"></div> -->
-      </body>
-    </text>
-  </TEI>
-  <TEI xml:id="<!-- From TEI.2 id, LETTER 02 -->" n="<!-- Format 18YY-MM-DD -->">
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title><!-- From same element --></title>
-          <author>Anderson, William B.</author>
-        </titleStmt>
-        <publicationStmt>
-          <p><!-- ... --></p>
-        </publicationStmt>
-        <sourceDesc>
-          <msDesc>
-            <msIdentifier>
-              <country>USA</country>
-              <settlement>Columbus, OH</settlement>
-              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
-              <collection>William B. Anderson Collection</collection>
-              <idno>SPEC.RARE.CMS.0309</idno>
-            </msIdentifier>
-            <msContents>
-              <p><!-- From <front><div1><p> (after <head>) --></p>
-            </msContents>
-            <physDesc>
-              <p><!-- From <notesStmt><note><p> --></p>
-              <accMat></accMat>
-            </physDesc>
-            <additional>
-              <adminInfo>
-                <!-- Info from the finding aid -->
-                <note></note>
-              </adminInfo>
-            </additional>
-          </msDesc>
-        </sourceDesc>
-      </fileDesc>
-    </teiHeader>
-    
-    <text>
-      <body>
-        <div type="letter" xml:id="WBA_18620616XXX" corresp="XXX" >
-          <pb facs="/0/0fae4c6e-0056-4419-9325-15799bf50925"/>
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
-          <lb/>
-          <opener>
-            <lb/><dateline><date when="1862-06-16"></date>June 16/62</dateline>
-            <lb/><salute>My Dear<rs type="recipient">Wife</rs></salute>
-          </opener>
-          <p>
-            
-            <!-- Beginning with the body of the letter, lines in this template have been identified 
-               to allow for cross references and numbered to allow for numbered display. IDs must 
-               be unique within the document. However, you do not need to report line breaks at all 
-               if doing so serves no purpose in your edition. -->            
-            -->
-            
-            <!-- TEXT OF THE LETTER between OPENER and CLOSER. ADD NOTES!  -->
-            
-            <closer>
-              <lb/><salute><!-- From salute --></salute>
-              <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WBA</abbr></choice></persName></signed>
-            </closer>
-            <!-- If there were a <postscript>, we have a tag for that. -->
-        </div>
-        <!-- First, the envelope. -->
-        <div type="envelope" xml:id="GS19090706env01" corresp="#GS19090706let01">
-          <pb facs="XXX"/>
-          <ab type="returnAddress">
-            <address>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-            </address>
-          </ab>
-          <ab type="postalAddress">
-            <persName>Mrs. A. T. Stephens</persName>
-            <address>
-              <addrLine>26 Emerson street</addrLine>
-              <addrLine>Newton</addrLine>
-              <addrLine>Massachusetts</addrLine>
-            </address>
-          </ab>
-          <ab type="endorsement">
-            <!--            <handShift new="Unknown"/> 94<ptr type="noteAnchor" target="Endorsements"/>
-            <note resp="ed" xml:id="Endorsements">Similar numbers are penciled under the cancelled
-              postage stamp on several envelopes in the collection [FIGURE OUT PATTERN]. The second
-              number is circled.</note>
--->          </ab>
-          <ab>
-            <stamp type="postmark"> SEATTLE, WASH. | JUL 6 | 9 - PM | 1909 </stamp>
-            <stamp type="cancellation"> WORLD'S FAIR SEATTLE </stamp>
-          </ab>
-          <figure rend="link">
-            <head>Two-cent U.S. postage stamp.</head>
-            <graphic
-              url="https://images.asc.ohio-state.edu/is/image/englishdocs07-06-1909_GS_to_ATS_envelope.jpg.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
-            <figDesc>U.S. POSTAGE | TWO CENTS [Portrait of Washington; perforated horizontally and
-              vertically; Design A139]</figDesc>
-          </figure>
-          <!-- See http://www.jamesdire.net/W-F.html -->
-        </div>
-        <!-- Or an enclosure: <div type="enclosure" xml:id="GMS19090706enc01"></div> -->
-      </body>
-    </text>
-  </TEI>
-  <TEI xml:id="<!-- From TEI.2 id, LETTER 02 -->" n="<!-- Format 18YY-MM-DD -->">
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title><!-- From same element --></title>
-          <author>Anderson, William B.</author>
-        </titleStmt>
-        <publicationStmt>
-          <p><!-- ... --></p>
-        </publicationStmt>
-        <sourceDesc>
-          <msDesc>
-            <msIdentifier>
-              <country>USA</country>
-              <settlement>Columbus, OH</settlement>
-              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
-              <collection>William B. Anderson Collection</collection>
-              <idno>SPEC.RARE.CMS.0309</idno>
-            </msIdentifier>
-            <msContents>
-              <p><!-- From <front><div1><p> (after <head>) --></p>
-            </msContents>
-            <physDesc>
-              <p><!-- From <notesStmt><note><p> --></p>
-              <accMat></accMat>
-            </physDesc>
-            <additional>
-              <adminInfo>
-                <!-- Info from the finding aid -->
-                <note></note>
-              </adminInfo>
-            </additional>
-          </msDesc>
-        </sourceDesc>
-      </fileDesc>
-    </teiHeader>
-    
-    <text>
-      <body>
-        <div type="letter" xml:id="WBA_18620616XXX" corresp="XXX" >
-          <pb facs="/0/0fae4c6e-0056-4419-9325-15799bf50925"/>
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
-          <lb/>
-          <opener>
-            <lb/><dateline><date when="1862-06-16"></date>June 16/62</dateline>
-            <lb/><salute>My Dear<rs type="recipient">Wife</rs></salute>
-          </opener>
-          <p>
-            
-            <!-- Beginning with the body of the letter, lines in this template have been identified 
-               to allow for cross references and numbered to allow for numbered display. IDs must 
-               be unique within the document. However, you do not need to report line breaks at all 
-               if doing so serves no purpose in your edition. -->            
-            -->
-            
-            <!-- TEXT OF THE LETTER between OPENER and CLOSER. ADD NOTES!  -->
-            
-            <closer>
-              <lb/><salute><!-- From salute --></salute>
-              <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WBA</abbr></choice></persName></signed>
-            </closer>
-            <!-- If there were a <postscript>, we have a tag for that. -->
-        </div>
-        <!-- First, the envelope. -->
-        <div type="envelope" xml:id="GS19090706env01" corresp="#GS19090706let01">
-          <pb facs="XXX"/>
-          <ab type="returnAddress">
-            <address>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-            </address>
-          </ab>
-          <ab type="postalAddress">
-            <persName>Mrs. A. T. Stephens</persName>
-            <address>
-              <addrLine>26 Emerson street</addrLine>
-              <addrLine>Newton</addrLine>
-              <addrLine>Massachusetts</addrLine>
-            </address>
-          </ab>
-          <ab type="endorsement">
-            <!--            <handShift new="Unknown"/> 94<ptr type="noteAnchor" target="Endorsements"/>
-            <note resp="ed" xml:id="Endorsements">Similar numbers are penciled under the cancelled
-              postage stamp on several envelopes in the collection [FIGURE OUT PATTERN]. The second
-              number is circled.</note>
--->          </ab>
-          <ab>
-            <stamp type="postmark"> SEATTLE, WASH. | JUL 6 | 9 - PM | 1909 </stamp>
-            <stamp type="cancellation"> WORLD'S FAIR SEATTLE </stamp>
-          </ab>
-          <figure rend="link">
-            <head>Two-cent U.S. postage stamp.</head>
-            <graphic
-              url="https://images.asc.ohio-state.edu/is/image/englishdocs07-06-1909_GS_to_ATS_envelope.jpg.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
-            <figDesc>U.S. POSTAGE | TWO CENTS [Portrait of Washington; perforated horizontally and
-              vertically; Design A139]</figDesc>
-          </figure>
-          <!-- See http://www.jamesdire.net/W-F.html -->
-        </div>
-        <!-- Or an enclosure: <div type="enclosure" xml:id="GMS19090706enc01"></div> -->
-      </body>
-    </text>
-  </TEI>
-  
-  
   <!-- More TEI Documents? -->
 </teiCorpus>
