@@ -3238,6 +3238,31 @@ Results.
                                     <String>text/xml</String>
                                 </field>
                                 <field name="unparsedInsertString">
+                                    <String>&lt;org xml:id="${caret}" source="">
+   &lt;orgName>&lt;/orgName>
+   &lt;state type="company">&lt;/state>
+   &lt;desc>&lt;/desc>
+&lt;/org>
+</String>
+                                </field>
+                                <field name="descriptionString">
+                                    <String>Organization Mentioned in the Text</String>
+                                </field>
+                                <field name="renderString">
+                                    <String>Organizations</String>
+                                </field>
+                                <field name="enabled">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="accelerator">
+                                    <null/>
+                                </field>
+                            </codeTemplateItem>
+                            <codeTemplateItem>
+                                <field name="contentType">
+                                    <String>text/xml</String>
+                                </field>
+                                <field name="unparsedInsertString">
                                     <String>&lt;person xml:id="" source="">
     &lt;persName>${caret}&lt;/persName>
     &lt;note type="biographical">&lt;/note>

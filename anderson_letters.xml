@@ -6,10 +6,10 @@
            <!-- For each letter, add editor, scanner, and initial markup -->
              <titleStmt>
                <title>William B. Anderson's Civil War correspondence, 1862-1864</title>
-             
-               <editor><persName ref="#MEG">Meghan Elaine Griesemer</persName></editor>
+               <editor><persName ref="SPF">Sara Pauline Finch</persName></editor>
+               <editor><persName ref="MEG">Meghan Elaine Griesemer</persName></editor>
                <editor role="Principal-editor"><persName ref="#HLU">H. Lewis Ulman</persName></editor>
-           
+               <editor><persName ref="CMC">Christopher M. Clark</persName></editor>
            
            <respStmt>
              <resp>Creation of digital scans of manuscript pages: </resp>
@@ -18,8 +18,10 @@
            
            <respStmt>
              <resp>Creation of initial machine-readable transcript: </resp>
-             <persName ref="#SA">Steve Agricola</persName>
-             <persName ref="#MEG">Meghan Elaine Griesemer</persName>
+             <persName ref="SA">Steve Agricola</persName>
+             <persName ref="MEG">Meghan Elaine Griesemer</persName>
+             <persName ref="SPF">Sara Pauline Finch</persName>
+             <persName ref="CMC">Christopher M. Clark</persName>
            </respStmt>
            
          </titleStmt>
@@ -47,7 +49,6 @@
           The <idno> element is only required for documents with a standard id number
           such as a library call number..-->
              
-             <!-- TODO -->
              <idno type="CallNumber">SPEC.RARE.CMS.0309</idno>
              
              <availability>
@@ -221,9 +222,16 @@
                  </location>
                </place>
                
-               
-               
              </listPlace>
+             
+             <listOrg>
+               <head>List of Organizations Mentioned in the Text</head>
+               <org xml:id="MCVA" source="WVE">
+                 <orgName>Mount de Chantal Visitation Academy</orgName>
+                 <state type="school" from="1848" to="2008"></state>
+                 <desc>A private catholic women's school in Wheeling, WV.</desc>
+               </org>
+             </listOrg>
              
              <!-- FOR EACH LETTER, UPDATE BIBLIOGRAPHY -->
              <listBibl>
@@ -261,6 +269,11 @@
                <bibl xml:id="Neumeier" n="neumeier">
                  Neumeier, Franz and Carmen Winkler. <title level="m">http://www.steamboats.org/cgi-bin/database.pl</title>
                </bibl>
+               <bibl xml:id="WVE" n="WestVirginia">
+                 <title level="a">May 31, 2008: Mount de Chantal Visitation Academy Graduates Last Class</title>. <title level="m">West Virginia Encyclopedia</title>.
+                  https://www.wvpublic.org/post/may-31-2008-mount-de-chantal-visitation-academy-graduates-last-class-0#stream/0.
+               </bibl>
+               
                
                
              </listBibl>
@@ -423,6 +436,11 @@
              <term>McNamer, Mary</term>
              <term>River boats -- United States -- Sources</term>
              <term>United States -- History -- Civil War, 1861-1865</term>
+             <term>Tennessee -- Nashville</term>
+             <term>Pennsylvania -- Parkersburg</term>
+             <term>Pennsylvania -- Lumkford Prison</term>
+             <term>River boats -- United States</term>
+             
            </keywords>
          </textClass>
          
@@ -970,6 +988,185 @@
     </text>
   </TEI>
   
+  <TEI xml:id="WBA_18620728" n="1862-07-28">
+    <!-- FILL IN THE VALUES ABOVE -->
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Letter from William B. Anderson to his wife, Louisa, July[?] 28, 1862</title>
+          <author>Anderson, William B.</author>
+        </titleStmt>
+        <publicationStmt>
+          <p><!-- ... --></p>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc>
+            <msIdentifier>
+              <country>USA</country>
+              <settlement>Columbus, OH</settlement>
+              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
+              <collection>William B. Anderson Collection</collection>
+              <idno>SPEC.RARE.CMS.0309</idno>
+            </msIdentifier>
+            <msContents>
+              <p>William B. Anderson's letter was addressed to his wife, Louisa, telling her that he was 
+                glad to hear about her welfare and also to hear about the kids doing well. 
+                William says in the letter that the war is far from over even though some people might think otherwise. 
+                William also ask Louisa to write him back when she gets a chance because from the time he gets 
+                back he'll have another letter waiting.</p>
+            </msContents>
+            <physDesc>
+              <p>William B. Anderson's letter dated July 28, 1862 and
+                addressed to his wife Louisa is written in ink on two sides of a 
+                loose sheet of paper measuring approximately 7.5 inches wide by 9.0 inches 
+                tall (19 x 23 cm) and ruled with horizontal blue lines spaced .33 inches 
+                (0.8 cm) apart, except for a 1.5-inch (3.8 cm) unruled top margin. On the second page 
+                William writes part of the letter on the left side because he ran out of room.
+                The left edge of the sheet is slightly ragged, while the other three edges 
+                are clean, suggesting that the sheet was torn from a notepad or bound notebook. 
+                It appears originally to have been folded once crosswise and twice lengthwise.
+                On the second page, William writes on the side of the page because maybe he was
+                running out of room.
+                At this writing, the ink appears brown and the paper off-white (cream). A .5-inch
+                by .5-inch (1.3 x 1.3 cm) embossed printer's mark appears in the upper lefthand 
+                corner of the sheet, 0.5 inches (1.3 cm) from the top edge and .25 inches 
+                (0.6 cm) from the left edge. Although the mark is indistinct, its shape 
+                closely matches that of a distinct, similarly sized and positioned printer's 
+                mark on a letter dated July 1, 1863, which reads "MT HOLLY PAPER CO."</p>
+              <accMat></accMat>
+            </physDesc>
+            <additional>
+              <adminInfo>
+                <!-- Info from the finding aid -->
+                <note></note>
+              </adminInfo>
+            </additional>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    
+    <text>
+      <body>
+        <div type="letter" xml:id="WBA_18620728_let">
+          <!-- REVISE THE VALUES ABOVE -->
+          <pb facs="/9/99c7b2eb-87c3-4c33-a39c-1f693f01037b"/>
+          <head type="letterhead"></head>
+          <figure rend="link">
+            <head></head>
+            <graphic url=""></graphic>
+            <figDesc></figDesc>
+          </figure>
+          <lb/>
+          <opener>
+            <lb/><dateline><date when="1862-07-28"></date>Monday 28 1862</dateline>
+            <lb/><salute>Dear<rs type="recipient">Wife</rs></salute>
+          </opener>
+          <p>
+            <lb/> Yours came safe to hand I was glad
+            <lb/> to hear of the welfare of the children and
+            <lb/> sorry to hear of your affection though hope 
+            <lb/> you will soon be well. We had a very
+            <lb/> serious time getting down we got more
+            <lb/> frt than we wanted and stuck fast
+            <lb/> 36 Hours at the sisters <ptr type="noteAnchor" target="sisters"/><note resp="ed" xml:id="sisters">Andersons is probably referring to the Mount de Chantal Visitation Academy, 
+              incorporated as the Wheeling Female Academy
+              under the auspices of the Sisters of Visitation in 1848.<bibl><ref target="WVE"></ref>West Virginia Encyclopedia</bibl>.</note>
+            above <choice><corr>Wheeling"></corr><sic>Wheeting</sic></choice> &amp; had
+            <lb/> to lighten &amp; then stuck again on <corr>Blennerhassett</corr><sic><seg type="softhyphen">Blanerh
+            <lb/> assets</seg></sic> Isld for 12 Hours &amp; had to lighten, &amp; had
+            <lb/> fog &amp; consequently did not get here till
+            <lb/> this Morning. I have entered into the Cin
+            <lb/> &amp; Parkersburg Trade and will leave here
+            <lb/> for Parkersbug Tomorrow at 12 Oclock I have 
+            <lb/> a full load engaged one item is 100 Beef
+            <lb/> Cattle for Kanatha for a government office
+            <lb/> for which I get $300.<add place="supralinear"><hi rend="underscore">no</hi></add>00 and a full load 
+            <lb/> of Flour <choice><corr>whiskey</corr><sic>Whisky</sic></choice>> &amp;c. we had no accident
+            <lb/> to occur on our down trip that will 
+            <lb/> <choice><expan>amount</expan><abbr>amt.</abbr></choice> to anything serious though we wet
+            <lb/> a few Sacks of Oats. I will not go down 
+            <lb/> to see the Old Lady to night as I want
+            <lb/> rest and if I feel not to much fatigued
+            <lb/> by morning I will go down while it is 
+            <lb/> cool it has been exceedingly hot here
+            
+            <pb facs="/0/0be18c7b-2941-470b-9cf1-d0a9319fe34f"/>
+            
+            <lb/> today and I have been very <choice><corr>busily</corr><sic>bussily</sic></choice> engaged 
+            <lb/> and had scarcely any sleep since I left 
+            <lb/> home so I require rest. <persName>Bill Whitacre</persName>
+            <lb/> came down to the Boat this evening to
+            <lb/> see me he looks very bad has a very 
+            <lb/> long Beard. We had a short talk 
+            <lb/> and he gives a <choice><corr>doleful</corr><sic>dollfull</sic></choice> account of 
+            <lb/> of his experience south. 
+          </p><p>
+            <lb/> There was some of <choice><corr>the</corr><sic>thee</sic></choice> hardest passengers
+            <lb/> down with us from Green <choice><expan>township's</expan><abbr>twps</abbr></choice> brig this
+            <lb/> time I ever saw among the<del type="recoverable" rend="erased" hand="WBA">e</del> lot was
+            <lb/> 2 <corr>prisoners</corr><sic>Prissoners</sic> in Irons on their way to
+            <lb/> <choice><corr>Frankfort</corr><sic>Frankford</sic></choice> Prison one for downing a 
+            <lb/> man &amp; the other for <choice><corr>stealing</corr><sic>steeling</sic></choice> sheep
+            <lb/> you would think that the very devil 
+            <lb/> had broke loose if you would see
+            <lb/> and hear all that I do about the 
+            <lb/> <choice><corr>Secessionists</corr><sic>Sesseshinists</sic></choice> and others the war is 
+            <lb/> far from over I could have had
+            <lb/> a good trip to Nashville but did
+            <lb/> not like to go on account of the late 
+            <lb/> news from down that way and now
+            <lb/> I think we are in the right place
+            <lb/> and have good prospects and will make
+            <lb/> money right fast we made a little on
+            <lb/> our down trip I will stop give all the children 
+            <lb/> a kiss for me <choice><corr>tell</corr><sic>till</sic></choice> <choice><expan>William</expan><abbr>Wm</abbr></choice> to be a good boy
+            <lb/> and take care of your own <choice><corr>health</corr><sic>healh</sic></choice>
+            </p> 
+            <closer>
+              <lb/><salute><!-- From salute --></salute>
+              <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WBA</abbr></choice></persName></signed>
+            </closer>
+          <!-- If there were a <postscript>, we have a tag for that. -->
+        </div>
+        <!-- First, the envelope. -->
+        <div type="envelope" xml:id="envelope_ID" corresp="letter_ID">
+          <pb facs="XXX"/>
+          <ab type="returnAddress">
+            <address>
+              <addrLine></addrLine>
+              <addrLine></addrLine>
+              <addrLine></addrLine>
+              <addrLine></addrLine>
+            </address>
+          </ab>
+          <ab type="postalAddress">
+            <persName></persName>
+            <address>
+              <addrLine></addrLine>
+              <addrLine></addrLine>
+              <addrLine></addrLine>
+            </address>
+          </ab>
+          <ab type="endorsement">
+          </ab>
+          <ab>
+            <stamp type="postmark"></stamp>
+            <stamp type="cancellation"></stamp>
+          </ab>
+          <figure rend="link">
+            <head></head>
+            <graphic
+              url=""/>
+            <figDesc></figDesc>
+          </figure>
+          <!-- See http://www.jamesdire.net/W-F.html -->
+        </div>
+        <!-- Or an enclosure: <div type="enclosure" xml:id="WBA_18600101enc"></div> -->
+      </body>
+    </text>
+  </TEI>
+
   <TEI xml:id="WBA_18000000" n="1800-00-00">
     <!-- FILL IN THE VALUES ABOVE -->
     <teiHeader>
@@ -1034,14 +1231,14 @@
             
             <!-- TEXT OF THE LETTER between OPENER and CLOSER. ADD NOTES!  -->
           </p> 
-            <closer>
-              <lb/><salute><!-- From salute --></salute>
-              <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WBA</abbr></choice></persName></signed>
-            </closer>
+          <closer>
+            <lb/><salute><!-- From salute --></salute>
+            <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WBA</abbr></choice></persName></signed>
+          </closer>
           <!-- If there were a <postscript>, we have a tag for that. -->
         </div>
         <!-- First, the envelope. -->
-        <div type="envelope" xml:id="envelope_ID" corresp="letter_ID">
+        <div type="envelope" xml:id="envelope_XX" corresp="letter_ID">
           <pb facs="XXX"/>
           <ab type="returnAddress">
             <address>
@@ -1077,6 +1274,6 @@
       </body>
     </text>
   </TEI>
-    
+  
   <!-- More TEI Documents? -->
 </teiCorpus>
