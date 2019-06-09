@@ -1167,7 +1167,191 @@
     </text>
   </TEI>
 
-  <TEI xml:id="WBA_18000000" n="1800-00-00">
+  <TEI xml:id="WBA_18620810" n="1862-08-10">
+    <!-- FILL IN THE VALUES ABOVE -->
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Letter from William B. Anderson to his wife, Louisa, 10 August 1862</title>
+          <author>Anderson, William B.</author>
+        </titleStmt>
+        <publicationStmt>
+          <p><!-- ... --></p>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc>
+            <msIdentifier>
+              <country>USA</country>
+              <settlement>Columbus, OH</settlement>
+              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
+              <collection>William B. Anderson Collection</collection>
+              <idno>SPEC.RARE.CMS.0309</idno>
+            </msIdentifier>
+            <msContents>
+              <p>In this letter Anderson assures his wife that he is doing well and asks how she and 
+                the children are.  He also tells her of his visit to see her mother and that he has 
+                asked John Russell (a local businessman often referred to in Anderson’s letters) to 
+                pay his taxes in his absence.</p>
+            </msContents>
+            <physDesc>
+              <p>William B. Anderson's letter dated August 10, 1862 from Cincinnati and addressed to his wife Louisa 
+                is written in ink on both sides of a loose sheet of paper measuring approximately 7.5 inches wide by 
+                10.0 inches tall (20cm by 24.5cm) and ruled with horizontal blue lines spaced about 0.75cm apart. 
+                The left edge of the sheet is slightly ragged, while the other three edges are clean, suggesting that 
+                the sheet was torn from a notepad or bound notebook.  It appears originally to have been folded once 
+                crosswise and three times lengthwise. At this writing, the ink appears dark brown and the paper off-white (cream).</p>
+              <accMat></accMat>
+            </physDesc>
+            <additional>
+              <adminInfo>
+                <!-- Info from the finding aid -->
+                <note></note>
+              </adminInfo>
+            </additional>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    
+    <text>
+      <body>
+        <div type="letter" xml:id="WBA_18620810_let">
+          <!-- REVISE THE VALUES ABOVE -->
+          <pb facs="4/4671ed77-6f00-4e83-8942-16fda934a31e"/>
+          <head type="letterhead"></head>
+          <figure rend="link">
+            <head></head>
+            <graphic url=""></graphic>
+            <figDesc></figDesc>
+          </figure>
+          <lb/>
+          <opener>
+            <lb/><dateline><placeName ref="#CincinnatiOH">Cin</placeName><date when="1862-08-10">Aug 10 /62</date></dateline>
+            <lb/><salute>My Dear<rs type="recipient">Wife</rs></salute>
+          </opener>
+          <p>
+            <lb/>Your of 7 Came to hand    
+            <lb/>today on our arrival &amp; I was glad to hear
+            <lb/>of your health being better and that of the
+            <lb/>Children <ptr type="noteAnchor" target=""/><note resp="ed" xml:id=""><bibl><ref target=""></ref></bibl>.</note>
+            <lb/>I wrote to you though have suffered by
+            <lb/>heat Considerably we made 2 trips to 
+            <lb/><placeName ref="#ParkersburgWV">Parkersburg</placeName><ptr type="noteAnchor" target=""/><note resp="ed" xml:id=""><bibl><ref target=""></ref></bibl>.</note>
+            &amp; are bound up tomorrow again
+            <!-- START HERE!!! -->
+            <lb/>we have had uncommon hard work to
+            <lb/>get up have had to lighten at<name reg="Buffington Island, WV" type= "place"> Buffington</name><seg>
+              <note target="n5">5</note>
+            </seg>  
+            <lb/>&amp;<name reg="Blennerhassett's Island, WV" type= "place"> Blennerhassetts</name><seg>
+              <note target="n6">6</note>
+            </seg>Island &amp; line flats &amp; Barges
+            <lb/>and had a good ell of work and anxiety of
+            <lb/>mind for a little money we made between
+            <lb rend="numbered" n="15"/>3 and 400 Dolls last week I cannot tell what our  
+            <lb/>prospects will be this week yet but I hope
+            <lb/>we shall not lose anything
+            <lb/>I was down to see your mother<seg>
+              <note target="n7">7</note>
+            </seg>this evening
+            <lb/>she &amp; <name type= "Person">Ella</name><seg>
+              <note target="n8">8</note>
+            </seg>are well I did not get down
+            <lb rend="numbered" n="20"/>to see her last trip &amp; it was as well for
+            <lb/>she had gone down to <name type= "place"></name>South Bend<seg>
+              <note target="n9">9</note>
+            </seg>and
+            <lb/>did not get up till Tuesday she says that
+            <lb/>she enjoyed the trip and put up a 
+            <lb/>large quantity of Blackberries Fruit of all
+            <lb rend="numbered" n="25"/>kinds is very abundant and watter mellons
+            <lb/>are beginning to get plenty we had some
+            <lb/>to eat on the boat this evening that
+            <lb/>the crew bot which were very fine
+            <pb mmid="/3/39ea6bd3-b5ae-4318-89a6-54faec9739ee" n="01"/>
+            <lb/>I wrote a letter to <name reg="Russell, John" type= "name"> John Russell</name><seg>
+              <note target="n10">10</note>
+            </seg>and
+            <lb rend="numbered"  n="30"/>requested him to pay my taxes I cannot 
+            <lb/>tell you when you may look for me
+            <lb/>up as it is very uncertain when I can
+            <lb/>go up with the Boat &amp; I want to make
+            <lb/>all I can out of her I will not leave
+            <lb rend="numbered" n="35"/>her in any bodys hands untill compelled
+            <lb/>to by sickness or war I want you to
+            <lb/>try to make yourself as happy as as you
+            <lb/>Can under the circumstances I know how 
+            <lb/>you feel about this war <seg>
+              <note target="n11">11</note>
+            </seg>matter but you
+            <lb rend="numbered" n="40"/>need not to make yourself uneasy on my
+            <lb/>account for you can rest assured that
+            <lb/>I will try to keep out of danger as well
+            <lb/>as I can I will be less likely to be draf<seg type="softhyphen">
+              <lb/>=</seg>ted by being away than I would be if
+            <lb rend="numbered"  n="45"/>at home I am at present in part in the
+            <lb/>government employ in the way of a transport
+            <lb/>that is we carry a great many soldiers and 
+            <lb/>large quantitys of<abbr expan="Government"></abbr> Gov <abbr expan= "Freight"> Frt.</abbr> I expect if the
+            <lb/>water gets much lower we will not even
+            <lb rend="numbered" n="50"/>[<supplied reason="omitted word" resp="EGR"><hi rend="italics">get as </hi></supplied>] far up as <name reg="Parkersburg, WV" type= "place">Parkersburg</name> and may be
+            <lb/>employed to Carry <abbr expan="Government"></abbr> Gov<abbr expan= "Freight"> Frt.</abbr> &amp; soldiers up
+            <lb/>as far as <name reg="Gallipolis, OH" type= "place">Gallipolis</name><seg>
+              <note target="n12">12</note>
+            </seg>&amp; if such should be
+            <lb/>the case then I will be Free from the draft
+            <lb/>I will expect a letter here when I return
+            <lb rend="numbered" n="55"/>which will be on this day week I will drop
+            <lb/>you a line tomorrow before we leave and
+            <lb/>let you know what our prospects are Kiss
+            <lb/>all the children for me and take care of yourself
+            <lb/>and them for me</p>
+          <closer>
+            <lb/><salute>Your affectionate husband</salute>
+            <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WBA</abbr></choice> Anderson</persName></signed>
+          </closer>
+          <!-- If there were a <postscript>, we have a tag for that. -->
+        </div>
+        <!-- First, the envelope. -->
+        <div type="envelope" xml:id="envelope_XX" corresp="letter_ID">
+          <pb facs="XXX"/>
+          <ab type="returnAddress">
+            <address>
+              <addrLine></addrLine>
+              <addrLine></addrLine>
+              <addrLine></addrLine>
+              <addrLine></addrLine>
+            </address>
+          </ab>
+          <ab type="postalAddress">
+            <persName></persName>
+            <address>
+              <addrLine></addrLine>
+              <addrLine></addrLine>
+              <addrLine></addrLine>
+            </address>
+          </ab>
+          <ab type="endorsement">
+          </ab>
+          <ab>
+            <stamp type="postmark"></stamp>
+            <stamp type="cancellation"></stamp>
+          </ab>
+          <figure rend="link">
+            <head></head>
+            <graphic
+              url=""/>
+            <figDesc></figDesc>
+          </figure>
+          <!-- See http://www.jamesdire.net/W-F.html -->
+        </div>
+        <!-- Or an enclosure: <div type="enclosure" xml:id="WBA_18600101enc"></div> -->
+      </body>
+    </text>
+  </TEI>
+ 
+  <TEI xml:id="WBA_18620000" n="1862-08-10">
+    <!-- FIRST COPY THIS TEI ELEMENT!! -->
     <!-- FILL IN THE VALUES ABOVE -->
     <teiHeader>
       <fileDesc>
@@ -1230,6 +1414,7 @@
             -->
             
             <!-- TEXT OF THE LETTER between OPENER and CLOSER. ADD NOTES!  -->
+            <!-- MAKE SURE YOU HAVE UPDATED LISTS OF WORKS CITED, PEOPLE, NOTES, ETC. -->
           </p> 
           <closer>
             <lb/><salute><!-- From salute --></salute>
