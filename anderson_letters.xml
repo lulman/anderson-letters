@@ -221,6 +221,53 @@
                    <geo>38.6333 -83.7333</geo>
                  </location>
                </place>
+               <place type="island" xml:id="Buffington" source="#TGN">
+                 <placeName>Buffington Island</placeName>
+                 <desc>In his letter of 10 August 1862, Anderson describes having to lighten his ship's load
+                   to navigate around Buffington Island, an island on the Ohio River in Jackson County, West Virginia 
+                   north of Pomeroy, Ohio. Nearby in Ohio, the only battle to occur on Ohio soil 
+                   during the American Civil War, the Battle of Buffington Island, took place on 
+                   July 19, 1863.</desc>
+                 <country>United States</country>
+                 <region type="state">Ohio</region>
+                 <region type="county">Meigs</region>
+                 <location>
+                   <geo>38.9833 -81.7667</geo>
+                 </location>
+               </place>
+               <place type="island" xml:id="Blennerhassett" source="#TGN">
+                 <placeName>Blennerhassett Island</placeName>
+                 <desc>In his letter of 10 August 1862, Anderson describes having to lighten his ship's load
+                 to navigate around Blennerhassett Island, near Belpre, Ohio</desc>
+                 <country>United States</country>
+                 <region type="state">West Virgina</region>
+                 <region type="county">Wood</region>
+                 <location>
+                   <geo>39.2667 -81.6167</geo>
+                 </location>
+               </place>
+               <place type="township" xml:id="southbend" source="#TGN">
+                 <placeName>South Bend</placeName>
+                 <desc></desc>
+                 <country>United States</country>
+                 <region type="state">Pennsylvania</region>
+                 <region type="county">Armstrong</region>
+                 <location>
+                   <geo>40.6167 -79.3667</geo>
+                 </location>
+               </place>
+               <place type="city" xml:id="gallipolis" source="#TGN">
+                 <placeName>Gallipolis</placeName>
+                 <desc>Gallipolis is a city along the Ohio River in Gallia County, Southeast Ohio</desc>
+                 <country>United States</country>
+                 <region type="state">Ohio</region>
+                 <region type="county">Gallia</region>
+                 <location>
+                   <geo>38.7833 -82.2000</geo>
+                 </location>
+               </place>
+               
+               
                
              </listPlace>
              
@@ -251,7 +298,7 @@
                  <title level="u">Lecture to English 569C, Digital Media and English Studies.</title>. The Ohio State University. 30 Mar. 2006.
                </bibl>
                <bibl xml:id="BioRev" n="Biographical">
-                 <title level="m">Biographical review; v. 24, containing life sketches of leading citizens 
+                 <title level="m">Biographical Review; v. 24, containing life sketches of leading citizens 
                    of Pittsburg and the vicinity, Pennsylvania</title>. Boston: Biographical Review Publishing Co. 1897.
                </bibl>
                <bibl xml:id="PittAtlas" n="1876">
@@ -359,7 +406,7 @@
            <listPerson type="mentioned">
              <head>People Mentioned in William B. Anderson's Letters</head>
              <person xml:id="MLA" source="HOAC">
-               <persName>Mary Louisa Anderson (1837-1911)</persName>
+               <persName>Mary Louisa Anderson, née Fischgens (1837-1911)</persName>
                <note type="biographical">Mary Louisa Fischgens (1837-1911) and Capt. William B. Anderson (1822-1897) were married September
                  15, 1853 in Cincinnati, Ohio. They had five children.</note>
                <birth when="1837"><placeName></placeName></birth>
@@ -367,11 +414,11 @@
                <bibl><ref target="HOAC"><title level="m">History of Allegheny County</title> (298).</ref></bibl>
              </person>
              <person xml:id="MAF" source="XXX">
-               <persName>Fischgens, Mary Ann, née Woolslayer</persName>
+               <persName>Fischgens, Anna Mary, née Woolslayer</persName>
                <note type="biographical">Mary Louisa Anderson's mother.</note>
-               <birth when="1800-01-01"><placeName></placeName></birth>
-               <death when="1800-01-01"><placeName></placeName></death>
-               <bibl><ref target="???"></ref></bibl>
+               <birth when="1812-07-12"><placeName></placeName></birth>
+               <death when="1897-11-25"><placeName></placeName></death>
+               <bibl><ref target="HOAC"><title level="m">History of Allegheny County</title></ref>298.</bibl>
              </person>
              <person xml:id="WBA" source="HOAC">
                <persName>William B. Anderson</persName>
@@ -401,6 +448,13 @@
                <bibl><ref target="HOAC"><title level="m">History
                  of Allegheny County</title></ref>298</bibl>
              </person>
+             <person xml:id="russell" source="BioRev">
+               <persName>John Russell</persName>
+               <note type="biographical">John Russel was “a prominent merchant 
+                 on Liberty Street for many years.”</note>
+               <bibl><ref target="BioRev"><title level="m">Biographical Review</title></ref>205</bibl>
+             </person>
+             
              
              
            </listPerson>
@@ -1233,75 +1287,60 @@
             <lb/>Your of 7 Came to hand    
             <lb/>today on our arrival &amp; I was glad to hear
             <lb/>of your health being better and that of the
-            <lb/>Children <ptr type="noteAnchor" target=""/><note resp="ed" xml:id=""><bibl><ref target=""></ref></bibl>.</note>
+            <lb/>Children <ptr type="noteAnchor" target="children"/><note resp="ed" xml:id="children">At the time this letter was written,
+              W.B. Anderson and his wife Lousia  had four children: William Y., Anna M., John L., and
+              Robert<bibl><ref target="HOAC">298-299</ref></bibl>.</note>
             <lb/>I wrote to you though have suffered by
             <lb/>heat Considerably we made 2 trips to 
-            <lb/><placeName ref="#ParkersburgWV">Parkersburg</placeName><ptr type="noteAnchor" target=""/><note resp="ed" xml:id=""><bibl><ref target=""></ref></bibl>.</note>
-            &amp; are bound up tomorrow again
-            <!-- START HERE!!! -->
+            <lb/><placeName ref="#ParkersburgWV">Parkersburg</placeName> &amp; are bound up tomorrow again
             <lb/>we have had uncommon hard work to
-            <lb/>get up have had to lighten at<name reg="Buffington Island, WV" type= "place"> Buffington</name><seg>
-              <note target="n5">5</note>
-            </seg>  
-            <lb/>&amp;<name reg="Blennerhassett's Island, WV" type= "place"> Blennerhassetts</name><seg>
-              <note target="n6">6</note>
-            </seg>Island &amp; line flats &amp; Barges
+            <lb/>get up have had to lighten at<placeName ref="Buffington"> Buffington</placeName>  
+            <lb/>&amp;<placeName ref="Blennerhassett"> Blennerhassetts</placeName> Island &amp; line flats &amp; Barges
             <lb/>and had a good ell of work and anxiety of
             <lb/>mind for a little money we made between
-            <lb rend="numbered" n="15"/>3 and 400 Dolls last week I cannot tell what our  
+            <lb/>3 and 400 Dolls last week I cannot tell what our  
             <lb/>prospects will be this week yet but I hope
             <lb/>we shall not lose anything
-            <lb/>I was down to see your mother<seg>
-              <note target="n7">7</note>
-            </seg>this evening
-            <lb/>she &amp; <name type= "Person">Ella</name><seg>
-              <note target="n8">8</note>
-            </seg>are well I did not get down
-            <lb rend="numbered" n="20"/>to see her last trip &amp; it was as well for
-            <lb/>she had gone down to <name type= "place"></name>South Bend<seg>
-              <note target="n9">9</note>
-            </seg>and
+            <lb/>I was down to see your mother this evening
+            <lb/>she &amp; are well I did not get down
+            <lb/>to see her last trip &amp; it was as well for
+            <lb/>she had gone down to <placeName type= "township">South Bend</placeName> and
             <lb/>did not get up till Tuesday she says that
             <lb/>she enjoyed the trip and put up a 
             <lb/>large quantity of Blackberries Fruit of all
-            <lb rend="numbered" n="25"/>kinds is very abundant and watter mellons
+            <lb/>kinds is very abundant and watter mellons
             <lb/>are beginning to get plenty we had some
             <lb/>to eat on the boat this evening that
             <lb/>the crew bot which were very fine
-            <pb mmid="/3/39ea6bd3-b5ae-4318-89a6-54faec9739ee" n="01"/>
-            <lb/>I wrote a letter to <name reg="Russell, John" type= "name"> John Russell</name><seg>
-              <note target="n10">10</note>
-            </seg>and
-            <lb rend="numbered"  n="30"/>requested him to pay my taxes I cannot 
+            <pb facs="/3/39ea6bd3-b5ae-4318-89a6-54faec9739ee" n="01"/>
+            <lb/>I wrote a letter to <persName ref="russel"> John Russell</persName> and
+            <lb/>requested him to pay my taxes I cannot 
             <lb/>tell you when you may look for me
             <lb/>up as it is very uncertain when I can
             <lb/>go up with the Boat &amp; I want to make
             <lb/>all I can out of her I will not leave
-            <lb rend="numbered" n="35"/>her in any bodys hands untill compelled
+            <lb/>her in any bodys hands untill compelled
             <lb/>to by sickness or war I want you to
             <lb/>try to make yourself as happy as as you
             <lb/>Can under the circumstances I know how 
-            <lb/>you feel about this war <seg>
-              <note target="n11">11</note>
-            </seg>matter but you
-            <lb rend="numbered" n="40"/>need not to make yourself uneasy on my
+            <lb/>you feel about this war matter but you
+            <lb/>need not to make yourself uneasy on my
             <lb/>account for you can rest assured that
             <lb/>I will try to keep out of danger as well
             <lb/>as I can I will be less likely to be draf<seg type="softhyphen">
-              <lb/>=</seg>ted by being away than I would be if
-            <lb rend="numbered"  n="45"/>at home I am at present in part in the
+            <lb/>=</seg>ted by being away than I would be if
+            <lb/>at home I am at present in part in the
             <lb/>government employ in the way of a transport
             <lb/>that is we carry a great many soldiers and 
-            <lb/>large quantitys of<abbr expan="Government"></abbr> Gov <abbr expan= "Freight"> Frt.</abbr> I expect if the
+            <lb/>large <choice><corr>quantities</corr><sic>quantitys</sic></choice> 
+            of <choice><expan>Government</expan><abbr>Gov</abbr></choice> <choice><expan>Freight</expan><abbr>Frt.</abbr></choice> I expect if the
             <lb/>water gets much lower we will not even
-            <lb rend="numbered" n="50"/>[<supplied reason="omitted word" resp="EGR"><hi rend="italics">get as </hi></supplied>] far up as <name reg="Parkersburg, WV" type= "place">Parkersburg</name> and may be
-            <lb/>employed to Carry <abbr expan="Government"></abbr> Gov<abbr expan= "Freight"> Frt.</abbr> &amp; soldiers up
-            <lb/>as far as <name reg="Gallipolis, OH" type= "place">Gallipolis</name><seg>
-              <note target="n12">12</note>
-            </seg>&amp; if such should be
+            <lb/>get as far up as <placeName ref="parkersburg">Parkersburg</placeName> and may be
+            <lb/>employed to Carry <choice><expan>Government</expan><abbr>Gov</abbr></choice> <choice><expan>Freight</expan><abbr>Frt.</abbr></choice> &amp; soldiers up
+            <lb/>as far as <placeName ref="gallipolis">Gallipolis</placeName> &amp; if such should be
             <lb/>the case then I will be Free from the draft
             <lb/>I will expect a letter here when I return
-            <lb rend="numbered" n="55"/>which will be on this day week I will drop
+            <lb/>which will be on this day week I will drop
             <lb/>you a line tomorrow before we leave and
             <lb/>let you know what our prospects are Kiss
             <lb/>all the children for me and take care of yourself
@@ -1421,39 +1460,6 @@
             <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WBA</abbr></choice></persName></signed>
           </closer>
           <!-- If there were a <postscript>, we have a tag for that. -->
-        </div>
-        <!-- First, the envelope. -->
-        <div type="envelope" xml:id="envelope_XX" corresp="letter_ID">
-          <pb facs="XXX"/>
-          <ab type="returnAddress">
-            <address>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-            </address>
-          </ab>
-          <ab type="postalAddress">
-            <persName></persName>
-            <address>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-            </address>
-          </ab>
-          <ab type="endorsement">
-          </ab>
-          <ab>
-            <stamp type="postmark"></stamp>
-            <stamp type="cancellation"></stamp>
-          </ab>
-          <figure rend="link">
-            <head></head>
-            <graphic
-              url=""/>
-            <figDesc></figDesc>
-          </figure>
-          <!-- See http://www.jamesdire.net/W-F.html -->
         </div>
         <!-- Or an enclosure: <div type="enclosure" xml:id="WBA_18600101enc"></div> -->
       </body>
