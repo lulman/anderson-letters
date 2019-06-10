@@ -266,18 +266,41 @@
                    <geo>38.7833 -82.2000</geo>
                  </location>
                </place>
+               <place type="army_camp" xml:id="campPort" source="#TGN">
+                 <placeName>Camp Portsmouth</placeName>
+                 <desc>Camp Portsmouth served as a training and organizational camp from 1861-1862 for
+                   The 117th Regiment Ohio Volunteer Infantry, the 1st Regiment Ohio Heavy Artillery, and the 18th Regiment Ohio Light Artillery
+                 <bibl><ref target="#campPortsmouth"></ref>"Camp Portsmouth"</bibl>.</desc>
+                 <country>United States</country>
+                 <region type="state">Ohio</region>
+                 <region type="county">Scioto</region>
+                 <location>
+                   <geo>38.7167 -82.9833</geo>
+                 </location>
+               </place>
                
                
                
              </listPlace>
              
              <listOrg>
-               <head>List of Organizations Mentioned in the Text</head>
+               <head>List of Organizations Mentioned</head>
                <org xml:id="MCVA" source="WVE">
                  <orgName>Mount de Chantal Visitation Academy</orgName>
                  <state type="school" from="1848" to="2008"></state>
-                 <desc>A private catholic women's school in Wheeling, WV.</desc>
+                 <desc>A private catholic women's school in Wheeling, WV established in 1848.</desc>
                </org>
+               <org xml:id="LMRR" source="OHC">
+                 <orgName>Little Miami Rairoad</orgName>
+                 <state type="company"></state>
+                 <desc>The Little Miami Railroad 
+                   was only the second railroad to be built in Ohio.  
+                   The state legislature granted the Little Miami Railroad Company 
+                   a charter in March 1836.  The purpose was to connect the city of Cincinnati 
+                   to Springfield.  The line was completed between 1837 and 1848</desc>
+                 <bibl><ref target="#LMR"></ref>Ohio History Central.</bibl>
+               </org>
+               
              </listOrg>
              
              <!-- FOR EACH LETTER, UPDATE BIBLIOGRAPHY -->
@@ -320,6 +343,11 @@
                  <title level="a">May 31, 2008: Mount de Chantal Visitation Academy Graduates Last Class</title>. <title level="m">West Virginia Encyclopedia</title>.
                   https://www.wvpublic.org/post/may-31-2008-mount-de-chantal-visitation-academy-graduates-last-class-0#stream/0.
                </bibl>
+               <bibl xml:id="LMR" n="LittleMiami">
+                 <title level="a">Little Miami Railroad.</title> <title level="m">Ohio History Central</title>. Ohio History Connection. http://www.ohiohistorycentral.org/w/Welcome_To_Ohio_History_Central.
+               </bibl>
+               <bibl xml:id="campPortsmouth"><title level="a">Camp Portsmouth.</title> <title level="m">Ohio Civil War Central</title>. 10 Jun 2019. www.www.ohiocivilwarcentral.com/entry.php?rec=440</bibl>
+               
                
                
                
@@ -406,7 +434,7 @@
            <listPerson type="mentioned">
              <head>People Mentioned in William B. Anderson's Letters</head>
              <person xml:id="MLA" source="HOAC">
-               <persName>Mary Louisa Anderson, née Fischgens (1837-1911)</persName>
+               <persName>Anderson, Mary Louisa, née Fischgens</persName>
                <note type="biographical">Mary Louisa Fischgens (1837-1911) and Capt. William B. Anderson (1822-1897) were married September
                  15, 1853 in Cincinnati, Ohio. They had five children.</note>
                <birth when="1837"><placeName></placeName></birth>
@@ -421,14 +449,14 @@
                <bibl><ref target="HOAC"><title level="m">History of Allegheny County</title></ref>298.</bibl>
              </person>
              <person xml:id="WBA" source="HOAC">
-               <persName>William B. Anderson</persName>
+               <persName>Anderson, William B.</persName>
                <note type="biographical"></note>
                <birth when="1822"><placeName></placeName></birth>
                <death when="1897"><placeName></placeName></death>
                <bibl><ref target="HOAC"><title level="m">History of Allegheny County</title> (298).</ref></bibl>
              </person>
              <person xml:id="WYA" source="HOAC">
-               <persName>William Y. Anderson</persName>
+               <persName>Anderson, William Y.</persName>
                <note type="biographical">Son of William B. Anderson and Mary Louisa Fischgens Anderson. 
                  He Married Nancy C. McKinely. He resided in Shoustown, Pa. He died of typhoid in PA, leaving a widow and 
                  two children. He is buried in Allegheny Cemetery.  He left a widow and two young children.</note>
@@ -438,7 +466,7 @@
                  of Allegheny County</title></ref>298</bibl>
              </person>
              <person xml:id="JLA" source="HOAC">
-               <persName>John L. Anderson</persName>
+               <persName>Anderson, John L.</persName>
                <note type="biographical">John L. Anderson (1859-1922). Son of William B. Anderson and Mary Louisa Fischgens Anderson. 
                  Resided at the homestead. Wounded in Spottsylvania, Va., May 14, 1864, while serving the sixty-second 
                  Pennsylvania volunteers from Antietam to Appomattox. He survived typhoid in 1890. He never married. He is 
@@ -449,7 +477,7 @@
                  of Allegheny County</title></ref>298</bibl>
              </person>
              <person xml:id="russell" source="BioRev">
-               <persName>John Russell</persName>
+               <persName>Russel, John</persName>
                <note type="biographical">John Russel was “a prominent merchant 
                  on Liberty Street for many years.”</note>
                <bibl><ref target="BioRev"><title level="m">Biographical Review</title></ref>205</bibl>
@@ -690,40 +718,6 @@
           </closer>
           <!-- If there were a <postscript>, we have a tag for that. -->
         </div>
-        <!-- First, the envelope. -->
-        <div type="envelope" xml:id="WBA_18620616_env" corresp="#WBA_18620616_let">
-          <pb facs="XXX"/>
-          <ab type="returnAddress">
-            <address>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-            </address>
-          </ab>
-          <ab type="postalAddress">
-            <persName></persName>
-            <address>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-            </address>
-          </ab>
-          <ab type="endorsement">
-          </ab>
-          <ab>
-            <stamp type="postmark"></stamp>
-            <stamp type="cancellation"></stamp>
-          </ab>
-          <figure rend="link">
-            <head></head>
-            <graphic
-              url=""/>
-            <figDesc></figDesc>
-          </figure>
-          <!-- See http://www.jamesdire.net/W-F.html -->
-        </div>
-        <!-- Or an enclosure: <div type="enclosure" xml:id="WBA_18600101enc"></div> -->
       </body>
     </text>
   </TEI>
@@ -832,40 +826,6 @@
           </closer>
           <!-- If there were a <postscript>, we have a tag for that. -->
         </div>
-        <!-- First, the envelope. -->
-        <div type="envelope" xml:id="XXX_env" corresp="#WBA_18600101_let">
-          <pb facs="XXX"/>
-          <ab type="returnAddress">
-            <address>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-            </address>
-          </ab>
-          <ab type="postalAddress">
-            <persName></persName>
-            <address>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-            </address>
-          </ab>
-          <ab type="endorsement">
-          </ab>
-          <ab>
-            <stamp type="postmark"></stamp>
-            <stamp type="cancellation"></stamp>
-          </ab>
-          <figure rend="link">
-            <head></head>
-            <graphic
-              url=""/>
-            <figDesc></figDesc>
-          </figure>
-          <!-- See http://www.jamesdire.net/W-F.html -->
-        </div>
-        <!-- Or an enclosure: <div type="enclosure" xml:id="WBA_18600101enc"></div> -->
       </body>
     </text>
   </TEI>
@@ -1351,44 +1311,150 @@
           </closer>
           <!-- If there were a <postscript>, we have a tag for that. -->
         </div>
-        <!-- First, the envelope. -->
-        <div type="envelope" xml:id="envelope_XX" corresp="letter_ID">
-          <pb facs="XXX"/>
-          <ab type="returnAddress">
-            <address>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-            </address>
-          </ab>
-          <ab type="postalAddress">
-            <persName></persName>
-            <address>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-            </address>
-          </ab>
-          <ab type="endorsement">
-          </ab>
-          <ab>
-            <stamp type="postmark"></stamp>
-            <stamp type="cancellation"></stamp>
-          </ab>
+      </body>
+    </text>
+  </TEI>
+ 
+  <TEI xml:id="WBA_18620816" n="1862-08-16">
+    <!-- FIRST COPY THIS TEI ELEMENT!! -->
+    <!-- FILL IN THE VALUES ABOVE -->
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Letter from William B. Anderson to wife Mary Louisa Anderson on August 16, 1862</title>
+          <author>Anderson, William B.</author>
+        </titleStmt>
+        <publicationStmt>
+          <p><!-- ... --></p>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc>
+            <msIdentifier>
+              <country>USA</country>
+              <settlement>Columbus, OH</settlement>
+              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
+              <collection>William B. Anderson Collection</collection>
+              <idno>SPEC.RARE.CMS.0309</idno>
+            </msIdentifier>
+            <msContents>
+              <p>In this letter, Anderson writes to his wife about his daily tasks and his hardships while being a riverboat captain.
+                He reports that a shaft has broken on the boat, and hopes the new part will arrive soon. Anderson continues his letter and describes how he feels about boarding soldiers on his riverboat. 
+                His emotions of grief and sadness overrun the second half of his letter, and he explains that he feels terrible watching families be torn apart. Anderson closes with warm wishes to his family
+                and that he hopes to hear from them soon.</p>
+            </msContents>
+            <physDesc>
+              <p>William B. Anderson's letter dated August 16, 1862 from Cincinnati and
+                addressed to his wife Louisa is written in ink on two sides of a 
+                loose sheet of paper measuring approximately 7.5 inches wide by 9.0 inches 
+                tall (19 x 23 cm) and ruled with horizontal blue lines spaced .33 inches 
+                (0.8 cm) apart, except for a 1.5-inch (3.8 cm) unruled top margin. 
+                All four edges of the letter, 
+                are clean, suggesting that the sheet was bought as a package of looseleaf. 
+                It appears originally to have been folded once crosswise and twice lengthwise. 
+                At this writing, the ink appears brown and the paper off-white (cream). A .5-inch
+                by .5-inch (1.3 x 1.3 cm) embossed printer's mark appears in the upper lefthand 
+                corner of the sheet, 0.5 inches (1.3 cm) from the top edge and .25 inches 
+                (0.6 cm) from the left edge.</p>
+              <accMat></accMat>
+            </physDesc>
+            <additional>
+              <adminInfo>
+                <!-- Info from the finding aid -->
+                <note></note>
+              </adminInfo>
+            </additional>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    
+    <text>
+      <body>
+        <div type="letter" xml:id="WBA_18620824_let">
+          <!-- REVISE THE VALUES ABOVE -->
+          <pb facs="/0/076b0de8-f961-498d-9676-eabf1b446a02"/>
+          <head type="letterhead"></head>
           <figure rend="link">
             <head></head>
-            <graphic
-              url=""/>
+            <graphic url=""></graphic>
             <figDesc></figDesc>
           </figure>
-          <!-- See http://www.jamesdire.net/W-F.html -->
+          <lb/>
+          <opener>
+            <lb/><dateline><date when="1862-08-24">Aug 24 /64</date><ptr type="noteAnchor" target="dateError"/>
+              <note resp="ed" xml:id="dateError">Anderson records the day as Sunday, but in August 1862, the 16th fell
+                on a Saturday.</note></dateline>
+            <lb/><salute>My Dear<rs ref="#MLA">Wife</rs></salute>
+          </opener>
+          <p>
+            <lb/> As <persName>John</persName> is going home I take 
+            <lb/> the opportunity of dropping you a few lines
+            <lb/> to inform you that I am well.  We arrived here
+            <lb/> at noon today we have had bad luck since
+            <lb/> I wrote you last. We broke our shaft on our up 
+            <lb/> trip and shall have to lay here for several
+            <lb/> days to have it mended or probably a
+            <lb/> new one made.  I cannot learn what our
+            <lb/> luck will be in getting it <choice><corr>repaired</corr><sic>repared</sic></choice> till Morning
+            <lb/> I will probably get time to go up and see
+            <lb/> you while the <choice><corr>repairing</corr><sic>reparing</sic></choice> is going on if I can
+            <lb/> leave with any kind of propriety.  It was one
+            <lb/> of the worst times that an accident could 
+            <lb/> happen as the river is low and Government
+            <lb/> wants us and at good prices we were pressed
+            <lb/> into <choice><expan>Government</expan><abbr>Gov</abbr></choice> Service at <placeName ref="#gallipolis">Gallipolis</placeName> but were released
+            <lb/> on account of our broke shaft
+            <lb/> We brought down part of 3 companies of 
+            <lb/> soldiers from <placeName ref="#gallipolis">Gallipolis</placeName> to <placeName ref="#campPortsmouth">camp Portsmouth</placeName>
+            <lb/> and it would have made the hardest heart
+            <lb/> melt to have heard the women and children
+            <lb/> weeping on the wharf Boat while the men
+            <lb/> were being ordered on board there was at least
+            <lb/> 70 women &amp; 100 children there to take perhaps
+            <lb/> the last leave of their husbands Brothers &amp; Sons
+            
+            <pb facs="/D/df9f4e9c-4d9d-4388-8b13-b97256cb692b" n="2"/> 
+            
+            <lb/> who have answered the call for men
+            <lb/> to try and restore peace and restore this
+            <lb/> once Glorious Country to peace.  You see
+            <lb/> or Know nothing about this war or the
+            <lb/> effects produced upon families <del type="unrecoverable" rend="overstrike" hand="WBA">[deleted word]</del> by it
+            <lb/> I am sick and tired of soldiers and soldiering
+            <lb/> we see nor hear but little else and what
+            <lb/> I am most fearfull of is that the end is
+            <lb/> not close at hand we carry every trip more
+            <lb/> or less sick and wounded men and any amount
+            <lb/> of women on their way to look up their sons
+            <lb/> Husbands or Brothers while I am writing the
+            <lb/> wharf is covered from Broadway to Main
+            <lb/> street with fresh recruits from <placeName>Indiana</placeName> &amp;
+            <lb/> Ohio on their way to the Little Miami <choice><expan>Railroad</expan><abbr>RR</abbr></choice> 
+            <lb/> Depot on their way to Camps to be uniformed
+            <lb/> I have not been down today to see your <rs ref="#MAF">mother</rs>
+            <lb/> but will before I write again or go up
+            <lb/> to see you I will not get to more than
+            <lb/> just go up one day and return the next
+            <lb/> if I do go at <choice><corr>all</corr><sic>al</sic></choice>.  Write to me soon and
+            <lb/> give me all the news and take care
+            <lb/> of yourself and all the children
+            <lb/> you need not be disappointed if I don’t
+            <lb/> go up through if I can learn alot I will
+            <lb/> be sure to write to me as soon as you
+            <lb/> get this in care of <orgName>Isham Fisher &amp; Co</orgName> <placeName ref="#CincinnatiOH"><choice><expan>Cincinnati</expan><abbr>Cin</abbr></choice></placeName>
+            <lb/> give my love to the children 
+          </p> 
+          <closer>
+            <lb/><salute>Your Affectionate Husband</salute>
+            <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WB</abbr></choice> Anderson</persName></signed>
+          </closer>
+          <!-- If there were a <postscript>, we have a tag for that. -->
         </div>
         <!-- Or an enclosure: <div type="enclosure" xml:id="WBA_18600101enc"></div> -->
       </body>
     </text>
   </TEI>
- 
+
   <TEI xml:id="WBA_18620000" n="1862-08-10">
     <!-- FIRST COPY THIS TEI ELEMENT!! -->
     <!-- FILL IN THE VALUES ABOVE -->
