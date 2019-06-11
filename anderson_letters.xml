@@ -10,6 +10,7 @@
                <editor><persName ref="MEG">Meghan Elaine Griesemer</persName></editor>
                <editor role="Principal-editor"><persName ref="#HLU">H. Lewis Ulman</persName></editor>
                <editor><persName ref="CMC">Christopher M. Clark</persName></editor>
+               <editor><persName ref="JMK">Jenna Marlene Kamrass</persName></editor>
            
            <respStmt>
              <resp>Creation of digital scans of manuscript pages: </resp>
@@ -22,6 +23,7 @@
              <persName ref="MEG">Meghan Elaine Griesemer</persName>
              <persName ref="SPF">Sara Pauline Finch</persName>
              <persName ref="CMC">Christopher M. Clark</persName>
+             <persName ref="JMK">Jenna Marlene Kamrass</persName>
            </respStmt>
            
          </titleStmt>
@@ -276,6 +278,16 @@
                  <region type="county">Scioto</region>
                  <location>
                    <geo>38.7167 -82.9833</geo>
+                 </location>
+               </place>
+               <place type="city" xml:id="gramsta" source="#TGN">
+                 <placeName notBefore="1837">Graham's Station</placeName>
+                 <desc>Graham's Station, Ohio was incorporated in 1841 and was later renamed Racine.</desc>
+                 <country>United States</country>
+                 <region type="state">Ohio</region>
+                 <region type="county">Meigs</region>
+                 <location>
+                   <geo>38.9667 -81.9000</geo>
                  </location>
                </place>
                
@@ -556,7 +568,7 @@
          
          <change>
            <date>2006-06-06</date>
-           <name>Meghan Elaine Griesemer</name>
+           <name>The editors</name>
            <label>Initial release</label>
          </change>
          
@@ -564,7 +576,7 @@
          
          <change>
            <date>2006-06-06</date>
-           <name>Meghan Elaine Griesemer</name>
+           <name>The editors</name>
            <label>Correction of initial transcription.</label>
            
            <!-- Indicate the date on which you completed the correction of the initial transcription. -->
@@ -1143,40 +1155,6 @@
             </closer>
           <!-- If there were a <postscript>, we have a tag for that. -->
         </div>
-        <!-- First, the envelope. -->
-        <div type="envelope" xml:id="envelope_ID" corresp="letter_ID">
-          <pb facs="XXX"/>
-          <ab type="returnAddress">
-            <address>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-            </address>
-          </ab>
-          <ab type="postalAddress">
-            <persName></persName>
-            <address>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-            </address>
-          </ab>
-          <ab type="endorsement">
-          </ab>
-          <ab>
-            <stamp type="postmark"></stamp>
-            <stamp type="cancellation"></stamp>
-          </ab>
-          <figure rend="link">
-            <head></head>
-            <graphic
-              url=""/>
-            <figDesc></figDesc>
-          </figure>
-          <!-- See http://www.jamesdire.net/W-F.html -->
-        </div>
-        <!-- Or an enclosure: <div type="enclosure" xml:id="WBA_18600101enc"></div> -->
       </body>
     </text>
   </TEI>
@@ -1455,6 +1433,111 @@
     </text>
   </TEI>
 
+  <TEI xml:id="WBA_18620901" n="1862-09-01">
+    <!-- FIRST COPY THIS TEI ELEMENT!! -->
+    <!-- FILL IN THE VALUES ABOVE -->
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Letter from William B. Anderson to his wife, Mary Louisa Anderson, on September 1st, 1862 from Cincinnati, Ohio.</title>
+          <author>Anderson, William B.</author>
+        </titleStmt>
+        <publicationStmt>
+          <p><!-- ... --></p>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc>
+            <msIdentifier>
+              <country>USA</country>
+              <settlement>Columbus, OH</settlement>
+              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
+              <collection>William B. Anderson Collection</collection>
+              <idno>SPEC.RARE.CMS.0309</idno>
+            </msIdentifier>
+            <msContents>
+              <p>In this document, William B. Anderson lists his itinerary and the business conducted at each port of call.  
+                He brings oats to Gallipolis, Ohio; retrieves wheat from
+                Graham's Station, West Virginia, and brings it to Blennerhasset's Island, West Virginia.  During his travels,
+                it was necessary to build a chute and hire oxen in order to bring the wheat to Blennerhasset's Island.  
+                In the latter part of the letter, Anderson discusses his hope to sell his boat, as business is stopped 
+                now that the previous travels are finished.  He finishes by sending his love to his wife and children.</p>
+            </msContents>
+            <physDesc>
+              <p>This document is a letter from Captain William B. Anderson (1822-1897), to his wife, 
+                Mary Louisa (Fischgens) Anderson. He wrote this from Cincinnati, on September 1st, 1862.  
+                It is one page long, with no other notes or enclosures. It is written on lined notebook paper, 
+                folded in half lengthwise and into thirds after that.  There is no surviving envelope that goes 
+                with it, and it is approximately eight inches by ten inches in size.  There is a printer's mark 
+                in the upper-left hand corner, in the shape of a shield surrounded by greenery, with a crown on 
+                top.  The left edge of the paper is slightly ragged and worn, as if it had been torn from a
+                composition book or a pad of paper bound on the left.</p>
+              <accMat></accMat>
+            </physDesc>
+            <additional>
+              <adminInfo>
+                <!-- Info from the finding aid -->
+                <note></note>
+              </adminInfo>
+            </additional>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    
+    <text>
+      <body>
+        <div type="letter" xml:id="WBA_18620901_lett" corresp="XXX" >
+          <!-- REVISE THE VALUES ABOVE -->
+          <pb facs="/5/54bee70e-bdcc-4dd8-ab05-87aeb7b07aa0"/>
+          <head type="letterhead"></head>
+          <figure rend="link">
+            <head></head>
+            <graphic url=""></graphic>
+            <figDesc></figDesc>
+          </figure>
+          <lb/>
+          <opener>
+            <lb/><dateline><choice><expan>Cincinnati</expan><abbr>Cin</abbr></choice><date when="1862-09-21">Sept 1st   1862,</date></dateline>
+            <lb/><salute>My Dear<rs ref="MLA">Wife</rs></salute>
+          </opener>
+          <p>
+            <lb/>Yours came safe to hand &amp; I was
+            <lb/>glad to hear from you though sorry to hear that
+            <lb/>all was not well but hope that before this all are
+            <lb/>fully recoved.  I have been quite unwell since I left
+            <lb/>here but have got better so took a load of Oats
+            <lb/>for the Government up to Gallipolis and from there
+            <lb/>we went up to take our Wheat that we left
+            <lb/>at Grahams Station and and succeeded in getting
+            <lb/>up as far as the foot of Blennerhassets Island
+            <lb/>and there we dug a <choice><corr>chute</corr><sic>Shute</sic></choice> wide and deep enough
+            <lb/>to draw a flat drawing but 13 inches over and at
+            <lb/>3 lads got our wheat over and then hired a man
+            <lb/>and a team of oxen to haul the flat <choice><corr>off</corr><sic>of</sic></choice> and left
+            <lb/>the 2nd clerk there to attend to it  we arrived here
+            <lb/>this morning and will leave at noon for Maysville with a
+            <lb/>load of Mules and then I don’t know what we will
+            <lb/>do though on our return I will write again  I am
+            <lb/>quite busy now but will probably have more <del type="recoverable" hand="WBA" rend="overstrike">time</del>
+            <lb/>to write about when I come back again  I
+            <lb/>may sell the boat I will try to <choice><corr>anyhow</corr><sic>any how</sic></choice>
+            <lb/> I hope to be home soon and will most
+            <lb/>likely lay up if I don’t sell things are very
+            <lb/>checkered and all <choice><corr>business</corr><sic>bussiness</sic></choice> is stopped give my 
+            <lb/>love to the children and take care of them
+            <lb/>and you		  
+          </p> 
+          <closer>
+            <lb/><salute>Your affectionate husband</salute>
+            <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WB</abbr></choice> Anderson</persName></signed>
+          </closer>
+          <!-- If there were a <postscript>, we have a tag for that. -->
+        </div>
+        <!-- Or an enclosure: <div type="enclosure" xml:id="WBA_18600101enc"></div> -->
+      </body>
+    </text>
+  </TEI>
+
   <TEI xml:id="WBA_18620000" n="1862-08-10">
     <!-- FIRST COPY THIS TEI ELEMENT!! -->
     <!-- FILL IN THE VALUES ABOVE -->
@@ -1527,10 +1610,44 @@
           </closer>
           <!-- If there were a <postscript>, we have a tag for that. -->
         </div>
+        <!-- First, the envelope. -->
+        <div type="envelope" xml:id="envelope_ID" corresp="letter_ID">
+          <pb facs="XXX"/>
+          <ab type="returnAddress">
+            <address>
+              <addrLine></addrLine>
+              <addrLine></addrLine>
+              <addrLine></addrLine>
+              <addrLine></addrLine>
+            </address>
+          </ab>
+          <ab type="postalAddress">
+            <persName></persName>
+            <address>
+              <addrLine></addrLine>
+              <addrLine></addrLine>
+              <addrLine></addrLine>
+            </address>
+          </ab>
+          <ab type="endorsement">
+          </ab>
+          <ab>
+            <stamp type="postmark"></stamp>
+            <stamp type="cancellation"></stamp>
+          </ab>
+          <figure rend="link">
+            <head></head>
+            <graphic
+              url=""/>
+            <figDesc></figDesc>
+          </figure>
+          <!-- See http://www.jamesdire.net/W-F.html -->
+        </div>
         <!-- Or an enclosure: <div type="enclosure" xml:id="WBA_18600101enc"></div> -->
       </body>
     </text>
   </TEI>
   
+
   <!-- More TEI Documents? -->
 </teiCorpus>
