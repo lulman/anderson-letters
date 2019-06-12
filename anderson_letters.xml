@@ -12,6 +12,7 @@
                <editor><persName ref="CMC">Christopher M. Clark</persName></editor>
                <editor><persName ref="JMK">Jenna Marlene Kamrass</persName></editor>
                <editor><persName ref="KS">Kristin Stack</persName></editor>
+               <editor><persName ref="ZAH">Zachary A. Hess</persName></editor>
            
            <respStmt>
              <resp>Creation of digital scans of manuscript pages: </resp>
@@ -26,6 +27,7 @@
              <persName ref="CMC">Christopher M. Clark</persName>
              <persName ref="JMK">Jenna Marlene Kamrass</persName>
              <persName ref="KS">Kristin Stack</persName>
+             <persName ref="ZAH">Zachary A. Hess</persName>
            </respStmt>
            
          </titleStmt>
@@ -292,9 +294,20 @@
                    <geo>38.9667 -81.9000</geo>
                  </location>
                </place>
-               
-               
-               
+               <place type="city" xml:id="augusta" source="#TGN">
+                 <placeName>Augusta, Kentucky</placeName>
+                 <desc>A city in Kentucky along the Ohio River east of Cincinnati, Ohio. In his letter
+                 of 28 September 1862, Anderson reports that he has been ordered to take soldiers to Augusta
+                 in response to the Battle of Augusta, which took place the previous day.
+                 </desc>
+                 <country>United States</country>
+                 <region type="state">Kentucky</region>
+                 <region type="county">Bracken</region>
+                 <location>
+                   <geo>38.7667 -84.0000</geo>
+                 </location>
+               </place>
+                              
              </listPlace>
              
              <listOrg>
@@ -1696,6 +1709,152 @@
           <!-- If there were a <postscript>, we have a tag for that. -->
         </div>
         <!-- Or an enclosure: <div type="enclosure" xml:id="WBA_18600101enc"></div> -->
+      </body>
+    </text>
+  </TEI>
+
+  <TEI xml:id="WBA_18620928" n="1862-09-28">
+    <!-- FIRST COPY THIS TEI ELEMENT!! -->
+    <!-- FILL IN THE VALUES ABOVE -->
+    <!-- ADD EDITOR'S NAME TO LIST -->
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Letter from William B Anderson to his wife, Louisa, dated
+            September 28, 1862.</title>
+          <author>Anderson, William B.</author>
+        </titleStmt>
+        <publicationStmt>
+          <p><!-- ... --></p>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc>
+            <msIdentifier>
+              <country>USA</country>
+              <settlement>Columbus, OH</settlement>
+              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
+              <collection>William B. Anderson Collection</collection>
+              <idno>SPEC.RARE.CMS.0309</idno>
+            </msIdentifier>
+            <msContents>
+              <p>William B Anderson tells his wife how he must take soldiers to Augusta, Kentucky.  Anderson reports that 
+                he is doing well and that he is happy to hear that his wife's mother is also doing well.  He wants his wife to take care 
+                of herself and the children.  He describes when he thinks he may be home and for his wife to take 
+                care of the house and the work that needs to be done.</p>
+            </msContents>
+            <physDesc>
+              <p>This document is letter number 10 from a man named William B. Anderson 
+                that he wrote to his wife, Louisa in September of 1862 from Cincinnati.  In 
+                all, there were 26 letters written to Louisa from 1862 to 1864.  This particular
+                letter is 2 pages long and is written on loose paper measuring approximately
+                7.5 inches wide by 9.0 inches tall, lined with blue horizontal lines.  The first page
+                of the letter is in pretty good condition.  However, there are numerous brown stains
+                that could possibly be dirt.  The second page of the letter is in slightly better condition,
+                with only a few smudges.  Both pages seem to have been folded, twice long ways
+                and once shorts ways.  While the ink is black and legible throughout, there are still
+                errors both in spelling and with ink smudges.  The paper William used is a cream 
+                color.</p>
+              <accMat></accMat>
+            </physDesc>
+            <additional>
+              <adminInfo>
+                <!-- Info from the finding aid -->
+                <note></note>
+              </adminInfo>
+            </additional>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    
+    <text>
+      <body>
+        <div type="letter" xml:id="WBA_18620928_let">
+          <!-- REVISE THE VALUES ABOVE -->
+          <pb facs="/6/6421e60e-db07-496e-b9e2-13e4e6b888d2"/>
+          <!-- MAKE SURE TO REVISE THE FACS VALUE! -->
+          <head type="letterhead"></head>
+          <figure rend="link">
+            <head></head>
+            <graphic url=""></graphic>
+            <figDesc></figDesc>
+          </figure>
+          <lb/>
+          <opener>
+            <lb/><dateline><placeName><choice><expan>Cincinnati</expan><abbr>Cin</abbr></choice></placeName> <date when="1862-09-28"></date>Sunday Sept 28/62</dateline>
+            <lb/><salute>My Dear<rs type="recipient">Wife</rs></salute>
+          </opener>
+          <p>
+            <lb/> I am ordered to take up 
+            <lb/>a lot of Soldiers to <placeName ref="#augusta">Augusta</placeName> Ky as the
+            <lb/>Rebels have taken that place and Burned
+            <lb/>it we are to take up a lot of men and 
+            <lb/>land them Below to attract and whip
+            <lb/>the Rebels if they can I will land
+            <lb/>a good piece Below too as I don’t want
+            <lb/>shot.  I will write a full <choice><expan>account</expan><abbr>acct</abbr></choice> on our
+            <lb/>return  I have no time to write much now,
+            <lb/><rs ref="#MAF">your Mother</rs> was here yesterday and is well
+            <lb/> I am well &amp; Hope you and all the children
+            <lb/>are well take good care of your Health
+            <lb/>and that of the children. I wrote you
+            <lb/>  a long letter a few days ago  I <choice><expan>received</expan><abbr>recd.</abbr></choice>
+            <lb/>yours yesterday and am sorry that <persName type="nickname" ref="#WYA">Willie</persName>
+            <lb/>is not well but hope he will soon recover
+            <lb/>give my respects to all and write 
+            <lb/>often and longer I yesterday learned what 
+            <lb/>we are to get for our Boat and my
+            <lb/>Portions is forty Dollars clear each day
+            <lb/>say nothing about it I hope to stay here
+            <lb/>Some time yet  
+          </p> 
+          <closer>
+            <lb/><salute>Ever Yours truly</salute>
+            <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WB</abbr></choice> Anderson</persName></signed>
+          </closer>
+          <!-- If there were a <postscript>, we have a tag for that. -->
+          <postscript>
+            <p>
+              <lb/>P.S. We got our Coal found us and one
+              <lb/>Hundred &amp; Fifty <choice><expan>Dollars</expan><abbr>Dolls</abbr></choice> per Day for the whole Boat 
+              
+              <pb facs="/4/422e8a2e-72c2-40d5-9b01-b62a15b3b4f7" n="2"/>
+              
+              <lb/>as we have not got steam up I will
+              <lb/>write on.  in your Letter you said that the
+              <lb/>man was there to assess the Buggy I suppose 
+              <lb/> the calculation is to lay a heavy tax on
+              <lb/> it as we Keep it for our own use all
+              <lb/> right I will get it with interest back out
+              <lb/> of Uncle Sam while I am here if all goes
+              <lb/> well. I suppose Mr Walsh  might as well
+              <lb/> Hole what potatoes you <del rend="overstrike" resp="WBA">want</del> <add place="supralinear">dont</add> want
+              <lb/>in the Cellar down in the field where they
+              <lb/>are and secure them by a fence around there  
+              <lb/>and Keep the Cows from there where he pastures
+              <lb/> the Stalks.  You can manage things the best
+              <lb/>way you think till I come I cannot tell
+              <lb/>when I will be back home now but may
+              <lb/>accidentally get home sooner that I look
+              <lb/>for <del rend="overstrike" resp="WBA">I will</del> it has the appearance of rain this
+              <lb/> morning and if water comes to let larger Boats
+              <lb/> run there we are done here and home I will go
+              <lb/>you cannot <choice><corr>censure</corr><sic>Sensure</sic></choice> me for being so indifferent
+              <lb/> as appearing so indifferent about home when
+              <lb/> you know what I am to get for staying away
+              <lb/>if I can only get what I now get and have
+              <lb/>health I would like to stay here a good
+              <lb/>while and then when I go home to stay there
+              <lb/>the <choice><expan>balance</expan><abbr>Bal</abbr></choice> of my days I will stop so good
+              <lb/> <choice><corr>bye</corr><sic>Bie</sic></choice> write soon and give all the news
+              <lb/>and Kiss the children</p>  
+            <closer>
+              <lb/><salute>Yours ever</salute>
+              <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WBA</abbr></choice></persName></signed>
+              <lb/>Excuse all ever as I am in haste
+            </closer>
+          </postscript>
+        </div>
       </body>
     </text>
   </TEI>
