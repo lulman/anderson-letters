@@ -11,6 +11,7 @@
                <editor role="Principal-editor"><persName ref="#HLU">H. Lewis Ulman</persName></editor>
                <editor><persName ref="CMC">Christopher M. Clark</persName></editor>
                <editor><persName ref="JMK">Jenna Marlene Kamrass</persName></editor>
+               <editor><persName ref="KS">Kristin Stack</persName></editor>
            
            <respStmt>
              <resp>Creation of digital scans of manuscript pages: </resp>
@@ -24,6 +25,7 @@
              <persName ref="SPF">Sara Pauline Finch</persName>
              <persName ref="CMC">Christopher M. Clark</persName>
              <persName ref="JMK">Jenna Marlene Kamrass</persName>
+             <persName ref="KS">Kristin Stack</persName>
            </respStmt>
            
          </titleStmt>
@@ -312,6 +314,15 @@
                    to Springfield.  The line was completed between 1837 and 1848</desc>
                  <bibl><ref target="#LMR"></ref>Ohio History Central.</bibl>
                </org>
+               <org xml:id="andersonFerry" source="OHC">
+                 <orgName>Anderson Ferry</orgName>
+                 <state type="company" from="1817"></state>
+                 <desc>Ferry service across the Ohio River from Cincinnati, OH to Covington, KY. [NEED CITATION]</desc>
+                 <location>
+                   <geo>39.085907 -84.622564</geo>
+                 </location>
+               </org>
+               
                
              </listOrg>
              
@@ -358,7 +369,11 @@
                <bibl xml:id="LMR" n="LittleMiami">
                  <title level="a">Little Miami Railroad.</title> <title level="m">Ohio History Central</title>. Ohio History Connection. http://www.ohiohistorycentral.org/w/Welcome_To_Ohio_History_Central.
                </bibl>
-               <bibl xml:id="campPortsmouth"><title level="a">Camp Portsmouth.</title> <title level="m">Ohio Civil War Central</title>. 10 Jun 2019. www.www.ohiocivilwarcentral.com/entry.php?rec=440</bibl>
+               <bibl xml:id="campPortsmouth" n="CampPort"><title level="a">Camp Portsmouth.</title> <title level="m">Ohio Civil War Central</title>. 10 Jun 2019. www.www.ohiocivilwarcentral.com/entry.php?rec=440</bibl>
+               <bibl xml:id="genealogical" n="Jordan">
+                 Jordan, John W., ed. <title level="m">Genealogical and Personal History of Western Pennsylvania</title>. Vol. I. New York: Lewis Historical
+                 Publishing Company, 1915.
+               </bibl>
                
                
                
@@ -1538,9 +1553,157 @@
     </text>
   </TEI>
 
+  <TEI xml:id="WBA_18620917" n="1862-09-17">
+    <!-- FIRST COPY THIS TEI ELEMENT!! -->
+    <!-- FILL IN THE VALUES ABOVE -->
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>A homesick letter to Mary Louisa Anderson written from Cincinnati on Sept. 17, 1862, by William B. Anderson</title>
+          <author>Anderson, William B.</author>
+        </titleStmt>
+        <publicationStmt>
+          <p><!-- ... --></p>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc>
+            <msIdentifier>
+              <country>USA</country>
+              <settlement>Columbus, OH</settlement>
+              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
+              <collection>William B. Anderson Collection</collection>
+              <idno>SPEC.RARE.CMS.0309</idno>
+            </msIdentifier>
+            <msContents>
+              <p>In this letter, Anderson shows a bit of emotion as he recounts his 
+                encounters with the war thus far. Anderson writes of the
+                impoverished life he and his fellow shipmates live and becomes nostalgic
+                over the simpler pleasures in life like Butter [sic] and Beef [sic]. 
+                Anderson asks his wife to pay a vist to John Russell in order to collect 
+                the money that Russell owes Anderson; Anderson fears that Russell
+                will be slow to repay if his wife does not express a strong sense of need. 
+                Anderson closes the letter optimistically speaking of great times to 
+                come with his wife and children once he returns home. </p>
+            </msContents>
+            <physDesc>
+              <p>This letter in written on a single thin piece of blue-lined paper as the writing on the opposite side shows through. 
+                The singular, vertical jagged edge on the left side of the paper suggests that the paper was 
+                torn from a notebook or journal. The paper is approximately 8 x 9.75 inches in dimension. 
+                Anderson wrote the letter in brown ink  and folded the letter three times( once crosswise and
+                twice length-wise) to create 
+                six equally-sized sections so that the letter could fit into one 
+                of his standard envelopes. On the bottom of the first page, several words are smudged perhaps as a result of
+                moisture on the captain's hand from the summer heat or from a rapid writing pace that did not allow the ink to dry sufficiently.</p>
+              <accMat></accMat>
+            </physDesc>
+            <additional>
+              <adminInfo>
+                <!-- Info from the finding aid -->
+                <note></note>
+              </adminInfo>
+            </additional>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    
+    <text>
+      <body>
+        <div type="letter" xml:id="WBA_1862-09-17_let">
+          <!-- REVISE THE VALUES ABOVE -->
+          <pb facs="/E/e54a9522-bc6f-45f6-8999-b0d5423f6c93"/>
+          <head type="letterhead"></head>
+          <figure rend="link">
+            <head></head>
+            <graphic url=""></graphic>
+            <figDesc></figDesc>
+          </figure>
+          <lb/>
+          <opener>
+            <lb/><dateline><date when="1862-09-17"></date>Sept 17th 1862</dateline>
+            <lb/><salute>My Dear<rs type="recipient">Wife</rs></salute>
+          </opener>
+          <p>
+            <lb/>Yours Came to hand this morning
+            <lb/>&amp; I was glad to hear from you and pleased to learn
+            <lb/>that the the children were well  I am also well and
+            <lb/>am still employed in the same way as a dispatch
+            <lb/>Boat and our trips only extend down as far of late
+            <lb/>as <orgName>Andersons Ferry</orgName> 8 miles we made but two yesterday
+            <lb/>one at noon and one in the night all is quiet here
+            <lb/>now and the majority of the stores are open but there
+            <lb/>is nothing doing but what appertains to the war it
+            <lb/>is thought that there will be a Battle in <placeName>Kentucky</placeName>
+            <lb/>someplace soon but as it will not be in the vicinity
+            <lb/>of the <rs>River</rs> I will not get a chance of witnessing
+            <lb/>it I have heard so much of war and been so much
+            <lb/>among soldiers that I have lost all horrors that I
+            <lb/>used to entertain about war I would as soon go
+            <lb/>to war as not if I were stout and had no family
+            <lb/>for it has almost became a fashion to go all that
+            <lb/>are left out of the military ranks are old and
+            <lb/>decripped, and it seems as that it has became a 
+            <lb/>necessity to turn out.  I will never go unless compelled
+            <lb/>to and that in defence of my own property and for
+            <lb/>the preservation of the Union  I am sure that the South will
+            <lb/>be completely broken up and the north greatly in
+            <lb/>debt though the debt will be amongst the north
+            <lb/>and the money will be left in the country and all
+            <lb/>will be benefitted more or less with it. 
+            <lb/>over 
+            
+            <pb facs="/0/057c1be9-5fbe-464d-a592-6a46ebe167ab" n="2"></pb>
+            
+            <lb/>I have not seen <rs ref="#MAF">your mother</rs> since I last wrote
+            <lb/>to you as I have to stay on the Boat<ptr type="noteAnchor" target="glide"/><note resp="ed" xml:id="glide">Anderson built
+              the Glide, a river steamer which he eventually sold to the U.S. government.<bibl><ref target="#genealogical">Jordan</ref>506</bibl>.</note> I have no
+            <lb/>opportunity of seeing any body or any thing only soldiers
+            <lb/>guns and Cannons.  We are almost <choice><corr>tired</corr><sic>tiard</sic></choice> of this kind 
+            <lb/>of work we live almost <choice><corr>miserably</corr><sic>misserably</sic></choice> poor I have not
+            <lb/>tasted any Butter for 4 weeks that I could stand and
+            <lb/>as for sauce we never have any thing of the kind we
+            <lb/>have Beef poor at that and Bakers <choice><corr>bread</corr><sic>Bred</sic></choice> and the poorest
+            <lb/>Kind of <choice><corr>vegetables</corr><sic>vegatibles</sic></choice> I ever saw all kinds of marketting is dur
+            <lb/>and poor the Country is as dry as a chip for all we have
+            <lb/>showers frequenty yesterday and last night and today
+            <lb/>is as warm a time as we have had this summer and the
+            <lb/>Mosquitoes are the worst I ever saw.  I wish you would
+            <lb/>Call on <persName ref="#russell">John Russell</persName> and tell him you want some
+            <lb/>Money and keep all that you know to be good such
+            <lb/>as U.S. and all Pittsburgh Banks I fear that I shall
+            <lb/>fail to get all out of him if I don’t make frequent calls
+            <lb/>you must let on to him that you are in need or he will
+            <lb/>put you off.  Tell all the children that I am not
+            <lb/>in war nor do I intend to go that I will come home when
+            <lb/>the river raises and that I have some things for them
+            <lb/>I have a fine lot of Peach stones and <choice><corr>watermelon</corr><sic>wattermellon</sic></choice> seeds
+            <lb/>saved and I will go up town some of those days after
+            <lb/><choice><corr>business</corr><sic>bussiness</sic></choice> resumes more fully and buy each of them some
+            <lb/>thing that will please them. I have thought frequently
+            <lb/>about <del type="overstrike">about</del> our whereabouts and pleasures nine years
+            <lb/>ago, and how as you thought what may our position
+            <lb/>be nine year from now.  I hope that we may have no
+            <lb/>more to mar our happiness than we have had and
+            <lb/>that we may both live and our children live many nine
+            <lb/>years to come.  I will stop as my paper is full I will
+            <lb/>look for a letter from you on receipt of this and hope to
+            <lb/>hear of you and the little ones enjoying good health and happiness
+          </p> 
+          <closer>
+            <lb/><salute>Ever Truly your husband </salute>
+            <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WB</abbr></choice> Anderson</persName></signed>
+          </closer>
+          <!-- If there were a <postscript>, we have a tag for that. -->
+        </div>
+        <!-- Or an enclosure: <div type="enclosure" xml:id="WBA_18600101enc"></div> -->
+      </body>
+    </text>
+  </TEI>
+
   <TEI xml:id="WBA_18620000" n="1862-08-10">
     <!-- FIRST COPY THIS TEI ELEMENT!! -->
     <!-- FILL IN THE VALUES ABOVE -->
+    <!-- ADD EDITOR'S NAME TO LIST -->
     <teiHeader>
       <fileDesc>
         <titleStmt>
@@ -1582,6 +1745,7 @@
         <div type="letter" xml:id="XWBA_18620616XXX" corresp="XXX" >
           <!-- REVISE THE VALUES ABOVE -->
           <pb facs="/0/0fae4c6e-0056-4419-9325-15799bf50925"/>
+          <!-- MAKE SURE TO REVISE THE FACS VALUE! -->
           <head type="letterhead"></head>
           <figure rend="link">
             <head></head>
@@ -1648,6 +1812,5 @@
     </text>
   </TEI>
   
-
   <!-- More TEI Documents? -->
 </teiCorpus>
