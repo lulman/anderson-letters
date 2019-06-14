@@ -28,6 +28,7 @@
              <persName ref="JMK">Jenna Marlene Kamrass</persName>
              <persName ref="KS">Kristin Stack</persName>
              <persName ref="ZAH">Zachary A. Hess</persName>
+             <persName ref="KLA">Katie Leigh Adams</persName>
            </respStmt>
            
          </titleStmt>
@@ -387,6 +388,11 @@
                  Jordan, John W., ed. <title level="m">Genealogical and Personal History of Western Pennsylvania</title>. Vol. I. New York: Lewis Historical
                  Publishing Company, 1915.
                </bibl>
+               <bibl xml:id="Brodhead" n="Brodhead">
+                 <title level="a">Wright, Horatio Gouverneur.</title> <title level="m">American National
+                 Biography</title>. https://doi-org.proxy.lib.ohio-state.edu/10.1093/anb/9780198606697.article.0500857.
+               </bibl>
+               
                
                
                
@@ -522,7 +528,13 @@
                  on Liberty Street for many years.”</note>
                <bibl><ref target="BioRev"><title level="m">Biographical Review</title></ref>205</bibl>
              </person>
-             
+             <person xml:id="HGWright" source="Brodhead">
+               <persName>Wright, Horatio Gouverneur</persName>
+               <note type="biographical">General Wright commanded the Division of Ohio from August 1862 to March 1863.</note>
+               <birth when="1820-03-06"><placeName>Clinton, Connecticut</placeName></birth>
+               <death when="1899-07-02"><placeName>Washington, D.C.</placeName></death>
+               <bibl><ref target="ANB">American National Biography</ref>https://doi-org.proxy.lib.ohio-state.edu/10.1093/anb/9780198606697.article.0500857</bibl>
+             </person>             
              
              
            </listPerson>
@@ -1859,6 +1871,145 @@
     </text>
   </TEI>
 
+  <TEI xml:id="WBA_18621007" n="1862-10-07">
+    <!-- FIRST COPY THIS TEI ELEMENT!! -->
+    <!-- FILL IN THE VALUES ABOVE -->
+    <!-- ADD EDITOR'S NAME TO LIST -->
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>October 7, 1862 Letter from William B. Anderson Pertaining to Everyday Life During the Civil War</title>
+          <author>Anderson, William B.</author>
+        </titleStmt>
+        <publicationStmt>
+          <p><!-- ... --></p>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc>
+            <msIdentifier>
+              <country>USA</country>
+              <settlement>Columbus, OH</settlement>
+              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
+              <collection>William B. Anderson Collection</collection>
+              <idno>SPEC.RARE.CMS.0309</idno>
+            </msIdentifier>
+            <msContents>
+              <p>
+                In this letter, Anderson reports hearing shooting along the river.  He references two captains
+                who were put in jail for cowardice.  He expresses concern that he does not know what his orders will be from
+                one day to the next.  He speaks of a funeral of a friend's son in Maysville, and worries that his wife 
+                is sick or mad because he has not heard from her.  This letter was written in October, making it one of the latest
+                in the season, possibly indicating unseasonably warm weather or extenuating circumstances.
+              </p>
+            </msContents>
+            <physDesc>
+              <p>This document is a transcript of a letter written by William B. Anderson to his wife Louisa Fischgens
+                in 1862.  It includes one sheet of paper, front and back.  It is written on unlined paper that is approximately 20 cm wide by 32 cm tall.  .  
+                This is the first publication of this letter. </p>
+              <accMat></accMat>
+            </physDesc>
+            <additional>
+              <adminInfo>
+                <!-- Info from the finding aid -->
+                <note></note>
+              </adminInfo>
+            </additional>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    
+    <text>
+      <body>
+        <div type="letter" xml:id="WBA_18621007_let">
+          <!-- REVISE THE VALUES ABOVE -->
+          <pb facs="/4/4ce23e0e-5e5f-4217-a641-79dbd5cac827"/>
+          <!-- MAKE SURE TO REVISE THE FACS VALUE! -->
+          <head type="letterhead"></head>
+          <figure rend="link">
+            <head></head>
+            <graphic url=""></graphic>
+            <figDesc></figDesc>
+          </figure>
+          <lb/>
+          <opener>
+            <lb/><dateline><placeName ref="#CincinnatiOH"><choice><expan>Cincinnati</expan><abbr>Cin</abbr></choice></placeName> <date when="1862-10-07"></date>>Oct 7th 1862</dateline>
+            <lb/><salute>My Dear<rs type="recipient">Wife</rs></salute>
+          </opener>
+          <p>
+            <lb/>As I have found out what we
+            <lb/>are to do for a little while I let you know
+            <lb/>this morning we were ordered to go below the Bridge
+            <lb/>and go in one old trade that is to go in the dispatch
+            <lb/><choice><corr>business</corr><sic>bussiness</sic></choice> and we still carry our Gun Squad of
+            <lb/>Eleven Men we have just made a trip down to the 
+            <lb/> J B Gurly at Andersons ferry &amp; back &amp; found all well 
+            <lb/>on board though a little excitement down that way
+            <lb/>Some shooting was heard back in the country and
+            <lb/>a dispatcher sent out to <choice><corr>ascertain</corr><sic>asscertain</sic></choice>
+            the cause and
+            <lb/>I look for an answer back such as has occurred
+            <lb/>lots of times before that there was a review and shoo<seg type="softhyphen">
+              <lb/>"<supplied>t</supplied>ing</seg> of Blank cartridges by way of stimulating the Men
+            <lb/>at hearing the cracks &amp;c. I have good reason to
+            <lb/>expect that we will be soon discharge as I have
+            <lb/>heard that all Boats in <choice><corr>Government</corr><abbr>Gov</abbr></choice> service will be dismiss<seg type="softhyphen">
+            <lb/>"</seg>ed this week unless there should be an attack
+            <lb/>made by the rebels I find that the <rs type="title">Comadore</rs> is
+            <lb/>dissatisfied at some of the boats engaged in the
+            <lb/>flottilla and the intention is to call all in and
+            <lb/>dismiss all, and such as are absolutely needed he
+            <lb/>will engage again.  I feel safe that we shall
+            <lb/>fare well and if there is any money to be got out
+            <lb/>of the chartering <choice><corr>business</corr><sic>bussiness</sic></choice> we will fare to. You
+            <lb/>may think that this is a strange sort of life  
+            
+            <!-- Page 2 -->
+            <pb facs="/9/96629418-dfc3-4ab9-b75a-70de55ce4277" n="2"/>
+            <lb/>and so do I!  I cannot tell today what
+            <lb/>I shall do tomorrow nor can a I find out by
+            <lb/>enquiry as the <rs type="title">Comadore</rs> of the fleet is subject to
+            <lb/>the orders of <persName ref="#HGWright">Gen Wright</persName> I suppose you heard
+            <lb/>by the papers of the cowardice of <persName>Capt Adams</persName>
+            <lb/>and the <rs type="title">Capt</rs> of the <name type="ship">Florence Miller</name> who are both in
+            <lb/>Jail and likely to be Kept there I don’t Know
+            <lb/>what will be their doom yet.
+          </p>
+          <p> 
+            <lb/>I have no news of any interest to write to
+            <lb/>you I have not seen your <rs ref="#MAF">mother</rs> since last
+            <lb/>Saturday week she was well  I have not
+            <lb/>had any letter from you for over a week
+            <lb/> and it worries me are you sick or are you
+            <lb/>mad or are any of the children sick let me
+            <lb/>hear from you often.  I witnessed a funeral
+            <lb/><choice><corr>procession</corr><sic>persession</sic></choice> on last Saturday of one of <persName>James Loves</persName>
+            <lb/>children at Maysville and it struck me sorely
+            <lb/>to see it as he and us were both married on the
+            <lb/>Same day and have had the same number of child<seg type="softhyphen">
+            <lb/>"</seg>ren and they lack but a little of being of the same
+            <lb/>ages and he lost the youngest one a boy of the same
+            <lb/>size and near the same age of <persName>Eddie</persName> it made me
+            <lb/>feel very queer indeed as I had not heard from
+            <lb/>you when at <choice><expan>Cincinnati</expan><abbr>Cin</abbr></choice> last  I wish you was here or I
+            <lb/>Could go up and stay at home a while but that
+            <lb/>is out of the question.  Kiss all the children for
+            <lb/>me and tell them to be good that I will soon
+            <lb/>Come home take good care of yourself good
+            <lb/>bye
+          </p> 
+          <closer>
+            <lb/><salute>Your affectionate husband,</salute>
+            <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WBA</abbr></choice></persName></signed>
+          </closer>
+          <!-- If there were a <postscript>, we have a tag for that. -->
+        </div>
+        <!-- First, the envelope. -->
+        <!-- Or an enclosure: <div type="enclosure" xml:id="WBA_18600101enc"></div> -->
+      </body>
+    </text>
+  </TEI>
+  
   <TEI xml:id="WBA_18620000" n="1862-08-10">
     <!-- FIRST COPY THIS TEI ELEMENT!! -->
     <!-- FILL IN THE VALUES ABOVE -->
