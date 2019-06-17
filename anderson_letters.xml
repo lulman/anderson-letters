@@ -1968,7 +1968,7 @@
             <pb facs="/9/96629418-dfc3-4ab9-b75a-70de55ce4277" n="2"/>
             <lb/>and so do I!  I cannot tell today what
             <lb/>I shall do tomorrow nor can a I find out by
-            <lb/>enquiry as the <rs type="title">Comadore</rs> of the fleet is subject to
+            <lb/>enquiry as the <choice><corr>Commodore</corr><sic><rs type="title">Comadore</rs></sic></choice> of the fleet is subject to
             <lb/>the orders of <persName ref="#HGWright">Gen Wright</persName> I suppose you heard
             <lb/>by the papers of the cowardice of <persName>Capt Adams</persName>
             <lb/>and the <rs type="title">Capt</rs> of the <name type="ship">Florence Miller</name> who are both in
@@ -2010,7 +2010,193 @@
     </text>
   </TEI>
   
-  <TEI xml:id="WBA_18620000" n="1862-08-10">
+  <TEI xml:id="WBA_18621016" n="1862-10-16">
+    <!-- FIRST COPY THIS TEI ELEMENT!! -->
+    <!-- FILL IN THE VALUES ABOVE -->
+    <!-- ADD EDITOR'S NAME TO LIST -->
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Letter from William B. Anderson to his wife, Louisa, 16 October 1862.</title>
+          <author>Anderson, William B.</author>
+        </titleStmt>
+        <publicationStmt>
+          <p><!-- ... --></p>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc>
+            <msIdentifier>
+              <country>USA</country>
+              <settlement>Columbus, OH</settlement>
+              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
+              <collection>William B. Anderson Collection</collection>
+              <idno>SPEC.RARE.CMS.0309</idno>
+            </msIdentifier>
+            <msContents>
+              <p>Anderson tells his wife that his boat's departure has been delayed by a day 
+                and asks her to send some food and clothes to him at the dock. He also expresses 
+                anxiety about whether his trip will be profitable and asks his wife to request 
+                some money from [John?] Russell to help cover an upcoming payday for his crew.</p>
+            </msContents>
+            <physDesc>
+              <p>William B. Anderson's letter dated June 27, 1862 from Pittsburgh and
+                addressed to his wife Louisa is written in ink on one side of a 
+                loose sheet of paper measuring approximately 7.5 inches wide by 9.0 inches 
+                tall (19 x 23 cm) and ruled with horizontal blue lines spaced .33 inches 
+                (0.8 cm) apart, except for a 1.5-inch (3.8 cm) unruled top margin. 
+                The left edge of the sheet is slightly ragged, while the other three edges 
+                are clean, suggesting that the sheet was torn from a notepad or bound notebook. 
+                It appears originally to have been folded once crosswise and twice lengthwise. 
+                At this writing, the ink appears brown and the paper off-white (cream). A .5-inch
+                by .5-inch (1.3 x 1.3 cm) embossed printer's mark appears in the upper lefthand 
+                corner of the sheet, 0.5 inches (1.3 cm) from the top edge and .25 inches 
+                (0.6 cm) from the left edge. Although the mark is indistinct, its shape 
+                closely matches that of a distinct, similarly sized and positioned printer's 
+                mark on a letter dated July 1, 1863, which reads "MT HOLLY PAPER CO." 
+                (see illustrations). Texture? Stiffness? Watermarks? I will have to visit 
+                the RBML.</p>
+              <accMat></accMat>
+            </physDesc>
+            <additional>
+              <adminInfo>
+                <!-- Info from the finding aid -->
+                <note></note>
+              </adminInfo>
+            </additional>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    
+    <text>
+      <body>
+        <div type="letter" xml:id="WBA_18621016_let">
+          <!-- REVISE THE VALUES ABOVE -->
+          <pb facs="/0/0a310868-4a89-4c8a-a1f1-0adfe7c9232a"/>
+          <!-- MAKE SURE TO REVISE THE FACS VALUE! -->
+          <head type="letterhead"></head>
+          <figure rend="link">
+            <head></head>
+            <graphic url=""></graphic>
+            <figDesc></figDesc>
+          </figure>
+          <lb/>
+          <opener>
+            <lb/><dateline><date when="1862-06-16"></date>June 16/62</dateline>
+            <lb/><salute>My <choice><expan>Dear</expan><abbr>Dr</abbr></choice><rs type="recipient" ref="#MLA"> Wife</rs></salute>
+          </opener>
+          <p>
+            <lb/>Yours Mailed 13th I got on my 
+            <lb/>arrival to the City this afternoon &amp; was glad 
+            <lb/>to hear from you.  I have been absent from 
+            <lb/>the City for a few days on a trip to Maysville 
+            <lb/>we are sill in Gov employ and I suppose we 
+            <lb/>will continue some time yet as there is no prospect 
+            <lb/>of water.  I will have to be <choice><corr>disappointed</corr><sic>dissapointed</sic></choice> in 
+            <lb/>my prospects of going home for while and 
+            <lb/>if you can come down I will be glad to 
+            <lb/>see you any time you can come you had better 
+            <lb/>not attempt to bring the children as they will 
+            <lb/>be <choice><corr>too</corr><sic>to</sic></choice> great a charge for you, although I should 
+            <lb/>be very happy to see them but you could not be 
+            <lb/>at liberty to go any place you might wish with 
+            <lb/>them and there is no reason why you could not 
+            <lb/>leave them in care of Mary McNamee and Julia 
+            <lb/>Porter for that time.  You can make your own 
+            <lb/>arrangements about the children as I leave the 
+            <lb/>care of them altogether to you I think if you 
+            <lb/>will come down 
+            <del type="recoverable" rend="overstrike" hand="WBA"> you had better come down</del> you
+            <lb/>had better not wait as long as next month 
+            <lb/>for fear the river will raise or if it <choice><corr>don't</corr><sic>dont</sic></choice> 
+            <lb/>raise &amp; should continue to fall we might be sent 
+            <lb/>down below. this <del type="recoverable" rend="overstrike" hand="WBA">is</del> 
+            my <choice><corr>advice</corr><sic>advise</sic></choice> to you will be 
+            <lb/>for you to come by the Steubenville route and 
+            
+            <pb facs="/5/5aa5bc88-89c1-48c1-bc3e-c2d2be754dba" n="2"/>
+            
+            <lb/>leave Pittsburgh at one Oclock or there abouts 
+            <lb/>and when you get on board you tell the 
+            <lb/>Conductor that you want to take the <choice><corr>sleeping</corr><sic>sheeping</sic></choice> 
+            <lb/>Car which they take in tow at Steubenville 
+            <lb/>and that will cost you 50 cts extra that train 
+            <lb/>arrives at the Dayton &amp; Hamilton Depot at about 
+            <lb/>5 or 6 oclock A.M. the ticket office is on 
+            <lb/>Liberty Street near the Canal on the left hand 
+            <lb/>side of the street it might be that John 
+            <lb/>will come down with you and that would 
+            <lb/>be better as I think he has acted very foolish 
+            <lb/>for I have to pay 5$ each per day for Pilots 
+            <lb/>and he might just as well had 200$ dollars 
+            <lb/>while he has been at home as not if you should 
+            <lb/>come down or have any chance to send me 
+            <lb/>that pair of Blue pants &amp; belt down I would 
+            <lb/>like to have them as my Pants are getting thin 
+            <lb/>and I don’t want to spend any money I can 
+            <lb/>help.  I have not seen your mother for 
+            <lb/>2 or three weeks I may see her in a few 
+            <lb/>days if you come let me know a few days 
+            <lb/>before you come when to be on the look out 
+            <lb/>for you. 
+          </p>
+          <p>
+            
+            <lb/>Tell Old Man Walsh that I will take 12 
+            <lb/><choice><expan>dollars</expan><abbr>dolls</abbr></choice> for that Heifer &amp; for him to sell the Hay 
+            <lb/>and divide the money I think hay will be very 
+            <lb/>High in the spring but I suppose he wants his 
+            <lb/>share of the money he can do as he thinks 
+            <lb/>best about it.  That Bank notice you spoke 
+            
+            <pb facs="/D/d9efdc52-501d-44fd-ac88-c104eb8132ed" n="3"/>
+            
+            <lb/>about I made arrangements with Holmes 
+            <lb/>&amp; Sons Brokers to pay all my notes that will 
+            <lb/>fall due I told Mr Wright to use what Money 
+            <lb/>was deposited at Holmes &amp; Sons belonging to the Boat 
+            <lb/>to Pay Notes &amp; when that ran out to use what 
+            <lb/>I had there which is sufficient to pay all claims 
+            <lb/>that may fall due for a while I will look 
+            <lb/>for a letter from you soon and will be 
+            <lb/>pleased to hear of you making satisfa<seg type="softhyphen">
+              <lb/>=</seg>ctory arrangements to come and see me 
+            <lb/>as it seems utterly impossibly for me to 
+            <lb/>leave for the present I am to settle up 
+            <lb/>our business here up till the 15 of this <choice><expan>Month</expan><abbr>Mo</abbr></choice> 
+            <lb/>this or next week and then I will find out 
+            <lb/>what I am making but one thing I do 
+            <lb/>know is this that I am doing as well as I 
+            <lb/>want to with a boat my share of the <choice><corr>profits</corr><sic>proffits</sic></choice> 
+            <lb/>and wages is at least 40 <choice><expan>dollars</expan><abbr>>dolls</abbr></choice> per day and that 
+            <lb/>is not bad but keep it to yourself. I will stop 
+            <lb/>as the mail Closes at 8 Oclock this evening I 
+            <lb/>will write soon again but write immediately 
+            <lb/>and give me all the news and take good 
+            <lb/>Care of yourself and the children and kiss 
+            <lb/>all of them for me and tell them to be good 
+          </p> 
+          <closer>
+            <lb/><salute>Your Affectionate Husband</salute>
+            <lb/><signed><persName ref="#WBA"><choice><expan>Anderson</expan><abbr type="initials">WB</abbr></choice></persName></signed>
+          </closer>
+          <!-- If there were a <postscript>, we have a tag for that. -->
+        </div>
+        <postscript>
+          <p>
+            <lb/>Excuse Haste &amp; Bad writing as there is a constant
+            <lb/>ta<del type="recoverable" rend="overwritten" hand="WBA">k</del>lking and fun in the Hall           
+          </p>
+          <closer>
+            <lb/><signed><persName ref="#WBA"><choice><expan>William B. Anderson</expan><abbr>WBA</abbr></choice></persName></signed>
+          </closer>
+        </postscript>
+        <!-- Or an enclosure: <div type="enclosure" xml:id="WBA_18600101enc"></div> -->
+      </body>
+    </text>
+  </TEI>
+
+  <TEI xml:id="WBA_18621019" n="1862-10-19">
     <!-- FIRST COPY THIS TEI ELEMENT!! -->
     <!-- FILL IN THE VALUES ABOVE -->
     <!-- ADD EDITOR'S NAME TO LIST -->
@@ -2122,5 +2308,118 @@
     </text>
   </TEI>
   
+
+  <TEI xml:id="WBA_18620000" n="1862-08-10">
+    <!-- FIRST COPY THIS TEI ELEMENT!! -->
+    <!-- FILL IN THE VALUES ABOVE -->
+    <!-- ADD EDITOR'S NAME TO LIST -->
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title><!-- From same element --></title>
+          <author>Anderson, William B.</author>
+        </titleStmt>
+        <publicationStmt>
+          <p><!-- ... --></p>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc>
+            <msIdentifier>
+              <country>USA</country>
+              <settlement>Columbus, OH</settlement>
+              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
+              <collection>William B. Anderson Collection</collection>
+              <idno>SPEC.RARE.CMS.0309</idno>
+            </msIdentifier>
+            <msContents>
+              <p><!-- From <front><div1><p> (after <head>) --></p>
+            </msContents>
+            <physDesc>
+              <p><!-- From <notesStmt><note><p> --></p>
+              <accMat></accMat>
+            </physDesc>
+            <additional>
+              <adminInfo>
+                <!-- Info from the finding aid -->
+                <note></note>
+              </adminInfo>
+            </additional>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    
+    <text>
+      <body>
+        <div type="letter" xml:id="XWBA_18620616XXX" corresp="XXX" >
+          <!-- REVISE THE VALUES ABOVE -->
+          <pb facs="/0/0fae4c6e-0056-4419-9325-15799bf50925"/>
+          <!-- MAKE SURE TO REVISE THE FACS VALUE! -->
+          <head type="letterhead"></head>
+          <figure rend="link">
+            <head></head>
+            <graphic url=""></graphic>
+            <figDesc></figDesc>
+          </figure>
+          <lb/>
+          <opener>
+            <lb/><dateline><date when="1862-06-16"></date>June 16/62</dateline>
+            <lb/><salute>My Dear<rs type="recipient">Wife</rs></salute>
+          </opener>
+          <p>
+            
+            <!-- Beginning with the body of the letter, lines in this template have been identified 
+               to allow for cross references and numbered to allow for numbered display. IDs must 
+               be unique within the document. However, you do not need to report line breaks at all 
+               if doing so serves no purpose in your edition. -->            
+            -->
+            
+            <!-- TEXT OF THE LETTER between OPENER and CLOSER. ADD NOTES!  -->
+            <!-- MAKE SURE YOU HAVE UPDATED LISTS OF WORKS CITED, PEOPLE, NOTES, ETC. -->
+          </p> 
+          <closer>
+            <lb/><salute><!-- From salute --></salute>
+            <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WBA</abbr></choice></persName></signed>
+          </closer>
+          <!-- If there were a <postscript>, we have a tag for that. -->
+        </div>
+        <!-- First, the envelope. -->
+        <div type="envelope" xml:id="envelope_ID" corresp="letter_ID">
+          <pb facs="XXX"/>
+          <ab type="returnAddress">
+            <address>
+              <addrLine></addrLine>
+              <addrLine></addrLine>
+              <addrLine></addrLine>
+              <addrLine></addrLine>
+            </address>
+          </ab>
+          <ab type="postalAddress">
+            <persName></persName>
+            <address>
+              <addrLine></addrLine>
+              <addrLine></addrLine>
+              <addrLine></addrLine>
+            </address>
+          </ab>
+          <ab type="endorsement">
+          </ab>
+          <ab>
+            <stamp type="postmark"></stamp>
+            <stamp type="cancellation"></stamp>
+          </ab>
+          <figure rend="link">
+            <head></head>
+            <graphic
+              url=""/>
+            <figDesc></figDesc>
+          </figure>
+          <!-- See http://www.jamesdire.net/W-F.html -->
+        </div>
+        <!-- Or an enclosure: <div type="enclosure" xml:id="WBA_18600101enc"></div> -->
+      </body>
+    </text>
+  </TEI>
+
   <!-- More TEI Documents? -->
 </teiCorpus>
