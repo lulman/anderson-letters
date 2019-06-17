@@ -13,7 +13,9 @@
                <editor><persName ref="JMK">Jenna Marlene Kamrass</persName></editor>
                <editor><persName ref="KS">Kristin Stack</persName></editor>
                <editor><persName ref="ZAH">Zachary A. Hess</persName></editor>
-           
+               <editor><persName ref="MEP">Marie E. Pesut</persName></editor>
+               <editor><persName ref="KLA">Katie Leigh Adams</persName></editor>
+               
            <respStmt>
              <resp>Creation of digital scans of manuscript pages: </resp>
              <persName>Laura Denning, Ohio State University Libraries</persName>
@@ -29,6 +31,7 @@
              <persName ref="KS">Kristin Stack</persName>
              <persName ref="ZAH">Zachary A. Hess</persName>
              <persName ref="KLA">Katie Leigh Adams</persName>
+             <persName ref="MEP">Marie E. Pesut</persName>
            </respStmt>
            
          </titleStmt>
@@ -308,7 +311,18 @@
                    <geo>38.7667 -84.0000</geo>
                  </location>
                </place>
-                              
+               <place type="city" xml:id="SLM" source="#TGN">
+                 <placeName>Saint Louis, Missouri</placeName>
+                 <desc>Anderson writes from St. Louis on 19 June 1863.</desc>
+                 <country>United States</country>
+                 <region type="state">Missouri</region>
+                 <region type="county"></region>
+                 <location>
+                   <geo>38.6167 -90.1833</geo>
+                 </location>
+               </place>
+               
+               
              </listPlace>
              
              <listOrg>
@@ -534,7 +548,8 @@
                <birth when="1820-03-06"><placeName>Clinton, Connecticut</placeName></birth>
                <death when="1899-07-02"><placeName>Washington, D.C.</placeName></death>
                <bibl><ref target="ANB">American National Biography</ref>https://doi-org.proxy.lib.ohio-state.edu/10.1093/anb/9780198606697.article.0500857</bibl>
-             </person>             
+             </person>
+             
              
              
            </listPerson>
@@ -2196,14 +2211,14 @@
     </text>
   </TEI>
 
-  <TEI xml:id="WBA_18621019" n="1862-10-19">
+  <TEI xml:id="WBA_18630619" n="1863-06-19">
     <!-- FIRST COPY THIS TEI ELEMENT!! -->
     <!-- FILL IN THE VALUES ABOVE -->
     <!-- ADD EDITOR'S NAME TO LIST -->
     <teiHeader>
       <fileDesc>
         <titleStmt>
-          <title><!-- From same element --></title>
+          <title>My Dear Wife: A Riverboat Captain's Missive to His Love</title>
           <author>Anderson, William B.</author>
         </titleStmt>
         <publicationStmt>
@@ -2219,10 +2234,26 @@
               <idno>SPEC.RARE.CMS.0309</idno>
             </msIdentifier>
             <msContents>
-              <p><!-- From <front><div1><p> (after <head>) --></p>
+              <p>On June 19th, 1863, riverboat captain William B. Anderson penned a letter to his wife 
+                from St. Louis, Missouri, in which he informs his spouse of matters concerning river
+                travel, his salary, and a bout of illness that left him bedridden.</p>
             </msContents>
             <physDesc>
-              <p><!-- From <notesStmt><note><p> --></p>
+              <p>The single folded sheet, yellowed with age, has
+                writing on both the front and back in black ink, as well as a printer's mark in the upper left hand corner.
+                William B. Anderson's letter dated June 19th, 1863 from St. Louis, Missouri, is
+                addressed to his wife Louisa and is written in ink on both sides of a 
+                loose sheet of off-white paper measuring approximately 7.5 inches wide by 9.0 inches 
+                tall (19 x 23 cm).  The paper is ruled with horizontal lines of a blue color that are spaced .33 
+                inches (0.8 cm) apart, except for a 1.5-inch (3.8 cm) top margin that is unruled. 
+                The sheet's left edge is not a clean line like the remaining three, suggesting that it was
+                most likely  torn from a notepad of some sort.  Written in black ink, the letter appears to 
+                have originally been folded once horizontally and twice vertically. 
+                A .5-inch by .5-inch (1.3 x 1.3 cm) embossed printer's mark appears in the upper left 
+                corner of the sheet, 0.5 inches (1.3 cm) from the top edge of the paper and .25 inches 
+                (0.6 cm) from the left edge. Although the exact origins of the mark is inconclusive, it
+                resembles a similarly sized and placed printer's mark on a letter dated July 1, 1863, that
+                reads: "MT HOLLY PAPER CO."</p>
               <accMat></accMat>
             </physDesc>
             <additional>
@@ -2238,9 +2269,9 @@
     
     <text>
       <body>
-        <div type="letter" xml:id="XWBA_18620616XXX" corresp="XXX" >
+        <div type="letter" xml:id="WBA_18630619_let">
           <!-- REVISE THE VALUES ABOVE -->
-          <pb facs="/0/0fae4c6e-0056-4419-9325-15799bf50925"/>
+          <pb facs="/A/acb4cba0-d23f-4bee-a8f5-41ded57b7824"/>
           <!-- MAKE SURE TO REVISE THE FACS VALUE! -->
           <head type="letterhead"></head>
           <figure rend="link">
@@ -2250,58 +2281,72 @@
           </figure>
           <lb/>
           <opener>
-            <lb/><dateline><date when="1862-06-16"></date>June 16/62</dateline>
+            <lb/><dateline>St Louis <date when="1863-06-19"></date>Saturday June 19th 63</dateline><ptr type="noteAnchor" target="June19"/><note resp="ed" xml:id="June19">June 19, 1863 fell on a Friday, not Saturday.</note>
             <lb/><salute>My Dear<rs type="recipient">Wife</rs></salute>
           </opener>
           <p>
-            
-            <!-- Beginning with the body of the letter, lines in this template have been identified 
-               to allow for cross references and numbered to allow for numbered display. IDs must 
-               be unique within the document. However, you do not need to report line breaks at all 
-               if doing so serves no purpose in your edition. -->            
-            -->
-            
-            <!-- TEXT OF THE LETTER between OPENER and CLOSER. ADD NOTES!  -->
-            <!-- MAKE SURE YOU HAVE UPDATED LISTS OF WORKS CITED, PEOPLE, NOTES, ETC. -->
+            <lb/>I will commence a letter to you 
+            <lb/>this afternoon &amp; Finish it tomorrow we arrived
+            <lb/>here last night about Midnight we had
+            <lb/>a fair trip around &amp; if we get as good a one
+            <lb/>back we will make a little money times are very
+            <lb/>dull &amp; and prices poor we had all the freight we could 
+            <lb/>carry on the water I have several small lots engaged
+            <lb/>to go back to  <placeName ref="#LouisvilleKY">Louisville</placeName> &amp; <choice><expan>Cincinnati</expan><abbr>Cin.</abbr></choice> &amp; I think by Monday
+            <lb/>night we shall have all we can carry I had thought
+            <lb/>somebody would be here and offer to buy the boat but
+            <lb/>the Boat fervor has subsided greatly I had a visit
+            <lb/>from <persName>Capt. R. C. Gray</persName> today &amp; he says that he thinks that
+            <lb/>the upper <placeName>Mississippi river</placeName> trade would pay us better
+            <lb/>than the <placeName ref="#SLM">St Louis</placeName> and <placeName ref="#CincinnatiOH"><choice><expan>Cincinnati</expan><abbr>Cin.</abbr></choice></placeName> trade but I dont wish to go up 
+            <lb/>there for the present. I had an offer at <placeName ref="#CincinnatiOH"><choice><expan>Cincinnati</expan><abbr>Cin.</abbr></choice></placeName> to sell &amp; I will
+            <lb/>know what I can do when I return if the party accepts my
+            <lb/>offer I will be home Shortly.</p>
+          <p>
+            <lb/>Sunday Evening I have been rather under the weather
+            <lb/>since I left <placeName ref="#LouisvilleKY">Louisville</placeName> &amp; had today to have a 
+            <lb/>Doctor &amp; he gave me a lot of <choice><corr>Medicine</corr><sic>Medacin</sic></choice> and as
+            <lb/>Soon as I took of it got better he says I would 
+            <lb/>have had the ague or a bad attack of Billious 
+            <lb/>fever if I had not had relief soon I thought
+            <lb/>it was the Neuralgia I had, for one side of
+            <pb facs="/5/5f9ab980-da6b-4d49-9fce-fa3268140bcb" n="2"/>
+            <lb/>of my face &amp; jaw pained me constantly
+            <lb/>and my teeth ached &amp; I had one of them 
+            <lb/>pulled and it did not do any good and
+            <lb/>for 48 hours, I had not eaten one bite nor
+            <lb/>slept one minute.  I was not well one minute
+            <lb/>at a time until I took the medicine and it
+            <lb/>acted like a charm I am of course weak
+            <lb/>but feel well and tomorrow I want to go 
+            <lb/>and see <persName>Belle Ferguson</persName> I have not been out
+            <lb/>of my room nor in fact out of bed all
+            <lb/>day till this Evening. I would not have
+            <lb/>believed that a few doses of medicine would
+            <lb/>do so much in so short a time.  I will
+            <lb/>send you a paper or two tomorrow I
+            <lb/>hope you are well give my love to 
+            <lb/>the children excuse this poor letter
+            <lb/>for I can assure you that I have had 
+            <lb/>better to say – I will leave here for
+            <lb/>Cin Tomorrow night without I get
+            <lb/>disappointed. I have been unable to go 
+            <lb/>up Town to see how it looks but will
+            <lb/>Tomorrow if nothing happens &amp; my 
+            <lb/>health improves I <choice><corr>feel</corr><sic>feell</sic></choice> sure I will
+            <lb/>be all right again in a day or two
           </p> 
           <closer>
-            <lb/><salute><!-- From salute --></salute>
-            <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WBA</abbr></choice></persName></signed>
+            <lb/><salute>Yours Affectionately</salute>
+            <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WB</abbr></choice> Anderson</persName></signed>
           </closer>
-          <!-- If there were a <postscript>, we have a tag for that. -->
-        </div>
-        <!-- First, the envelope. -->
-        <div type="envelope" xml:id="envelope_ID" corresp="letter_ID">
-          <pb facs="XXX"/>
-          <ab type="returnAddress">
-            <address>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-            </address>
-          </ab>
-          <ab type="postalAddress">
-            <persName></persName>
-            <address>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-            </address>
-          </ab>
-          <ab type="endorsement">
-          </ab>
-          <ab>
-            <stamp type="postmark"></stamp>
-            <stamp type="cancellation"></stamp>
-          </ab>
-          <figure rend="link">
-            <head></head>
-            <graphic
-              url=""/>
-            <figDesc></figDesc>
-          </figure>
-          <!-- See http://www.jamesdire.net/W-F.html -->
+          <postscript>
+           <p>
+            <lb/>P.S. I will write again Tomorrow any how
+           </p>
+            <lb/><signed><persName ref="#WBA"><choice><expan>William B. Anderson</expan><abbr type="initials">WBA</abbr></choice></persName></signed>
+          </postscript>
+           <!-- If there were a <postscript>, we have a tag for that. -->
         </div>
         <!-- Or an enclosure: <div type="enclosure" xml:id="WBA_18600101enc"></div> -->
       </body>
