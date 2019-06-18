@@ -15,6 +15,7 @@
                <editor><persName ref="ZAH">Zachary A. Hess</persName></editor>
                <editor><persName ref="MEP">Marie E. Pesut</persName></editor>
                <editor><persName ref="KLA">Katie Leigh Adams</persName></editor>
+               <editor><persName ref="KLA">Steve W. Sikes-Gilbert</persName></editor>
                
            <respStmt>
              <resp>Creation of digital scans of manuscript pages: </resp>
@@ -32,6 +33,7 @@
              <persName ref="ZAH">Zachary A. Hess</persName>
              <persName ref="KLA">Katie Leigh Adams</persName>
              <persName ref="MEP">Marie E. Pesut</persName>
+             <persName ref="KLA">Steve W. Sikes-Gilbert</persName>
            </respStmt>
            
          </titleStmt>
@@ -321,6 +323,27 @@
                    <geo>38.6167 -90.1833</geo>
                  </location>
                </place>
+               <place type="city" xml:id="nashville" source="#TGN">
+                 <placeName>Nashville</placeName>
+                 <desc>In his letter of 1 July 1863, Anderson he will start for Nashville, Tennessee that evening. Nashville 
+                   could be reached from the Ohio River via the Cumberland River, which meets the Ohio at mile 933.</desc>
+                 <country>United States</country>
+                 <region type="state">Tennessee</region>
+                 <region type="county">Davidson</region>
+                 <location>
+                   <geo>36.1540 -86.7610 </geo>
+                 </location>
+               </place>
+               <place type="city" xml:id="allegheny" source="#TGN">
+                 <placeName notBefore="1788" notAfter="1907">Allegheny City</placeName>
+                 <desc></desc>
+                 <country>United States</country>
+                 <region type="state">Pennsylvania</region>
+                 <region type="county">Allegheny</region>
+                 <location>
+                   <geo>40.451029 -80.015539</geo>
+                 </location>
+               </place>
                
                
              </listPlace>
@@ -350,8 +373,6 @@
                    <geo>39.085907 -84.622564</geo>
                  </location>
                </org>
-               
-               
              </listOrg>
              
              <!-- FOR EACH LETTER, UPDATE BIBLIOGRAPHY -->
@@ -406,9 +427,9 @@
                  <title level="a">Wright, Horatio Gouverneur.</title> <title level="m">American National
                  Biography</title>. https://doi-org.proxy.lib.ohio-state.edu/10.1093/anb/9780198606697.article.0500857.
                </bibl>
-               
-               
-               
+               <bibl xml:id="histpitt" n="historic">
+                 <title level="m">Historic Pittsburgh</title>. University of Pittsburgh Library System. https://historicpittsburgh.org
+               </bibl>
                
                
              </listBibl>
@@ -2352,7 +2373,151 @@
       </body>
     </text>
   </TEI>
-  
+
+  <TEI xml:id="WBA_18630701" n="1863-07-01">
+    <!-- FIRST COPY THIS TEI ELEMENT!! -->
+    <!-- FILL IN THE VALUES ABOVE -->
+    <!-- ADD EDITOR'S NAME TO LIST -->
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>A letter from William B. Anderson to his wife, Mary Louisa, from July 1, 1863 written in Cincinnati</title>
+          <author>Anderson, William B.</author>
+        </titleStmt>
+        <publicationStmt>
+          <p><!-- ... --></p>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc>
+            <msIdentifier>
+              <country>USA</country>
+              <settlement>Columbus, OH</settlement>
+              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
+              <collection>William B. Anderson Collection</collection>
+              <idno>SPEC.RARE.CMS.0309</idno>
+            </msIdentifier>
+            <msContents>
+              <p>In this letter, from July 1, 1863, William B. Anderson writes to his wife, Mary Louisa, from
+                Cincinnati.  Anderson tells his wife about the Government cargo he is shipping, and the hard
+                work that goes along with handling the cargo in the summer heat.  Anderson also gives Mary Louisa
+                advice pertaining to family and financial affairs back home in Pittsburgh.  He ends the letter 
+                as he does most, with affection for his wife and telling her to kiss "the little ones" for him.</p>
+            </msContents>
+            <physDesc>
+              <p>William B. Anderson's letter dated July 1, 1863 from Cincinnati and
+                addressed to his wife Louisa is written in ink on one side of a 
+                loose sheet of paper measuring approximately 7.5 inches wide by 9.0 inches 
+                tall (19 x 23 cm) and ruled with horizontal blue lines spaced .33 inches 
+                (0.8 cm) apart, except for a 1.5-inch (3.8 cm) unruled top margin. 
+                The left edge of the sheet is slightly ragged, while the other three edges 
+                are clean, suggesting that the sheet was torn from a notepad or bound notebook. 
+                It appears originally to have been folded once crosswise and twice lengthwise. 
+                At this writing, the ink appears brown and the paper off-white (cream). A .5-inch
+                by .5-inch (1.3 x 1.3 cm) embossed printer's mark appears in the upper lefthand 
+                corner of the sheet, 0.5 inches (1.3 cm) from the top edge and .25 inches 
+                (0.6 cm) from the left edge. It reads "MT HOLLY PAPER CO" 
+                (see illustration).</p>
+              <accMat></accMat>
+            </physDesc>
+            <additional>
+              <adminInfo>
+                <!-- Info from the finding aid -->
+                <note></note>
+              </adminInfo>
+            </additional>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    
+    <text>
+      <body>
+        <div type="letter" xml:id="WBA_18630701_let">
+          <!-- REVISE THE VALUES ABOVE -->
+          <pb facs="/E/e06062da-d7e0-424c-b850-fdcd54e05aca"/>
+          <!-- MAKE SURE TO REVISE THE FACS VALUE! -->
+          <head type="letterhead"></head>
+          <figure rend="link">
+            <head></head>
+            <graphic url=""></graphic>
+            <figDesc></figDesc>
+          </figure>
+          <lb/>
+          <opener>
+            <lb/><dateline><placeName ref="#CincinnatiOH"><choice><expan>Cincinnati</expan><abbr>Cin</abbr></choice></placeName><date when="1863-07-01"></date> July 1st 1863</dateline>
+            <lb/><salute>My <choice><expan>Dear</expan><abbr>Dr</abbr></choice><rs ref="#MLA">Wife</rs></salute>
+          </opener>
+          <p>
+            <lb/>As  I have an opportunity of sending
+            <lb/>you a letter by <persName>Mr Wm Russell</persName> I thought I
+            <lb/>would embrace the opportunity.  I am well and hope
+            <lb/>you are also. we start this evening for <placeName ref="#nashville">Nashville</placeName>
+            <lb/>Our cargo is principally <choice><expan>Government</expan><abbr>Gov.</abbr></choice> <choice><expan>Freight</expan><abbr>Frt</abbr></choice> we have for 
+            <lb/>one item 1000 Barrels Potatoes there is lots of <choice><expan>Freight</expan><abbr>frt</abbr></choice>
+            <lb/>to Go to <placeName ref="#nashville">Nashville</placeName>  I had the offer of 280
+            <lb/>six Horses <choice><corr>Wagons</corr><sic>Waggons</sic></choice> 150 ambulances and Horses for
+            <lb/>June and 450 tons clothing.  I take 100 tons or
+            <lb/>one thousand Barrels Potatoes and as many
+            <lb/>boxes of Clothing As I can carry on the water
+            <lb/>which will <choice><expan>amount</expan><abbr>amt</abbr></choice> to in all about 1500$ <choice><expan>Dollars</expan><abbr>Dolls</abbr></choice>
+            <lb/>for Potatoes and about 12 to 1500$ for the <choice><expan>Balance</expan><abbr>Bal</abbr></choice>
+            <lb/>which is in all about a three thousand <choice><expan>Dollar</expan><abbr>Dlr</abbr></choice> Trip
+            <lb/>&amp; if we get safe there &amp; back we will make
+            <lb/>a good trip it is excessively Hot today I can
+            <lb/>scarcely stand it but I hope we will have it
+            <lb/>Cooler when we get underway. I have been very
+            <lb/>buissily engaged all day have had a good ell
+            <lb/>of work to do to get our trip secured there is a
+            <lb/>good many way of dodging.  I can not tell
+            <lb/>you when I will be home I had some hope of
+            <lb/>selling but now all chances have escaped
+            <lb/>I will make this trip and I can<add place="supralinear">not</add> tell you
+            
+            <!-- Page 2 -->
+            <pb facs="/5/54b4392d-7de4-47b3-bfc6-62a8bcd8236c" n="2"/>
+            
+            <lb/>what I will do next If I cannot make it pay 
+            <lb/>&amp; I don’t sell I will lay up till Cool weather
+            <lb/>it is murdering ones self by degrees to Boat
+            <lb/>such times as those.  I suppose you have best
+            <lb/>get a Barrell of N.O. Sugar at <placeName ref="#PittsburghPA"><choice><expan>Pittsburgh</expan><abbr>Pitt</abbr></choice></placeName> either
+            <lb/>from  Holmes &amp; Co Market St <ptr type="noteAnchor" target="holmes"/><note resp="ed" xml:id="holmes">A lot labeled "Holmes" appears
+              at 15 Market Street on an 1872 map of Pittsburg. <bibl> Historic Pittsburgh, https://historicpittsburgh.org/islandora/object/pitt%3A1872p015/viewer</bibl>.</note> or from Mirer and  
+            <lb/>Robinson <placeName>Allegheny</placeName> I would send you the
+            <lb/>Money but I suppose you can get it from
+            <lb/><persName>Russell</persName> it will cost about 35 or 40 <choice><expan>Dollars</expan><abbr>Dolls</abbr></choice>
+            <lb/>you can get <persName>Russell</persName> to get it for you and
+            <lb/>let him charge it.  I will send him a 
+            <lb/>note by Bill and he can get it and have it
+            <lb/>sent to his store have him get it over
+            <lb/>the River &amp; all.
+          </p>
+          <p>
+            <lb/>I have no news to write about but to
+            <lb/>say your letter the first one came yesterday
+            <lb/>and I was pleased to hear from you
+            <lb/>give my love to all the little ones
+            <lb/>and Kiss them for me
+          </p>
+          <closer>
+            <lb/><salute>Ever your affectionate Husband</salute>
+            <lb/>
+            <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WB</abbr></choice> Anderson</persName></signed>
+          </closer>
+          <postscript>
+           <p><lb/>P.S.
+              <lb/>I am interupted all the time or
+              <lb/>I would write more
+              <lb/>good bye for a while
+           </p>
+              <lb/><signed><persName ref="#WBA"><choice><expan>William B. Anderson</expan><abbr type="initials">WBA</abbr></choice></persName></signed>
+          </postscript>
+          <!-- If there were a <postscript>, we have a tag for that. -->
+        </div>
+        <!-- Or an enclosure: <div type="enclosure" xml:id="WBA_18600101enc"></div> -->
+      </body>
+    </text>
+  </TEI>
 
   <TEI xml:id="WBA_18620000" n="1862-08-10">
     <!-- FIRST COPY THIS TEI ELEMENT!! -->
