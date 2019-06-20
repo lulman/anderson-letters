@@ -18,6 +18,7 @@
                <editor><persName ref="KLA">Steve W. Sikes-Gilbert</persName></editor>
                <editor><persName ref="KLA">Jeremy A Smith</persName></editor>
                <editor><persName ref="KLA">Kathryn H. Owsley</persName></editor>
+               <editor><persName ref="KLA">Sarah Beth Sitzler</persName></editor>
                
            <respStmt>
              <resp>Creation of digital scans of manuscript pages: </resp>
@@ -38,6 +39,7 @@
              <persName ref="KLA">Steve W. Sikes-Gilbert</persName>
              <persName ref="KLA">Jeremy A Smith</persName>
              <persName ref="KLA">Kathryn H. Owsley</persName>
+             <persName ref="KLA">Sarah Beth Sitzler</persName>
            </respStmt>
            
          </titleStmt>
@@ -494,6 +496,10 @@
                </bibl>
                <bibl xml:id="rosenburg" n="rosenburg">
                  Rosenburg, R. B. <title level="a">Morgan, John Hunt</title>. <title level="m">American National Biography</title>. February 2000. https://doi-org.proxy.lib.ohio-state.edu/10.1093/anb/9780198606697.article.0400720
+               </bibl>
+               <bibl xml:id="regional" n="regional">
+                 <title level="m">Regional Cooperation for Water Quality Improvement in Southwestern Pennsylvania</title>. Water Science and Technology Board. Washington,
+                 D.C., 2005. https://www.nap.edu/read/11196/chapter/4#36
                </bibl>
                
                
@@ -1389,7 +1395,7 @@
             <lb/>&amp;<placeName ref="Blennerhassett"> Blennerhassetts</placeName> Island &amp; line flats &amp; Barges
             <lb/>and had a good ell of work and anxiety of
             <lb/>mind for a little money we made between
-            <lb/>3 and 400 Dolls last week I cannot tell what our  
+            <lb/>3 and 400 <choice><expan>Dollars</expan><abbr>Dolls</abbr></choice> last week I cannot tell what our  
             <lb/>prospects will be this week yet but I hope
             <lb/>we shall not lose anything
             <lb/>I was down to see your mother this evening
@@ -2868,6 +2874,160 @@
               <lb/>PS Excuse all Errors Write often
             </p>
           </postscript>
+        </div>
+        <!-- Or an enclosure: <div type="enclosure" xml:id="WBA_18600101enc"></div> -->
+      </body>
+    </text>
+  </TEI>
+
+  <TEI xml:id="WBA_18630731" n="1863-07-31">
+    <!-- FIRST COPY THIS TEI ELEMENT!! -->
+    <!-- FILL IN THE VALUES ABOVE -->
+    <!-- ADD EDITOR'S NAME TO LIST -->
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Letter from riverboat captain William B. Anderson to his wife at home in Pittsburgh, dated July 31, 1863, from Cincinnati.</title>
+          <author>Anderson, William B.</author>
+        </titleStmt>
+        <publicationStmt>
+          <p><!-- ... --></p>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc>
+            <msIdentifier>
+              <country>USA</country>
+              <settlement>Columbus, OH</settlement>
+              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
+              <collection>William B. Anderson Collection</collection>
+              <idno>SPEC.RARE.CMS.0309</idno>
+            </msIdentifier>
+            <msContents>
+              <p>Anderson informs his wife that the sickly Elias will bring her some money when he
+                returns to Pittsburgh. Anderson then describes his current employment transporting
+                goods for the government. He hopes to make enough money over the summer so that he
+                can stay at home for the winter. While apologizing for an apparent scarcity of
+                letters, Anderson claims that he has written frequently, and speculates that the
+                Morgan raid may have interfered with mail delivery.</p>
+            </msContents>
+            <physDesc>
+              <p>William B. Anderson's letter dated July 31, 1863, from Cincinnati and
+                addressed to his wife Mary Louisa is written in dark ink on both sides of a 
+                loose sheet of paper measuring approximately 7.5 inches wide by 10.0 inches 
+                tall (19.5 x 25 cm) and ruled with horizontal blue lines spaced .33 inches 
+                (0.8 cm) apart, except for a 1.5-inch (3.8 cm) unruled top margin on the front 
+                of the sheet and a 0.9-inch (2 cm) unruled top margin on the back of the sheet. 
+                The left edge of the sheet is slightly ragged, while the other three edges 
+                are straight, suggesting that the sheet was torn from a notepad or bound notebook. 
+                It appears to have been folded once crosswise and twice lengthwise. 
+                At this writing, the ink appears very dark brown and the paper off-white (cream). A .5-inch
+                by .5-inch (1.3 x 1.3 cm) embossed printer's mark appears in the upper lefthand 
+                corner of the sheet, 0.5 inches (1.3 cm) from the top edge and .25 inches 
+                (0.6 cm) from the left edge. Although the mark is hard to see, its shape 
+                closely matches that of a distinct, similarly sized and positioned printer's 
+                mark on a letter dated July 1, 1863, which reads "MT HOLLY PAPER CO." 
+                (see illustrations), so it is likely this letter was of the same paper supply.  
+                The Ohio State University Library's Rare Books and Manuscripts Library
+                is currently inaccessible due to its relocation in preparation for renovation, so
+                no further information about the original letter is currently available.</p>
+              <accMat></accMat>
+            </physDesc>
+            <additional>
+              <adminInfo>
+                <!-- Info from the finding aid -->
+                <note></note>
+              </adminInfo>
+            </additional>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    
+    <text>
+      <body>
+        <div type="letter" xml:id="WBA_18630731_lett">
+          <!-- REVISE THE VALUES ABOVE -->
+          <pb facs="/1/1569de06-af13-44e9-a389-eae795617578"/>
+          <!-- MAKE SURE TO REVISE THE FACS VALUE! -->
+          <head type="letterhead"></head>
+          <figure rend="link">
+            <head></head>
+            <graphic url=""></graphic>
+            <figDesc></figDesc>
+          </figure>
+          <lb/>
+          <opener>
+            <lb/><dateline><placeName ref="#CincinnatiOH"><choice><expan>Cincinnati</expan><abbr>Cin</abbr></choice></placeName><date when="1863-07-31"> Friday July 31st 1863</date><placeName ref="#CincinnatiOH"><choice><expan>Cincinnati</expan><abbr>Cin</abbr></choice></placeName></dateline>
+            <lb/><salute>My <choice><expan>Dear</expan><abbr>Dr</abbr></choice><rs ref="#MLA">Wife</rs></salute>
+          </opener>
+          <p>
+            <lb n="003"/> Your of 26 came in due time &amp; I
+            <lb n="004"/> was pleased to hear from you &amp; hope you &amp; all the
+            <lb n="005"/> little ones are well<ptr type="noteAnchor" target="typhoid"/><note resp="ed" xml:id="typhoid">According 
+              to information from Anderson descendent Jamie Danker, at the time of this letter the Andersons had four young children: William Y. 
+              (Young?), age seven or eight; Anna Margaret, age six; John L., age four; and Robert Edward, 
+              age two.  A fifth child, Harry C., would be born in January 1865.  Tragically, William Y., 
+              Robert Edward, and Harry C. would all die of typhoid fever in 1890 (Robert Edward and Harry C. just a day 
+              apart), while Anna Margaret and John L. survived the disease that year.  
+              In a 2005 report, the Water Science and Technology Board states that Pittsburgh had the highest 
+              national typhoid death rate for large cities in the years 1873-1907; before the establishment of an 
+              effective water filtration system in 1907, the city drew its drinking water directly from the polluted 
+              Allegheny River.<bibl>Danker; <title level="m">Regional Cooperation</title>, 36–37.</bibl></note> I send with <persName ref="#Elias">Elias</persName><note target="note004">4</note> 60$ <choice><expan>dollars</expan><abbr>Dolls</abbr></choice>
+            <lb n="006"/> as he is going home to stop off till his health
+            <lb n="007"/> gets better I will see your <rs ref="#MAF">Mother</rs> this
+            <lb n="008"/> Evening I have been very <choice><corr>busily</corr><sic>buissily</sic></choice> engaged
+            <lb n="009"/> all day &amp; have not had one moment to
+            <lb n="010"/> myself I &amp; the boat are pressed in <choice><expan>government</expan><abbr>Gov.</abbr></choice>
+            <lb n="011"/> service or rather chartered at 150$ one
+            <lb n="012"/> hundred &amp; Fifty <choice><expan>Dollars</expan><abbr>Dolls</abbr></choice> per day &amp; our fuel
+            <lb n="013"/> furnished which is as good or better than
+            <lb n="014"/> I could do out of the service our trip
+            <lb n="015"/> around was rather poor having only
+            <lb n="016"/> picked <del type="recoverable" rend="overstrike">put</del> but little by the way we
+            <lb n="017"/> have made in all since the boat came
+            <lb n="018"/> out six thousand clear cash though that
+            <lb n="019"/> is not bad in less than two months I hope
+            <lb n="020"/> to be able to make enough by the setting in
+            <lb n="021"/> of winter to remain at home &amp; enjoy the com<seg type="softhyphen">
+              <lb n="022"/></seg>forts of our own fireside though things change often
+            <lb n="023"/> I had almost despaired when we arrived here and
+            <lb n="024"/> all of a sudden I happened to strike a <choice><corr>lucky</corr><sic>luckey</sic></choice>
+            <lb n="025"/> lick &amp; get wind of this <choice><corr>operation</corr><sic>opperation</sic></choice> that I now
+            <lb n="026"/> am engaged in we will leave tomorrow
+            <pb facs="/C/c0a3b3dd-ff6e-49f2-9026-f09142dfc6d1"/>
+            <lb n="027"/> Evening for <placeName ref="#nashville">Nashville</placeName> with 220 Mules and
+            <lb n="028"/> about 40 tons of soldier clothing &amp; 40 tons of oats
+            <lb n="029"/> It will take us probably 15 to twenty days to
+            <lb n="030"/> make the trip &amp; by that time we shall probably
+            <lb n="031"/> hear of orders to go some place else or it may
+            <lb n="032"/> be that we shall not be permitted to come
+            <lb n="033"/> back here again as we are at the Command
+            <lb n="034"/> of the Military authorities though one thing certain
+            <lb n="035"/> we are not at our own risk if the boat is
+            <lb n="036"/> lost we hold the Government for it and the
+            <lb n="037"/> way it was before if she was lost it would
+            <lb n="038"/> have been our own risk.  I am astonished
+            <lb n="039"/> to hear of you not receiving more letters
+            <lb n="040"/> from me for I have written to you very
+            <lb n="041"/> often 2 the last time I was here and one from
+            <lb n="042"/> <placeName ref="#nashville">Nashville</placeName> and so on all the time I am sure
+            <lb n="043"/> I have written at the very least 2 letters per
+            <lb n="044"/> week Ever since I left home I hope you
+            <lb n="045"/> will get them more regularly as I have
+            <lb n="046"/> written &amp; do still intend writing but there
+            <lb n="047"/> has been so much trouble about the mails
+            <lb n="048"/> on account of the <persName ref="#Morgan">Morgan</persName> raid that I suppose
+            <lb n="049"/> may account for failure of the mails
+            <lb n="050"/> I have but little news to write about
+            <lb n="051"/> Kiss all the little ones for me &amp; tell them to
+            <lb n="052"/> be good till I come good by till tomorrow I
+            <lb n="053"/> will drop you a line before we leave
+          </p> 
+          <closer>
+            <lb/><salute><!-- From salute --></salute>
+            <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WBA</abbr></choice></persName></signed>
+          </closer>
+          <!-- If there were a <postscript>, we have a tag for that. -->
         </div>
         <!-- Or an enclosure: <div type="enclosure" xml:id="WBA_18600101enc"></div> -->
       </body>
