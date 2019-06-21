@@ -20,6 +20,7 @@
                <editor><persName ref="KLA">Kathryn H. Owsley</persName></editor>
                <editor><persName ref="KLA">Sarah Beth Sitzler</persName></editor>
                <editor><persName ref="KLA">Richard (Dickie) J. Selfe</persName></editor>
+               <editor><persName ref="KLA">Michelle Leigh Amos</persName></editor>
                
            <respStmt>
              <resp>Creation of digital scans of manuscript pages: </resp>
@@ -42,6 +43,9 @@
              <persName ref="KLA">Kathryn H. Owsley</persName>
              <persName ref="KLA">Sarah Beth Sitzler</persName>
              <persName ref="KLA">Richard (Dickie) J. Selfe</persName>
+             <persName ref="KLA">Jamie Danker</persName>
+             <persName ref="KLA">Michelle Leigh Amos</persName>
+             
            </respStmt>
            
          </titleStmt>
@@ -3156,14 +3160,14 @@
     </text>
   </TEI>
 
-  <TEI xml:id="WBA_18620000" n="1862-08-10">
+  <TEI xml:id="WBA_18640810" n="1864-08-10">
     <!-- FIRST COPY THIS TEI ELEMENT!! -->
     <!-- FILL IN THE VALUES ABOVE -->
     <!-- ADD EDITOR'S NAME TO LIST -->
     <teiHeader>
       <fileDesc>
         <titleStmt>
-          <title><!-- From same element --></title>
+          <title>Letter from William B. Anderson to his wife, Louisa, 10 August 1864.</title>
           <author>Anderson, William B.</author>
         </titleStmt>
         <publicationStmt>
@@ -3179,10 +3183,25 @@
               <idno>SPEC.RARE.CMS.0309</idno>
             </msIdentifier>
             <msContents>
-              <p><!-- From <front><div1><p> (after <head>) --></p>
+              <p>Summary here!</p>
             </msContents>
             <physDesc>
-              <p><!-- From <notesStmt><note><p> --></p>
+              <p>CHECK! William B. Anderson's letter dated June 27, 1862 from Pittsburgh and
+                addressed to his wife Louisa is written in ink on one side of a 
+                loose sheet of paper measuring approximately 7.5 inches wide by 9.0 inches 
+                tall (19 x 23 cm) and ruled with horizontal blue lines spaced .33 inches 
+                (0.8 cm) apart, except for a 1.5-inch (3.8 cm) unruled top margin. 
+                The left edge of the sheet is slightly ragged, while the other three edges 
+                are clean, suggesting that the sheet was torn from a notepad or bound notebook. 
+                It appears originally to have been folded once crosswise and twice lengthwise. 
+                At this writing, the ink appears brown and the paper off-white (cream). A .5-inch
+                by .5-inch (1.3 x 1.3 cm) embossed printer's mark appears in the upper lefthand 
+                corner of the sheet, 0.5 inches (1.3 cm) from the top edge and .25 inches 
+                (0.6 cm) from the left edge. Although the mark is indistinct, its shape 
+                closely matches that of a distinct, similarly sized and positioned printer's 
+                mark on a letter dated July 1, 1863, which reads "MT HOLLY PAPER CO." 
+                (see illustrations). Texture? Stiffness? Watermarks? I will have to visit 
+                the RBML.</p>
               <accMat></accMat>
             </physDesc>
             <additional>
@@ -3198,9 +3217,9 @@
     
     <text>
       <body>
-        <div type="letter" xml:id="XWBA_18620616XXX" corresp="XXX" >
+        <div type="letter" xml:id="WBA_18640810_let">
           <!-- REVISE THE VALUES ABOVE -->
-          <pb facs="/0/0fae4c6e-0056-4419-9325-15799bf50925"/>
+          <pb facs="/8/8cf61f41-3f40-40d3-a7b3-821f6c348edb"/>
           <!-- MAKE SURE TO REVISE THE FACS VALUE! -->
           <head type="letterhead"></head>
           <figure rend="link">
@@ -3210,58 +3229,203 @@
           </figure>
           <lb/>
           <opener>
-            <lb/><dateline><date when="1862-06-16"></date>June 16/62</dateline>
+            <lb/><dateline><placeName ref="#CincinnatiOH"><choice><expan>Cincinnati</expan><abbr>Cin</abbr></choice></placeName> <date when="1864-08-10">Aug 10 /64</date></dateline>
+            <lb/><salute>My Dear<rs ref="#MLA">Wife</rs></salute>
+          </opener>
+          <p>
+            <lb/>We arrived here on Monday 
+            <lb/>at 3 P.M. we had but Little trouble in 
+            <lb/>getting down but Picked up nothing we 
+            <lb/>were <choice><corr>detained</corr><sic>detaned</sic></choice> by the Navy department 
+            <lb/>with a view of making a Gun Boat 
+            <lb/>of us until this morning &amp; then 
+            <lb/>rejected on <unclear>ap</unclear> of me not agreeing 
+            <lb/>with them on terms &amp;c. now I have 
+            <lb/>no alternative but to take a load to 
+            <lb/>Louisville at low prices &amp; then am 
+            <lb/>required to report to the commissary 
+            <lb/>department &amp; expect to be sent to 
+            <lb/>Tennesee River though have a hope 
+            <lb/>of getting to come back to Cin on 
+            <lb/>my own account if we are sent 
+            <lb/>below I will write from <placeName ref="#LouisvilleKY"><choice><corr>Louisville</corr><sic>Louisvill</sic></choice></placeName> 
+            <lb/>if not will write from here on my 
+            <lb/>return I am well though very much 
+            <lb/>out of heart not from any defects in 
+            <lb/>the boat for she does well in every 
+            <lb/>respect I would have written before 
+            <lb/>now but wanted to wait till I knew 
+            <lb/>our destination. I have not heard 
+            <lb/>of the old Lady yet. 
+          </p>
+          
+          <pb facs="/4/4122f9e6-38b9-46b2-9f3b-892fccc6c56c"/>
+          
+          <p>  
+            <lb/>It has been excessively hot ever since 
+            <lb/>I left home and the mosquitoes are 
+            <lb/>very bad I have not had any offer 
+            <lb/>to sell the boat I will sell if any 
+            <lb/>good Chance offers. I stopped at <corr>Gallipolis</corr><sic>Gall<seg type="softhyphen">
+              <lb/>=</seg>ipoli</sic> on our downward trip and proposed 
+            <lb/>to put her in the <placeName ref="#gallipolis"><choice><corr>Gallipolis</corr><sic>Gallipols</sic></choice></placeName> &amp; Pitt trade 
+            <lb/>in the fall &amp; got the promise of all 
+            <lb/>the patronage there which will be I 
+            <lb/>think what I will do if I don’t sell 
+            <lb/>I hope to hear from you on my return 
+            <lb/>here.  I have nothing of intrest to write 
+            <lb/>about we will leave here tomorrow 
+            <lb/>try &amp; take good care of yourself and 
+            <lb/>the children &amp; get a girl as soon as 
+            <lb/>you can for I know you need one 
+            <lb/>I will close for my mind is not in 
+            <lb/>tune to write long so good night 
+            <lb/>for a while. 
+          </p> 
+          <closer>
+            <lb/><salute>affectionately your <rs ref="#WBA">Husband</rs></salute>
+            <lb/><signed><persName ref="#WBA"><choice><expan>William B.</expan><abbr type="initials">WB</abbr></choice> Anderson</persName></signed>
+          </closer>
+          <!-- If there were a <postscript>, we have a tag for that. -->
+          <postscript>
+            <p>
+              <lb/>5.P.M.
+              <lb/>P.S. Since writing the above Capt Good
+              <lb/>orders me out this <choice><corr>evening</corr><sic>evenig</sic></choice>
+              <lb/>Your <persName ref="#WBA"><choice><expan>William B. Anderson</expan><abbr type="initials">WBA</abbr></choice></persName>
+            </p>
+          </postscript>
+        </div>
+        <!-- Or an enclosure: <div type="enclosure" xml:id="WBA_18600101enc"></div> -->
+      </body>
+    </text>
+  </TEI>
+
+  <TEI xml:id="WBA_18640814" n="1864-08-14">
+    <!-- FIRST COPY THIS TEI ELEMENT!! -->
+    <!-- FILL IN THE VALUES ABOVE -->
+    <!-- ADD EDITOR'S NAME TO LIST -->
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Letter from William B. Anderson to his wife, Louisa, 14 August 1864.</title>
+          <author>Anderson, William B.</author>
+        </titleStmt>
+        <publicationStmt>
+          <p><!-- ... --></p>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc>
+            <msIdentifier>
+              <country>USA</country>
+              <settlement>Columbus, OH</settlement>
+              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
+              <collection>William B. Anderson Collection</collection>
+              <idno>SPEC.RARE.CMS.0309</idno>
+            </msIdentifier>
+            <msContents>
+              <p>Anderson informs his wife that he has arrived in Louisville, KY. He reports that a canal was closed and tells his wife that he was forced to
+                hire men to keep some tobacco safe and slept with it on a subsequent night incase it rained.  Anderson reports the local weather and asks her to send him pictures of their children.
+                He also advises her of a new address to send letters to.</p>
+            </msContents>
+            <physDesc>
+              <p>William B. Anderson's letter dated August 14, 1864 from Cincinatti and addressed to
+                his wife Louisa is written in ink on two sides of a loose sheet of paper measuring
+                approximately 7.5 inches wide by 10 inches tall (19.5 x ? 25cm) and is unruled. The
+                left edge of the sheet is slightly ragged, while the other three edges are clean,
+                suggesting that the sheet was torn from a notepad or bound notebook. It appears
+                originally to have been folded once crosswise and twice lengthwise. At this writing,
+                the ink appears brown and the paper off-white (cream).</p>
+              <accMat></accMat>
+            </physDesc>
+            <additional>
+              <adminInfo>
+                <!-- Info from the finding aid -->
+                <note></note>
+              </adminInfo>
+            </additional>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    
+    <text>
+      <body>
+        <div type="letter" xml:id="WBA_18640814_let">
+          <!-- REVISE THE VALUES ABOVE -->
+          <pb facs="/D/dbb0466e-f51a-442c-8859-8be40435ce44"/>
+          <!-- MAKE SURE TO REVISE THE FACS VALUE! -->
+          <head type="letterhead"></head>
+          <figure rend="link">
+            <head></head>
+            <graphic url=""></graphic>
+            <figDesc></figDesc>
+          </figure>
+          <lb/>
+          <opener>
+            <lb/><dateline><placeName ref="#CincinnatiOH"><choice><expan>Cincinnati</expan><abbr>Cin</abbr></choice></placeName> <date when="1864-08-14"></date>Sunday Aug 14 /64</dateline>
             <lb/><salute>My Dear<rs type="recipient">Wife</rs></salute>
           </opener>
           <p>
+            <lb/>Yours of <date when="1864-08-09">9th</date> Came safe to hand
+            <lb/>I was pleased to hear from you.  We arrived
+            <lb/>from <placeName ref="#LouisvilleKY">Louisville</placeName> on Friday Evening made a
+            <lb/>quick trip but very little Money when we got
+            <lb/>to <placeName ref="#LouisvilleKY">Louisville</placeName> the Canal was closed to repare
+            <lb/>and we came back with but  1/4 of a load
+            <lb/>on account of the R Road here having Teleg<seg type="softhyphen">
+              <lb/>=</seg>raphed down to not ship up any more Frt
+            <lb/>as they were blocked full of Frt &amp; could not
+            <lb/>take it in the Depots consequently could not
+            <lb/>take it off the wharf  I put our Tobacco off
+            <lb/>Yesterday &amp; Last night had to hire men &amp;
+            <lb/>put it onboard the Boat today to Keep it safe
+            <lb/>for fear of rain now I have to lay here with it in
+            <lb/>the Boat till Tuesday &amp; then I am to commence to
+            <lb/>load again for <placeName ref="#LouisvilleKY">Louisville</placeName> I have a  little better
+            <lb/>prospect than before.  I left you that <placeName ref="#PittsburghPA"><choice><expan>Pittsburgh</expan><abbr>Pittsbg</abbr></choice></placeName>
+            <lb/>Money &amp; put it in that Big Pocket Book I Took
+            <lb/>the Gov money &amp; Pd <persName>Mr Hamilton</persName> the 168$ to pay
+            <lb/>the Taxes with. I have not seen the <rs ref="#MAF">Old Lady</rs>
+            <lb/>yet it has been Excessively hot today &amp; has rained
+            <lb/>a little &amp; is Cloudy with prospects of rain.  I have 
+            <lb/>been Tollerable well since I wrote last.  I have
+            <lb/>no news of any importance to write about
+            <lb/>I would like you to send me one of Each
+            <lb/>of the Likenesses of You &amp; the children to look 
             
-            <!-- Beginning with the body of the letter, lines in this template have been identified 
-               to allow for cross references and numbered to allow for numbered display. IDs must 
-               be unique within the document. However, you do not need to report line breaks at all 
-               if doing so serves no purpose in your edition. -->            
-            -->
+            <pb facs="/C/cff95115-af60-4a03-aee0-65b822e8d1f9" n="2"/>
             
-            <!-- TEXT OF THE LETTER between OPENER and CLOSER. ADD NOTES!  -->
-            <!-- MAKE SURE YOU HAVE UPDATED LISTS OF WORKS CITED, PEOPLE, NOTES, ETC. -->
+            <lb/>at occasionally   I may go below from
+            <lb/><placeName ref="#LouisvilleKY">Louisville</placeName> this trip if the Canal is open
+            <lb/>though it is very uncertain
+          </p>
+          <p>
+            <lb/>Direct your letters to me in Care
+            <lb/>of <orgName>Harry Davidson and co</orgName>  <placeName ref="#CincinnatiOH">Cincinnati Ohio</placeName>
+            <lb/>instead of <orgName>Barker Hart &amp; Cook</orgName> &amp; I will 
+            <lb/>get them in the night as well as day
+            <lb/>for they keep a man to sleep in the store
+            <lb/>Kiss all the little ones and tell them
+            <lb/>to be good</p>
+          <p> <lb/>let me hear often from you &amp; tell
+            <lb/>me how the crops look &amp;c. &amp;c. get
+            <lb/>a girl soon as you can &amp; take
+            <lb/>care of your own health &amp; that of the
+            <lb/>children
           </p> 
           <closer>
-            <lb/><salute><!-- From salute --></salute>
-            <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WBA</abbr></choice></persName></signed>
+            <lb/><salute>Your affectionate Husband</salute>
+            <lb/><signed><persName ref="#WBA"><choice><expan>William B.</expan><abbr type="initials">WB</abbr></choice> Anderson</persName></signed>
           </closer>
           <!-- If there were a <postscript>, we have a tag for that. -->
-        </div>
-        <!-- First, the envelope. -->
-        <div type="envelope" xml:id="envelope_ID" corresp="letter_ID">
-          <pb facs="XXX"/>
-          <ab type="returnAddress">
-            <address>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-            </address>
-          </ab>
-          <ab type="postalAddress">
-            <persName></persName>
-            <address>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-              <addrLine></addrLine>
-            </address>
-          </ab>
-          <ab type="endorsement">
-          </ab>
-          <ab>
-            <stamp type="postmark"></stamp>
-            <stamp type="cancellation"></stamp>
-          </ab>
-          <figure rend="link">
-            <head></head>
-            <graphic
-              url=""/>
-            <figDesc></figDesc>
-          </figure>
-          <!-- See http://www.jamesdire.net/W-F.html -->
+          <postscript>
+            <p>
+              <lb/>P.S.  I will drop you a line again
+              <lb/>when I leave here
+              <lb/>Yours <persName ref="#WBA"><choice><expan>William B. Anderson</expan><abbr type="initials">WBA</abbr></choice></persName>
+            </p>
+          </postscript>
         </div>
         <!-- Or an enclosure: <div type="enclosure" xml:id="WBA_18600101enc"></div> -->
       </body>
@@ -3270,4 +3434,3 @@
   
   <!-- More TEI Documents? -->
 </teiCorpus>
-
