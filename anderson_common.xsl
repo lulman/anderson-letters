@@ -485,6 +485,7 @@
    <xsl:template match="tei:body">
       <hr/>
       <xsl:apply-templates select="tei:div[@type='letter']"/>
+      <xsl:apply-templates select="tei:postscript"/>
       <xsl:apply-templates select="tei:div[@type='enclosure']"/>
       <xsl:apply-templates select="tei:div[@type='envelope']"/>
    </xsl:template>

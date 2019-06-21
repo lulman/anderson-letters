@@ -19,6 +19,7 @@
                <editor><persName ref="KLA">Jeremy A Smith</persName></editor>
                <editor><persName ref="KLA">Kathryn H. Owsley</persName></editor>
                <editor><persName ref="KLA">Sarah Beth Sitzler</persName></editor>
+               <editor><persName ref="KLA">Richard (Dickie) J. Selfe</persName></editor>
                
            <respStmt>
              <resp>Creation of digital scans of manuscript pages: </resp>
@@ -40,6 +41,7 @@
              <persName ref="KLA">Jeremy A Smith</persName>
              <persName ref="KLA">Kathryn H. Owsley</persName>
              <persName ref="KLA">Sarah Beth Sitzler</persName>
+             <persName ref="KLA">Richard (Dickie) J. Selfe</persName>
            </respStmt>
            
          </titleStmt>
@@ -437,13 +439,20 @@
                    <geo>39.085907 -84.622564</geo>
                  </location>
                </org>
+               <org xml:id="adams" source="adamsexpress">
+                 <orgName>Adams Express Company</orgName>
+                 <state type="company" from="1839"></state>
+                 <desc>A shipping company that operated through the South, Southwest, and North.</desc>
+               </org>
+               
              </listOrg>
              
              <!-- FOR EACH LETTER, UPDATE BIBLIOGRAPHY -->
              <listBibl>
                <head>Works Cited in Notes</head>
                <bibl xml:id="HOAC" n="Apfelbaum">
-                 Apfelbaum, Charles. <title level="m">History of Allegheny County, Pennsylvania</title>. Chicago: A. Warner &amp; Co., 1889.
+                 Apfelbaum, Charles. <title level="a">Capt. William B. Anderson.</title> <title level="m">History of Allegheny County, Pennsylvania</title>. Chicago: A. Warner &amp; Co., 1889. 298–299. 
+                 https://archive.org/details/historyofalleghe01cush/page/298
                </bibl>
                <bibl xml:id="hewitt" n="hewitt">
                  <title level="u"> Lecture to English 569C, Digital Media and English Studies.</title> The Ohio State University. 
@@ -501,6 +510,9 @@
                  <title level="m">Regional Cooperation for Water Quality Improvement in Southwestern Pennsylvania</title>. Water Science and Technology Board. Washington,
                  D.C., 2005. https://www.nap.edu/read/11196/chapter/4#36
                </bibl>
+               <bibl xml:id="adamsexpress" n="adamsexpress">
+                 <title level="m">Adams Express Company Journal</title>. Explore UK. https://exploreuk.uky.edu
+               </bibl>               
                
                
              </listBibl>
@@ -2961,9 +2973,9 @@
             <lb/><salute>My <choice><expan>Dear</expan><abbr>Dr</abbr></choice><rs ref="#MLA">Wife</rs></salute>
           </opener>
           <p>
-            <lb n="003"/> Your of 26 came in due time &amp; I
-            <lb n="004"/> was pleased to hear from you &amp; hope you &amp; all the
-            <lb n="005"/> little ones are well<ptr type="noteAnchor" target="typhoid"/><note resp="ed" xml:id="typhoid">According 
+            <lb/> Your of 26 came in due time &amp; I
+            <lb/> was pleased to hear from you &amp; hope you &amp; all the
+            <lb/> little ones are well<ptr type="noteAnchor" target="typhoid"/><note resp="ed" xml:id="typhoid">According 
               to information from Anderson descendent Jamie Danker, at the time of this letter the Andersons had four young children: William Y. 
               (Young?), age seven or eight; Anna Margaret, age six; John L., age four; and Robert Edward, 
               age two.  A fifth child, Harry C., would be born in January 1865.  Tragically, William Y., 
@@ -2973,61 +2985,171 @@
               national typhoid death rate for large cities in the years 1873-1907; before the establishment of an 
               effective water filtration system in 1907, the city drew its drinking water directly from the polluted 
               Allegheny River.<bibl>Danker; <title level="m">Regional Cooperation</title>, 36–37.</bibl></note> I send with <persName ref="#Elias">Elias</persName><note target="note004">4</note> 60$ <choice><expan>dollars</expan><abbr>Dolls</abbr></choice>
-            <lb n="006"/> as he is going home to stop off till his health
-            <lb n="007"/> gets better I will see your <rs ref="#MAF">Mother</rs> this
-            <lb n="008"/> Evening I have been very <choice><corr>busily</corr><sic>buissily</sic></choice> engaged
-            <lb n="009"/> all day &amp; have not had one moment to
-            <lb n="010"/> myself I &amp; the boat are pressed in <choice><expan>government</expan><abbr>Gov.</abbr></choice>
-            <lb n="011"/> service or rather chartered at 150$ one
-            <lb n="012"/> hundred &amp; Fifty <choice><expan>Dollars</expan><abbr>Dolls</abbr></choice> per day &amp; our fuel
-            <lb n="013"/> furnished which is as good or better than
-            <lb n="014"/> I could do out of the service our trip
-            <lb n="015"/> around was rather poor having only
-            <lb n="016"/> picked <del type="recoverable" rend="overstrike">put</del> but little by the way we
-            <lb n="017"/> have made in all since the boat came
-            <lb n="018"/> out six thousand clear cash though that
-            <lb n="019"/> is not bad in less than two months I hope
-            <lb n="020"/> to be able to make enough by the setting in
-            <lb n="021"/> of winter to remain at home &amp; enjoy the com<seg type="softhyphen">
-              <lb n="022"/></seg>forts of our own fireside though things change often
-            <lb n="023"/> I had almost despaired when we arrived here and
-            <lb n="024"/> all of a sudden I happened to strike a <choice><corr>lucky</corr><sic>luckey</sic></choice>
-            <lb n="025"/> lick &amp; get wind of this <choice><corr>operation</corr><sic>opperation</sic></choice> that I now
-            <lb n="026"/> am engaged in we will leave tomorrow
+            <lb/> as he is going home to stop off till his health
+            <lb/> gets better I will see your <rs ref="#MAF">Mother</rs> this
+            <lb/> Evening I have been very <choice><corr>busily</corr><sic>buissily</sic></choice> engaged
+            <lb/> all day &amp; have not had one moment to
+            <lb/> myself I &amp; the boat are pressed in <choice><expan>government</expan><abbr>Gov.</abbr></choice>
+            <lb/> service or rather chartered at 150$ one
+            <lb/> hundred &amp; Fifty <choice><expan>Dollars</expan><abbr>Dolls</abbr></choice> per day &amp; our fuel
+            <lb/> furnished which is as good or better than
+            <lb/> I could do out of the service our trip
+            <lb/> around was rather poor having only
+            <lb/> picked <del type="recoverable" rend="overstrike">put</del> but little by the way we
+            <lb/> have made in all since the boat came
+            <lb/> out six thousand clear cash though that
+            <lb/> is not bad in less than two months I hope
+            <lb/> to be able to make enough by the setting in
+            <lb/> of winter to remain at home &amp; enjoy the com<seg type="softhyphen">
+              <lb/></seg>forts of our own fireside though things change often
+            <lb/> I had almost despaired when we arrived here and
+            <lb/> all of a sudden I happened to strike a <choice><corr>lucky</corr><sic>luckey</sic></choice>
+            <lb/> lick &amp; get wind of this <choice><corr>operation</corr><sic>opperation</sic></choice> that I now
+            <lb/> am engaged in we will leave tomorrow
             <pb facs="/C/c0a3b3dd-ff6e-49f2-9026-f09142dfc6d1"/>
-            <lb n="027"/> Evening for <placeName ref="#nashville">Nashville</placeName> with 220 Mules and
-            <lb n="028"/> about 40 tons of soldier clothing &amp; 40 tons of oats
-            <lb n="029"/> It will take us probably 15 to twenty days to
-            <lb n="030"/> make the trip &amp; by that time we shall probably
-            <lb n="031"/> hear of orders to go some place else or it may
-            <lb n="032"/> be that we shall not be permitted to come
-            <lb n="033"/> back here again as we are at the Command
-            <lb n="034"/> of the Military authorities though one thing certain
-            <lb n="035"/> we are not at our own risk if the boat is
-            <lb n="036"/> lost we hold the Government for it and the
-            <lb n="037"/> way it was before if she was lost it would
-            <lb n="038"/> have been our own risk.  I am astonished
-            <lb n="039"/> to hear of you not receiving more letters
-            <lb n="040"/> from me for I have written to you very
-            <lb n="041"/> often 2 the last time I was here and one from
-            <lb n="042"/> <placeName ref="#nashville">Nashville</placeName> and so on all the time I am sure
-            <lb n="043"/> I have written at the very least 2 letters per
-            <lb n="044"/> week Ever since I left home I hope you
-            <lb n="045"/> will get them more regularly as I have
-            <lb n="046"/> written &amp; do still intend writing but there
-            <lb n="047"/> has been so much trouble about the mails
-            <lb n="048"/> on account of the <persName ref="#Morgan">Morgan</persName> raid that I suppose
-            <lb n="049"/> may account for failure of the mails
-            <lb n="050"/> I have but little news to write about
-            <lb n="051"/> Kiss all the little ones for me &amp; tell them to
-            <lb n="052"/> be good till I come good by till tomorrow I
-            <lb n="053"/> will drop you a line before we leave
+            <lb/> Evening for <placeName ref="#nashville">Nashville</placeName> with 220 Mules and
+            <lb/> about 40 tons of soldier clothing &amp; 40 tons of oats
+            <lb/> It will take us probably 15 to twenty days to
+            <lb/> make the trip &amp; by that time we shall probably
+            <lb/> hear of orders to go some place else or it may
+            <lb/> be that we shall not be permitted to come
+            <lb/> back here again as we are at the Command
+            <lb/> of the Military authorities though one thing certain
+            <lb/> we are not at our own risk if the boat is
+            <lb/> lost we hold the Government for it and the
+            <lb/> way it was before if she was lost it would
+            <lb/> have been our own risk.  I am astonished
+            <lb/> to hear of you not receiving more letters
+            <lb/> from me for I have written to you very
+            <lb/> often 2 the last time I was here and one from
+            <lb/> <placeName ref="#nashville">Nashville</placeName> and so on all the time I am sure
+            <lb/> I have written at the very least 2 letters per
+            <lb/> week Ever since I left home I hope you
+            <lb/> will get them more regularly as I have
+            <lb/> written &amp; do still intend writing but there
+            <lb/> has been so much trouble about the mails
+            <lb/> on account of the <persName ref="#Morgan">Morgan</persName> raid that I suppose
+            <lb/> may account for failure of the mails
+            <lb/> I have but little news to write about
+            <lb/> Kiss all the little ones for me &amp; tell them to
+            <lb/> be good till I come good by till tomorrow I
+            <lb/> will drop you a line before we leave
           </p> 
           <closer>
             <lb/><salute><!-- From salute --></salute>
             <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WBA</abbr></choice></persName></signed>
           </closer>
           <!-- If there were a <postscript>, we have a tag for that. -->
+        </div>
+        <!-- Or an enclosure: <div type="enclosure" xml:id="WBA_18600101enc"></div> -->
+      </body>
+    </text>
+  </TEI>
+
+  <TEI xml:id="WBA_18630801" n="1863-08-01">
+    <!-- FIRST COPY THIS TEI ELEMENT!! -->
+    <!-- FILL IN THE VALUES ABOVE -->
+    <!-- ADD EDITOR'S NAME TO LIST -->
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>W. B. Anderson Letter--8/1/1863--A busy moment for family and business.</title>
+          <author>Anderson, William B.</author>
+        </titleStmt>
+        <publicationStmt>
+          <p><!-- ... --></p>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc>
+            <msIdentifier>
+              <country>USA</country>
+              <settlement>Columbus, OH</settlement>
+              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
+              <collection>William B. Anderson Collection</collection>
+              <idno>SPEC.RARE.CMS.0309</idno>
+            </msIdentifier>
+            <msContents>
+              <p>Anderson shoots off a short letter announcing a dinner with his wife's mother and Ella 
+                (as yet an unknown relative or friend mentioned in several of Anderson's letters). 
+                He suggests that the boat (Glide II) will leave that afternoon from Cincinnati for Nashville with 200 mules 
+                aboard. He sends by Adams Express $3600 for business-related expenses (Adams Express was a very profitable 
+                delivery company started in the 1850s and had parallel systems of delivery in the south during the war (Pixley, 2002).
+                and reminds his wife that he sent $60 for family expenses with the previous letter.</p>
+              <p>In this one-page, hurried letter to his wife--which followed  a longer letter just the day  
+                before--Anderson suggests many things about the times and activities on the riverboat. He mentions the transport of 
+                animals (200 mules) along with personal commitments: Anderson met
+                his wife's mother and Ella (an unknown relative or friend) on the boat (Glide II) and was about to leave for dinner. 
+                Before the afternoon departure, he was also intent upon sending business funds to his wife and money for family expenses: 
+                All this in one page on lined notebook paper with little punctuation and a postscript anticipating 
+                a subsequent letter from Nashville.</p>
+            </msContents>
+            <physDesc>
+              <p>one page on lined notebook paper </p>
+              <accMat></accMat>
+            </physDesc>
+            <additional>
+              <adminInfo>
+                <!-- Info from the finding aid -->
+                <note></note>
+              </adminInfo>
+            </additional>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    
+    <text>
+      <body>
+        <div type="letter" xml:id="WBA_18630801_let">
+          <!-- REVISE THE VALUES ABOVE -->
+          <pb facs="/9/9e9b8053-ad96-4c23-a413-d4a1237fff0e"/>
+          <!-- MAKE SURE TO REVISE THE FACS VALUE! -->
+          <head type="letterhead"></head>
+          <figure rend="link">
+            <head></head>
+            <graphic url=""></graphic>
+            <figDesc></figDesc>
+          </figure>
+          <lb/>
+          <opener>
+            <lb/><dateline><placeName ref="#CincinnatiOH"><choice><expan>Cincinnati</expan><abbr>Cin</abbr></choice></placeName><date when="1863-08-01">Aug 1st 1863</date></dateline>
+            <lb/><salute>Dear<rs type="recipient">Wife</rs></salute>
+          </opener>
+          <p>
+            <lb/> As we leave this Evening
+            <lb/> I <choice><corr>thought</corr><sic>thot</sic></choice> I would drop you a line
+            <lb/> to let you know that I have seen 
+            <lb/> your <rs ref="#MAF">mother</rs> she &amp; <persName ref="#ella">Ella</persName> 
+              are on the <name type="ship" ref="#glide">Boat</name>
+            <lb/> now &amp; have been for an hour I have
+            <lb/> to go up <rs ref="#CincinnatiOH">town</rs> and they are waiting till 
+            <lb/> I get ready we are to have 200 mules
+            <lb/> down after dinner &amp; shall get out by
+            <lb/> 4 or 5 oclock I have no news to 
+            <lb/> write about I send by Adams Express<ptr type="noteAnchor" target="adamsex"/><note resp="ed" xml:id="adamsex">During the Civil War,he 
+              Adams Express Company shipped goods to and from Union troops.<bibl>Adams Express Company Journal</bibl>.</note>
+            <lb/> to <placeName ref="#PittsburghPA">Pitt</placeName> today 
+            (3600.<del type="unrecoverable" rend="overstrike" hand="WBA">[deleted numbers]</del> Three thousand six hundred
+                <lb/> <choice><expan>Dollars</expan><abbr>Dolls</abbr></choice> to pay our 1st notes give my respects 
+            <lb/> to all I am in a hurry and have not
+            <lb/> time write or think of any thing that
+            <lb/> will interest you give my respects to 
+            <lb/> all I sent a letter last night by <persName ref="#Elias">Elias</persName> 
+            <lb/> and $60.00 in cash for you Kiss all the small 
+            <lb/> ones for me good bye
+          </p>
+          <closer>
+            <lb/><salute>Yours affectionately</salute>
+            <lb/><signed><persName ref="#WBA"><choice><expan>William B.</expan><abbr>WB</abbr></choice> Anderson</persName></signed>
+          </closer>
+          <!-- If there were a <postscript>, we have a tag for that. -->
+          <postscript>
+           <p>
+             <lb/>P.S. I will write from <placeName ref="#nashville">Nashville</placeName>
+             <lb/>again 
+             <lb/><persName ref="#WBA"><choice><expan>William B. Anderson</expan><abbr type="initials">WBA</abbr></choice></persName> 
+           </p> 
+          </postscript>
         </div>
         <!-- Or an enclosure: <div type="enclosure" xml:id="WBA_18600101enc"></div> -->
       </body>
