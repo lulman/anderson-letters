@@ -7197,6 +7197,7 @@ ${caret}</String>
         <folder masterFiles="true" name="Master Files">
             <file name="anderson_diplomatic.xsl"/>
             <file name="anderson_reading.xsl"/>
+            <file name="anderson_view_splitview.xsl"/>
         </folder>
         <folder path="."/>
     </projectTree>
