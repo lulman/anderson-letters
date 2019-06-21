@@ -824,7 +824,7 @@
     <text>
       <body>
         <div type="letter" xml:id="WBA_18620616_let" corresp="WBA_18620616_env" >
-          <pb facs="/0/0fae4c6e-0056-4419-9325-15799bf50925"/>
+          <pb facs="Letter01_pg1"/>
           <head type="letterhead"></head>
           <figure rend="link">
             <head></head>
@@ -881,7 +881,7 @@
             <lb/>she would like to have you pay her a 
             <lb/>visit so if you think you would enjoy 
             
-            <pb facs="/6/649db1cc-1689-45f1-95af-1fe636b79e81" n="2"/>    
+            <pb facs="Letter01_pg2" n="2"/>    
             
             <lb/>a trip I will offer you an invitation 
             <lb/><del type="recoverable" rend="overwritten" hand="WBA">t</del>we will if no accident get up about 
@@ -967,7 +967,7 @@
     <text>
       <body>
         <div type="letter" xml:id="X18620616" corresp="XXX" >
-          <pb facs="/0/0fae4c6e-0056-4419-9325-15799bf50925"/>
+          <pb facs="Letter01_pg1"/>
           <head type="letterhead"></head>
           <figure rend="link">
             <head></head>
@@ -1076,7 +1076,7 @@
       <body>
         <div type="letter" xml:id="WBA_18620711_let">
           <!-- REVISE THE VALUES ABOVE -->
-          <pb facs="/2/23c18d32-7a89-4e5a-8b2a-b01acbc985e7"/>
+          <pb facs="Letter04_pg1"/>
           <head type="letterhead"></head>
           <figure rend="link">
             <head></head>
@@ -1147,7 +1147,7 @@
           </closer>
           <!-- If there were a <postscript>, we have a tag for that. -->
           <postscript>
-            <pb facs="/2/2bc9d12f-fefb-43ad-ac3f-9cad093271ee"/>
+            <pb facs="Letter04_pg2"/>
             <p>
               <lb/>Write to me and let me know how 
               <lb/>old man <persName>Walsh</persName> is Coming on also what
@@ -1251,7 +1251,7 @@
       <body>
         <div type="letter" xml:id="WBA_18620728_let">
           <!-- REVISE THE VALUES ABOVE -->
-          <pb facs="/9/99c7b2eb-87c3-4c33-a39c-1f693f01037b"/>
+          <pb facs="Letter20_pg1"/>
           <head type="letterhead"></head>
           <figure rend="link">
             <head></head>
@@ -1292,7 +1292,7 @@
             <lb/> by morning I will go down while it is 
             <lb/> cool it has been exceedingly hot here
             
-            <pb facs="/0/0be18c7b-2941-470b-9cf1-d0a9319fe34f"/>
+            <pb facs="Letter20_pg2"/>
             
             <lb/> today and I have been very <choice><corr>busily</corr><sic>bussily</sic></choice> engaged 
             <lb/> and had scarcely any sleep since I left 
@@ -1384,7 +1384,7 @@
       <body>
         <div type="letter" xml:id="WBA_18620810_let">
           <!-- REVISE THE VALUES ABOVE -->
-          <pb facs="4/4671ed77-6f00-4e83-8942-16fda934a31e"/>
+          <pb facs="Letter05_pg1"/>
           <head type="letterhead"></head>
           <figure rend="link">
             <head></head>
@@ -1425,7 +1425,7 @@
             <lb/>are beginning to get plenty we had some
             <lb/>to eat on the boat this evening that
             <lb/>the crew bot which were very fine
-            <pb facs="/3/39ea6bd3-b5ae-4318-89a6-54faec9739ee" n="01"/>
+            <pb facs="Letter05_pg2" n="01"/>
             <lb/>I wrote a letter to <persName ref="russel"> John Russell</persName> and
             <lb/>requested him to pay my taxes I cannot 
             <lb/>tell you when you may look for me
@@ -1525,7 +1525,7 @@
       <body>
         <div type="letter" xml:id="WBA_18620824_let">
           <!-- REVISE THE VALUES ABOVE -->
-          <pb facs="/0/076b0de8-f961-498d-9676-eabf1b446a02"/>
+          <pb facs="Letter06_pg1"/>
           <head type="letterhead"></head>
           <figure rend="link">
             <head></head>
@@ -1566,7 +1566,7 @@
             <lb/> 70 women &amp; 100 children there to take perhaps
             <lb/> the last leave of their husbands Brothers &amp; Sons
             
-            <pb facs="/D/df9f4e9c-4d9d-4388-8b13-b97256cb692b" n="2"/> 
+            <pb facs="Letter06_pg2"/> 
             
             <lb/> who have answered the call for men
             <lb/> to try and restore peace and restore this
@@ -1663,7 +1663,7 @@
       <body>
         <div type="letter" xml:id="WBA_18620901_lett" corresp="XXX" >
           <!-- REVISE THE VALUES ABOVE -->
-          <pb facs="/5/54bee70e-bdcc-4dd8-ab05-87aeb7b07aa0"/>
+          <pb facs="Letter08_pg1"/>
           <head type="letterhead"></head>
           <figure rend="link">
             <head></head>
@@ -1771,7 +1771,7 @@
       <body>
         <div type="letter" xml:id="WBA_1862-09-17_let">
           <!-- REVISE THE VALUES ABOVE -->
-          <pb facs="/E/e54a9522-bc6f-45f6-8999-b0d5423f6c93"/>
+          <pb facs="Letter09_pg1"/>
           <head type="letterhead"></head>
           <figure rend="link">
             <head></head>
@@ -1812,7 +1812,7 @@
             <lb/>will be benefitted more or less with it. 
             <lb/>over 
             
-            <pb facs="/0/057c1be9-5fbe-464d-a592-6a46ebe167ab" n="2"></pb>
+            <pb facs="Letter09_pg2" n="2"></pb>
             
             <lb/>I have not seen <rs ref="#MAF">your mother</rs> since I last wrote
             <lb/>to you as I have to stay on the Boat<ptr type="noteAnchor" target="glide"/><note resp="ed" xml:id="glide">Anderson built
@@ -1918,7 +1918,7 @@
       <body>
         <div type="letter" xml:id="WBA_18620928_let">
           <!-- REVISE THE VALUES ABOVE -->
-          <pb facs="/6/6421e60e-db07-496e-b9e2-13e4e6b888d2"/>
+          <pb facs="Letter10_pg1"/>
           <!-- MAKE SURE TO REVISE THE FACS VALUE! -->
           <head type="letterhead"></head>
           <figure rend="link">
@@ -1965,7 +1965,7 @@
               <lb/>P.S. We got our Coal found us and one
               <lb/>Hundred &amp; Fifty <choice><expan>Dollars</expan><abbr>Dolls</abbr></choice> per Day for the whole Boat 
               
-              <pb facs="/4/422e8a2e-72c2-40d5-9b01-b62a15b3b4f7" n="2"/>
+              <pb facs="Letter10_pg2" n="2"/>
               
               <lb/>as we have not got steam up I will
               <lb/>write on.  in your Letter you said that the
@@ -2058,7 +2058,7 @@
       <body>
         <div type="letter" xml:id="WBA_18621007_let">
           <!-- REVISE THE VALUES ABOVE -->
-          <pb facs="/4/4ce23e0e-5e5f-4217-a641-79dbd5cac827"/>
+          <pb facs="Letter11_pg1"/>
           <!-- MAKE SURE TO REVISE THE FACS VALUE! -->
           <head type="letterhead"></head>
           <figure rend="link">
@@ -2100,7 +2100,7 @@
             <lb/>may think that this is a strange sort of life  
             
             <!-- Page 2 -->
-            <pb facs="/9/96629418-dfc3-4ab9-b75a-70de55ce4277" n="2"/>
+            <pb facs="Letter11_pg2" n="2"/>
             <lb/>and so do I!  I cannot tell today what
             <lb/>I shall do tomorrow nor can a I find out by
             <lb/>enquiry as the <choice><corr>Commodore</corr><sic><rs type="title">Comadore</rs></sic></choice> of the fleet is subject to
@@ -2207,7 +2207,7 @@
       <body>
         <div type="letter" xml:id="WBA_18621016_let">
           <!-- REVISE THE VALUES ABOVE -->
-          <pb facs="/0/0a310868-4a89-4c8a-a1f1-0adfe7c9232a"/>
+          <pb facs="Letter12_pg1"/>
           <!-- MAKE SURE TO REVISE THE FACS VALUE! -->
           <head type="letterhead"></head>
           <figure rend="link">
@@ -2249,7 +2249,7 @@
             my <choice><corr>advice</corr><sic>advise</sic></choice> to you will be 
             <lb/>for you to come by the Steubenville route and 
             
-            <pb facs="/5/5aa5bc88-89c1-48c1-bc3e-c2d2be754dba" n="2"/>
+            <pb facs="Letter12_pg2" n="2"/>
             
             <lb/>leave Pittsburgh at one Oclock or there abouts 
             <lb/>and when you get on board you tell the 
@@ -2284,7 +2284,7 @@
             <lb/>share of the money he can do as he thinks 
             <lb/>best about it.  That Bank notice you spoke 
             
-            <pb facs="/D/d9efdc52-501d-44fd-ac88-c104eb8132ed" n="3"/>
+            <pb facs="Letter12_pg3" n="3"/>
             
             <lb/>about I made arrangements with Holmes 
             <lb/>&amp; Sons Brokers to pay all my notes that will 
@@ -2391,7 +2391,7 @@
       <body>
         <div type="letter" xml:id="WBA_18630619_let">
           <!-- REVISE THE VALUES ABOVE -->
-          <pb facs="/A/acb4cba0-d23f-4bee-a8f5-41ded57b7824"/>
+          <pb facs="Letter02_pg1"/>
           <!-- MAKE SURE TO REVISE THE FACS VALUE! -->
           <head type="letterhead"></head>
           <figure rend="link">
@@ -2430,7 +2430,7 @@
             <lb/>have had the ague or a bad attack of Billious 
             <lb/>fever if I had not had relief soon I thought
             <lb/>it was the Neuralgia I had, for one side of
-            <pb facs="/5/5f9ab980-da6b-4d49-9fce-fa3268140bcb" n="2"/>
+            <pb facs="Letter02_pg2" n="2"/>
             <lb/>of my face &amp; jaw pained me constantly
             <lb/>and my teeth ached &amp; I had one of them 
             <lb/>pulled and it did not do any good and
@@ -2533,7 +2533,7 @@
       <body>
         <div type="letter" xml:id="WBA_18630701_let">
           <!-- REVISE THE VALUES ABOVE -->
-          <pb facs="/E/e06062da-d7e0-424c-b850-fdcd54e05aca"/>
+          <pb facs="Letter13_pg1"/>
           <!-- MAKE SURE TO REVISE THE FACS VALUE! -->
           <head type="letterhead"></head>
           <figure rend="link">
@@ -2573,7 +2573,7 @@
             <lb/>I will make this trip and I can<add place="supralinear">not</add> tell you
             
             <!-- Page 2 -->
-            <pb facs="/5/54b4392d-7de4-47b3-bfc6-62a8bcd8236c" n="2"/>
+            <pb facs="Letter13_pg2" n="2"/>
             
             <lb/>what I will do next If I cannot make it pay 
             <lb/>&amp; I don’t sell I will lay up till Cool weather
@@ -2675,7 +2675,7 @@
       <body>
         <div type="letter" xml:id="WBA_18630705_let">
           <!-- REVISE THE VALUES ABOVE -->
-          <pb facs="/3/389ca5c0-1e39-43d3-ad9d-79d7e509169d"/>
+          <pb facs="Letter17_pg1"/>
           <!-- MAKE SURE TO REVISE THE FACS VALUE! -->
           <head type="letterhead"></head>
           <figure rend="link">
@@ -2717,7 +2717,7 @@
           
           
           <!-- Page 2 -->
-          <pb facs="/4/42eab17a-6c31-40ae-8535-9a8a02817992"/>
+          <pb facs="Letter17_pg2"/>
           <p>
             <lb/>that could be got over to go out to <placeName ref="#lexington">Lexington</placeName>
             <lb/>as <persName ref="#Morgan">Morgan</persName> and 3000 men had Burned down
@@ -2748,7 +2748,7 @@
             <lb/>lady is well I have some Pears the <rs ref="#MAF">old lady</rs> 
             <lb/>sent you.  I will take <persName>Ella</persName> and put her
           </placeName>
-          <pb facs="/9/9beaaa31-5525-49d0-861f-8a4a0497f79c"/>            
+          <pb facs="Letter17_pg3"/>            
             <lb/>on the street cars and send her down home and
             <lb/>Mail this if nothing more happens than I know
             <lb/>if at this time  we will be up about Friday
@@ -2839,7 +2839,7 @@
       <body>
         <div type="letter" xml:id="WBA_18630718_let">
           <!-- REVISE THE VALUES ABOVE -->
-          <pb facs="/E/e67ee2a2-a8d5-4594-926b-9c718915bb84"/>
+          <pb facs="Letter14_pg1"/>
           <!-- MAKE SURE TO REVISE THE FACS VALUE! -->
           <head type="letterhead"></head>
           <figure rend="link">
@@ -2963,7 +2963,7 @@
       <body>
         <div type="letter" xml:id="WBA_18630731_lett">
           <!-- REVISE THE VALUES ABOVE -->
-          <pb facs="/1/1569de06-af13-44e9-a389-eae795617578"/>
+          <pb facs="Letter15_pg1"/>
           <!-- MAKE SURE TO REVISE THE FACS VALUE! -->
           <head type="letterhead"></head>
           <figure rend="link">
@@ -3010,7 +3010,7 @@
             <lb/> all of a sudden I happened to strike a <choice><corr>lucky</corr><sic>luckey</sic></choice>
             <lb/> lick &amp; get wind of this <choice><corr>operation</corr><sic>opperation</sic></choice> that I now
             <lb/> am engaged in we will leave tomorrow
-            <pb facs="/C/c0a3b3dd-ff6e-49f2-9026-f09142dfc6d1"/>
+            <pb facs="Letter15_pg2"/>
             <lb/> Evening for <placeName ref="#nashville">Nashville</placeName> with 220 Mules and
             <lb/> about 40 tons of soldier clothing &amp; 40 tons of oats
             <lb/> It will take us probably 15 to twenty days to
@@ -3106,7 +3106,7 @@
       <body>
         <div type="letter" xml:id="WBA_18630801_let">
           <!-- REVISE THE VALUES ABOVE -->
-          <pb facs="/9/9e9b8053-ad96-4c23-a413-d4a1237fff0e"/>
+          <pb facs="Letter16_pg1"/>
           <!-- MAKE SURE TO REVISE THE FACS VALUE! -->
           <head type="letterhead"></head>
           <figure rend="link">
@@ -3219,7 +3219,7 @@
       <body>
         <div type="letter" xml:id="WBA_18640810_let">
           <!-- REVISE THE VALUES ABOVE -->
-          <pb facs="/8/8cf61f41-3f40-40d3-a7b3-821f6c348edb"/>
+          <pb facs="Letter21_pg1"/>
           <!-- MAKE SURE TO REVISE THE FACS VALUE! -->
           <head type="letterhead"></head>
           <figure rend="link">
@@ -3259,7 +3259,7 @@
             <lb/>of the old Lady yet. 
           </p>
           
-          <pb facs="/4/4122f9e6-38b9-46b2-9f3b-892fccc6c56c"/>
+          <pb facs="Letter21_pg2"/>
           
           <p>  
             <lb/>It has been excessively hot ever since 
@@ -3353,7 +3353,7 @@
       <body>
         <div type="letter" xml:id="WBA_18640814_let">
           <!-- REVISE THE VALUES ABOVE -->
-          <pb facs="/D/dbb0466e-f51a-442c-8859-8be40435ce44"/>
+          <pb facs="Letter22_pg1"/>
           <!-- MAKE SURE TO REVISE THE FACS VALUE! -->
           <head type="letterhead"></head>
           <figure rend="link">
@@ -3394,7 +3394,7 @@
             <lb/>I would like you to send me one of Each
             <lb/>of the Likenesses of You &amp; the children to look 
             
-            <pb facs="/C/cff95115-af60-4a03-aee0-65b822e8d1f9" n="2"/>
+            <pb facs="Letter22_pg2" n="2"/>
             
             <lb/>at occasionally   I may go below from
             <lb/><placeName ref="#LouisvilleKY">Louisville</placeName> this trip if the Canal is open
