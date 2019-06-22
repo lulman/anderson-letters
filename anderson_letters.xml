@@ -837,19 +837,6 @@
             <lb/><salute>My Dear<rs type="recipient">Wife</rs></salute>
           </opener>
           <p>
-            
-            <!-- Beginning with the body of the letter, lines in this template have been identified 
-               to allow for cross references and numbered to allow for numbered display. IDs must 
-               be unique within the document. However, you do not need to report line breaks at all 
-               if doing so serves no purpose in your edition. -->
-            
-            <!-- 
-            MODEL FOR NOTES
-            <note resp="ed" xml:id="ForestryBld">TEXT OF NOTE
-              <bibl><ref target="#UWash">Title</ref></bibl></note>
-
-            -->
-            
             <lb/>I did not write to you 
             <lb/>from <placeName ref=" LouisvilleKY">Louisville</placeName> on account of our 
             <lb/>short stay there &amp; thought we would 
