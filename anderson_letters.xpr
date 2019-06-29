@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="21.1">
     <meta>
-        <filters directoryPatterns="*.bbprojectd" filePatterns="*.png,*.jpg,*.html,*.xpr" positiveFilePatterns="" showHiddenFiles="false"/>
+        <filters directoryPatterns="*.bbprojectd" filePatterns="*.png,*.jpg,*.html,*.xpr,*.js" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
             <serialized version="21.1" xml:space="preserve">
                 <serializableOrderedMap>
@@ -6762,10 +6762,6 @@ ${caret}</String>
                     </entry>
                     <entry>
                         <String>enable.project.master.files.support</String>
-                        <Boolean>true</Boolean>
-                    </entry>
-                    <entry>
-                        <String>key.code.templates.option.pane</String>
                         <Boolean>true</Boolean>
                     </entry>
                     <entry>
