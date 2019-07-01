@@ -382,17 +382,23 @@
                   <!--<p id="font-size"></p>-->
                   <p style="font-size:smaller">
                      <strong>Edited by</strong><br/>
-                     Robert Eugene Conaster<br/>
-                     Jonathan H. Holmes<br/>
-                     William C. Kurlinkus<br/>
-                     Jonathan Paul Leidheiser-Stoddard<br/>
-                     C. Marie Meza<br/>
-                     Victoria M. Munoz<br/>
-                     Ashley Cole Owens<br/>
-                     Evan B. Thomas<br/>
-                     Marion Aikens Wolfe<br/>
+                     Katie Leigh Adams<br/>
+                     Steve Agricola<br/>
+                     Michelle Leigh Amos<br/>
+                     Christopher M. Clark<br/>
+                     Jamie Danker<br/>
+                     Sara Pauline Finch<br/>
+                     Meghan Elaine Griesemer<br/>
+                     Zachary A. Hess<br/>
+                     Jenna Marlene Kamrass<br/>
+                     Kathryn H. Owsley<br/>
+                     Marie E. Pesut<br/>
+                     Richard (Dickie) J. Selfe<br/>
+                     Steve W. Sikes-Gilbert<br/>
+                     Sarah Beth Sitzler<br/>
+                     Jeremy A Smith<br/>
+                     Kristin Stack<br/>
                      H. Lewis Ulman<br/>
-                     Rachel M. Waymel<br/>
                   </p>
                   <!-- Start NINES Widget -->
                   <form method="get"
