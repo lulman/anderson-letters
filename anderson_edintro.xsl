@@ -183,7 +183,7 @@
                
                <div id="titleBar">
                   <p align="center"><span class="projectTitle"><xsl:apply-templates
-                     select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></span><br/></p>
+                     select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></span><br/><br/></p>
                   <hr/>
                </div> <!-- END titleBar -->
             </div> <!-- END masthead -->
@@ -193,26 +193,26 @@
             <div id="navBar">
                 
                <div id="display1"><!-- Begin display1 -->
-                  <button class="modalb" id="b1"><img id="myImg1" src="image_sscox_portrait.jpg" alt="Portrait of Samuel Sullivan Cox (undated). Frontispiece. Cox and Northrup, 1899." title="Portrait of Samuel Sullivan Cox (undated)" width="100"/></button>
+                  <button class="modalb" id="b1"><img id="myImg1" src="image_WBAndersonRetouched.jpg" alt="Portrait of William B. Anderson (undated)." title="Portrait of William B. Anderson (undated)" width="100"/></button>
                      <div id="myModal1" class="modal">
-                        <a href="image_sscox_portrait_longdesc.html" class="description">[Description]</a><br/>
+                        <a href="image_WBAndersonRetouched_longdesc.html" class="description">[Description]</a><br/>
                         <button class="modalb close" onclick="document.getElementById('myModal1').style.display='none'">[Close]</button>
-                        <img class="modal-content" id="img1" src="image_sscox_portrait.jpg" alt="Portrait of Samuel Sullivan Cox (undated). Frontispiece. Cox and Northrup, 1899"/>
+                        <img class="modal-content" id="img1" src="image_WBAndersonRetouched.jpg" alt="Portrait of William B. Anderson (undated)"/>
                         <div id="caption1">
-                           Portrait of Samuel Sullivan Cox (undated)<br>Frontispiece. Cox and Northrup, 1899</br>
+                           Portrait of William B. Anderson (undated)<br/>Courtesy of Jamie Danker (https://www.jamiedanker.com)
                         </div>
                      </div> <!-- End myModal1 -->
                </div> <!-- End display1 -->
                
                <!-- Begin display2 -->
                <div id="display2">
-                  <button class="modalb" id="b2"><img id="myImg2" src="image_sscox_1854_DecorativeTitle.jpg" alt="Decorative Title Page from A Buckeye Abroad (1854)." title="Decorative Title Page from A Buckeye Abroad (1854)" width="100"/></button>
+                  <button class="modalb" id="b2"><img id="myImg2" src="image_MLFischgensAndersonRetouched.jpg" alt="Portrait of Mary Louisa Fishgens Anderson (undated)" title="Portrait of Mary Louisa Fishgens Anderson (undated)" width="100"/></button>
                   <div id="myModal2" class="modal">
-                     <a href="image_sscox_1854_DecorativeTitle_longdesc.html" class="description">[Description]</a><br/>
+                     <a href="image_MLFischgensAndersonRetouched_longdesc.html" class="description">[Description]</a><br/>
                      <button class="modalb close" onclick="document.getElementById('myModal2').style.display='none'">[Close]</button>
-                     <img class="modal-content" id="img2" src="image_sscox_1854_DecorativeTitle.jpg" alt="Decorative Title Page from A Buckeye Abroad (1854)"/>
+                     <img class="modal-content" id="img2" src="image_MLFischgensAndersonRetouched.jpg" alt="Portrait of Mary Louisa Fishgens Anderson (undated)"/>
                      <div id="caption2">
-                        Decorative Title Page<br>from <cite>A Buckeye Abroad</cite>. Cincinnati: Moore, Anderson, 1854</br>
+                        Portrait of Mary Louisa Fishgens Anderson (undated)<br/>Courtesy of Jamie Danker (https://www.jamiedanker.com)
                      </div>
                   </div> <!-- End myModal2 -->
                   <script>		
@@ -241,13 +241,13 @@
                
                <!-- Begin display3 -->         
                <div id="display3">
-                  <button class="modalb" id="b3"><img id="myImg3" src="image_sscox_rmsAsia.jpg" alt="Royal Mail Steam Ship Asia. New York: N. Currier, 1851" title="Royal Mail Steam Ship Asia" width="100"/></button>
+                  <button class="modalb" id="b3"><img id="myImg3" src="image_NH102732_Glide2.jpg" alt="USS Glide off Brashear City, Louisiana, 29 January 1864" title="USS Glide off Brashear City, Louisiana, 29 January 1864" width="100"/></button>
                      <div id="myModal3" class="modal">
-                        <a href="image_sscox_rmsAsia_longdesc.html" class="description">[Description]</a><br/>
+                        <a href="image_NH102732_Glide2_longdesc.html" class="description">[Description]</a><br/>
                         <button class=" modalb close" onclick="document.getElementById('myModal3').style.display='none'">[Close]</button>
-                        <img class="modal-content" id="img3" src="image_sscox_rmsAsia.jpg" alt="Royal Mail Steam Ship Asia. New York: N. Currier, 1851"/>
+                        <img class="modal-content" id="img3" src="image_NH102732_Glide2.jpg" alt="USS Glide off Brashear City, Louisiana, 29 January 1864"/>
                         <div id="caption3">
-                           Royal Mail Steamship Asia<br/>New York: N. Currier, 1851<br>Library of Congress https://www.loc.gov/pictures/item/2001704213/</br>
+                           USS Glide (2) off Brashear City, Louisiana, 29 January 1864<br/>Courtesy of U.S. Naval History and Heritage Command<br/>Catalog #: NH 102732
                         </div>
                      </div> <!-- End myModal3 -->
                      <script>
@@ -274,8 +274,8 @@
                               }
                      </script>
                </div> <!-- End display3 -->
-               
-               <!-- Begin display4 -->
+<!--               
+               <!-\- Begin display4 -\->
                
                <div id="display4">
                   <button class="modalb" id="b4"><img id="myImg4" src="image_sscox_illus_PoetsCorner.jpg" alt="Poet's Corner, Westminster Abbey. Illustration from A Buckeye Abroad (1854)" title="Poet's Corner, Westminster Abbey. Illustration from A Buckeye Abroad (1854)" width="100"/></button>
@@ -285,7 +285,7 @@
                         <img class="modal-content" id="img4" src="image_sscox_illus_PoetsCorner.jpg" alt="Poet's Corner, Westminster Abbey. Illustration from A Buckeye Abroad (1854)."/>
                         <div id="caption4">
                            Poet's Corner, Westminster Abbey.<br/>Illustration from <cite>A Buckeye Abroad</cite><br/>Cincinnati: Moore, Anderson, 1854.
-                        </div> <!-- End myModal4 -->
+                        </div> <!-\- End myModal4 -\->
                         <script>
                            
                            // Get the modal
@@ -309,10 +309,10 @@
                                  modal4.style.display = "none";
                                  }
                         </script>
-                     </div> <!-- End modal4 -->
-               </div> <!-- End display 4 -->
+                     </div> <!-\- End modal4 -\->
+               </div> <!-\- End display 4 -\->
                      
-                     <!-- Begin display5 -->
+                     <!-\- Begin display5 -\->
                      
                      <div id="display5">
                         <button class="modalb" id="b5"><img id="myImg5" src="image_sscox_illus_Pompeii.jpg" alt="A Villa in Pompeii. Illustration from A Buckeye Abroad (1854)" title="A Villa in Pompeii. Illustration from A Buckeye Abroad (1854)" width="100"/></button>
@@ -323,7 +323,7 @@
                               <div id="caption5">
                                  A Villa in Pompeii<br/>Illustration from <cite>A Buckeye Abroad</cite> <br/>Cincinnati: Moore, Anderson, 1854
                               </div>
-                           </div> <!-- End myModal5 -->
+                           </div> <!-\- End myModal5 -\->
                            <script>
                               
                               // Get the modal
@@ -347,8 +347,9 @@
                                     modal5.style.display = "none";
                                     }
                            </script>
-                     </div> <!-- End display5 -->
-                     <script>
+                     </div> <!-\- End display5 -\->
+-->                     
+               <script>
                         // Get the first modal
                         var modal1 = document.getElementById('myModal1');
                         
@@ -369,7 +370,7 @@
                               span.onclick = function() {
                               modal1.style.display = "none";
                               }
-                     </script>
+                </script>
 
             </div> <!-- End div id NavBar -->
             
