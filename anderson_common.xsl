@@ -107,7 +107,7 @@
                         <ul class="sub">
                            <li><a href="./anderson_reading.html">By Letter</a></li>
                            <li><a href="./anderson_diplomatic.html">By MS Page</a></li>
-                           <li><a href="./anderson_combined.html">Facsimile/Text</a></li>
+                           <li><a href="./anderson_view_splitview.html">Facsimile/Text</a></li>
                         </ul>
                      </li>
                      <li class="link"><a class="main"  href="">Appendices</a>
@@ -462,7 +462,7 @@
             <hr/>
             <!-- Insert link to home page, creation date, and licensing statement.-->
             <p align="left">
-               <a href="stephens_edintro.html"
+               <a href="anderson_letters.html"
                   target="self">Home</a>
                <br/>
                <br/>
