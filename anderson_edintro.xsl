@@ -159,6 +159,9 @@
                            <li><a href="./anderson_appendices_hand.html">Guide to Anderson's Hand</a></li>
                            <li><a href="./anderson_appendices_pageimages.html">Images of the MS Pages</a></li>
                            <li><a href="./anderson_appendices_maps.html">Maps</a></li>
+                           <li><a href="./anderson_letters.html#peopleMentioned">People Mentioned</a></li>
+                           <li><a href="./anderson_letters.html#placesMentioned">Places Mentioned</a></li>
+                           <li><a href="./anderson_letters.html#organizationsMentioned">Organizations Mentioned</a></li>                           
                            <li><a href="./anderson_letters.html#worksCited">Works Cited</a></li>
                            <li><a href="./anderson_letters.html#revision">Revision History</a></li>
                            <li><a href="./anderson_appendices_acknowledgements.html">Acknowledgements</a></li>
