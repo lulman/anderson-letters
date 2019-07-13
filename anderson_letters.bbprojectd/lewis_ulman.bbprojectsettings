@@ -337,7 +337,7 @@
 	<array>
 		<dict>
 			<key>Date</key>
-			<date>2019-07-11T19:30:02Z</date>
+			<date>2019-07-13T02:10:34Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -383,7 +383,53 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2019-07-11T19:30:02Z</date>
+			<date>2019-07-13T02:10:34Z</date>
+			<key>Location</key>
+			<dict>
+				<key>BookmarkData</key>
+				<data>
+				Ym9va5QDAAAAAAQQMAAAAEdoQmAUZ+szg4yOoAifUfzl
+				SFY+29AXez1LD2xjNjzLhAIAAAQAAAADAwAAAAgAKAUA
+				AAABAQAAVXNlcnMAAAALAAAAAQEAAGxld2lzX3VsbWFu
+				AAkAAAABAQAARG9jdW1lbnRzAAAACAAAAAEBAABSZXNl
+				YXJjaBIAAAABAQAAUmVsaWFibGUgV2l0bmVzc2VzAAAQ
+				AAAAAQEAAGFuZGVyc29uLWxldHRlcnMfAAAAAQEAAGFu
+				ZGVyc29uX2FwcGVuZGljZXNfbWFya3VwLmh0bWwAHAAA
+				AAEGAAAQAAAAIAAAADQAAABIAAAAWAAAAHQAAACMAAAA
+				CAAAAAQDAAB60BUAAAAAAAgAAAAEAwAAfNAVAAAAAAAI
+				AAAABAMAAJTbFQAAAAAACAAAAAQDAAAOCRcAAAAAAAgA
+				AAAEAwAAOU4XAAAAAAAIAAAABAMAADxOFwAAAAAACAAA
+				AAQDAAB9jYEAAAAAABwAAAABBgAA2AAAAOgAAAD4AAAA
+				CAEAABgBAAAoAQAAOAEAAAgAAAAABAAAQcFU29kBleIY
+				AAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAgA
+				AAAEAwAABQAAAAAAAAAEAAAAAwMAAPUBAAAIAAAAAQkA
+				AGZpbGU6Ly8vBAAAAAEBAABITFUzCAAAAAQDAAAAsGBu
+				dAAAAAgAAAAABAAAQbgiMsMAAAAkAAAAAQEAAENDQTVD
+				QjRDLUY0QkQtNEE2MC05NzY5LUVENTlGNTlGQTVBMRgA
+				AAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAA
+				AAEBAAAvAAAAAAAAAAEFAAAaAAAAAQEAAE5TVVJMRG9j
+				dW1lbnRJZGVudGlmaWVyS2V5AAAEAAAAAwMAAFkCAADY
+				AAAA/v///wEAAAAAAAAAEQAAAAQQAAC0AAAAAAAAAAUQ
+				AABIAQAAAAAAABAQAAB8AQAAAAAAAEAQAABsAQAAAAAA
+				AAIgAABAAgAAAAAAAAUgAAC4AQAAAAAAABAgAADIAQAA
+				AAAAABEgAAD0AQAAAAAAABIgAADUAQAAAAAAABMgAADk
+				AQAAAAAAACAgAAAgAgAAAAAAADAgAABMAgAAAAAAAAHA
+				AACcAQAAAAAAABHAAAAgAAAAAAAAABLAAACsAQAAAAAA
+				ABDQAAAEAAAAAAAAAFQCAIB4AgAAAAAAAA==
+				</data>
+				<key>FileURL</key>
+				<string>file:///Users/lewis_ulman/Documents/Research/Reliable%20Witnesses/anderson-letters/anderson_appendices_markup.html</string>
+				<key>HasSecurityScope</key>
+				<true/>
+				<key>TypeID</key>
+				<string>_CFileLocator</string>
+				<key>Version</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>Date</key>
+			<date>2019-07-13T02:10:34Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -429,7 +475,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2019-07-11T19:30:02Z</date>
+			<date>2019-07-13T02:10:34Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -476,7 +522,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2019-07-11T19:30:02Z</date>
+			<date>2019-07-13T02:10:34Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -522,53 +568,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2019-07-11T19:30:02Z</date>
-			<key>Location</key>
-			<dict>
-				<key>BookmarkData</key>
-				<data>
-				Ym9va5QDAAAAAAQQMAAAAEdoQmAUZ+szg4yOoAifUfzl
-				SFY+29AXez1LD2xjNjzLhAIAAAQAAAADAwAAAAgAKAUA
-				AAABAQAAVXNlcnMAAAALAAAAAQEAAGxld2lzX3VsbWFu
-				AAkAAAABAQAARG9jdW1lbnRzAAAACAAAAAEBAABSZXNl
-				YXJjaBIAAAABAQAAUmVsaWFibGUgV2l0bmVzc2VzAAAQ
-				AAAAAQEAAGFuZGVyc29uLWxldHRlcnMfAAAAAQEAAGFu
-				ZGVyc29uX2FwcGVuZGljZXNfbWFya3VwLmh0bWwAHAAA
-				AAEGAAAQAAAAIAAAADQAAABIAAAAWAAAAHQAAACMAAAA
-				CAAAAAQDAAB60BUAAAAAAAgAAAAEAwAAfNAVAAAAAAAI
-				AAAABAMAAJTbFQAAAAAACAAAAAQDAAAOCRcAAAAAAAgA
-				AAAEAwAAOU4XAAAAAAAIAAAABAMAADxOFwAAAAAACAAA
-				AAQDAAB9jYEAAAAAABwAAAABBgAA2AAAAOgAAAD4AAAA
-				CAEAABgBAAAoAQAAOAEAAAgAAAAABAAAQcFU29kBleIY
-				AAAAAQIAAAEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAgA
-				AAAEAwAABQAAAAAAAAAEAAAAAwMAAPUBAAAIAAAAAQkA
-				AGZpbGU6Ly8vBAAAAAEBAABITFUzCAAAAAQDAAAAsGBu
-				dAAAAAgAAAAABAAAQbgiMsMAAAAkAAAAAQEAAENDQTVD
-				QjRDLUY0QkQtNEE2MC05NzY5LUVENTlGNTlGQTVBMRgA
-				AAABAgAAgQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAA
-				AAEBAAAvAAAAAAAAAAEFAAAaAAAAAQEAAE5TVVJMRG9j
-				dW1lbnRJZGVudGlmaWVyS2V5AAAEAAAAAwMAAFkCAADY
-				AAAA/v///wEAAAAAAAAAEQAAAAQQAAC0AAAAAAAAAAUQ
-				AABIAQAAAAAAABAQAAB8AQAAAAAAAEAQAABsAQAAAAAA
-				AAIgAABAAgAAAAAAAAUgAAC4AQAAAAAAABAgAADIAQAA
-				AAAAABEgAAD0AQAAAAAAABIgAADUAQAAAAAAABMgAADk
-				AQAAAAAAACAgAAAgAgAAAAAAADAgAABMAgAAAAAAAAHA
-				AACcAQAAAAAAABHAAAAgAAAAAAAAABLAAACsAQAAAAAA
-				ABDQAAAEAAAAAAAAAFQCAIB4AgAAAAAAAA==
-				</data>
-				<key>FileURL</key>
-				<string>file:///Users/lewis_ulman/Documents/Research/Reliable%20Witnesses/anderson-letters/anderson_appendices_markup.html</string>
-				<key>HasSecurityScope</key>
-				<true/>
-				<key>TypeID</key>
-				<string>_CFileLocator</string>
-				<key>Version</key>
-				<integer>1</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>Date</key>
-			<date>2019-07-11T19:30:02Z</date>
+			<date>2019-07-13T02:10:34Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -614,7 +614,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2019-07-11T19:30:02Z</date>
+			<date>2019-07-13T02:10:34Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -660,7 +660,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2019-07-11T19:30:02Z</date>
+			<date>2019-07-13T02:10:34Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>

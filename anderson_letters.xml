@@ -716,52 +716,18 @@
        </profileDesc>
        
        <revisionDesc>
-         <change>
-           <date>2006-08-22</date>
-           <name>
-             H. Lewis Ulman
-           </name>
-           <label>Manuscripts read aloud by assistant (Catherine A. Ulman) while principal editor 
-             checked transcriptions.</label>
-         </change>
-         
-         <change>
-           <date>2006-08-10</date>
-           <name>
-             H. Lewis Ulman
-           </name>
-           <label>Cross-check against independent transcription by Jamie Danker (principal editor evaluated discrepancies).</label>
-         </change>
-         
-         <change>
-           <date>2006-08-08</date>
-           <name>
-             H. Lewis Ulman
-           </name>
-           <label>Spot-check corrections</label>
-         </change>
-         
-         <change>
-           <date>2006-06-06</date>
-           <name>The editors</name>
-           <label>Initial release</label>
-         </change>
-         
-         <!-- Indicate the date on which you completed your XML encoding. -->
-         
-         <change>
-           <date>2006-06-06</date>
-           <name>The editors</name>
-           <label>Correction of initial transcription.</label>
-           
-           <!-- Indicate the date on which you completed the correction of the initial transcription. -->
-           
-         </change>
-         <change>
-           <date>2005</date>
-           <name>Steve Agricola</name>
-           <label>Initial machine-readable transcription.</label>
-         </change>
+         <change when="2019-01-01" who="#HLU">Redesign of the edition to match the design approved by NINES peer reviewers;
+           editing and proofreading of all files.<roleName>H. Lewis Ulman</roleName></change>
+         <change when="2006-08-22" who="#HLU">Manuscripts read aloud by assistant (Catherine A. Ulman) while principal editor 
+           checked transcriptions.<roleName>H. Lewis Ulman</roleName></change>
+         <change when="2006-08-10" who="#HLU">Cross-check against independent transcription by Jamie Danker (principal editor evaluated discrepancies).
+           <roleName>H. Lewis Ulman</roleName></change>
+         <change when="2006-08-08" who="#HLU">Spot-check of corrections.<roleName>H. Lewis Ulman</roleName></change>
+         <change when="2006-06-06" who="#HLU">Redesign of the edition to match the design approved by NINES peer reviewers;
+           editing and proofreading of all files.<roleName>H. Lewis Ulman</roleName></change>
+         <change when="2006-06-06" who="#HLU">Initial encoding and editorial work by students in an undergraduate course
+           on textual editing.<roleName>The editors</roleName></change>
+         <change when="2005" who="#HLU">Initial machine-readable transcription.<roleName>Steve Agricola</roleName></change>
        </revisionDesc>
      </teiHeader>
   
