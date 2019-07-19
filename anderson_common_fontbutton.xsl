@@ -143,12 +143,10 @@
                   </ul> <!-- End ul class nav -->
                </div> <!-- End div id navigation -->
                
-           <!-- BEGIN titleBar -->    
                <div id="titleBar">
                   <p align="center"><span class="projectTitle"><xsl:apply-templates
                      select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></span><br/><br/></p>
-                  <!-- Horizontal rule beneath page title -->
-                   <hr style="border: 2px solid crimson;"/>
+                   <hr/>
                </div> <!-- END titleBar -->
             </div> <!-- END masthead -->
             
@@ -382,10 +380,9 @@
             <!-- Build the table of contents. -->
             <!-- Apply templates to the tei:body. -->
             
-            <xsl:element name="div"><xsl:attribute name="id">maintext</xsl:attribute>
+             <xsl:element name="div"><xsl:attribute name="id">maintext</xsl:attribute>
                <xsl:element name="div"><xsl:attribute name="id">maincontent</xsl:attribute></xsl:element>
-               <h1>Contents<!-- — <xsl:value-of select="$View"></xsl:value-of>--></h1>
-               <hr/>
+                <h1>Contents — <xsl:value-of select="$View"></xsl:value-of></h1>
                <xsl:for-each select="/tei:teiCorpus/tei:TEI">
                   <xsl:sort select="@n"></xsl:sort>
                   &#xa4; <a>
@@ -397,16 +394,13 @@
                   <p><xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:p"/></p>
                </xsl:for-each>
                <br/>
-               
-               <!-- Horizontal rule following Table of Contents -->
-               <hr style="border:2px solid crimson;"/>
-               <h1>Letters</h1>
-               
-               <xsl:apply-templates select="/tei:teiCorpus/tei:TEI/tei:text/tei:body"/>
-               
-               <!-- Horizontal rule between text of letters and explanatory annotations -->
-               <hr style="border:2px solid crimson;"/>
-               
+               <hr/>
+                
+              <xsl:apply-templates select="/tei:teiCorpus/tei:TEI/tei:text/tei:body"/>
+     
+            <hr/>
+            
+            
 <!--            <!-\- Insert information from the <text> of each TEI element, wrapping each <text> in a div 
              of class "correspondence." -\->
             <xsl:for-each select="/tei:teiCorpus/tei:TEI/tei:text">
@@ -419,7 +413,6 @@
             <!-- Insert, count, encode by cardinal position, and link the explanatory annotations. -->
             <xsl:element name="div"><!--<xsl:attribute name="class">contents-notes</xsl:attribute>-->
            <h1>Explanatory Annotations</h1>
-               <hr/>
             <xsl:for-each select="//tei:TEI//tei:note[@resp='ed']">
                <xsl:choose>
                   <xsl:when test="position()>=100">
@@ -464,12 +457,12 @@
              </xsl:for-each>
             </xsl:element> <!-- End of div element -->
 
-             <hr style="border: 2px solid crimson;"/>
-               <h2 style="text-align:center;">
-               About this View of the Journal
-            </h2>
+            <!-- Describe this view of the journal. -->
+            <p>
+               <strong>About this View of the Journal</strong>
+            </p>
             <p><a name="view"/><xsl:value-of select="$aboutView"/></p>
-               <!-- Horizontal rule after About View -->
+            <hr/>
             <!-- Insert link to home page, creation date, and licensing statement.-->
             <p align="left">
                <a href="#top"
@@ -485,7 +478,7 @@
                   select="//tei:teiCorpus/tei:teiHeader/tei:availability/tei:p[@id='CreativeCommons']"
                   disable-output-escaping="yes"/>
             </p>
-          </xsl:element> 
+         </xsl:element>
             <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
             <script src="index.js"></script>
          </body>
@@ -496,7 +489,6 @@
       elements of you XML documents in the result tree of your output.-->
 
    <xsl:template match="tei:body">
-      <!-- Horizontal rule at beginning of each letter. -->
       <hr/>
       <xsl:apply-templates select="tei:div[@type='letter']"/>
       <xsl:apply-templates select="tei:postscript"/>
@@ -562,10 +554,9 @@
       <div class="letter">
       <xsl:apply-templates/>
       </div>
-      <!-- Horizontal rule between body of letter and ms description -->
-      <hr style="margin-left:200px;margin-right:200px;"/>
+      <hr class="half-width"/>
       <p class="msDesc">
-         <span style="font-weight:bold;">MS Description. </span><xsl:value-of
+         <xsl:value-of
          select="ancestor::tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:p"/>
       </p>
     </xsl:template>
