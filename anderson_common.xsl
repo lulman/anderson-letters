@@ -151,7 +151,9 @@
                    <hr style="border: 2px solid crimson;"/>
                </div> <!-- END titleBar -->
             </div> <!-- END masthead -->
-            
+
+            <!-- BUILD THE VERTICAL IMAGE BAR -->
+
             <div id="navBar">
                
                <div id="display1"><!-- Begin display1 -->
@@ -462,8 +464,9 @@
                   </xsl:otherwise>
                </xsl:choose>
              </xsl:for-each>
-            </xsl:element> <!-- End of div element -->
+            </xsl:element> <!-- End of div Exlanatory Annotations -->
 
+<!-- Describe this view of the journal -->
              <hr style="border: 2px solid crimson;"/>
                <h2 style="text-align:center;">
                About this View of the Journal
