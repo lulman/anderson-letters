@@ -146,7 +146,7 @@
                            <li><a href="./anderson_letters.html#revision">Revision History</a></li>
                         </ul>
                      </li>
-                     <li class="link"><a class="main"  href="">Views of the Diary</a>
+                     <li class="link"><a class="main"  href="">Views of the Letters</a>
                         <ul class="sub">
                            <li><a href="./anderson_reading.html">By Letter</a></li>
                            <li><a href="./anderson_diplomatic.html">By MS Page</a></li>
@@ -475,17 +475,18 @@
       <xsl:apply-templates/>
    </xsl:template>
    
-   <!-- Format information about your source document. -->
+   <!-- Format information about your source document contained in descriptive note. -->
    <xsl:template
       match="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:notesStmt/tei:note[@type='descriptive']">
       <hr style="border: 2px solid crimson;"/>
       <a name="source"/>
       <h2 id="source">About the Source Documents</h2>
       <hr/>
-      <p>Title: "<xsl:value-of select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:title"/>" 
-         <br/>Extent: <xsl:value-of select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:extent"/>
+      <p><strong>Title</strong>: "<xsl:value-of select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:title"/>" 
+         <br/><strong>Extent</strong>: <xsl:value-of select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:extent"/>
       </p>
-         <xsl:apply-templates/>
+      <p>See individual letters (under "Views of the Letters") for physical descriptions of each letter.</p>
+      <xsl:apply-templates/>
    </xsl:template>
    
    <!-- Format the Encoding Conventions -->
@@ -493,17 +494,11 @@
       <h3>Encoding Conventions</h3>
       <xsl:apply-templates/>
    </xsl:template>
+   
+   <!-- Format the Availability Statement -->
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability">
       <p>
-         <em>
             <xsl:apply-templates/>
-         </em>
-      </p>
-      <p>
-         <em>
-            <xsl:value-of select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:pubPlace"/>, <xsl:value-of
-               select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:date"/>
-         </em>
       </p>
    </xsl:template>
 
@@ -523,8 +518,8 @@
       <a name="edition"/>
       <h2 id="edition">About the Electronic Edition</h2>
       <hr/>
-      <p>Title: <xsl:value-of select="tei:title"/></p>
-         <p>Editors: <xsl:for-each select="tei:editor/tei:persName">
+      <p><strong>Title</strong>: <xsl:value-of select="tei:title"/></p>
+         <p><strong>Editors</strong>: <xsl:for-each select="tei:editor/tei:persName">
             <xsl:choose>
                <xsl:when test="current()=//tei:titleStmt/tei:editor[1]">
                   <xsl:apply-templates/>
@@ -534,7 +529,7 @@
          </xsl:for-each>.</p>
       <xsl:for-each select="tei:respStmt">
          <p>
-      <xsl:value-of select="tei:resp"/>
+      <strong><xsl:value-of select="tei:resp"/></strong>
       <xsl:for-each select="tei:persName">
             <xsl:choose>
                <xsl:when test="current()=//tei:respStmt/tei:persName[1]">
@@ -545,6 +540,12 @@
          </xsl:for-each>.
          </p>
       </xsl:for-each>
+      <p>
+        <xsl:value-of select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:pubPlace"/>, <xsl:value-of
+        select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:date"/>
+      </p>
+
+      
    </xsl:template>
    
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:editorialDecl">
@@ -556,6 +557,7 @@
    
    <!-- SORTING AND FORMATTING LISTS OF WORKS CITED, PLACES, ORGANIZATIONS, AND SO ON. -->
    
+   <!-- Format the list of works cited -->
    <xsl:template match="tei:listBibl">
       <xsl:for-each select="tei:bibl">
          <xsl:sort select="@n"/>
@@ -585,7 +587,7 @@
    <xsl:template match="tei:listPerson[@type='editors']"/>
 -->         
    
-<!-- New People mentioned template -->
+   <!-- Format the list of people mentioned -->
    
    <xsl:template match="tei:listPerson[@type='mentioned']">
       <hr/>
@@ -613,6 +615,7 @@
       </xsl:for-each>
    </xsl:template>
    
+   <!-- Format the list of organizations mentioned -->
    <xsl:template match="tei:listOrg">
        <hr/>
      <h3 id="organizationsMentioned">List of Organizations Mentioned</h3>
@@ -625,7 +628,7 @@
       </xsl:for-each>
    </xsl:template>
    
-   
+   <!-- Format the list of places mentioned -->
    <xsl:template match="tei:listPlace">
       <a name="PlacesMentioned"/>
        <hr/>
@@ -791,11 +794,14 @@
       <cite>
          <xsl:apply-templates/>
       </cite>
-   </xsl:template>   
-   <xsl:template match="tei:date">
+   </xsl:template> 
+   
+   
+      <xsl:template match="tei:date">
       <xsl:apply-templates/>
    </xsl:template>
-
+   
+   
    <!-- LINK OR EMBED IMAGES AND OTHER NON-TEXTUAL MATERIALS -->
    <xsl:template match="tei:figure[@rend='link']"> 
       <a>
@@ -834,5 +840,6 @@
    <xsl:template match="tei:idno"/>
    <xsl:template match="tei:publisher"/>
    <xsl:template match="tei:pubPlace"/>
+   <xsl:template match="tei:publicationStmt/tei:date"></xsl:template>
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability/tei:p[@xml:id='CreativeCommons']"/>
 </xsl:stylesheet>
