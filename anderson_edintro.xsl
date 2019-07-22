@@ -99,7 +99,7 @@
             </xsl:element>
             <title>
                <xsl:value-of
-                  select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
+                  select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
             </title>
             
             <!-- LOCAL JS CALLS -->
@@ -456,8 +456,8 @@
       <p>
                <h2>About this Editorial Introduction</h2>
             </p>
-            <p><a name="view"/>Text on this page is derived from the
-               edition's XML source document, anderson_letters.xml.</p>
+            <p><a name="view"/>Text on this page derives from the
+               edition's XML source document, anderson_letters.xml, transformed with anderson_edintro.xsl.</p>
             <hr/>
             <p>&#x2192; <a href="anderson_reading.html">Link to the text of the journal</a>.
             </p>

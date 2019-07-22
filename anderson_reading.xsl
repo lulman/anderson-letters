@@ -15,7 +15,9 @@
     <!-- Declare variables that will "localize" references to them in Stephens-Common.xsl -->
 
     <xsl:variable name="View">Reading Text</xsl:variable>
-    <xsl:variable name="aboutView"> In this reading text of the Stephens letters, line breaks in the
+    <xsl:variable name="aboutView"> This presentation of the Anderson letters derives from the project's 
+        main XML file, anderson_letters.xml, transformed with anderson_common.xsl and anderson_reading.xsl.
+        In this "view" of the Anderson letters, line breaks in the
         manuscripts are not reported; rather, lines wrap in the browser's window. Similarly, page
         breaks are not reported. Paragraph breaks follow those in the manuscript. Spelling,
         punctuation, capitalization, and abbreviations are reported as they appear in the

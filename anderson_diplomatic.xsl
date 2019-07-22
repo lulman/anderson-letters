@@ -15,7 +15,9 @@
 <!-- Declare variables that will "localize" references to them in Stephens-Common.xsl -->
 
    <xsl:variable name="View">Diplomatic Transcription</xsl:variable>
-   <xsl:variable name="aboutView">In the text of the letter, line, paragraph, and page breaks follow those in the 
+   <xsl:variable name="aboutView">This presentation of the Anderson letters derives from the project's 
+      main XML file, anderson_letters.xml, transformed with anderson_common.xsl and anderson_diplomatic.xsl.
+      In the text of the letter, line and page breaks follow those in the 
       manuscript. Spelling, punctuation, capitalization, and abbreviations are reported as they appear 
       in the manuscript. Text highlighted by Anderson with an underscore is underscored in the transcription. 
       Text canceled by Anderson is presented in a red, strikethrough font. Text added by Anderson between 
@@ -24,8 +26,7 @@
       a vertical bar (&#x007C;). All material added by the editor is surrounded by square brackets: uncertain readings 
       are enclosed in square brackets and followed by a question mark; gaps in the transcription are explained 
       within the brackets; and text supplied by the editor for clarity are set in italics and surrounded by 
-      square brackets. Links to external materials are colored and underlined. Finally, the 
-      background consists of a tiled detail image from one of the Anderson letters.</xsl:variable>
+      square brackets. Links to external materials are colored and underlined.</xsl:variable>
    <xsl:variable name="bodyRule">
       body {
       font-family: 'Fanwood Text',georgia, serif;
