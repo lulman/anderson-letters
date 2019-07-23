@@ -94,7 +94,12 @@
 	               <title level="u">Civil War correspondence, 1862-1864</title>
 	               <author>Anderson, William B. (b. 1822)</author>
 	             </titleStmt>
-	             <extent>Twenty-one handwritten letters, 4 documents, and 1 CD-ROM.</extent>
+          <extent>"Includes 21 handwritten letters, 4 documents, and 1 CD-ROM. Letters written by
+            William B. Anderson to his wife in Pennsylvania. He writes from his steamboat during the
+            Civil War, as he ferries Union troops, ammunition and supplies up and down the river at
+            Cincinnati and vicinity. Also contains documents showing his expenses and profits and a
+            letter from another person. All letters are digitized and available on a CD, included in
+            the collection" (OSU Libraries Catalog).</extent>
 	             <publicationStmt>
 	               <p>The W. B. Anderson Collection is the property of the Rare Books and Manuscripts
 	                 Library of The Ohio State University Libraries. Any use of the material should
@@ -103,10 +108,12 @@
 	             </publicationStmt>
 	             <notesStmt>
 	               <note type="descriptive">
-	                 <p><emph rend="bold">Selection of the Source Text</emph>. The Rare Books and
-	                   Manuscripts Library at The Ohio State University Libraries holds . . . several
-	                   significant Civil War events (e.g., the proposed draft, the Defense of
-	                   Cincinnati).</p>
+	                 <p><emph rend="bold">Selection of the Source Text</emph>. This edition contains
+	                 the twenty letters written by William B. Anderson to his wife, Louisa
+	                 Anderson, taking a literal rather than figurative clue from what Anderson calls in one letter the
+	                 "distres [sic] that this war has brought on the human family." By contrast, the additional
+	                 letter in the collection and the four receipts deal exclusively with Anderson's
+	                 shipping business.</p>
 	                 
 	               </note>
 	               <note type="introductory">
@@ -417,6 +424,39 @@
                    <geo>37.9667 -87.5500</geo>
                  </location>
                </place>
+               <place type="city" xml:id="Parkersburg" source="#TGN">
+                 <placeName>Parkersburg, WV</placeName>
+                 <desc>In his Letter of 24 August 1864, Anderson speculates about whether
+                 water levels will allow him to navigate as far upstream as Parkersburg, WV.</desc>
+                 <country>United States</country>
+                 <region type="state">West Virginia</region>
+                 <region type="county">Wood</region>
+                 <location>
+                   <geo>39.2667  -81.5500</geo>
+                 </location>
+               </place>
+               <place type="city" xml:id="Racine" source="#TGN">
+                 <placeName>Racine, OH</placeName>
+                 <desc>Left freight here when he broke a shaft.</desc>
+                 <country>United States</country>
+                 <region type="state">Ohio</region>
+                 <region type="county">Meigs</region>
+                 <location>
+                   <geo>38.9667 -81.9000</geo>
+                 </location>
+               </place>
+               <place type="city" xml:id="Memphis" source="#TGN">
+                 <placeName>Memphis, TN</placeName>
+                 <desc>Ship Kenton in Memphis trade.</desc>
+                 <country>United States</country>
+                 <region type="state">Tennessee</region>
+                 <region type="county">Shelby</region>
+                 <location>
+                   <geo>35.1333 -90.0333</geo>
+                 </location>
+               </place>
+               
+               
                
                
              </listPlace>
@@ -588,41 +628,44 @@
              revision of the students' introductory essays and annotations.</p>
          </projectDesc>
          <editorialDecl>
-           <p>Encoding of the Anderson letters emphasizes diplomatic transcription, with supplemental
-             information allowing for semi-modernized, corrected, regularized, or expanded views included as 
-             the values of attributes associated with various elements. Accordingly, abbreviations, recoverable
-             cancelations, punctuation, spelling, underscoring, capitalization, line breaks, and page breaks 
-             have all been transcribed or tagged as they appear in the original manuscripts. Regularized
-             versions of all names and referring strings have been encoded as the values of "reg"
-             attributes. Standard format values for all dates have been encoded in "value" attributes.</p>
-           <p>Corrections and emendations in Anderson's hand have been encoded as cancelations and interlinear 
-             or marginal additions. In a few cases, omitted text has been supplied by the editors for the sake 
-             of clarity and encoded with the TEI &lt;supplied&gt; element.</p>
-           <p>The following structural elements of the letters are also encoded: opener (including salutation
-             and dateline), body, lines, paragraphs, pages, and closers (including salutation and 
-             signature). Notes and postscripts are identified as such.</p>
-           <p>The critical apparatus used in particular views of the letters is explained at the bottom of each view.</p>
-           <p>The XML and XSL files related to this
-             edition are all available in the KB.
+           <p>
+             <emph rend="bold">Scanning</emph>. The manuscript pages were scanned as 24-bit TIFF images
+             at 400 dots per inch (dpi), then coverted to 8-bit JPEG images at 400 dpi and full
+             quality. All edges were overscanned by at least 1/4 inch. No color correction was used at any stage of image
+             preparation, but a scan of a photographer's 18% grey card on the same scanner
+             produced RGB values at the center of 91/95/107 after applying a 150% Gaussian Blur in
+             Adobe Photoshop to average color values. Thus, a properly configured monitor should
+             provide a reasonable approximation of colors on the manuscript pages.. 
+           </p>
+           <p><emph rend="bold">Markup and Annotation</emph>. Encoding of the Anderson letters emphasizes diplomatic transcription: 
+             abbreviations, recoverable cancelations, punctuation, spelling, underscoring, capitalization, line breaks, and page breaks 
+             have all been transcribed or tagged as they appear in the original manuscripts. The TEI:Corpus header contains
+             lists of people, places, and organizations mentioned in the letters, along with other standard information about
+             the project. Complete markup guidelines for the project can be found via the "Appendices" menu, and the TEI customization file
+             and encoding schema can be download via the "Source Files" menu.</p>
+           <p>An explanation of the presentation in each "view" of the letters can be read via the "About this View" link
+             at the top of each view's page.</p>
+           <p>
+             <emph rend="bold">Proofing</emph>. Students who created the original transcriptions proofread their own
+             transcription and encoding. In preparation for peer review by NINES and preservation in The Ohio State University's 
+             Knowledge Bank, the transcriptions and encoding were once again proofread by Professor Ulman.
+           </p>
+           <p>
+             <emph rend="bold">Peer Review</emph>. Anonymous reviewers for NINES provided peer-reviews for the editions, in response to 
+             which they were revised and then reviewed by NINES editors before being listed in the NINES database.
+           </p>
+           <p>
+             <emph rend="bold">Production and Archival Location of Digital Assets</emph>.
+             All of the files associated with this edition are accessed via, and archived in, The Ohio State University's
+             institutional repository, the Knowledge Bank.
            </p>
          </editorialDecl>
          <refsDecl>
-           <p>The XML files that constitute this edition of the William B. Anderson letters
-             are named according the letters' dates of composition, using the following naming
-             convention: WBA_YYYYMMDD.xml. Dates of composition were determined from
-             various sources of evidence: the datelines inscribed in the letters, internal
-             evidence in the body of the letters, and perpetual calendars. If the year,
-             month, or date on which a letter was written could not be determined, the 
-             appropriate part of the filename is rendered with 0s. XSL style
-             sheet documents are named with the prefix "WBA" followed by an underscore
-             and a descriptive phrase (e.g., "WBA_diplomatic.xsl).</p>
-           <p>To facilitate embedding or linking to image, audio, and video files, this edition
-             supplements the Text Encoding Initiative's DTD by adding a URL attribute to 
-             the &lt;xref&gt; element and an MMID (i.e., Media Manager ID) attribute to the 
-             &lt;pb&gt; element. The values of the MMID attribute in &lt;pb&gt; elements and
-             the file IDs in the URL attribute of &lt;xref&gt; elements that link to, or embed, 
-             image, audio, and video files contained in the Media Manager are generated 
-             by the Media Manager application.</p>
+           <p>
+             <emph rend="bold">Encoding Guidelines</emph>. The TEI-compliant transcripts of the source documents follows the 
+             P5 version of the Text Encoding Initiative's <title level="m">P5: Guidelines for Electronic Text Encoding and Interchange</title>, 
+             as customized using the .ODD file listed under the "Source Files" menu.
+           </p>
          </refsDecl>
          
          <classDecl>
@@ -1518,7 +1561,7 @@
     
     <text>
       <body>
-        <div type="letter" xml:id="WBA_18620824_let">
+        <div type="letter" xml:id="WBA_18620816_let">
           <!-- REVISE THE VALUES ABOVE -->
           <pb facs="Letter06_pg1"/>
           <head type="letterhead"></head>
@@ -1529,7 +1572,7 @@
           </figure>
           <lb/>
           <opener>
-            <lb/><dateline><date when="1862-08-24">Aug 24 /64</date><ptr type="noteAnchor" target="dateError"/>
+            <lb/><dateline><date when="1862-08-16">Aug 16 /64</date><ptr type="noteAnchor" target="dateError"/>
               <note resp="ed" xml:id="dateError">Anderson records the day as Sunday, but in August 1862, the 16th fell
                 on a Saturday.</note></dateline>
             <lb/><salute>My Dear<rs ref="#MLA">Wife</rs></salute>
@@ -1602,7 +1645,129 @@
       </body>
     </text>
   </TEI>
-
+  
+  <TEI xml:id="WBA_18620824" n="1862-08-24">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Letter from William B. Anderson to wife Mary Louisa Anderson on August 24, 1862</title>
+          <author>Anderson, William B.</author>
+        </titleStmt>
+        <publicationStmt>
+          <p><!-- ... --></p>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc>
+            <msIdentifier>
+              <country>USA</country>
+              <settlement>Columbus, OH</settlement>
+              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
+              <collection>William B. Anderson Collection</collection>
+              <idno>SPEC.RARE.CMS.0309</idno>
+            </msIdentifier>
+            <msContents>
+              <p>In this letter, Anderson writes to his wife about . . . </p>
+            </msContents>
+            <physDesc>
+              <p>REVISE! William B. Anderson's letter dated August 24, 1862 from Cincinnati and
+                addressed to his wife Louisa is written in ink on two sides of a 
+                loose sheet of paper measuring approximately 7.5 inches wide by 9.0 inches 
+                tall (19 x 23 cm) and ruled with horizontal blue lines spaced .33 inches 
+                (0.8 cm) apart, except for a 1.5-inch (3.8 cm) unruled top margin. 
+                All four edges of the letter, 
+                are clean, suggesting that the sheet was bought as a package of looseleaf. 
+                It appears originally to have been folded once crosswise and twice lengthwise. 
+                At this writing, the ink appears brown and the paper off-white (cream). A .5-inch
+                by .5-inch (1.3 x 1.3 cm) embossed printer's mark appears in the upper lefthand 
+                corner of the sheet, 0.5 inches (1.3 cm) from the top edge and .25 inches 
+                (0.6 cm) from the left edge.</p>
+              <accMat></accMat>
+            </physDesc>
+            <additional>
+              <adminInfo>
+                <!-- Info from the finding aid -->
+                <note></note>
+              </adminInfo>
+            </additional>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div type="letter" xml:id="WBA_18620824_let">
+          <pb facs="Letter07_pg1"/>
+          <opener>
+            <lb/><dateline><date when="1862-08-24">Sunday Aug 24/64</date></dateline>
+            <lb/><salute>My <choice><abbr>Dr</abbr><expan>Dear</expan></choice><rs ref="#MLA"> Wife</rs></salute>
+          </opener>
+          <p>
+          <lb/>I arrived here yesterday at 6 in the 
+          <lb/>Morning &amp; Found the crew all well and the Boat 
+          <lb/>nearly repaired we are all ready for business 
+          <lb/>and have a load engaged and will leave here 
+          <lb/>tomorrow for <placeName ref="#gallipolis">Gallipolis</placeName> and may if there is water 
+          <lb/>go on up as far as <placeName ref="#Parkersburg">Parkersburg</placeName> and take the 
+          <lb/>Freight that we left at <placeName>Racine</placeName> the time we 
+          <lb/>broke our shaft. I have had various opportunities 
+          <lb/>of Chartering or selling our Boat but none that 
+          <lb/>I would accept. We will stand a better chance 
+          <lb/>on our return to sell or Charter if the river still 
+          <lb/>continues to fall. Our expenses for repairs have been 
+          <lb/>considerable though not as much as I had anticipated 
+          <lb/>I caught the <rs>old lady</rs> &amp; <persName>Ella</persName> in bed yesterday 
+          <lb/>morning when I went in to see them. I went in 
+          <lb/>and ran upstairs as I usually do and found 
+          <lb/>the doors open and the <rs>old lady</rs> laying on the Sofa 
+          <lb/>and <persName>Ella</persName> on the floor both sound asleep and the 
+          <lb/>bed standing as it has stood since I first went 
+          <lb/>down there while the Kenton was in the <placeName>Memphis</placeName> 
+          <lb/>Trade. Though I suppose it is their choice of 
+          <lb/>cource we have no business to say a word, they are 
+          <lb/>both well I promised to go down to day &amp; see them 
+          <lb/>and shall this evening. You ought to have seen 
+          <lb/>me in <placeName ref="#PittsburghPA">Pittsburgh</placeName> the day I left I had to get 
+          <lb/>a pass 
+          <pb facs="Letter07_pg2"/>
+          to leave the state and give One Thousand 
+          <lb/>Dollars Bail that I would return by the 3rd of 
+          <lb/>next month if drafted. I don’t fear any 
+          <lb/>such thing as being drafted though may 
+          <lb/>be for there is no telling what there will be 
+          <lb/>to do yet, the eccitement has abated to a great 
+          <lb/>extent here since I left though all along the R 
+          <lb/>Road the enthusiasm is beyond bounds in the night 
+          <lb/>as well as by day all the small stations that the 
+          <lb/>Cars would stop at large quantities of recruits would 
+          <lb/>flock aboard and an eaqually large quantity of women 
+          <lb/>and children would be there to bid Good bye, there is 
+          <lb/>no telling the ammount of distres that this war 
+          <lb/>has brought on the human family
+          </p>
+          <p>
+          <lb/>I will have to stop for I have no news of 
+          <lb/>any importance write about give my love to the 
+          <lb/>children and watch <persName>Anna</persName> for I think that she 
+          <lb/>is in need of close attention I was in great hopes 
+          <lb/>to see the boat but thus far have been unsuccessfull 
+          <lb/>I will expect you to write to me on the receipt of 
+          <lb/>this. Take good Care of yourself and the children
+          </p>
+          <closer>
+            <lb/><salute>Your Affectionate Husband</salute>
+            <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WB</abbr></choice> Anderson</persName></signed>
+          </closer>
+          <postscript>
+           <p>
+            <lb/>PS the old lady got July letter 
+            <lb/><choice><abbr>WBA</abbr><expan>William B. Anderson</expan></choice>
+           </p>
+          </postscript>
+         </div>
+      </body>
+    </text>
+  </TEI>
+  
   <TEI xml:id="WBA_18620901" n="1862-09-01">
     <!-- FIRST COPY THIS TEI ELEMENT!! -->
     <!-- FILL IN THE VALUES ABOVE -->
