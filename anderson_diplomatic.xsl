@@ -15,18 +15,13 @@
 <!-- Declare variables that will "localize" references to them in Stephens-Common.xsl -->
 
    <xsl:variable name="View">Diplomatic Transcription</xsl:variable>
-   <xsl:variable name="aboutView">This presentation of the Anderson letters derives from the project's 
-      main XML file, anderson_letters.xml, transformed with anderson_common.xsl and anderson_diplomatic.xsl.
-      In the text of the letter, line and page breaks follow those in the 
-      manuscript. Spelling, punctuation, capitalization, and abbreviations are reported as they appear 
-      in the manuscript. Text highlighted by Anderson with an underscore is underscored in the transcription. 
-      Text canceled by Anderson is presented in a red, strikethrough font. Text added by Anderson between 
-      lines is preceded by an arrow indicating whether the addition is above or below the line and followed 
-      by an arrow indicating the return to the line (&#x2191; &#x2193;); text added in the margins is preceded and followed by 
-      a vertical bar (&#x007C;). All material added by the editor is surrounded by square brackets: uncertain readings 
-      are enclosed in square brackets and followed by a question mark; gaps in the transcription are explained 
-      within the brackets; and text supplied by the editor for clarity are set in italics and surrounded by 
-      square brackets. Links to external materials are colored and underlined.</xsl:variable>
+   <xsl:variable name="aboutView">This presentation of the Anderson letters derives from the
+      project's main XML file, anderson_letters.xml, transformed with anderson_common.xsl and
+      anderson_diplomatic.xsl. In the text of the letter, line and page breaks follow those in the
+      manuscript. Spelling, punctuation, capitalization, and abbreviations are reported as they
+      appear in the manuscript. Text canceled by Anderson is presented in a red, strikethrough font.
+      Uncertain readings are enclosed in square brackets and followed by a question mark. Links to
+      external materials are colored and underlined.</xsl:variable>
    <xsl:variable name="bodyRule">
       body {
       font-family: 'Fanwood Text',georgia, serif;

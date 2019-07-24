@@ -23,11 +23,9 @@
         punctuation, capitalization, and abbreviations are reported as they appear in the
         manuscript. Text highlighted by the correspondents with an underscore is underscored in this
         view. Canceled text is suppressed. Text added between lines or in the margins is silently
-        incorporated into the reading text. All material added by the editors is surrounded by
-        square brackets: uncertain readings are enclosed in square brackets and followed by a
+        incorporated into the reading text. Uncertain readings are enclosed in square brackets and followed by a
         question mark, and text supplied by the editor for clarity is set in italics and surrounded
-        by square brackets. Gaps in the manuscript (e.g., from tears) are indicated by elipses
-        enclosed by square brackets. Links to notes and external materials are colored.
+        by square brackets. Links to notes and external materials are superscripted and colored.
     </xsl:variable>
     <xsl:variable name="bodyRule">
         body {
