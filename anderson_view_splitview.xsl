@@ -20,10 +20,11 @@
       anderson_view_splitview.xsl. In the text of the letter, line and page breaks follow those in
       the manuscript. Spelling, punctuation, capitalization, and abbreviations are reported as they
       appear in the manuscript. Text canceled by Anderson is presented in a red, strikethrough font.
-      Uncertain readings are enclosed in square brackets and followed by a question mark. Links to
-      external materials are colored and underlined. Clicking on the page image opens a larger
-      view of the page in a separate window.
-      </xsl:variable>
+      Uncertain readings are enclosed in square brackets and followed by a question mark. Text added
+      by Anderson in the margins is surrounded by "pipe" characters (|) at the point in the main
+      text that it appears to follow. Links to external materials are colored and underlined.
+      Clicking on the page image opens a larger view of the page in a separate window.
+   </xsl:variable>
    <xsl:variable name="bodyRule">
       body {
       font-family: 'Fanwood Text',georgia, serif;
@@ -182,6 +183,14 @@
    </xsl:template>    
    <xsl:template match="tei:add[@place='supralinear']"> &#x2191; <xsl:apply-templates/> &#x2193; </xsl:template>
    <xsl:template match="tei:add[@place='infralinear']"> &#x2193; <xsl:apply-templates/> &#x2191; </xsl:template>
+   <xsl:template match="tei:add[@place='inline']">&#x7c;<xsl:apply-templates/>&#x7c;</xsl:template>
+   <xsl:template match="tei:add[@place='margin']">|<xsl:apply-templates/>|</xsl:template>
+   
+   <!-- Deal with sic/corr tags -->
+   <xsl:template match="tei:choice/tei:sic">
+      <xsl:apply-templates/> [sic] </xsl:template>
+   <xsl:template match="tei:choice/tei:corr"/>
+   
    <!-- Highlight recoverable cancelations -->
    <xsl:template match="tei:del"><span class="cancel"><xsl:apply-templates></xsl:apply-templates></span></xsl:template>
    <xsl:template match="tei:p"><xsl:apply-templates/></xsl:template>

@@ -1363,10 +1363,18 @@
             <lb/> and take care of your own <choice><corr>health</corr><sic>healh</sic></choice>
             </p> 
             <closer>
-              <lb/><salute><!-- From salute --></salute>
-              <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WBA</abbr></choice></persName></signed>
+              <lb/><salute>Affectionably your
+              <lb/>husband good night </salute><signed><persName ref="#WBA"><choice><expan>William B. Anderson</expan><abbr type="initials">WBA</abbr></choice></persName></signed>
             </closer>
-          <!-- If there were a <postscript>, we have a tag for that. -->
+           <postscript>
+             <p>
+               <lb/><add place="margin">Write to me again as soon as you get this and the letter will
+               <lb/>be here on our return I feel well though am almost worn out
+               <lb/>though think I will have it easier now as we will not
+               <lb/>stick so much in the <choice><sic>Parkersbug</sic><corr><placeName ref="#Parkersburg">Parkersburg</placeName></corr></choice> 
+                    track <persName><choice><abbr>WBA</abbr><expan>William B. Anderson</expan></choice></persName></add>
+             </p>
+           </postscript>
         </div>
       </body>
     </text>

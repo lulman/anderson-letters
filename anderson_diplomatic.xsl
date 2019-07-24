@@ -20,8 +20,9 @@
       anderson_diplomatic.xsl. In the text of the letter, line and page breaks follow those in the
       manuscript. Spelling, punctuation, capitalization, and abbreviations are reported as they
       appear in the manuscript. Text canceled by Anderson is presented in a red, strikethrough font.
-      Uncertain readings are enclosed in square brackets and followed by a question mark. Links to
-      external materials are colored and underlined.</xsl:variable>
+      Uncertain readings are enclosed in square brackets and followed by a question mark. Text added
+      by Anderson in the margins is surrounded by "pipe" characters (|) at the point in the main text that ii
+      appears to follow. Links to external materials are colored and underlined.</xsl:variable>
    <xsl:variable name="bodyRule">
       body {
       font-family: 'Fanwood Text',georgia, serif;
@@ -105,12 +106,12 @@
    <!-- Define templates required for the diplomatic view. -->
    
    <xsl:template match="tei:pb">
-      <br/>
+      <br/><br/>
       <span class="pagebreak">[Page&#xA0;-&#xA0;<xsl:number count="tei:pb" format="1" level="any"/>
          &#xA0;(<a><xsl:attribute
             name="href"><xsl:value-of select="@facs"/>.jpg</xsl:attribute>
             <xsl:attribute name="target">_blank</xsl:attribute>click to open page image in a new window</a>)]</span>
-      <br/>
+     <!-- <br/>-->
    </xsl:template>    
    <xsl:template match="tei:lb"><br/><a><xsl:attribute name="name"><xsl:number count="tei:lb" format="0001" level="any" from="tei:div[@type='letter']"/></xsl:attribute>
    </a><xsl:number count="tei:lb" format="0001" level="any" from="tei:div[@type='letter']"/>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;
@@ -121,6 +122,7 @@
    <xsl:template match="tei:add[@place='supralinear']"> &#x2191; <xsl:apply-templates/> &#x2193; </xsl:template>
    <xsl:template match="tei:add[@place='infralinear']"> &#x2193; <xsl:apply-templates/> &#x2191; </xsl:template>
    <xsl:template match="tei:add[@place='inline']">&#x7c;<xsl:apply-templates/>&#x7c;</xsl:template>
+   <xsl:template match="tei:add[@place='margin']">|<xsl:apply-templates/>|</xsl:template>
    
    <!-- Highlight recoverable cancelations -->
    <xsl:template match="tei:del[@rend]"><span class="cancel"><xsl:apply-templates></xsl:apply-templates></span></xsl:template>
@@ -131,4 +133,9 @@
    <xsl:template match="tei:p"><xsl:apply-templates/></xsl:template>
    <xsl:template match="tei:figure[@rend='embed']"/>
    
+  <!-- Deal with sic/corr tags -->
+   <xsl:template match="tei:choice/tei:sic">
+      <xsl:apply-templates/> [sic] </xsl:template>
+   <xsl:template match="tei:choice/tei:corr"/>
+    
 </xsl:stylesheet>
