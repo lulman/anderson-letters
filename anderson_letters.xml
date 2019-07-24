@@ -120,25 +120,25 @@
 	                 <p>
 	                   <figure rend="embed" n="250">
 	                     <head>Salutation from letter of 27 June 1862</head>
-	                     <graphic url="./image_sscox_orig_spine.jpg"/>
+	                     <graphic url="./image_mydearwife.png"/>
 	                     <figDesc>
 	                       Salutation from letter of 27 June 1862
 	                     </figDesc>
 	                   </figure>
-	                   Letter Call no.
 	                 </p>
 	                 
-	                 <p>Salutation from letter of 27 June 1862
-	                   In some ways, William B. Anderson's short letter of 27 June 1862 to his wife, Mary Louisa, 
-	                   typifies the twenty-one letters from William to Louisa that survive in the collection of the 
-	                   Rare Books and Manuscripts Library at The Ohio State University. It addresses three of the 
-	                   four broad topics about which he repeatedly writes to his wife during the summers of 1862, 1863, 
-	                   and 1864: managing domestic affairs and sustaining familial bonds when family members are 
-	                   separated for long periods by great distances; the rhetoric and logistics of mid-nineteenth-century 
-	                   correspondence; and the economic, logistical, and physical challenges of the riverboat business, 
-	                   especially on a waterway as critical as the Ohio River in the midst of the American Civil War 
-	                   (in other letters, Anderson also reflects more broadly on the uncertainties, vicissitudes, and 
-	                   suffering faced by civilians and soldiers alike in wartime).</p>
+              <p> In some ways, William B. Anderson's short letter of 27 June 1862 to his wife, Mary
+                Louisa, typifies the twenty-one letters from William to Louisa that survive in the
+                collection of the Rare Books and Manuscripts Library at The Ohio State University.
+                It addresses three of the four broad topics about which he repeatedly writes to his
+                wife during the summers of 1862, 1863, and 1864: managing domestic affairs and
+                sustaining familial bonds when family members are separated for long periods by
+                great distances; the rhetoric and logistics of mid-nineteenth-century
+                correspondence; and the economic, logistical, and physical challenges of the
+                riverboat business, especially on a waterway as critical as the Ohio River in the
+                midst of the American Civil War (in other letters, Anderson also reflects more
+                broadly on the uncertainties, vicissitudes, and suffering faced by civilians and
+                soldiers alike in wartime).</p>
 	                 <p>However, this letter is also unique. All but two of the letters were written from Cincinnati, 
 	                   a thriving center of commerce on the Ohio River approximately halfway between its source at 
 	                   the confluence of the Allegheny and Monongahela Rivers in Pittsburgh, Pennsylvania and its confluence 
@@ -932,7 +932,7 @@
             <lb/>with you &amp; the small ones <note target="n4">4</note> 
           </p>
           <p>
-            <lb/>tell <name type="person">Mary McNamee</name><note target="n5">5</note> that WM was over 
+            <lb/>tell <persName ref="">Mary McNamee</persName> that WM was over 
             <lb/>with us last evening and that he is well
             <lb/>we will leave about 4 or 5 PM this 
             <lb/>Tuesday <choice><abbr>Eveng</abbr><expan>Evening</expan></choice>
@@ -1032,9 +1032,8 @@
             <lb/> <del hand="WBA" rend="overstrike" type="recoverable">I will bring down and hand to</del> 
             <lb/> <del hand="WBA" rend="overstrike" type="recoverable">some one on the shore</del> I will hand
             <lb/> a note for you to some one on the Shore
-            <lb/> at <placeName ref="Shousetown" type="place">Shousetown</placeName>.
-            <note target="n3">3</note>  
-            I spoke to Russell <seg><note target="n4">4</note></seg> about
+            <lb/> at <placeName ref="Shousetown" type="place">Shousetown</placeName>.  
+            I spoke to <persName ref="#russell">Russell</persName> about
             <lb/> Money and you had better Call on him
             <lb/> as soon in the week as possible as
             <lb/> Saturday is pay day for the hands
@@ -1165,7 +1164,7 @@
             <lb/>1 to 5 oclock which is the best sleep I have
             <lb/>had for a week.  You would not think that
             <lb/>the mosquitoes could be as large and <choice><corr>plentiful</corr><sic>plentifull</sic></choice> as
-            <lb/>they are John<seg><note target="n8">8</note></seg> says that they are worse than
+            <lb/>they are <persName>John</persName> says that they are worse than
             <lb/>they were at California.  Enough of Complaints 
             <lb/>I think you might string out your letters
             <lb/>a little longer as you have a good and cool
