@@ -53,10 +53,10 @@
         <!-- optional modules: -->
         <moduleRef key="namesdates" include="birth country death event geo listOrg listPerson listPlace location org orgName persName person place placeName region roleName settlement state"/>
         <moduleRef key="transcr" include="handNotes supplied"/>
-        <moduleRef key="linking" include="seg"/>
+        <moduleRef key="linking" include="ab seg"/>
         <moduleRef key="figures" include="figDesc figure"/>
         <moduleRef key="corpus" include="particDesc"/>
-        <moduleRef key="msdescription" include="accMat additional adminInfo collection msContents msDesc msIdentifier physDesc repository"/>
+        <moduleRef key="msdescription" include="accMat additional adminInfo collection msContents msDesc msIdentifier physDesc repository stamp"/>
         <!-- The <elementSpec> is used to make changes to content
              models, to delete unwanted elements from modules included
              above, or to add and delete attributes from a specific

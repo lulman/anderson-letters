@@ -506,11 +506,20 @@
       <xsl:apply-templates select="tei:div[@type='enclosure']"/>
       <xsl:apply-templates select="tei:div[@type='envelope']"/>
    </xsl:template>
+   
    <xsl:template match="tei:div[@type='envelope']">
       <div class="envelope">
-      Envelope. <xsl:apply-templates
+      <xsl:apply-templates
          select="ancestor::tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:accMat"></xsl:apply-templates>
-      <p>Return Address: 
+      <xsl:choose>
+         <xsl:when test="tei:figure">
+            <xsl:apply-templates select="tei:figure"/>
+         </xsl:when>
+         <xsl:otherwise>
+            <strong>Envelope</strong>.
+         </xsl:otherwise>
+      </xsl:choose>
+      <p><strong>Return Address</strong>: 
       <xsl:choose>
          <xsl:when test="tei:ab[@type='returnAddress']">
          <xsl:apply-templates select="tei:ab[@type='returnAddress']"/>
@@ -519,7 +528,7 @@
             N/A
          </xsl:otherwise>
       </xsl:choose></p>
-      <p>Mailing Address: 
+      <p><strong>Mailing Address</strong>: 
          <xsl:choose>
             <xsl:when test="tei:ab[@type='postalAddress']">
             <xsl:apply-templates select="tei:ab[@type='postalAddress']"/>
@@ -528,7 +537,7 @@
                N/A
             </xsl:otherwise>
           </xsl:choose></p>
-      <p>Postmark: 
+      <p><strong>Postmark</strong>: 
          <xsl:choose>
             <xsl:when test="tei:ab/tei:stamp[@type='postmark']">
             <xsl:apply-templates select="tei:ab/tei:stamp[@type='postmark']"/>
@@ -537,16 +546,8 @@
                N/A
             </xsl:otherwise>
          </xsl:choose></p>      
-      <p>Cancellation: 
-         <xsl:choose>
-            <xsl:when test="tei:ab/tei:stamp[@type='cancellation']">
-            <xsl:apply-templates select="tei:ab/tei:stamp[@type='cancellation']"/>
-            </xsl:when>
-            <xsl:otherwise>
-               N/A
-            </xsl:otherwise>
-         </xsl:choose></p>      
-      <p>Endorsement: 
+<!--  Not needed in this edition    
+            <p>Endorsement: 
          <xsl:choose>
             <xsl:when test="tei:ab[@type='endorsement']">
             <xsl:apply-templates select="tei:ab[@type='endorsement']"/>
@@ -555,9 +556,12 @@
                N/A
             </xsl:otherwise>
           </xsl:choose></p>      
+-->
       </div>
    </xsl:template>
+   
    <xsl:template match="tei:div[@type='enclosure']"/>
+   
    <xsl:template match="tei:div[@type='letter']">
       <a class="TOCtarget">
          <xsl:attribute name="name"><xsl:value-of select="@xml:id"/></xsl:attribute>
@@ -766,7 +770,7 @@
 
    <!-- LINK OR EMBED IMAGES AND OTHER NON-TEXTUAL MATERIALS -->
 
-   <xsl:template match="tei:figure[@rend='link']"> [<a>
+   <xsl:template match="tei:figure[@rend='link']"> [<xsl:element name="a">
          <xsl:attribute name="HREF">
             <xsl:value-of select="tei:graphic/@url"/>
          </xsl:attribute>
@@ -774,8 +778,8 @@
             <xsl:value-of select="tei:figDesc"/>
          </xsl:attribute>
          <xsl:attribute name="target">blank</xsl:attribute>
-         <xsl:value-of select="tei:head"/>
-      </a>]. </xsl:template>
+         <strong><xsl:value-of select="tei:head"/></strong>
+      </xsl:element>.] </xsl:template>
 
    <xsl:template match="tei:figure[@rend='embed']">
       <div class="fl_img_right">

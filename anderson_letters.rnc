@@ -6,7 +6,7 @@ default namespace tei = "http://www.tei-c.org/ns/1.0"
 namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2019-07-17T18:05:27Z. .
+# Schema generated from ODD source 2019-07-24T22:58:43Z. .
 # TEI Edition: Version 3.5.0. Last updated on
 #	29th January 2019, revision 3c0c64ec4
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.5.0/
@@ -974,7 +974,7 @@ model.offsetLike_sequence = empty
 model.offsetLike_sequenceOptional = empty
 model.offsetLike_sequenceOptionalRepeatable = empty
 model.offsetLike_sequenceRepeatable = notAllowed
-model.pPart.msdesc = notAllowed
+model.pPart.msdesc = stamp
 model.pPart.editorial = choice | abbr | expan
 model.pPart.editorial_alternation = choice | abbr | expan
 model.pPart.editorial_sequence = choice, abbr, expan
@@ -1041,12 +1041,12 @@ model.lLike_sequence = empty
 model.lLike_sequenceOptional = empty
 model.lLike_sequenceOptionalRepeatable = empty
 model.lLike_sequenceRepeatable = notAllowed
-model.pLike = p
-model.pLike_alternation = p
-model.pLike_sequence = p
-model.pLike_sequenceOptional = p?
-model.pLike_sequenceOptionalRepeatable = p*
-model.pLike_sequenceRepeatable = p+
+model.pLike = p | ab
+model.pLike_alternation = p | ab
+model.pLike_sequence = p, ab
+model.pLike_sequenceOptional = p?, ab?
+model.pLike_sequenceOptionalRepeatable = p*, ab*
+model.pLike_sequenceRepeatable = p+, ab+
 model.stageLike = notAllowed
 model.stageLike_alternation = notAllowed
 model.stageLike_sequence = empty
@@ -2772,6 +2772,61 @@ att.global.linking.attribute.select =
   attribute select {
     list { xsd:anyURI+ }
   }?
+ab =
+  
+  ## (anonymous block) contains any arbitrary component-level unit of text, acting as an anonymous container for phrase or inter level elements analogous to, but without the semantic baggage of, a paragraph. [16.3. Blocks, Segments, and Anchors]
+  element ab {
+    macro.paraContent
+    >> sch:pattern [
+         id =
+           "anderson_letters-ab-abstractModel-structure-ab-constraint-report-11"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:ab"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test =
+               "not(ancestor::tei:floatingText) and (ancestor::tei:p or ancestor::tei:ab)          and not(parent::tei:exemplum         |parent::tei:item         |parent::tei:note         |parent::tei:q         |parent::tei:quote         |parent::tei:remarks         |parent::tei:said         |parent::tei:sp         |parent::tei:stage         |parent::tei:cell         |parent::tei:figure)"
+             "\x{a}" ~
+             "        Abstract model violation: ab may not occur inside paragraphs or other ab elements.\x{a}" ~
+             "      "
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ]
+    >> sch:pattern [
+         id =
+           "anderson_letters-ab-abstractModel-structure-l-constraint-report-12"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:ab"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test = "ancestor::tei:l or ancestor::tei:lg"
+             "\x{a}" ~
+             "        Abstract model violation: Lines may not contain higher-level divisions such as p or ab.\x{a}" ~
+             "      "
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
+    att.global.attributes,
+    att.typed.attributes,
+    att.declaring.attributes,
+    att.fragmentable.attributes,
+    att.written.attributes,
+    empty
+  }
 seg =
   
   ## (arbitrary segment) represents any segmentation of text below the chunk level. [16.3. Blocks, Segments, and Anchors 6.2. Components of the Verse Line 7.2.5. Speech Contents]
@@ -2847,6 +2902,16 @@ msDesc =
     att.docStatus.attributes,
     empty
   }
+stamp =
+  
+  ## contains a word or phrase describing a stamp or similar device. [10.3.3. Watermarks and Stamps]
+  element stamp {
+    macro.phraseSeq,
+    att.global.attributes,
+    att.typed.attributes,
+    att.datable.attributes,
+    empty
+  }
 msIdentifier =
   
   ## (manuscript identifier) contains the information required to identify the manuscript or similar object being described. [10.4. The Manuscript Identifier]
@@ -2861,7 +2926,7 @@ msIdentifier =
      empty*)
     >> sch:pattern [
          id =
-           "anderson_letters-msIdentifier-msId_minimal-constraint-report-11"
+           "anderson_letters-msIdentifier-msId_minimal-constraint-report-13"
          "\x{a}" ~
          "            "
          sch:rule [

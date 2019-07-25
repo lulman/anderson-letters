@@ -2307,6 +2307,27 @@
           <!-- If there were a <postscript>, we have a tag for that. -->
         </div>
         <!-- First, the envelope. -->
+        <div type="envelope" xml:id="WBA_18621007-env" corresp="WBA_18621007-let">
+          <pb facs="Envelope02_front"/>
+          <figure rend="link">
+            <head><emph>Envelope</emph></head>
+            <graphic url="./Envelope02_front.jpg"></graphic>
+            <figDesc>Envelope for letter of 7 October 1862</figDesc>
+          </figure>
+            <ab type="postalAddress">
+              <persName>Mrs Louisa anderson</persName>
+              <address>
+                <addrLine>Shousetown</addrLine>
+                <addrLine>Allegheny County</addrLine>
+                <addrLine>Pennsylvania</addrLine>
+              </address>
+            </ab>
+            <ab>
+              <stamp type="postmark">CINCINNATI | OCT | 7</stamp>
+              <stamp type="postage">3 U.S. POSTAGE 3 | [Profile image of George Washington] | 3 U.S. POSTAGE 3 </stamp>
+            </ab>
+        </div>
+        
         <!-- Or an enclosure: <div type="enclosure" xml:id="WBA_18600101enc"></div> -->
       </body>
     </text>
