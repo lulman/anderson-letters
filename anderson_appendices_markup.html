@@ -347,8 +347,8 @@
          <h2 id="appendix_title" style="text-align:center;">Anderson Letters Markup Guidelines</h2>
       <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script><script src="index.js"></script>
 
-   <p>The following  guidelines document the markup scheme
-         for this edition of William B. Anderson's Civil War correspondence.</p>
+   <p>The following  guidelines describe the markup scheme used
+         for this edition of William B. Anderson's Civil War correspondence. Formal representation of the markup in .ODD and .RNC format can be found under the "Source Files" menu.</p>
    <h2>Overview </h2>
    <p><strong>Composite Text Structure</strong>. This edition employs the &lt;teiCorpus&gt; text structure, which provides a &lt;teiHeader&gt; containing descriptive information about the collection of letter and separate &lt;TEI&gt; elements for each letter, each of which contains its own &lt;teiHeader&gt; element providing descriptive information about a particular manuscript letter and a &lt;text&gt; element containing the text of the letter. The &lt;teiHeader&gt; elements for individual letters contain &lt;msDesc&gt; elements that provide physical descriptions of the manuscript sources. For more information about this text strucutre, see <em>TEI P5</em>, 15.1 <a href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CC.html#CCDEF" target="_blank">Varieties of Composite Text</a>. </p>
    <p><strong>Markup of Physical Structure and Page Layout.</strong> The manuscript <strong>pages</strong>,
@@ -366,14 +366,14 @@
          @xml:id attribute with the unique value &quot;IIIYYYYMMDDlet01.&quot; The initial letters of the @xml:id correspond to the initials of the correspondent (or, if different, to the value of  the @xml:id associated with that correspondent in the list of persons in the &lt;teiHeader&gt;), the date corresponds to the date of the letter (as determined by the editor), and the trailing numbers
    allow for multiple entries <em>on a given day</em>. So, for example, the first letter written by Gladys M. Stephens on given day would have an @xml:id attribute with the value &quot;GMSYYYYMMDDlet01&quot;; a second letter written <em>on that same day</em> would have an @xml:id attribute with the value &quot;GMSYYYYMMDDlet02&quot;; and so on, and the @xml:id of an envelope associated with that letter would have the value &quot;GMSYYYYMMDDenv02.&quot; The &lt;div&gt; elements enclosing letters, envelopes, and enclosures also contain an @corresp attribute identifying their relationships to one another, thus:</p>
    <p>&lt;div type=&quot;envelope&quot; xml:id=&quot;GS19090706env01&quot; corresp=&quot;#GS19090706let01&quot;&gt;</p>
-   <p>Letters typically consist of an opener containing a <strong>dateline</strong> and <strong>salutation</strong> followed by a series of
+   <p>Letters typically consist of an opener containing a <strong>dateline</strong> and <strong>salutation</strong> (&lt;salute&gt;) followed by a series of
      paragraphs and a closer. Datelines are encoded with the &lt;dateline&gt; element and contain
      a &lt;date&gt; element and a @when attribute with the value &quot;YYYY-MM-DD.&quot; Where
      indicated by indentation of a line from the left margin of a page, line
      breaks part-way across a page, or additional white space between lines, <strong>paragraphs</strong> are
          encoded with the &lt;p&gt; element and no attributes. <strong>Line
          breaks</strong> throughout
-         are encoded with &lt;lb/&gt; elements. Closers typically contain a <strong>salutation</strong> and a <strong>signature</strong>.</p>
+         are encoded with &lt;lb/&gt; elements. Closers typically contain a <strong>salutation</strong> and a <strong>signature</strong> (&lt;signed&gt;.)</p>
 <p>
          <strong>Level of Transcription/Encoding.</strong> Our  markup
          scheme supports a modest range of presentations, from semi-modernized/corrected
@@ -390,7 +390,8 @@
          in the XML file. See below for details.</p>
    <p><strong>Source</strong>: These project guidelines are based on The Text Encoding Initiative's <a href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html" target="_blank"><em>Guidelines for Electronic Text Encoding and Interchange</em></a> (P5).</p>
    <h2>Detailed Guidelines </h2>
-<hr>
+<hr/>
+
       <table>
          <tr style="text-align:left;">
             <th><strong>Feature Group</strong></th>
@@ -546,7 +547,8 @@
             <td><a href="#Title">Title</a></td>
          </tr>
       </table>
-<hr>
+<hr/>
+
       <p class="listing"><strong><a name="Abbreviation"></a>Group: </strong>Abbreviation
       </p>
       <p class="listing"><strong>Common Name: </strong>Abbreviation
@@ -573,7 +575,8 @@
 &lt;/choice&gt;</pre>
       
       
-<hr>
+<hr/>
+
       <p class="listing"><strong><a name="Envelopes" id="Envelopes"></a>Group: </strong>Accompanying Materials </p>
       <p class="listing"><strong>Common Name: </strong>Envelopes </p>
       <p class="listing"><strong>Contextual Notes: </strong>Many of the letters in the Stephens family collection are accompanied by envelopes containing return addresses (sometimes printed on hotel stationery), mailing addresses, postage stamps and cancellations, forwarding addresses, and endorsements by various hands. </p>
@@ -649,7 +652,8 @@ compensate&lt;/q&gt; &lt;bibl&gt;&lt;ref target=&quot;#Murray&quot;&gt;477&lt;/r
 
 <strong>Corresponding entry in List of Works Cited</strong>
 &lt;bibl xml:id=&quot;Murray&quot; n=&quot;Murray&quot;&gt;Murray, John. &lt;title level=&quot;m&quot;&gt;A Handbook for Travellers in France&lt;/title&gt;. <br />London: John Murray, 1867. &lt;title level=&quot;m&quot;&gt;Google Books&lt;/title&gt;. Web. 28 Feb. 2010.&lt;/bibl&gt;</pre>
-<hr>
+<hr/>
+
       <p class="listing"><strong><a name="Works_Cited_Entry" id="Works_Cited_Entry"></a>Group: </strong>Bibliography
    </p>
       <p class="listing"><strong>Common Name: </strong>Works Cited Entry
@@ -667,7 +671,7 @@ compensate&lt;/q&gt; &lt;bibl&gt;&lt;ref target=&quot;#Murray&quot;&gt;477&lt;/r
         the                  &lt;back&gt; element of our &lt;text&gt; element. The &lt;listBibl&gt;
         element contains a series of bibliography entries enclosed in &lt;bibl&gt; elements.
         Within each entry, only text that may need to be rendered in a particular
-        typeface (e.g., title of books) are further encoded.<br>
+        typeface (e.g., title of books) are further encoded. NEEDS TO BE REVISED<br>
         <br>
       <strong>Note:</strong> Each &lt;bibl&gt; element contains an @xml:id attribute
       with a unique identifier as well as an @n attribute containing a string used to alphabetize the entry in a List of Works Cited. </p>
@@ -688,7 +692,9 @@ Print.</span><br>&lt;/bibl&gt;
 storm-petrel Oceanites oceanicus.&quot; &lt;title level=&quot;m&quot;&gt;Patuxent Bird Identification
 InfoCenter&lt;/title&gt;. Patuxent Wildlife Research Center</span>,<span class="listing">
 n.d. Date of visit: 10 Feb. 2007.</span> Web.<br>&lt;/bibl&gt;</pre>
-      <hr>
+      <hr/>
+
+<!-- UNUSED in this edition.
       <p class="listing"><strong><a name="Cancelation-Unrecoverable"></a>Group: </strong>Unreadable
         source
       </p>
@@ -712,7 +718,9 @@ n.d. Date of visit: 10 Feb. 2007.</span> Web.<br>&lt;/bibl&gt;</pre>
       <p class="listing"><strong>Sample Encodings: </strong>
       <pre>&lt;gap reason=&#8221;ink blot&#8221; unit=&#8221;letters&#8221; extent=&quot;2&quot;/&gt; 
 &lt;del&gt;&lt;gap reason&quot;overwritten&quot; unit=&quot;words&quot; extent=&quot;1&quot;/&gt;&lt;del&gt;Buoy     </pre>
-      <hr>
+      <hr/>
+ 
+-->
       <p class="listing"><strong><a name="Cancellation-Recoverable"></a>Group: </strong>Corrections and Emendations
       </p>
       <p class="listing"><strong>Common Name: </strong>Recoverable cancellation      </p>
@@ -722,14 +730,15 @@ n.d. Date of visit: 10 Feb. 2007.</span> Web.<br>&lt;/bibl&gt;</pre>
       <p class="listing"><strong>Element Name: </strong>&lt;del&gt;
       </p>
       <p class="listing"><strong>Encoding Rule: </strong>The tag  surrounds the
-        recovered words or letters and, assuming the deletion is in Doane's hand, contains one attribute: rend=&#8221;(overstrike
-        | overwritten | erased)&quot;. <em>Note</em>: extensive deletions should be encoded with a combination of the &lt;delSpan&gt; and &lt;anchor&gt; elements as shown in the example below (the values of the @spanTo and @xml:id attributes is discretionary).</p>
+        recovered words or letters and, assuming the deletion is in the author's hand, contains one attribute: rend=&#8221;(overstrike
+        | overwritten | erased)&quot;. <!-- <em>Note</em>: extensive deletions should be encoded with a combination of the &lt;delSpan&gt; and &lt;anchor&gt; elements as shown in the example below (the values of the @spanTo and @xml:id attributes is discretionary). --></p>
    <p class="listing"><strong>Sample Source Text: </strong>passed <span style="text-decoration: line-through;">the</span></p>
   <p class="listing"><strong>Sample Encoding: </strong>
       <pre>passed &lt;del rend=&quot;overstrike&quot;&gt;the&lt;/del&gt;
 
           &lt;delSpan rend=&quot;strikethrough&quot; spanTo=&quot;#pa01&quot; hand=&quot;#Unknown&quot;/&gt;<br />            &lt;address&gt;<br />            &lt;addrLine&gt;26 Emerson street&lt;/addrLine&gt;<br />            &lt;addrLine&gt;Newton&lt;/addrLine&gt;<br />            &lt;addrLine&gt;Massachusetts&lt;/addrLine&gt;<br />            &lt;/address&gt;<br />          &lt;anchor xml:id=&quot;pa01&quot;/&gt;     </pre>
-<hr>
+<hr/>
+
       <p class="listing"><strong><a name="UncertainReading"></a>Group: </strong>Corrections and Emendations
       </p>
       <p class="listing"><strong>Common Name: </strong>Uncertain Reading
@@ -749,7 +758,8 @@ n.d. Date of visit: 10 Feb. 2007.</span> Web.<br>&lt;/bibl&gt;</pre>
       </p>
       <p class="listing"><strong>Sample Encoding: </strong>
       <pre>&lt;lb/&gt;It is an &lt;unclear cert=&quot;medium&quot; reason=&quot;coined_phrase?&quot;&gt;ex elegant&lt;/unclear&gt;hotel.</pre>
-<hr>
+<hr/>
+
       <p class="listing"><strong><a name="Additions-interlinear"></a>Group: </strong>Corrections and Emendations
       </p>
       <p class="listing"><strong>Common Name: </strong>Additions-interlinear
@@ -759,8 +769,7 @@ n.d. Date of visit: 10 Feb. 2007.</span> Web.<br>&lt;/bibl&gt;</pre>
       <p class="listing"><strong>Element Name: </strong>&lt;add&gt;
       </p>
       <p class="listing"><strong>Encoding Rule: </strong>Assuming the addition is in Doane's hand, include a @place attribute
-        indicating whether the addition is above the line (&#8221;above&#8221;)
-        or below the line (&#8221;below&#8221;).
+        indicating whether the addition is above the line (&#8220;above&#8221;), below the line (&#8220;below&#8221;), or in the margins (&#8220;margin&#8221;
                   If the writer includes a caret or other mark to indicate the
                   addition, indicate the mark as the value of a &#8220;rend&#8221; attribute.      </p>
    <p class="listing"><strong>Sample Source Text:</strong></p>
@@ -769,7 +778,8 @@ n.d. Date of visit: 10 Feb. 2007.</span> Web.<br>&lt;/bibl&gt;</pre>
       Six times our guns fired as we</p>
       <p class="listing"><strong>Sample Encoding: </strong>
       <pre>&lt;lb/&gt;dock crowded our friends were there&mdash;<br />          &lt;add place=&quot;below&quot;&gt;The crowd cheered as we left&mdash;&lt;/add&gt;<br />&lt;lb/&gt;Six times our guns fired as we</pre>
-<hr>
+<hr/>
+
       <p class="listing"><strong><a name="Additions-marginal"></a>Group: </strong>Corrections and Emendations
       </p>
       <p class="listing"><strong>Common Name: </strong>Additions-marginal
@@ -788,7 +798,9 @@ n.d. Date of visit: 10 Feb. 2007.</span> Web.<br>&lt;/bibl&gt;</pre>
 <pre>Additions &lt;add place=&#8221;right margin&#8221; rend=&#8221;*&#8221;&gt;can
 sometimes be placed in the margins&lt;/add&gt;
 </pre>
-   <hr>
+   <hr/>
+<!-- 
+
       <p class="listing"><strong><a name="Substitution" id="Substitution"></a>Group: </strong>Corrections and Emendations
       </p>
       <p class="listing"><strong>Common Name: </strong>Substitution
@@ -802,7 +814,10 @@ sometimes be placed in the margins&lt;/add&gt;
    <p class="listing"><strong>Sample Encoding: </strong>
 <pre>&lt;subst&gt;&lt;del rend=&quot;overstrike&quot;&gt;one&lt;/del&gt;&lt;add place=&quot;above&quot;&gt;two&lt;/add&gt;&lt;/subst&gt;
 </pre>
-      <hr>
+      <hr/>
+ -->
+<!-- 
+
       <p class="listing"><strong><a name="Underlining"></a>Group: </strong>Highlighting
       </p>
       <p class="listing"><strong>Common Name: </strong>Text visually highlighted for emphasis (as distinct from semantic conventions such as identifying the title of a book or the name of a ship).</p>
@@ -818,7 +833,9 @@ sometimes be placed in the margins&lt;/add&gt;
           text</u>       </p>
       <p class="listing"><strong>Sample Encoding: </strong>
       <pre>&lt;lb/&gt;Some &lt;hi rend=&quot;underlined&quot;&gt;underlined text&lt;/hi&gt;</pre>
-<hr>
+<hr/>
+
+ -->
       <p class="listing"><strong><a name="ApparentErrors"></a>Group: </strong>Corrections and Emendations
       </p>
       <p class="listing"><strong>Common Name: </strong>Apparent Errors
@@ -838,6 +855,8 @@ sometimes be placed in the margins&lt;/add&gt;
       <p class="listing"><strong>Sample Encoding: </strong>
       <pre>&lt;lb/&gt;book and lead &lt;choice&gt;&lt;sic&gt;pincel&lt;/sic&gt;&lt;corr&gt;pencil&lt;/corr&gt;&lt;/choice&gt; and</pre>
    <hr />
+<!-- 
+   
    <p class="listing"><strong><a name="archaisms" id="archaisms"></a>Group: </strong>Corrections
      and Emendations </p>
    <p class="listing"><strong>Common Name: </strong>Archaic orthography</p>
@@ -852,7 +871,11 @@ sometimes be placed in the margins&lt;/add&gt;
    <p class="listing"><strong>Sample Encoding: </strong> </p>
    <pre>a great deal of &lt;choice&gt;&lt;orig&gt;&lt;distinct type=&quot;archaic_orthography&quot; time=&quot;16-18&quot;&gt;ruff&lt;/distinct&gt;&lt;/orig&gt;
 &lt;reg source=&quot;OED&quot;&gt;rough&lt;/reg&gt;&lt;/choice&gt; weather.</pre>
-<hr>
+<hr/>
+
+ -->
+<!-- 
+ 
       <p class="listing"><strong><a name="Suppliedtext"></a>Group: </strong>Corrections and Emendations
       </p>
       <p class="listing"><strong>Common Name: </strong>Supplied text
@@ -874,7 +897,10 @@ sometimes be placed in the margins&lt;/add&gt;
      of tow</p>
       <p class="listing"><strong>Sample Encoding: </strong>
       <pre>&lt;lb/&gt;Moved two miles out of tow&lt;supplied reason=&quot;omitted&quot; resp=&quot;ed&quot;&gt;n&lt;/supplied&gt;</pre>
-<hr>
+<hr/>
+ -->
+
+<!-- 
       <p class="listing"><strong><a name="Quotation-speech-thought)"></a>Group: </strong>Discourse   </p>
       <p class="listing"><strong>Common Name: </strong>Reported speech or thought      </p>
    <p class="listing"><strong>Contextual Notes: </strong>This element &quot;indicates
@@ -900,6 +926,9 @@ you</p>
 <p class="listing"><strong>Sample Encoding: </strong>
       <pre>&lt;lb/&gt;write my journal the first mate came along<br />&lt;lb/&gt;and says &lt;said aloud=&quot;true&quot; direct=&quot;true&quot;&gt;here is a gold pencil and pen<br />&lt;lb/&gt;which I will give you it will be much<br />&lt;lb/&gt;&lt;choice&gt;&lt;sic&gt;handyer&lt;/sic&gt;&lt;corr&gt;handier&lt;/corr&gt;&lt;/choice&gt; for you&lt;/said&gt;</pre>
    <hr />
+ -->
+<!-- 
+
       <p class="listing"><strong><a name="Quotation" id="Quotation"></a>Group: </strong>Discourse </p>
    <p class="listing"><strong>Common Name: </strong>Quotation </p>
       <p class="listing"><strong>Contextual Notes: </strong>This element &quot;contains a phrase or passage attributed by the narrator or author to some agency external to the text&#8221; (TEI P5). </p>
@@ -907,15 +936,19 @@ you</p>
       <p class="listing"><strong>Encoding Rule: </strong>Enclose the quoted passage in a &lt;quote&gt; element, including any quotation marks that the writer inscribes. If possible, identify the source of the quotation in an explanatory annotation and provide a bibliographic reference linked to the list of works cited.</p>
    <p class="listing"><strong>Sample Source Text: </strong></p>
       <p class="listing">&quot; 'Tell her, tell I see<br />
-  Those eyes, I do not live--that Rome to me<br />
-  Is hatefull--tell her--oh!--I know not what--<br />
+  Those eyes, I do not live~~that Rome to me<br />
+  Is hatefull~~tell her~~oh!~~I know not what~~<br />
   That ever thought and feeling, space and spot,<br />
   Is like an ugly dream where she is not;<br />
   All persons plagues; all living wearysome;<br />
   All talking empty . . .</p>
       <p class="listing"><strong>Sample Encoding: </strong> </p>
-      <pre>            &lt;quote type=&quot;block&quot;&gt;<br />            &lt;lb/&gt; &quot; 'Tell her, tell I see<br />            &lt;lb/&gt;Those eyes, I do not live--that Rome to me<br />            &lt;lb/&gt;Is hatefull--tell her--oh!--I know not what--<br />            &lt;lb/&gt;That ever thought and feeling, space and spot,<br />            &lt;lb/&gt;Is like an ugly dream where she is not;<br />            &lt;lb/&gt;All persons plagues; all living wearysome;<br />            &lt;lb/&gt;All talking empty . . .&lt;ptr type=&quot;noteAnchor&quot; target=&quot;thatRome&quot;/&gt;&lt;note<br />              xml:id=&quot;thatRome&quot; resp=&quot;ed&quot;&gt;<em>Identify and contextualize reference here</em>&lt;bibl&gt;&lt;ref  target=&quot;#threeWeeks&quot;&gt;(Glyn 178)&lt;/ref&gt;&lt;/bibl&gt;&lt;/note&gt;<br />            &lt;/quote&gt;</pre>
+      <pre>            &lt;quote type=&quot;block&quot;&gt;<br />            &lt;lb/&gt; &quot; 'Tell her, tell I see<br />            &lt;lb/&gt;Those eyes, I do not live~~that Rome to me<br />            &lt;lb/&gt;Is hatefull~~tell her~~oh!~~I know not what~~<br />            &lt;lb/&gt;That ever thought and feeling, space and spot,<br />            &lt;lb/&gt;Is like an ugly dream where she is not;<br />            &lt;lb/&gt;All persons plagues; all living wearysome;<br />            &lt;lb/&gt;All talking empty . . .&lt;ptr type=&quot;noteAnchor&quot; target=&quot;thatRome&quot;/&gt;&lt;note<br />              xml:id=&quot;thatRome&quot; resp=&quot;ed&quot;&gt;<em>Identify and contextualize reference here</em>&lt;bibl&gt;&lt;ref  target=&quot;#threeWeeks&quot;&gt;(Glyn 178)&lt;/ref&gt;&lt;/bibl&gt;&lt;/note&gt;<br />            &lt;/quote&gt;</pre>
       <hr />
+      
+ -->
+<!-- 
+ 
       <p class="listing"><strong><a name="LinguisticallyDistinct" id="LinguisticallyDistinct"></a>Group: </strong>Discourse </p>
    <p class="listing"><strong>Common Name: </strong>Linguistically distinct words and phrases</p>
       <p class="listing"><strong>Contextual Notes: </strong>This element identifies &quot;any word or phrase which is regarded as linguistically distinct&quot; (TEI P5). For example, in his letters to Gladys Stephens, J. J. McIntyre occasionally imitates what the <em>OED</em>, in its definition of &quot;baby talk,&quot; calls &quot;the imperfect speech of a young child.&quot;</p>
@@ -926,6 +959,10 @@ you</p>
       <p class="listing"><strong>Sample Encoding: </strong> </p>
       <pre>I said &lt;distinct type=&quot;babyTalk&quot;&gt;somefing ossle&lt;/distinct&gt; naughty.</pre>
       <hr />
+      
+ -->
+ 
+<!-- 
       <p class="listing"><strong><a name="LinguisticallyDistinct" id="LinguisticallyDistinct2"></a>Group: </strong>Discourse </p>
       <p class="listing"><strong>Common Name: </strong>Lines of verse</p>
       <p class="listing"><strong>Contextual Notes: </strong>Where a correspondent includes lines of verse in a letter, we encode those lines to distinguish them textually from lines of prose (encoded in this transcription with &lt;lb/&gt; elements) and to indicate how they are rendered</p>
@@ -933,15 +970,17 @@ you</p>
       <p class="listing"><strong>Encoding Rule: </strong>Enclose a group of lines of verse in the line group &lt;lg&gt; element. If the verse is presented as complete and identifiable stanza forms, line groups can be nested and a @type attribute for each &lt;lg&gt; element can be used to identify stanzaic forms. Enclose each line of verse in a line &lt;l&gt; element. If the lines of verse are quoted from an external source, follow the encoding guideline for quotations (see above), enclosing the entire line group in a &lt;quote&gt; element.</p>
    <p class="listing"><strong>Sample Source Text: </strong></p>
       <p class="listing">&quot; 'Tell her, tell I see<br />
-        Those eyes, I do not live--that Rome to me<br />
-        Is hatefull--tell her--oh!--I know not what--<br />
+        Those eyes, I do not live~~that Rome to me<br />
+        Is hatefull~~tell her~~oh!~~I know not what~~<br />
         That ever thought and feeling, space and spot,<br />
         Is like an ugly dream where she is not;<br />
         All persons plagues; all living wearysome;<br />
         All talking empty . . .</p>
       <p class="listing"><strong>Sample Encoding: </strong></p>
-      <pre>            &lt;quote type=&quot;block&quot;&gt;<br />            &lt;lb/&gt; &quot; 'Tell her, tell I see<br />            &lt;lb/&gt;Those eyes, I do not live--that Rome to me<br />            &lt;lb/&gt;Is hatefull--tell her--oh!--I know not what--<br />            &lt;lb/&gt;That ever thought and feeling, space and spot,<br />            &lt;lb/&gt;Is like an ugly dream where she is not;<br />            &lt;lb/&gt;All persons plagues; all living wearysome;<br />            &lt;lb/&gt;All talking empty . . .&lt;ptr type=&quot;noteAnchor&quot; target=&quot;thatRome&quot;/&gt;&lt;note<br />              xml:id=&quot;thatRome&quot; resp=&quot;ed&quot;&gt;<em>Identify and contextualize reference here</em>&lt;bibl&gt;&lt;ref  target=&quot;#threeWeeks&quot;&gt;(Glyn 178)&lt;/ref&gt;&lt;/bibl&gt;&lt;/note&gt;<br />            &lt;/quote&gt;      </pre>
+      <pre>            &lt;quote type=&quot;block&quot;&gt;<br />            &lt;lb/&gt; &quot; 'Tell her, tell I see<br />            &lt;lb/&gt;Those eyes, I do not live~~that Rome to me<br />            &lt;lb/&gt;Is hatefull~~tell her~~oh!~~I know not what~~<br />            &lt;lb/&gt;That ever thought and feeling, space and spot,<br />            &lt;lb/&gt;Is like an ugly dream where she is not;<br />            &lt;lb/&gt;All persons plagues; all living wearysome;<br />            &lt;lb/&gt;All talking empty . . .&lt;ptr type=&quot;noteAnchor&quot; target=&quot;thatRome&quot;/&gt;&lt;note<br />              xml:id=&quot;thatRome&quot; resp=&quot;ed&quot;&gt;<em>Identify and contextualize reference here</em>&lt;bibl&gt;&lt;ref  target=&quot;#threeWeeks&quot;&gt;(Glyn 178)&lt;/ref&gt;&lt;/bibl&gt;&lt;/note&gt;<br />            &lt;/quote&gt;      </pre>
       <hr />
+      
+ -->
       <p class="listing"><strong><a name="Shift-hand-medium"></a>Group: </strong>Handwriting
       </p>
       <p class="listing"><strong>Common Name: </strong>Shift in hand or medium
@@ -963,7 +1002,8 @@ you</p>
    &lt;handNotes&gt;<br />      &lt;handNote xml:id=&quot;LADHand&quot; medium=&quot;brown-ink&quot;&gt;Carefully written; presumably Louisa Doane's hand.&lt;/handNote&gt;<br />      &lt;handNote xml:id=&quot;H2&quot; medium=&quot;pencil&quot;&gt;Pencilled notes on endpapers and flyleaves in an unknown hand.&lt;/handNote&gt;<br />   &lt;/handNotes&gt;<br/>
 <strong>In the body of the journl</strong>:<br/>
 &lt;p&gt;&lt;handShift new=&quot;#H2&quot;/&gt;&lt;add place=&quot;top&quot;&gt;5/-&lt;/add&gt;&lt;handShift new=&quot;#LADHand&quot;/&gt; text.&lt;/p&gt;</pre>
-<hr>
+<hr/>
+
       <p class="listing"><strong><a name="Foreign-Terms"></a>Group: </strong>Language
       </p>
       <p class="listing"><strong>Common Name: </strong>Foreign Terms
@@ -987,7 +1027,8 @@ you</p>
 &lt;langUsage&gt;<br />            &lt;language ident=&quot;eng&quot;&gt;English&lt;/language&gt;<br />            &lt;language ident=&quot;spa&quot;&gt;Spanish&lt;/language&gt;<br />            &lt;language ident=&quot;por&quot;&gt;Portuguese&lt;/language&gt;<br />&lt;/langUsage&gt;
 <br><strong>In the text of the journal, where the contents of an element are in another language</strong>:<br />
 &lt;placeName xml:lang=&quot;por&quot;&gt;S&atilde;o Vicente, Cabo de&lt;/placeName&gt;<br /><br /><strong>In the text of the journal, when the foreign term is not the exclusive content of another element</strong>:<br />a reliable textual edition is a &lt;foreign xml:lang=&quot;lat&quot;&gt;sine qua non&lt;/foreign&gt;<br /></pre>
-<hr>
+<hr/>
+
       <p class="listing"><strong><a name="PersonalName" id="PersonalName"></a>Group: </strong>Names      </p>
    <p class="listing"><strong>Common Name: </strong>Personal names
       </p>
@@ -1014,7 +1055,8 @@ you</p>
 
           &lt;person xml:id=&quot;ACS&quot;&gt;<br />            &lt;persName&gt;Stephens, Alex C.&lt;/persName&gt;<br />            &lt;note type=&quot;biographical&quot;&gt;In the letter dated August 8, 1909, Gladys <br />              mentions her &quot;Uncle Alex&quot; a number of times.  It is apparent that he is facilitating<br />              social connections for her in Texas, prior to her arrival, so we can assume he lives in El Paso.&lt;/note&gt;<br />          &lt;/person&gt;<br /></pre>
       <pre><strong>In the text</strong>:<br /><br />to hear &lt;persName ref=&quot;#ACS&quot;&gt;&lt;addName type=&quot;nickname&quot;&gt;Uncle A's&lt;/addName&gt;&lt;/persName&gt; opinion of me</pre>
-<hr>
+<hr/>
+
       <p class="listing"><strong><a name="PlaceName" id="PlaceName"></a>Group: </strong>Names </p>
       <p class="listing"><strong>Common Name: </strong>Place name </p>
       <p class="listing"><strong>Contextual Notes:</strong> &quot;A place name
@@ -1041,6 +1083,7 @@ you</p>
       <pre>
 <strong>In the &lt;listPlace&gt; element in the back matter:</strong><br /><br />               &lt;place type=&quot;city&quot; xml:id=&quot;Canton&quot; source=&quot;#TGN&quot;&gt;<br />                  &lt;placeName xml:lang=&quot;chi&quot;&gt;Guangzhou&lt;/placeName&gt;<br />                  &lt;placeName xml:lang=&quot;eng&quot;&gt;Canton&lt;/placeName&gt;<br />                  &lt;desc&gt;First seaport of China opened to foreigners; <br />                     its resistance to English opium trade led to war with <br />                     Britain 1839; one of first treaty ports by <br />                     Treaty of Nanking 1842&lt;/desc&gt;<br />                  &lt;country&gt;China&lt;/country&gt;<br />                  &lt;region&gt;Canton (province)&lt;/region&gt;<br />                  &lt;location&gt;<br />                     &lt;geo&gt;23.1333 113.3333&lt;/geo&gt;<br />                  &lt;/location&gt;<br />               &lt;/place&gt;<br /><br /><strong>In the text of the journal:</strong><br /><br />she had been to &lt;placeName ref=&quot;#Canton&quot;&gt;Canton&lt;/placeName&gt;</pre>
       <hr />
+      
       <p class="listing"><strong><a name="GeogName" id="GeogName"></a>Group: </strong>Names </p>
       <p class="listing"><strong>Common Name: </strong>Geographical names </p>
       <p class="listing"><strong>Contextual Notes: </strong>&quot;Places may
@@ -1073,6 +1116,7 @@ you</p>
 &lt;place type=&quot;landmark&quot; xml:id=&quot;CHorn&quot; source=&quot;#TGN&quot;&gt;<br />   &lt;geogName xml:lang=&quot;spa&quot;&gt;Hornos, Cabo de&lt;/geogName&gt;<br />   &lt;geogName xml:lang=&quot;eng&quot;&gt;Cape Horn&lt;/geogName&gt;<br />   &lt;country&gt;Chile&lt;/country&gt;<br />   &lt;region&gt;Magallanes-Ant&aacute;rtica&lt;/region&gt;<br />   &lt;location&gt;&lt;geo&gt;-55.9833 -67.2667&lt;/geo&gt;&lt;/location&gt;<br />&lt;/place&gt;<br />
       </pre>
 <hr />
+
       <p class="listing"><strong><a name="Ships" id="Ships"></a>Group: </strong>Names </p>
       <p class="listing"><strong>Common Name: </strong>Ships</p>
       <p class="listing"><strong>Contextual Notes: </strong>Doane often refers to oceangoing vessels by name and type (e.g., ship, schooner, hulk, steamer). Because of the importance of ships and shipping to the journal, we encode ships' names and maintain a local authority list of uniquely identifying information about ships mentioned in the text.</p>
@@ -1096,6 +1140,8 @@ you</p>
 
 </pre>
 <hr />
+<!-- 
+
       <p class="listing"><strong><a name="LatLong" id="LatLong"></a>Group: </strong>Names </p>
    <p class="listing"><strong>Common Name: </strong>Latitude and Longitude
         Coordinates </p>
@@ -1126,6 +1172,8 @@ you</p>
 . . . .
 &lt;/listPlace&gt;<br /></pre>
       <hr />
+      
+ -->
       <p class="listing"><strong><a name="ReferringString"></a>Group: </strong>Names </p>
    <p class="listing"><strong>Common Name: </strong>Referring String
       </p>
@@ -1149,7 +1197,8 @@ you</p>
               &lt;person xml:id=&quot;END&quot;&gt;<br />                  &lt;persName&gt;Doane, Edmund N.&lt;/persName&gt;<br />                  &lt;occupation&gt;master mariner&lt;/occupation&gt;<br />                  &lt;birth when=&quot;1809-08-28&quot;&gt;<br />                     &lt;placeName&gt;Chatham, MA&lt;/placeName&gt;<br />                  &lt;/birth&gt;<br />                  &lt;death notBefore=&quot;1865-08-11&quot; notAfter=&quot;1865-08-13&quot;&gt;<br />                     &lt;placeName&gt;Chatham, MA&lt;/placeName&gt;<br />                  &lt;/death&gt;<br />                  &lt;event type=&quot;marriage&quot; when=&quot;1831-12-31&quot;&gt;<br />                     &lt;desc&gt;Edmund N. Doane married Almira Thacher&lt;/desc&gt;<br />                  &lt;/event&gt;<br />                  &lt;bibl&gt;&lt;ref target=&quot;#NYGBR&quot;&gt;NYGBR&lt;/ref&gt;374&lt;/bibl&gt;<br />               &lt;/person&gt;   <br />              . . .       </pre>
       <pre class="listing"><strong>In the text:</strong>       </pre>
       <pre>&lt;rs ref=&quot;#END&quot;&gt;father&lt;/rs&gt; is feeding them with fresh</pre>
-<hr>
+<hr/>
+
       <p class="listing"><strong><a name="PageBreak"></a>Group: </strong>Page Layout
       </p>
       <p class="listing"><strong>Common Name: </strong>Page Break
@@ -1166,7 +1215,8 @@ you</p>
       </p>
       <p class="listing"><strong>Sample Encoding: </strong>
       <pre>&lt;pb facs=&quot;/a/a49d8621-1ce7-44c1-b4c1-7c0ba72b79f1&quot;/&gt;</pre>
-      <hr>
+      <hr/>
+
       <p class="listing"><strong><a name="LineBreak"></a>Group: </strong>Page Layout
       </p>
       <p class="listing"><strong>Common Name: </strong>Line Break
@@ -1190,7 +1240,9 @@ you</p>
 
 <strong>Line break including a word broken across lines without a hyphen</strong><br />&lt;lb/&gt;waves. All our baggage being a&lt;seg type=&#8221;softhyphen&#8221;&gt; 
 &lt;lb/&gt;&lt;/seg&gt;board</pre>
-      <hr>
+      <hr/>
+<!-- 
+
       <p class="listing"><strong><a name="Gap"></a>Group: </strong>Physical
         damage     </p>
       <p class="listing"><strong>Common Name: </strong>Tears, stains, or other
@@ -1208,7 +1260,9 @@ you</p>
       </p>
       <p class="listing"><strong>Sample Encoding: </strong>
       <pre>But to&lt;damage agent=&quot;wax seal apparently tore page when letter opened&quot; extent=&quot;2&quot; unit=&quot;cm&quot;/&gt;</pre>
-      <hr>
+      <hr/>
+
+ -->
       <p class="listing"><strong><a name="Word-broken)"></a>Group: </strong>Punctuation
       </p>
       <p class="listing"><strong>Common Name: </strong>Soft-hyphen      </p>
@@ -1240,7 +1294,8 @@ The &lt;seg&gt; element includes the &lt;lb/&gt; element. Compare the &lt;lb/&gt
 <strong>No mark:</strong>
 &lt;lb/&gt;we are not able to get out till tom&lt;seg type=&quot;softhyphen&quot;&gt;
 &lt;lb/&gt;&lt;/seg&gt;orrow we will not      </pre>
-      <hr>
+      <hr/>
+
       <p class="listing"><strong><a name="Em-Dash"></a>Group: </strong>Punctuation
       </p>
       <p class="listing"><strong>Common Name: </strong>Em Dash
@@ -1257,7 +1312,8 @@ The &lt;seg&gt; element includes the &lt;lb/&gt; element. Compare the &lt;lb/&gt
       </p>
       <p class="listing"><strong>Sample Encoding: </strong>
    <pre>Some text<span class="listing">&amp;#x2014;</span>some following text</pre>
-      <hr>
+      <hr/>
+
       <p class="listing"><strong><a name="Hyphen"></a>Group: </strong>Punctuation
       </p>
       <p class="listing"><strong>Common Name: </strong>Hyphen
@@ -1274,7 +1330,8 @@ The &lt;seg&gt; element includes the &lt;lb/&gt; element. Compare the &lt;lb/&gt
       <p class="listing"><strong>Sample Source Text: </strong>top-heavy load
       </p>
       <p class="listing"><strong>Sample Encoding: </strong>top-heavy load
-<hr>
+<hr/>
+
       <p class="listing"><strong><a name="Images"></a>Group: </strong>Rich Media</p>
    <p class="listing"><strong>Common Name: </strong>Graphics and other non-textual
    components (TEI P5 &sect;3.9)</p>
@@ -1305,7 +1362,8 @@ The &lt;seg&gt; element includes the &lt;lb/&gt; element. Compare the &lt;lb/&gt
    <p class="listing"><strong>Sample Encoding: </strong></p>
 <pre>&lt;figure rend=&quot;link&quot;&gt;               <br />&lt;head&gt;Stationer's label affixed to paste-down endpaper.&lt;/head&gt;<br />&lt;graphic url=&quot;https://images.asc.ohio-state.edu/is/image/mediamanager/1/14ce45ae-7b88-40fd-abc3-10d2445dbe5d.jpg?scale=0.6&amp;amp;rgn=0,15,315,240&amp;amp;fmt=png&quot;/<br />&lt;figDesc&gt;[Within an oval border] SOLD by LAMBERT &amp;amp; LANE | Stationers | 69 Wall St. | N.Y.&lt;/figDesc&gt;<br />&lt;/figure&gt;</pre>
       
-<hr>
+<hr/>
+
       <p class="listing"><strong><a name="Dateline-date"></a>Group: Structure</strong></p>
             <p><strong>Common Name</strong>: Dateline (and date)</p>
       <p><strong>Contextual Notes</strong>: Typically appears either on a separate
@@ -1346,7 +1404,8 @@ The &lt;seg&gt; element includes the &lt;lb/&gt; element. Compare the &lt;lb/&gt
       </p>
       <p class="listing"><strong>Sample Encoding: </strong>NA
       </p>
-<hr>
+<hr/>
+
       <p class="listing"><strong><a name="Title"></a>Group: </strong>Titles
       </p>
       <p class="listing"><strong>Common Name: </strong>Title
@@ -1368,7 +1427,8 @@ The &lt;seg&gt; element includes the &lt;lb/&gt; element. Compare the &lt;lb/&gt
    <pre>&lt;title ref=&quot;#LOR&quot; level=&#8221;m&#8221;&gt;Lord of the Rings&lt;/title&gt;
      
       </pre>
-   <hr>
+   <hr/>
+
    <p>&nbsp;</p>
       
       </div>
