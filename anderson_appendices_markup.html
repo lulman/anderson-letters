@@ -1,10 +1,11 @@
-<html xmlns:tei="http://www.tei-c.org/ns/1.0">
+<!DOCTYPE html>
+<html>
    <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-      <meta name="keywords" content="Anderson, William B. (1822-1897), Anderson, Mary Louisa Fischgens (1837-1911), Morris, George, Pennsylvania -- Pittsburgh, Pennsylvania -- Shousetown, River boats -- United States, Ohio -- Cincinnati, Kentucky -- Louisville, Woolslayer, Mary Ann, McNamer, Mary, River boats -- United States -- Sources, United States -- History -- Civil War, 1861-1865, Tennessee -- Nashville, Pennsylvania -- Parkersburg, Pennsylvania -- Lumkford Prison, River boats -- United States">
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+      <meta name="keywords" content="Anderson, William B. (1822-1897), Anderson, Mary Louisa Fischgens (1837-1911), Morris, George, Pennsylvania -- Pittsburgh, Pennsylvania -- Shousetown, River boats -- United States, Ohio -- Cincinnati, Kentucky -- Louisville, Woolslayer, Mary Ann, McNamer, Mary, River boats -- United States -- Sources, United States -- History -- Civil War, 1861-1865, Tennessee -- Nashville, Pennsylvania -- Parkersburg, Pennsylvania -- Lumkford Prison, River boats -- United States"/>
       <title>William B. Anderson's Civil War correspondence, 1862-1864</title>
-      <link rel="stylesheet" href="jquery-ui.css">
-      <link href="anderson_letters.css" rel="stylesheet" type="text/css"><script src="jquery-1.8.3.min.js"></script><script src="jquery-ui-1.9.2.custom.js"></script><style type="text/css">
+      <link rel="stylesheet" href="jquery-ui.css"/>
+      <link href="anderson_letters.css" rel="stylesheet" type="text/css"/><script src="jquery-1.8.3.min.js"></script><script src="jquery-ui-1.9.2.custom.js"></script><style type="text/css">
       #maintext {
       float:right;
       width:610px;
@@ -62,10 +63,18 @@
       margin-right: 50px;
       margin-top: 100px;
       }
-   </style><link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
-      <link href="http://fonts.googleapis.com/css?family=Fanwood+Text" rel="stylesheet" type="text/css">
+      th, td {
+      padding: 5px;
+      }
+      pre {
+      width: 520px;
+      overflow:scroll;
+      }
+   </style>
+     <link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css"/>
+     <link href="http://fonts.googleapis.com/css?family=Fanwood+Text" rel="stylesheet" type="text/css"/>
    </head>
-   <body>
+<body>
       <div id="skiptocontent"><a href="#maincontent">skip to main content</a></div>
       <div class="masthead">
          <div id="navigation">
@@ -114,7 +123,7 @@
             </ul>
          </div>
          <div id="titleBar">
-          <p align="center"><span class="projectTitle">William B. Anderson's Civil War correspondence, 1862-1864</span><br><br></p>
+          <p style="text-align: center;"><span class="projectTitle">William B. Anderson's Civil War correspondence, 1862-1864</span><br><br></p>
             <hr style="border: 2px solid crimson;">
          </div>
       </div>
@@ -338,18 +347,15 @@
          <h2 id="appendix_title" style="text-align:center;">Anderson Letters Markup Guidelines</h2>
       <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script><script src="index.js"></script>
 
-   <p>The following  guidelines constitute a formalized markup scheme
-         for this edition of William B. Anderson's Civil War correspondence. <strong>Note:</strong>&nbsp;<em>At
-         present, this is a working document. It may contain errors, and it certainly
-         will change over the next several months as we continue work on the
-         editon and discover more about the documents and texts.</em></p>
+   <p>The following  guidelines document the markup scheme
+         for this edition of William B. Anderson's Civil War correspondence.</p>
    <h2>Overview </h2>
    <p><strong>Composite Text Structure</strong>. This edition employs the &lt;teiCorpus&gt; text structure, which provides a &lt;teiHeader&gt; containing descriptive information about the collection of letter and separate &lt;TEI&gt; elements for each letter, each of which contains its own &lt;teiHeader&gt; element providing descriptive information about a particular manuscript letter and a &lt;text&gt; element containing the text of the letter. The &lt;teiHeader&gt; elements for individual letters contain &lt;msDesc&gt; elements that provide physical descriptions of the manuscript sources. For more information about this text strucutre, see <em>TEI P5</em>, 15.1 <a href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CC.html#CCDEF" target="_blank">Varieties of Composite Text</a>. </p>
    <p><strong>Markup of Physical Structure and Page Layout.</strong> The manuscript <strong>pages</strong>,
          encoded by the empty page break or &lt;pb/&gt; element, are the primary
          physical structures represented in the markup. Each &lt;pb/&gt; element
-         includes an @facs
-         attribute pointing to a zoomable high-resolution scan of that
+         includes a @facs
+         attribute pointing to a high-resolution scan of that
          page image. <strong>Line
          breaks</strong>  are encoded with the empty &lt;lb/&gt; element.
          No attributes are included in the &lt;lb&gt; element. When <strong>envelopes</strong> or <strong>enclosures</strong> accompany letters, they are encoded with &lt;div/&gt; elements containing @type attributes with the values &quot;envelope&quot; or &quot;enclosure,&quot; respectively.</p>
@@ -385,157 +391,157 @@
    <p><strong>Source</strong>: These project guidelines are based on The Text Encoding Initiative's <a href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html" target="_blank"><em>Guidelines for Electronic Text Encoding and Interchange</em></a> (P5).</p>
    <h2>Detailed Guidelines </h2>
 <hr>
-      <table cellpadding="5">
-         <tr align="left">
+      <table>
+         <tr style="text-align:left;">
             <th><strong>Feature Group</strong></th>
             <th><strong>Feature</strong></th>
          </tr>
-         <tr align="left">
+         <tr style="text-align:left;">
             <td>Abbreviation</td>
             <td><a href="#Abbreviation">Abbreviation</a></td>
          </tr>
-         <tr align="left">
+         <tr style="text-align:left;">
            <td>Accompanying Materials</td>
            <td><a href="#Envelopes">Envelopes</a></td>
          </tr>
-         <tr align="left">
+         <tr style="text-align:left;">
             <td>Annotation</td>
             <td><a href="#Footnote">Explanatory Annotations </a></td>
          </tr>
-         <tr align="left">
+         <tr style="text-align:left;">
            <td>Bibliography</td>
            <td><a href="#Parenthetical_Citation">Parenthetical Citation</a></td>
          </tr>
-         <tr align="left">
+         <tr style="text-align:left;">
             <td>Bibliography</td>
             <td><a href="#Works_Cited_Entry">Works Cited Entry</a></td>
          </tr>
-         <tr align="left">
+         <tr style="text-align:left;">
             <td>Corrections and Emendations</td>
             <td><a href="#Cancelation-Unrecoverable">Cancellation-Unrecoverable</a></td>
          </tr>
-         <tr align="left">
+         <tr style="text-align:left;">
             <td>Corrections and Emendations</td>
             <td><a href="#Cancellation-Recoverable">Cancellation-Recoverable</a></td>
          </tr>
-         <tr align="left">
+         <tr style="text-align:left;">
             <td>Corrections and Emendations</td>
             <td><a href="#UncertainReading">Uncertain Reading</a></td>
          </tr>
-         <tr align="left">
+         <tr style="text-align:left;">
             <td>Corrections and Emendations</td>
             <td><a href="#Additions-interlinear">Additions-interlinear</a></td>
          </tr>
-         <tr align="left">
+         <tr style="text-align:left;">
             <td>Corrections and Emendations</td>
             <td><a href="#Additions-marginal">Additions-marginal</a></td>
          </tr>
-         <tr align="left">
+         <tr style="text-align:left;">
            <td>Corrections and Emendations</td>
            <td><a href="#Substitution">Substitution</a></td>
          </tr>
-         <tr align="left">
+         <tr style="text-align:left;">
             <td>Highlighting</td>
             <td><a href="#Underlining">Underlining, large text, and so on</a></td>
          </tr>
-         <tr align="left">
+         <tr style="text-align:left;">
             <td>Corrections and Emendations</td>
             <td><a href="#ApparentErrors">Apparent Errors</a></td>
          </tr>
-         <tr align="left">
+         <tr style="text-align:left;">
            <td>Corrections and Emendations</td>
            <td><a href="#archaisms">Archaic Orthography</a></td>
          </tr>
-         <tr align="left">
+         <tr style="text-align:left;">
             <td>Corrections and Emendations</td>
             <td><a href="#Suppliedtext">Supplied text</a></td>
          </tr>
-         <tr align="left">
+         <tr style="text-align:left;">
             <td>Discourse</td>
-            <td><a href="#Quotation (speech or thought)">Quotation (reported speech or thought)</a></td>
+            <td><a href="#Quotation-speech-thought)">Quotation (reported speech or thought)</a></td>
          </tr>
-         <tr align="left">
+         <tr style="text-align:left;">
            <td>Discourse</td>
            <td><a href="#Quotation">Quotations from external sources</a></td>
          </tr>
-         <tr align="left">
+         <tr style="text-align:left;">
            <td>Discourse</td>
            <td><a href="#LinguisticallyDistinct">Linguistically distinct words and phrases</a></td>
          </tr>
-         <tr align="left">
+         <tr style="text-align:left;">
            <td>Discourse</td>
            <td>Lines of verse</td>
          </tr>
-         <tr align="left">
+         <tr style="text-align:left;">
             <td>Handwriting</td>
-            <td><a href="#Shift in hand or medium">Shift in hand or medium</a></td>
+            <td><a href="#Shift-hand-medium">Shift in hand or medium</a></td>
          </tr>
-         <tr align="left">
+         <tr style="text-align:left;">
             <td>Language</td>
-            <td><a href="#Foreign Terms">Foreign Terms</a></td>
+            <td><a href="#Foreign-Terms">Foreign Terms</a></td>
          </tr>
-         <tr align="left">
+         <tr style="text-align:left;">
             <td>Names &amp; Places</td>
             <td><a href="#PersonalName">Personal Names</a></td>
          </tr>
-         <tr align="left">
+         <tr style="text-align:left;">
            <td>Names &amp; Places</td>
            <td><a href="#PlaceName">Place Names</a></td>
          </tr>
-         <tr align="left">
+         <tr style="text-align:left;">
            <td>Names &amp; Places</td>
            <td><a href="#GeogName">Geographical Names</a></td>
          </tr>
-         <tr align="left">
+         <tr style="text-align:left;">
            <td>Names &amp; Places</td>
            <td><a href="#Ships">Ships</a></td>
          </tr>
-         <tr align="left">
+         <tr style="text-align:left;">
            <td>Names &amp; Places</td>
            <td><a href="#LatLong">Latitude and Longitude Coordinates</a></td>
          </tr>
-         <tr align="left">
+         <tr style="text-align:left;">
             <td>Names &amp; Places</td>
             <td><a href="#ReferringString">Referring Strings</a></td>
          </tr>
-         <tr align="left">
+         <tr style="text-align:left;">
             <td>Page Layout</td>
             <td><a href="#PageBreak">Page Break</a></td>
          </tr>
-         <tr align="left">
+         <tr style="text-align:left;">
             <td>Page Layout</td>
             <td><a href="#LineBreak">Line Break</a></td>
          </tr>
-         <tr align="left">
+         <tr style="text-align:left;">
             <td>Paper</td>
             <td><a href="#Gap">Damage that does not render the
                 text unreadable</a></td>
          </tr>
-         <tr align="left">
+         <tr style="text-align:left;">
             <td>Punctuation</td>
-            <td><a href="#Word broken across two lines (with or without a mark such as a hyphen)">Word broken across two lines (with or without a mark such as a hyphen)</a></td>
+            <td><a href="#Word-broken">Word broken across two lines (with or without a mark such as a hyphen)</a></td>
          </tr>
-         <tr align="left">
+         <tr style="text-align:left;">
             <td>Punctuation</td>
-            <td><a href="#Em Dash">Em Dash</a></td>
+            <td><a href="#Em-Dash">Em Dash</a></td>
          </tr>
-         <tr align="left">
+         <tr style="text-align:left;">
             <td>Punctuation</td>
             <td><a href="#Hyphen">Hyphen</a></td>
          </tr>
-         <tr align="left">
+         <tr style="text-align:left;">
             <td>Rich Media</td>
             <td><a href="#Images">Images</a></td>
          </tr>
-         <tr align="left">
+         <tr style="text-align:left;">
             <td>Structure</td>
-            <td><a href="#Dateline (and date)">Dateline (and date)</a></td>
+            <td><a href="#Dateline-date">Dateline (and date)</a></td>
          </tr>
-         <tr align="left">
+         <tr style="text-align:left;">
             <td>Structure</td>
             <td><a href="#Paragraph">Paragraph</a></td>
          </tr>
-         <tr align="left">
+         <tr style="text-align:left;">
             <td>Titles</td>
             <td><a href="#Title">Title</a></td>
          </tr>
@@ -560,14 +566,13 @@
         are encoded, we employ the &lt;choice&gt; element and note the abbreviation
         and its expansion.</p>
    <p class="listing"><strong>Sample Source Text: </strong>yesterday altho the wind is fair</p>
-<p class="listing"><strong>Sample Encoding: </strong>
+<p class="listing"><strong>Sample Encoding: </strong></p>
 <pre>&lt;choice&gt;
   &lt;abbr&gt;altho&lt;/abbr&gt;
   &lt;expan&gt;although&lt;/expan&gt;
 &lt;/choice&gt;</pre>
-      </p>
-      <p class="listing"><strong>Sample Image from the MSS: </strong>No Sample
-      image available</p>
+      
+      
 <hr>
       <p class="listing"><strong><a name="Envelopes" id="Envelopes"></a>Group: </strong>Accompanying Materials </p>
       <p class="listing"><strong>Common Name: </strong>Envelopes </p>
@@ -577,8 +582,7 @@
       <p class="listing"><strong>Sample Source Text: </strong><strong> </strong><a href="https://images.asc.ohio-state.edu/is/image/englishdocs/0/0dac5ed8-9001-47f6-9a84-5f78285743f2.jpg?scale=0.2&amp;rgn=0,0,600,320&amp;fmt=png">Envelope</a> for letter from Gladys Stephens to Mrs. A. T. Stephens, 9 July 1909.</p>
       <p class="listing"><strong>Sample Encoding: </strong> </p>
       <pre>        &lt;div type=&quot;envelope&quot; xml:id=&quot;GS19090706env01&quot; corresp=&quot;#GS19090706let01&quot;&gt;<br />          &lt;pb facs=&quot;/5/55a80091-d3ab-4cd6-a24b-75684d1f6a71&quot;/&gt;<br />          &lt;ab type=&quot;returnAddress&quot;&gt;<br />            &lt;handShift new=&quot;#Stationery&quot;/&gt;<br />            &lt;address&gt;<br />            &lt;addrLine&gt;Hotel Georgian&lt;/addrLine&gt;<br />            &lt;addrLine&gt;Fourth Avenue&lt;/addrLine&gt;<br />            &lt;addrLine&gt;Pike &amp;amp; Union&lt;/addrLine&gt;<br />            &lt;addrLine&gt;Seattle, U. S. A.&lt;/addrLine&gt;<br />            &lt;/address&gt;<br />          &lt;/ab&gt;<br />          &lt;ab type=&quot;postalAddress&quot;&gt;<br />            &lt;handShift new=&quot;#GMSHand&quot;/&gt;<br />            &lt;persName ref=&quot;#MAT&quot;&gt;Mrs. A. T. Stephens&lt;/persName&gt;<br />            &lt;address&gt;<br />            &lt;addrLine&gt;26 Emerson street&lt;/addrLine&gt;<br />            &lt;addrLine&gt;Newton&lt;/addrLine&gt;<br />            &lt;addrLine&gt;Massachusetts&lt;/addrLine&gt;<br />            &lt;/address&gt;<br />          &lt;/ab&gt;<br />          &lt;ab type=&quot;endorsement&quot;&gt;<br />            &lt;handShift new=&quot;Unknown&quot;/&gt; 94&lt;ptr type=&quot;NoteAnchor&quot; target=&quot;Endorsements&quot;/&gt;<br />            &lt;note resp=&quot;ed&quot; xml:id=&quot;Endorsements&quot;&gt;Similar numbers are penciled under the cancelled<br />              postage stamp on several envelopes in the collection. The second<br />              number is circled.&lt;/note&gt;<br />          &lt;/ab&gt;<br />          &lt;ab&gt;<br />            &lt;stamp type=&quot;postmark&quot;&gt; SEATTLE, WASH. | JUL 6 | 9 - PM | 1909 &lt;/stamp&gt;<br />            &lt;stamp type=&quot;cancellation&quot;&gt; WORLD'S FAIR SEATTLE &lt;/stamp&gt;<br />          &lt;/ab&gt;<br />          &lt;figure rend=&quot;link&quot;&gt;<br />            &lt;head&gt;Two-cent U.S. postage stamp.&lt;/head&gt;<br />            &lt;graphic<br />              url=&quot;https://images.asc.ohio-state.edu/is/image/englishdocs/5/55a80091-d3ab-4cd6-a24b-75684d1f6a71.jpg?scale=0.4&amp;amp;rgn=920,80,180,180&amp;amp;fmt=png&quot;/&gt;<br />            &lt;figDesc&gt;U.S. POSTAGE | TWO CENTS [Portrait of Washington; perforated horizontally and<br />              vertically; Design A139]&lt;/figDesc&gt;<br />          &lt;/figure&gt;<br />        &lt;/div&gt;</pre>
-      </p>
-      <p class="listing"><strong>Sample Image from the MSS: </strong><a href="https://images.asc.ohio-state.edu/is/image/englishdocs/0/0dac5ed8-9001-47f6-9a84-5f78285743f2.jpg?scale=0.2&amp;rgn=0,0,600,320&amp;fmt=png">Envelope</a> for letter from Gladys Stephens to Mrs. A. T. Stephens, 9 July 1909.</p>
+
       <hr />
       <p class="listing"><strong><a name="Footnote"></a>Group: </strong>Annotation
       </p>
@@ -613,8 +617,6 @@
         will go here] It has commenced</p>
   <p class="listing"><strong>Sample Encoding: </strong>
    <pre>&lt;lb/&gt;on quarantine ground&lt;ptr type=&quot;noteAnchor&quot; target=&quot;QG&quot;/&gt;<br />&lt;note resp=&quot;ed&quot; xml:id=&quot;QG&quot;&gt;Probably the &quot;Old Quarantine&quot; off Tompkinsville, Staten Island,<br />which was the site of New York Harbor's quaratine station prior to 1855,<br />when the residents of Tompkinsville burned the quarantine hospitals to the ground<br />in protest &lt;bibl&gt;&lt;ref target=&quot;#Quarantine&quot;&gt;&quot;Barring Out Epidemics&quot;&lt;/ref&gt;&lt;/bibl&gt;&lt;/note&gt; It has commenced<br></pre>
-   <p class="listing"><strong>Sample Image from the MSS: </strong>No sample
-      image available</p>
    <hr />
    <p class="listing"><strong><a name="Parenthetical_Citation" id="Parenthetical_Citation"></a>Group: </strong>Bibliography</p>
    <p class="listing"><strong>Common Name: </strong>Parenthetical citation </p>
@@ -647,8 +649,6 @@ compensate&lt;/q&gt; &lt;bibl&gt;&lt;ref target=&quot;#Murray&quot;&gt;477&lt;/r
 
 <strong>Corresponding entry in List of Works Cited</strong>
 &lt;bibl xml:id=&quot;Murray&quot; n=&quot;Murray&quot;&gt;Murray, John. &lt;title level=&quot;m&quot;&gt;A Handbook for Travellers in France&lt;/title&gt;. <br />London: John Murray, 1867. &lt;title level=&quot;m&quot;&gt;Google Books&lt;/title&gt;. Web. 28 Feb. 2010.&lt;/bibl&gt;</pre>
-   <p class="listing"><strong>Sample Image from the MSS: </strong>No sample
-     image available</p>
 <hr>
       <p class="listing"><strong><a name="Works_Cited_Entry" id="Works_Cited_Entry"></a>Group: </strong>Bibliography
    </p>
@@ -688,9 +688,6 @@ Print.</span><br>&lt;/bibl&gt;
 storm-petrel Oceanites oceanicus.&quot; &lt;title level=&quot;m&quot;&gt;Patuxent Bird Identification
 InfoCenter&lt;/title&gt;. Patuxent Wildlife Research Center</span>,<span class="listing">
 n.d. Date of visit: 10 Feb. 2007.</span> Web.<br>&lt;/bibl&gt;</pre>
-   <p class="listing"><strong>Sample Image from the MSS: </strong>No sample
-        image available
-      </p>
       <hr>
       <p class="listing"><strong><a name="Cancelation-Unrecoverable"></a>Group: </strong>Unreadable
         source
@@ -715,7 +712,6 @@ n.d. Date of visit: 10 Feb. 2007.</span> Web.<br>&lt;/bibl&gt;</pre>
       <p class="listing"><strong>Sample Encodings: </strong>
       <pre>&lt;gap reason=&#8221;ink blot&#8221; unit=&#8221;letters&#8221; extent=&quot;2&quot;/&gt; 
 &lt;del&gt;&lt;gap reason&quot;overwritten&quot; unit=&quot;words&quot; extent=&quot;1&quot;/&gt;&lt;del&gt;Buoy     </pre>
-   <p class="listing"><strong>Sample Image from the MSS: </strong><a href="https://images.asc.ohio-state.edu/is/image/mediamanager?layer=0&amp;size=120,120&amp;layer=1&amp;src=is{mediamanager/1/1f24ac03-9f57-4d9b-8754-69bc5923a74b.jpg?scale=0.4&amp;rgn=350,790,120,80&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=120,80&amp;text=\vertalt\cf1\qc\fs29\%20Unrecoverable%20Cancellation&amp;posN=0,.5">Sample manuscript image</a></p>
       <hr>
       <p class="listing"><strong><a name="Cancellation-Recoverable"></a>Group: </strong>Corrections and Emendations
       </p>
@@ -733,8 +729,6 @@ n.d. Date of visit: 10 Feb. 2007.</span> Web.<br>&lt;/bibl&gt;</pre>
       <pre>passed &lt;del rend=&quot;overstrike&quot;&gt;the&lt;/del&gt;
 
           &lt;delSpan rend=&quot;strikethrough&quot; spanTo=&quot;#pa01&quot; hand=&quot;#Unknown&quot;/&gt;<br />            &lt;address&gt;<br />            &lt;addrLine&gt;26 Emerson street&lt;/addrLine&gt;<br />            &lt;addrLine&gt;Newton&lt;/addrLine&gt;<br />            &lt;addrLine&gt;Massachusetts&lt;/addrLine&gt;<br />            &lt;/address&gt;<br />          &lt;anchor xml:id=&quot;pa01&quot;/&gt;     </pre>
-      <p class="listing"><strong>Sample Image from the MSS: </strong>No example
-      available</p>
 <hr>
       <p class="listing"><strong><a name="UncertainReading"></a>Group: </strong>Corrections and Emendations
       </p>
@@ -755,8 +749,6 @@ n.d. Date of visit: 10 Feb. 2007.</span> Web.<br>&lt;/bibl&gt;</pre>
       </p>
       <p class="listing"><strong>Sample Encoding: </strong>
       <pre>&lt;lb/&gt;It is an &lt;unclear cert=&quot;medium&quot; reason=&quot;coined_phrase?&quot;&gt;ex elegant&lt;/unclear&gt;hotel.</pre>
-   <p class="listing"><strong>Sample Image from the MSS: </strong>No example
-        available.     </p>
 <hr>
       <p class="listing"><strong><a name="Additions-interlinear"></a>Group: </strong>Corrections and Emendations
       </p>
@@ -777,8 +769,6 @@ n.d. Date of visit: 10 Feb. 2007.</span> Web.<br>&lt;/bibl&gt;</pre>
       Six times our guns fired as we</p>
       <p class="listing"><strong>Sample Encoding: </strong>
       <pre>&lt;lb/&gt;dock crowded our friends were there&mdash;<br />          &lt;add place=&quot;below&quot;&gt;The crowd cheered as we left&mdash;&lt;/add&gt;<br />&lt;lb/&gt;Six times our guns fired as we</pre>
-      <p class="listing"><strong>Sample Image from the MSS: </strong>No
-      example available.      </p>
 <hr>
       <p class="listing"><strong><a name="Additions-marginal"></a>Group: </strong>Corrections and Emendations
       </p>
@@ -798,8 +788,6 @@ n.d. Date of visit: 10 Feb. 2007.</span> Web.<br>&lt;/bibl&gt;</pre>
 <pre>Additions &lt;add place=&#8221;right margin&#8221; rend=&#8221;*&#8221;&gt;can
 sometimes be placed in the margins&lt;/add&gt;
 </pre>
-      <p class="listing"><strong>Sample Image from the MSS: </strong>No example available
-   </p>
    <hr>
       <p class="listing"><strong><a name="Substitution" id="Substitution"></a>Group: </strong>Corrections and Emendations
       </p>
@@ -814,8 +802,6 @@ sometimes be placed in the margins&lt;/add&gt;
    <p class="listing"><strong>Sample Encoding: </strong>
 <pre>&lt;subst&gt;&lt;del rend=&quot;overstrike&quot;&gt;one&lt;/del&gt;&lt;add place=&quot;above&quot;&gt;two&lt;/add&gt;&lt;/subst&gt;
 </pre>
-      <p class="listing"><strong>Sample Image from the MSS: </strong>No example available
-</p>
       <hr>
       <p class="listing"><strong><a name="Underlining"></a>Group: </strong>Highlighting
       </p>
@@ -832,8 +818,6 @@ sometimes be placed in the margins&lt;/add&gt;
           text</u>       </p>
       <p class="listing"><strong>Sample Encoding: </strong>
       <pre>&lt;lb/&gt;Some &lt;hi rend=&quot;underlined&quot;&gt;underlined text&lt;/hi&gt;</pre>
-   <p class="listing"><strong>Sample Image from the MSS: </strong>No example
-   available</p>
 <hr>
       <p class="listing"><strong><a name="ApparentErrors"></a>Group: </strong>Corrections and Emendations
       </p>
@@ -853,8 +837,6 @@ sometimes be placed in the margins&lt;/add&gt;
       and</p>
       <p class="listing"><strong>Sample Encoding: </strong>
       <pre>&lt;lb/&gt;book and lead &lt;choice&gt;&lt;sic&gt;pincel&lt;/sic&gt;&lt;corr&gt;pencil&lt;/corr&gt;&lt;/choice&gt; and</pre>
-   <p class="listing"><strong>Sample Image from the MSS: </strong><a href="https://images.asc.ohio-state.edu/is/image/mediamanager/9/97c0b6c3-a4e1-40c2-b1a8-c6387f08c208.jpg?scale=0.4&amp;rgn=80,940,420,64&amp;fmt=png">Sample manuscript
-        image</a>      </p>
    <hr />
    <p class="listing"><strong><a name="archaisms" id="archaisms"></a>Group: </strong>Corrections
      and Emendations </p>
@@ -870,8 +852,6 @@ sometimes be placed in the margins&lt;/add&gt;
    <p class="listing"><strong>Sample Encoding: </strong> </p>
    <pre>a great deal of &lt;choice&gt;&lt;orig&gt;&lt;distinct type=&quot;archaic_orthography&quot; time=&quot;16-18&quot;&gt;ruff&lt;/distinct&gt;&lt;/orig&gt;
 &lt;reg source=&quot;OED&quot;&gt;rough&lt;/reg&gt;&lt;/choice&gt; weather.</pre>
-   <p class="listing"><strong>Sample Image from the MSS: </strong><span class="style1">No
-       sample available</span></p>
 <hr>
       <p class="listing"><strong><a name="Suppliedtext"></a>Group: </strong>Corrections and Emendations
       </p>
@@ -894,10 +874,8 @@ sometimes be placed in the margins&lt;/add&gt;
      of tow</p>
       <p class="listing"><strong>Sample Encoding: </strong>
       <pre>&lt;lb/&gt;Moved two miles out of tow&lt;supplied reason=&quot;omitted&quot; resp=&quot;ed&quot;&gt;n&lt;/supplied&gt;</pre>
-      <p class="listing"><strong>Sample Image from the MSS: </strong><span class="style1">No
-        sample available</span> </p>
 <hr>
-      <p class="listing"><strong><a name="Quotation (speech or thought)"></a>Group: </strong>Discourse   </p>
+      <p class="listing"><strong><a name="Quotation-speech-thought)"></a>Group: </strong>Discourse   </p>
       <p class="listing"><strong>Common Name: </strong>Reported speech or thought      </p>
    <p class="listing"><strong>Contextual Notes: </strong>This element &quot;indicates
      passages thought or spoken aloud, whether explicitly indicated in the source
@@ -921,8 +899,6 @@ handyer for
 you</p>
 <p class="listing"><strong>Sample Encoding: </strong>
       <pre>&lt;lb/&gt;write my journal the first mate came along<br />&lt;lb/&gt;and says &lt;said aloud=&quot;true&quot; direct=&quot;true&quot;&gt;here is a gold pencil and pen<br />&lt;lb/&gt;which I will give you it will be much<br />&lt;lb/&gt;&lt;choice&gt;&lt;sic&gt;handyer&lt;/sic&gt;&lt;corr&gt;handier&lt;/corr&gt;&lt;/choice&gt; for you&lt;/said&gt;</pre>
-   <p class="listing"><strong>Sample Image from the MSS: </strong><a href="https://images.asc.ohio-state.edu/is/image/mediamanager/9/97c0b6c3-a4e1-40c2-b1a8-c6387f08c208.jpg?scale=0.4&amp;rgn=80,1000,800,320&amp;fmt=png">Sample manuscript
-        image</a>      </p>
    <hr />
       <p class="listing"><strong><a name="Quotation" id="Quotation"></a>Group: </strong>Discourse </p>
    <p class="listing"><strong>Common Name: </strong>Quotation </p>
@@ -939,8 +915,6 @@ you</p>
   All talking empty . . .</p>
       <p class="listing"><strong>Sample Encoding: </strong> </p>
       <pre>            &lt;quote type=&quot;block&quot;&gt;<br />            &lt;lb/&gt; &quot; 'Tell her, tell I see<br />            &lt;lb/&gt;Those eyes, I do not live--that Rome to me<br />            &lt;lb/&gt;Is hatefull--tell her--oh!--I know not what--<br />            &lt;lb/&gt;That ever thought and feeling, space and spot,<br />            &lt;lb/&gt;Is like an ugly dream where she is not;<br />            &lt;lb/&gt;All persons plagues; all living wearysome;<br />            &lt;lb/&gt;All talking empty . . .&lt;ptr type=&quot;noteAnchor&quot; target=&quot;thatRome&quot;/&gt;&lt;note<br />              xml:id=&quot;thatRome&quot; resp=&quot;ed&quot;&gt;<em>Identify and contextualize reference here</em>&lt;bibl&gt;&lt;ref  target=&quot;#threeWeeks&quot;&gt;(Glyn 178)&lt;/ref&gt;&lt;/bibl&gt;&lt;/note&gt;<br />            &lt;/quote&gt;</pre>
-      <p class="listing"><strong>Sample Image from the MSS: </strong><a href="https://images.asc.ohio-state.edu/is/image/englishdocs/5/567bdbfa-d0a6-4bb7-85ac-32e9edb0c3b6.jpg?scale=0.2&amp;rgn=100,140,500,300&amp;fmt=png">Sample manuscript
-     image</a></p>
       <hr />
       <p class="listing"><strong><a name="LinguisticallyDistinct" id="LinguisticallyDistinct"></a>Group: </strong>Discourse </p>
    <p class="listing"><strong>Common Name: </strong>Linguistically distinct words and phrases</p>
@@ -951,8 +925,6 @@ you</p>
       <p class="listing">&quot;I said somefing ossle naughty&quot;</p>
       <p class="listing"><strong>Sample Encoding: </strong> </p>
       <pre>I said &lt;distinct type=&quot;babyTalk&quot;&gt;somefing ossle&lt;/distinct&gt; naughty.</pre>
-   <p class="listing"><strong>Sample Image from the MSS: </strong><a href="https://images.asc.ohio-state.edu/is/image/englishdocs/6/657652de-d6f1-45e8-8d8d-922be44d93c5.jpg?scale=0.2&amp;rgn=15,80,280,50&amp;fmt=png" target="_blank">Sample manuscript
-        image</a></p>
       <hr />
       <p class="listing"><strong><a name="LinguisticallyDistinct" id="LinguisticallyDistinct2"></a>Group: </strong>Discourse </p>
       <p class="listing"><strong>Common Name: </strong>Lines of verse</p>
@@ -969,10 +941,8 @@ you</p>
         All talking empty . . .</p>
       <p class="listing"><strong>Sample Encoding: </strong></p>
       <pre>            &lt;quote type=&quot;block&quot;&gt;<br />            &lt;lb/&gt; &quot; 'Tell her, tell I see<br />            &lt;lb/&gt;Those eyes, I do not live--that Rome to me<br />            &lt;lb/&gt;Is hatefull--tell her--oh!--I know not what--<br />            &lt;lb/&gt;That ever thought and feeling, space and spot,<br />            &lt;lb/&gt;Is like an ugly dream where she is not;<br />            &lt;lb/&gt;All persons plagues; all living wearysome;<br />            &lt;lb/&gt;All talking empty . . .&lt;ptr type=&quot;noteAnchor&quot; target=&quot;thatRome&quot;/&gt;&lt;note<br />              xml:id=&quot;thatRome&quot; resp=&quot;ed&quot;&gt;<em>Identify and contextualize reference here</em>&lt;bibl&gt;&lt;ref  target=&quot;#threeWeeks&quot;&gt;(Glyn 178)&lt;/ref&gt;&lt;/bibl&gt;&lt;/note&gt;<br />            &lt;/quote&gt;      </pre>
-      <p class="listing"><strong>Sample Image from the MSS: </strong><a href="https://images.asc.ohio-state.edu/is/image/englishdocs/6/657652de-d6f1-45e8-8d8d-922be44d93c5.jpg?scale=0.2&amp;rgn=15,80,280,50&amp;fmt=png" target="_blank">Sample manuscript
-        image</a></p>
       <hr />
-      <p class="listing"><strong><a name="Shift in hand or medium"></a>Group: </strong>Handwriting
+      <p class="listing"><strong><a name="Shift-hand-medium"></a>Group: </strong>Handwriting
       </p>
       <p class="listing"><strong>Common Name: </strong>Shift in hand or medium
 </p>
@@ -993,10 +963,8 @@ you</p>
    &lt;handNotes&gt;<br />      &lt;handNote xml:id=&quot;LADHand&quot; medium=&quot;brown-ink&quot;&gt;Carefully written; presumably Louisa Doane's hand.&lt;/handNote&gt;<br />      &lt;handNote xml:id=&quot;H2&quot; medium=&quot;pencil&quot;&gt;Pencilled notes on endpapers and flyleaves in an unknown hand.&lt;/handNote&gt;<br />   &lt;/handNotes&gt;<br/>
 <strong>In the body of the journl</strong>:<br/>
 &lt;p&gt;&lt;handShift new=&quot;#H2&quot;/&gt;&lt;add place=&quot;top&quot;&gt;5/-&lt;/add&gt;&lt;handShift new=&quot;#LADHand&quot;/&gt; text.&lt;/p&gt;</pre>
-   <p class="listing"><strong>Sample Image from the MSS: </strong>No example
-   available.</p>
 <hr>
-      <p class="listing"><strong><a name="Foreign Terms"></a>Group: </strong>Language
+      <p class="listing"><strong><a name="Foreign-Terms"></a>Group: </strong>Language
       </p>
       <p class="listing"><strong>Common Name: </strong>Foreign Terms
       </p>
@@ -1019,8 +987,6 @@ you</p>
 &lt;langUsage&gt;<br />            &lt;language ident=&quot;eng&quot;&gt;English&lt;/language&gt;<br />            &lt;language ident=&quot;spa&quot;&gt;Spanish&lt;/language&gt;<br />            &lt;language ident=&quot;por&quot;&gt;Portuguese&lt;/language&gt;<br />&lt;/langUsage&gt;
 <br><strong>In the text of the journal, where the contents of an element are in another language</strong>:<br />
 &lt;placeName xml:lang=&quot;por&quot;&gt;S&atilde;o Vicente, Cabo de&lt;/placeName&gt;<br /><br /><strong>In the text of the journal, when the foreign term is not the exclusive content of another element</strong>:<br />a reliable textual edition is a &lt;foreign xml:lang=&quot;lat&quot;&gt;sine qua non&lt;/foreign&gt;<br /></pre>
-   <p class="listing"><strong>Sample Image from the MSS: </strong>No example
-     available </p>
 <hr>
       <p class="listing"><strong><a name="PersonalName" id="PersonalName"></a>Group: </strong>Names      </p>
    <p class="listing"><strong>Common Name: </strong>Personal names
@@ -1036,7 +1002,7 @@ you</p>
         element&gt; should refer
    to a &lt;person&gt; element in the &lt;listPerson&gt; element of the TEI Header for the corpus.
    Where possible, the &lt;person&gt; element should be populated with information
-   from a standard biographical resources such as the <a href="http://library.ohio-state.edu/search~S7?/Xdictionary+of+national+biography&amp;SORT=D&amp;searchscope=7/Xdictionary+of+national+biography&amp;SORT=D&amp;searchscope=7&amp;SUBKEY=dictionary of national biography/1,75,75,B/eresource&amp;FF=Xdictionary+of+national+biography&amp;SORT=D&amp;searchscope=7&amp;1,1,">Dictionary of National Biography</a> (DNB) or <a href="http://library.ohio-state.edu/search~S7?/Xamerican+national+biography&amp;SORT=D&amp;searchscope=7/Xamerican+national+biography&amp;SORT=D&amp;searchscope=7&amp;SUBKEY=american%20national%20biography/1%2C498%2C498%2CB/eresource&amp;FF=Xamerican+national+biography&amp;SORT=D&amp;searchscope=7&amp;1%2C1%2C" target="_blank">American National Biography</a> (ANB). The value of the &lt;persName&gt; element in the list of persons in the TEI Header should reflect, if available, the form of the name provided in a standard authority such as the Library of Congress Name Authority. In any case, the source(s) of the information should be noted using a &lt;bibl&gt; element at
+   from a standard biographical resources such as the Dictionary of National Biography (DNB) or American National Biography (ANB). The value of the &lt;persName&gt; element in the list of persons in the TEI Header should reflect, if available, the form of the name provided in a standard authority such as the Library of Congress Name Authority. In any case, the source(s) of the information should be noted using a &lt;bibl&gt; element at
    the end of the listing pointing to a work in the list of works cited (see
 &lt;person&gt; element with a &lt;note =&quot;biographical&quot;&gt; element to contextualize references in the letters to people for whom little or no  biographical information is available, or to note variant spellings.</p>
       <p class="listing">For <em>nicknames and endearments</em>, follow the procedure above, adding an &lt;addName&gt; element within the &lt;persName&gt; element, specifying the &lt;addName&gt; element with a @type attribute whose value is either &quot;nickname&quot; or &quot;endearment&quot; (see examples below).</p>
@@ -1048,8 +1014,6 @@ you</p>
 
           &lt;person xml:id=&quot;ACS&quot;&gt;<br />            &lt;persName&gt;Stephens, Alex C.&lt;/persName&gt;<br />            &lt;note type=&quot;biographical&quot;&gt;In the letter dated August 8, 1909, Gladys <br />              mentions her &quot;Uncle Alex&quot; a number of times.  It is apparent that he is facilitating<br />              social connections for her in Texas, prior to her arrival, so we can assume he lives in El Paso.&lt;/note&gt;<br />          &lt;/person&gt;<br /></pre>
       <pre><strong>In the text</strong>:<br /><br />to hear &lt;persName ref=&quot;#ACS&quot;&gt;&lt;addName type=&quot;nickname&quot;&gt;Uncle A's&lt;/addName&gt;&lt;/persName&gt; opinion of me</pre>
-   <p class="listing"><strong>Sample Image from the MSS: </strong>No sample
-      available</p>
 <hr>
       <p class="listing"><strong><a name="PlaceName" id="PlaceName"></a>Group: </strong>Names </p>
       <p class="listing"><strong>Common Name: </strong>Place name </p>
@@ -1076,8 +1040,6 @@ you</p>
       <p class="listing"><strong>Sample Encoding: </strong> </p>
       <pre>
 <strong>In the &lt;listPlace&gt; element in the back matter:</strong><br /><br />               &lt;place type=&quot;city&quot; xml:id=&quot;Canton&quot; source=&quot;#TGN&quot;&gt;<br />                  &lt;placeName xml:lang=&quot;chi&quot;&gt;Guangzhou&lt;/placeName&gt;<br />                  &lt;placeName xml:lang=&quot;eng&quot;&gt;Canton&lt;/placeName&gt;<br />                  &lt;desc&gt;First seaport of China opened to foreigners; <br />                     its resistance to English opium trade led to war with <br />                     Britain 1839; one of first treaty ports by <br />                     Treaty of Nanking 1842&lt;/desc&gt;<br />                  &lt;country&gt;China&lt;/country&gt;<br />                  &lt;region&gt;Canton (province)&lt;/region&gt;<br />                  &lt;location&gt;<br />                     &lt;geo&gt;23.1333 113.3333&lt;/geo&gt;<br />                  &lt;/location&gt;<br />               &lt;/place&gt;<br /><br /><strong>In the text of the journal:</strong><br /><br />she had been to &lt;placeName ref=&quot;#Canton&quot;&gt;Canton&lt;/placeName&gt;</pre>
-   <p class="listing"><strong>Sample Image from the MSS: </strong>No sample
-        available</p>
       <hr />
       <p class="listing"><strong><a name="GeogName" id="GeogName"></a>Group: </strong>Names </p>
       <p class="listing"><strong>Common Name: </strong>Geographical names </p>
@@ -1109,8 +1071,7 @@ you</p>
 &lt;listPlace&gt;
 . . . .
 &lt;place type=&quot;landmark&quot; xml:id=&quot;CHorn&quot; source=&quot;#TGN&quot;&gt;<br />   &lt;geogName xml:lang=&quot;spa&quot;&gt;Hornos, Cabo de&lt;/geogName&gt;<br />   &lt;geogName xml:lang=&quot;eng&quot;&gt;Cape Horn&lt;/geogName&gt;<br />   &lt;country&gt;Chile&lt;/country&gt;<br />   &lt;region&gt;Magallanes-Ant&aacute;rtica&lt;/region&gt;<br />   &lt;location&gt;&lt;geo&gt;-55.9833 -67.2667&lt;/geo&gt;&lt;/location&gt;<br />&lt;/place&gt;<br />
-
-<strong>Sample Image from the MSS: </strong><span class="listing"><strong> </strong><a href="https://images.asc.ohio-state.edu/is/image/mediamanager/c/c693f1ea-3689-4fb7-92a0-5eea51f64595.jpg?scale=0.4&amp;rgn=20,940,800,100&amp;fmt=png">Sample manuscript image</a></span></pre>
+      </pre>
 <hr />
       <p class="listing"><strong><a name="Ships" id="Ships"></a>Group: </strong>Names </p>
       <p class="listing"><strong>Common Name: </strong>Ships</p>
@@ -1133,7 +1094,7 @@ you</p>
                     Fifteen of her passengers had died of Panama Fever enroute, and another ten died while the ship was in port.&lt;/desc&gt;<br />                  &lt;bibl&gt;&lt;ref target=&quot;#BOEMRE #CINMS&quot;&gt;&lt;/ref&gt;&lt;/bibl&gt;<br />               &lt;/item&gt;
 <br />            &lt;/list&gt;
 
-<strong>Sample Image from the MSS: </strong><span class="listing"><strong> </strong><a href="https://images.asc.ohio-state.edu/is/image/mediamanager?layer=0&amp;size=480,120&amp;layer=1&amp;src=is{mediamanager/4/4b04bee4-47b0-4845-8a29-e620f2193224.jpg?scale=0.4&amp;rgn=20,936,480,80&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=480,80&amp;text=\vertalt\cf1\qc\fs29\%20Steamer%20'Windfield%20Scoot'%20[Winfield%20Scott]&amp;posN=0,.5" target="_blank">Sample manuscript image</a></span></pre>
+</pre>
 <hr />
       <p class="listing"><strong><a name="LatLong" id="LatLong"></a>Group: </strong>Names </p>
    <p class="listing"><strong>Common Name: </strong>Latitude and Longitude
@@ -1164,8 +1125,6 @@ you</p>
 &lt;place type=&quot;coordinates&quot; xml:id=&quot;OCHorn&quot;&gt;<br />&lt;location&gt;&lt;geo&gt;-58.716667 -68.5&lt;/geo&gt;&lt;/location&gt;<br />&lt;/place&gt;
 . . . .
 &lt;/listPlace&gt;<br /></pre>
-   <p class="listing"><strong>Sample Image from the MSS: </strong><a href="https://images.asc.ohio-state.edu/is/image/mediamanager/c/c693f1ea-3689-4fb7-92a0-5eea51f64595.jpg?scale=0.4&amp;rgn=20,940,800,100&amp;fmt=png">Sample manuscript
-        image</a></p>
       <hr />
       <p class="listing"><strong><a name="ReferringString"></a>Group: </strong>Names </p>
    <p class="listing"><strong>Common Name: </strong>Referring String
@@ -1190,7 +1149,6 @@ you</p>
               &lt;person xml:id=&quot;END&quot;&gt;<br />                  &lt;persName&gt;Doane, Edmund N.&lt;/persName&gt;<br />                  &lt;occupation&gt;master mariner&lt;/occupation&gt;<br />                  &lt;birth when=&quot;1809-08-28&quot;&gt;<br />                     &lt;placeName&gt;Chatham, MA&lt;/placeName&gt;<br />                  &lt;/birth&gt;<br />                  &lt;death notBefore=&quot;1865-08-11&quot; notAfter=&quot;1865-08-13&quot;&gt;<br />                     &lt;placeName&gt;Chatham, MA&lt;/placeName&gt;<br />                  &lt;/death&gt;<br />                  &lt;event type=&quot;marriage&quot; when=&quot;1831-12-31&quot;&gt;<br />                     &lt;desc&gt;Edmund N. Doane married Almira Thacher&lt;/desc&gt;<br />                  &lt;/event&gt;<br />                  &lt;bibl&gt;&lt;ref target=&quot;#NYGBR&quot;&gt;NYGBR&lt;/ref&gt;374&lt;/bibl&gt;<br />               &lt;/person&gt;   <br />              . . .       </pre>
       <pre class="listing"><strong>In the text:</strong>       </pre>
       <pre>&lt;rs ref=&quot;#END&quot;&gt;father&lt;/rs&gt; is feeding them with fresh</pre>
-   <p class="listing"><strong>Sample Image from the MSS: </strong>No sample available.      </p>
 <hr>
       <p class="listing"><strong><a name="PageBreak"></a>Group: </strong>Page Layout
       </p>
@@ -1208,7 +1166,6 @@ you</p>
       </p>
       <p class="listing"><strong>Sample Encoding: </strong>
       <pre>&lt;pb facs=&quot;/a/a49d8621-1ce7-44c1-b4c1-7c0ba72b79f1&quot;/&gt;</pre>
-   <p class="listing"><strong>Sample Image from the MSS: </strong><a href="https://images.asc.ohio-state.edu/is/image/mediamanager//0/055c66b4-9e6a-4407-9f3c-4863a1697efe.jpg?scale=0.5&amp;rgn=0,0,900,125&amp;fmt=png">Sample manuscript image</a></p>
       <hr>
       <p class="listing"><strong><a name="LineBreak"></a>Group: </strong>Page Layout
       </p>
@@ -1233,7 +1190,6 @@ you</p>
 
 <strong>Line break including a word broken across lines without a hyphen</strong><br />&lt;lb/&gt;waves. All our baggage being a&lt;seg type=&#8221;softhyphen&#8221;&gt; 
 &lt;lb/&gt;&lt;/seg&gt;board</pre>
-   <p class="listing"><strong>Sample Image from the MSS: </strong><a href="https://images.asc.ohio-state.edu/is/image/mediamanager//0/055c66b4-9e6a-4407-9f3c-4863a1697efe.jpg?scale=0.5&rgn=75,263,863,150&fmt=png">Sample manuscript image</a></p>
       <hr>
       <p class="listing"><strong><a name="Gap"></a>Group: </strong>Physical
         damage     </p>
@@ -1252,10 +1208,8 @@ you</p>
       </p>
       <p class="listing"><strong>Sample Encoding: </strong>
       <pre>But to&lt;damage agent=&quot;wax seal apparently tore page when letter opened&quot; extent=&quot;2&quot; unit=&quot;cm&quot;/&gt;</pre>
-   <p class="listing"><strong>Sample Image from the MSS: </strong><a href="https://images.asc.ohio-state.edu/is/image/mediamanager/5/56c3b183-e536-46b7-ad15-b2050541bf8e.jpg?scale=0.4&amp;rgn=950,900,240,200&amp;fmt=png">Sample
-          manuscript image</a> (from Sophia Hawthorne letters)      </p>
       <hr>
-      <p class="listing"><strong><a name="Word broken across two lines (with or without a mark such as a hyphen)"></a>Group: </strong>Punctuation
+      <p class="listing"><strong><a name="Word-broken)"></a>Group: </strong>Punctuation
       </p>
       <p class="listing"><strong>Common Name: </strong>Soft-hyphen      </p>
       <p class="listing"><strong>Contextual Notes: </strong>Manuscripts often
@@ -1286,9 +1240,8 @@ The &lt;seg&gt; element includes the &lt;lb/&gt; element. Compare the &lt;lb/&gt
 <strong>No mark:</strong>
 &lt;lb/&gt;we are not able to get out till tom&lt;seg type=&quot;softhyphen&quot;&gt;
 &lt;lb/&gt;&lt;/seg&gt;orrow we will not      </pre>
-<p class="listing"><strong>Sample Image from the MSS: </strong><a href="https://images.asc.ohio-state.edu/is/image/mediamanager/C/cc918f45-896e-4226-a419-9261be2361ac.jpg?crop=200,950,3000,400&amp;scale=.25&amp;fmt=png">Sample manuscript image</a></p>
       <hr>
-      <p class="listing"><strong><a name="Em Dash"></a>Group: </strong>Punctuation
+      <p class="listing"><strong><a name="Em-Dash"></a>Group: </strong>Punctuation
       </p>
       <p class="listing"><strong>Common Name: </strong>Em Dash
       </p>
@@ -1304,8 +1257,6 @@ The &lt;seg&gt; element includes the &lt;lb/&gt; element. Compare the &lt;lb/&gt
       </p>
       <p class="listing"><strong>Sample Encoding: </strong>
    <pre>Some text<span class="listing">&amp;#x2014;</span>some following text</pre>
-   <p class="listing"><strong>Sample Image from the MSS: </strong>No example available
-      </p>
       <hr>
       <p class="listing"><strong><a name="Hyphen"></a>Group: </strong>Punctuation
       </p>
@@ -1323,8 +1274,6 @@ The &lt;seg&gt; element includes the &lt;lb/&gt; element. Compare the &lt;lb/&gt
       <p class="listing"><strong>Sample Source Text: </strong>top-heavy load
       </p>
       <p class="listing"><strong>Sample Encoding: </strong>top-heavy load
-      <p class="listing"><strong>Sample Image from the MSS: </strong>No example available
-   </p>
 <hr>
       <p class="listing"><strong><a name="Images"></a>Group: </strong>Rich Media</p>
    <p class="listing"><strong>Common Name: </strong>Graphics and other non-textual
@@ -1353,13 +1302,11 @@ The &lt;seg&gt; element includes the &lt;lb/&gt; element. Compare the &lt;lb/&gt
         other URLs, you can simply escape special characters by hand.</p>
    <p class="listing"><strong>Sample Source Text: </strong>[Stationer's label
      affixed to the front paste-down endpaper] </p>
-   <p class="listing"><strong>Sample Encoding: </strong>
+   <p class="listing"><strong>Sample Encoding: </strong></p>
 <pre>&lt;figure rend=&quot;link&quot;&gt;               <br />&lt;head&gt;Stationer's label affixed to paste-down endpaper.&lt;/head&gt;<br />&lt;graphic url=&quot;https://images.asc.ohio-state.edu/is/image/mediamanager/1/14ce45ae-7b88-40fd-abc3-10d2445dbe5d.jpg?scale=0.6&amp;amp;rgn=0,15,315,240&amp;amp;fmt=png&quot;/<br />&lt;figDesc&gt;[Within an oval border] SOLD by LAMBERT &amp;amp; LANE | Stationers | 69 Wall St. | N.Y.&lt;/figDesc&gt;<br />&lt;/figure&gt;</pre>
-      </p>
-   <p class="listing"><strong>Sample Image from the MSS: </strong><a href="https://images.asc.ohio-state.edu/is/image/mediamanager/1/14ce45ae-7b88-40fd-abc3-10d2445dbe5d.jpg?scale=0.6&amp;rgn=0,15,315,240&amp;fmt=png">Sample
-       MS image</a>.      </p>
+      
 <hr>
-      <p class="listing"><strong><a name="Dateline (and date)"></a>Group: Structure</strong></p>
+      <p class="listing"><strong><a name="Dateline-date"></a>Group: Structure</strong></p>
             <p><strong>Common Name</strong>: Dateline (and date)</p>
       <p><strong>Contextual Notes</strong>: Typically appears either on a separate
         line or run-in with the first paragraph in the &lt;opener&gt; or &lt;closer&gt; of each letter.
@@ -1383,7 +1330,6 @@ The &lt;seg&gt; element includes the &lt;lb/&gt; element. Compare the &lt;lb/&gt
     &lt;p&gt;
          &lt;lb/&gt;At eleven p m we.&nbsp;.&nbsp;.&nbsp;.
          &lt;lb/&gt;. . .</pre>
-<p><strong>Sample Image from the MSS</strong>: No example available</p>   
       <hr />
    <p class="listing"><strong><a name="Paragraph"></a>Group: </strong>Structure      </p>
    <p class="listing"><strong>Common Name: </strong>Paragraph
@@ -1400,7 +1346,6 @@ The &lt;seg&gt; element includes the &lt;lb/&gt; element. Compare the &lt;lb/&gt
       </p>
       <p class="listing"><strong>Sample Encoding: </strong>NA
       </p>
-   <p class="listing"><strong>Sample Image from the MSS: </strong>No sample available</p>
 <hr>
       <p class="listing"><strong><a name="Title"></a>Group: </strong>Titles
       </p>
@@ -1422,7 +1367,6 @@ The &lt;seg&gt; element includes the &lt;lb/&gt; element. Compare the &lt;lb/&gt
       <p class="listing"><strong>Sample Encoding: </strong>
    <pre>&lt;title ref=&quot;#LOR&quot; level=&#8221;m&#8221;&gt;Lord of the Rings&lt;/title&gt;
      
-<strong>Sample Image from the MSS: </strong>No example available
       </pre>
    <hr>
    <p>&nbsp;</p>
