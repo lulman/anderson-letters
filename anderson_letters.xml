@@ -675,14 +675,12 @@
              institutional repository, the Knowledge Bank.
            </p>
          </editorialDecl>
-         <refsDecl>
-<!--
+         <refsDecl>          
              <p>
              <emph rend="bold">Encoding Guidelines</emph>. The TEI-compliant transcripts of the source documents follows the 
              P5 version of the Text Encoding Initiative's <title level="m">P5: Guidelines for Electronic Text Encoding and Interchange</title>, 
              as customized using the .ODD file listed under the "Source Files" menu.
-           </p>
--->         
+           </p>         
          </refsDecl>
          
          <classDecl>
@@ -891,7 +889,7 @@
     
     <text>
       <body>
-        <div type="letter" xml:id="WBA_18620616_let" corresp="WBA_18620616_env" >
+        <div type="letter" xml:id="WBA_18620616_let">
           <pb facs="Letter01_pg1"/>
           <head type="letterhead"></head>
           <figure rend="link">
@@ -1021,7 +1019,7 @@
     
     <text>
       <body>
-        <div type="letter" xml:id="X18620616" corresp="XXX" >
+        <div type="letter" xml:id="WBA_18620627_let">
           <pb facs="Letter01_pg1"/>
           <head type="letterhead"></head>
           <figure rend="link">
@@ -2240,7 +2238,7 @@
     
     <text>
       <body>
-        <div type="letter" xml:id="WBA_18621007_let">
+        <div type="letter" xml:id="WBA_18621007_let" corresp="#WBA_18621007-env">
           <!-- REVISE THE VALUES ABOVE -->
           <pb facs="Letter11_pg1"/>
           <!-- MAKE SURE TO REVISE THE FACS VALUE! -->

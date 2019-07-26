@@ -437,7 +437,11 @@
             <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt"/>
             <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt"/>
             <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:editorialDecl"/>
-            <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:refsDecl"/>
+
+<!--   THIS INFO IS COVERED IN THE EDITORIAL DECLARATION         
+         <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:refsDecl"/>
+-->      
+
       <hr style="border: 2px solid crimson;"/>
       <a name="WorksCited"/>
             <h2 id="worksCited">List of Works Cited</h2>
