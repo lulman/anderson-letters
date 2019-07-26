@@ -637,14 +637,29 @@
              Adobe Photoshop to average color values. Thus, a properly configured monitor should
              provide a reasonable approximation of colors on the manuscript pages.. 
            </p>
-           <p><emph rend="bold">Markup and Annotation</emph>. Encoding of the Anderson letters emphasizes diplomatic transcription: 
-             abbreviations, recoverable cancelations, punctuation, spelling, underscoring, capitalization, line breaks, and page breaks 
-             have all been transcribed or tagged as they appear in the original manuscripts. The TEI:Corpus header contains
-             lists of people, places, and organizations mentioned in the letters, along with other standard information about
-             the project. Complete markup guidelines for the project can be found via the "Appendices" menu, and the TEI customization file
-             and encoding schema can be download via the "Source Files" menu.</p>
-           <p>An explanation of the presentation in each "view" of the letters can be read via the "About this View" link
+           
+           <p><emph rend="bold">Transcription</emph>. Editing of the Anderson letters emphasizes diplomatic transcription: 
+             abbreviations, recoverable cancelations, punctuation, spelling, underlining, additions above and below
+             the line or in the margins, capitalization, line breaks, and page breaks 
+             have all been transcribed and encoded as they appear in the original manuscripts. The
+             representation of those features varies depending on the view of the letter. An explanation of 
+             the presentation in each view of the letters can be read via the "About this View" link
              at the top of each view's page.</p>
+             
+           <p><emph rend="bold">Markup and Annotation</emph>. XML encoding of the Anderson letters follows The
+             Text Encoding Initiative's (TEI) <title level="m">P5: Guidelines for Electronic Text Encoding and Interchange</title>,
+             as customized for the project using the TEI's ODD ("One Document Does it All") process.
+             This editorial introduction and the three "views" of the letters were generated from the main XML file
+             using XSL transformations to produce HTML Web pages. Several of the appendices were encoded in HTML separately.
+             A more detailed description of the markup can be found via the "Appendices" menu, and all source files
+             (XML, XSL, CSS, ODD, RNC) can be viewed and downloaded via the "Source Files" menu.</p>
+             
+             <p>Introductory material (such as this editorial introduction) as well as annotated lists of people, places, ships, 
+               and organizations mentioned in the letters are encoded in the TEI header of the main XML
+             document. Other explanatory annotations are linked directly from the text. Separate appendices provide 
+             further information about the project (e.g., acknowledgements, editors' bios, and so on). 
+             All these ancillary materials can be viewed via the menus at the top of each page.</p>
+           
            <p>
              <emph rend="bold">Proofing</emph>. Students who created the original transcriptions proofread their own
              transcription and encoding. In preparation for peer review by NINES and preservation in The Ohio State University's 
@@ -661,11 +676,13 @@
            </p>
          </editorialDecl>
          <refsDecl>
-           <p>
+<!--
+             <p>
              <emph rend="bold">Encoding Guidelines</emph>. The TEI-compliant transcripts of the source documents follows the 
              P5 version of the Text Encoding Initiative's <title level="m">P5: Guidelines for Electronic Text Encoding and Interchange</title>, 
              as customized using the .ODD file listed under the "Source Files" menu.
            </p>
+-->         
          </refsDecl>
          
          <classDecl>
