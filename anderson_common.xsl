@@ -698,9 +698,6 @@
       <xsl:apply-templates/>
    </xsl:template>
 
-   <!-- Recoverable cancellations by the author or another hand -->
-   <xsl:template match="tei:del"/>
-
    <!-- Unclear passages. -->
    <xsl:template match="tei:unclear"> [<xsl:apply-templates/>?] </xsl:template>
 

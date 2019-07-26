@@ -192,7 +192,7 @@
    <xsl:template match="tei:choice/tei:corr"/>
    
    <!-- Highlight recoverable cancelations -->
-   <xsl:template match="tei:del"><span class="cancel"><xsl:apply-templates></xsl:apply-templates></span></xsl:template>
+   <xsl:template match="tei:del"><span class="cancel"><xsl:apply-templates/></span></xsl:template>
    <xsl:template match="tei:p"><xsl:apply-templates/></xsl:template>
    <xsl:template match="tei:figure[@rend='embed']"/>
    

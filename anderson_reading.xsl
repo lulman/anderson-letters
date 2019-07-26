@@ -134,4 +134,9 @@
         <xsl:apply-templates/> [sic] </xsl:template>
     <xsl:template match="tei:choice/tei:corr"/>
     
+    <!-- Recoverable cancellations by the author or another hand -->
+    <xsl:template match="tei:del"/>
+    
+    
+    
 </xsl:stylesheet>
