@@ -107,7 +107,7 @@
    
    <xsl:template match="tei:pb">
       <br/><br/>
-      <span class="pagebreak">[Page&#xA0;-&#xA0;<xsl:number count="tei:pb" format="1" level="any"/>
+      <span class="pagebreak">[Page&#xA0;-&#xA0;<xsl:number count="tei:pb" format="1" level="any" from="tei:div[@type='letter']"/>
          &#xA0;(<a><xsl:attribute
             name="href"><xsl:value-of select="@facs"/>.jpg</xsl:attribute>
             <xsl:attribute name="target">_blank</xsl:attribute>click to open page image in a new window</a>)]</span>

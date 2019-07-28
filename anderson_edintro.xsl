@@ -522,7 +522,7 @@
       <a name="edition"/>
       <h2 id="edition">About the Electronic Edition</h2>
       <hr/>
-      <p><strong>Title</strong>: <xsl:value-of select="tei:title"/></p>
+      <p><strong>Title</strong>: "<xsl:value-of select="tei:title"/></p>"
          <p><strong>Editors</strong>: <xsl:for-each select="tei:editor/tei:persName">
             <xsl:choose>
                <xsl:when test="current()=//tei:titleStmt/tei:editor[1]">
@@ -547,9 +547,7 @@
       <p>
         <xsl:value-of select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:pubPlace"/>, <xsl:value-of
         select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:date"/>
-      </p>
-
-      
+      </p>      
    </xsl:template>
    
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:editorialDecl">
