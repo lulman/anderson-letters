@@ -21,7 +21,7 @@
       manuscript. Spelling, punctuation, capitalization, and abbreviations are reported as they
       appear in the manuscript. Text canceled by Anderson is presented in a red, strikethrough font.
       Uncertain readings are enclosed in square brackets and followed by a question mark. Text added
-      by Anderson in the margins is surrounded by "pipe" characters (|) at the point in the main text that ii
+      by Anderson in the margins is surrounded by "pipe" characters (|) at the point in the main text that it
       appears to follow. Links to external materials are colored and underlined.</xsl:variable>
    <xsl:variable name="bodyRule">
       body {
