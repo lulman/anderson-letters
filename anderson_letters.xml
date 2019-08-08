@@ -868,18 +868,17 @@
             <physDesc>
               <p>William B. Anderson's letter dated June 16, 1862 from Cincinnati and
                 addressed to his wife Louisa is written in ink on two sides of a 
-                loose sheet of paper measuring approximately 7.5 inches wide by 9.0 inches 
+                loose sheet of manilla-colored paper measuring approximately 7.5 inches wide by 9.0 inches 
                 tall (19 x 23 cm) and ruled with horizontal blue lines spaced .33 inches 
                 (0.8 cm) apart, except for a 1.5-inch (3.8 cm) unruled top margin. 
                 The left edge of the sheet is slightly ragged, while the other three edges 
                 are clean, suggesting that the sheet was torn from a notepad or bound notebook. 
-                It appears to have been folded in half once. Anderson indicates that this letter 
-                written in two seperate sessions. A .5-inch by .5-inch (1.3 x 1.3 cm) embossed 
+                The sheet appears to have been folded in half once. A .5-inch by .5-inch (1.3 x 1.3 cm) embossed 
                 printer's mark appears in the upper left- hand corner of the sheet, 0.5 inches
                 (1.3 cm) from the top edge and .25 inch (0.6 cm) from the left edge. 
                 Although the mark is indistinct, its shape closely matches that of a distinct, 
                 similarly sized and positioned printer's mark on a letter dated July 1, 1863,
-                which reads "MT HOLLY PAPER CO."</p>
+                which reads "MT HOLLY PAPER CO" over an ornate shield topped by a crown.</p>
               <accMat></accMat>
             </physDesc>
             <additional>
@@ -897,16 +896,9 @@
       <body>
         <div type="letter" xml:id="WBA_18620616_let">
           <pb facs="Letter01_pg1"/>
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
-          <lb/>
           <opener>
-            <lb/><dateline><date when="1862-06-16"></date>June 16/62</dateline>
-            <lb/><salute>My Dear<rs type="recipient">Wife</rs></salute>
+            <lb/><dateline><placeName><choice><expan>Cincinnati</expan><abbr>Cin</abbr></choice></placeName> <date when="1862-06-16"></date>June 16/62</dateline>
+            <lb/><salute>My Dear <rs type="recipient">Wife</rs></salute>
           </opener>
           <p>
             <lb/>I did not write to you 
@@ -914,7 +906,8 @@
             <lb/>short stay there &amp; thought we would 
             <lb/><choice><corr>beat</corr><sic>beet</sic></choice> the Mail up, we will leave 
             <lb/>here <choice><corr>tonight</corr><sic>to night</sic></choice> we had a good trip 
-            <lb/>of Coal boat men up here from <placeName ref=" LouisvilleKY">Louisville</placeName>
+            <lb/>of Coal boat men up here from <placeName ref=" LouisvilleKY">
+              <choice><corr>Louisville</corr><sic>Louisvile</sic></choice></placeName>
             <lb/>but our prospects are poor for a trip 
             <lb/>of either Freight or <choice><corr>passengers</corr><sic>Passenger</sic></choice> up, though 
             <lb/>upon the whole we make a paying trip  
@@ -930,7 +923,7 @@
             <lb/>just been down to see your <rs ref="#MAF">mother</rs><ptr type="noteAnchor" target="mother"/><note resp="ed" xml:id="mother">Mary Louisa Anderson's mother.<bibl><ref target="HOAC"></ref></bibl>.</note> she is not 
             <lb/>very well Today sends her respects  <persName>Ella</persName><ptr type="noteAnchor" target="ella"/><note resp="ed" xml:id="ella">Though unidentified, Ella appears in many letters (context? relations?).</note>
             <lb/>was at school I did not see her. There was 
-            <lb/>a large fire down between Third st and The river 
+            <lb/>a large fire down between Third St and The river 
             <lb/>yesterday just one <choice><corr>square</corr><sic>squear</sic></choice> above the old <choice><corr>lady's"</corr><sic>ladys</sic></choice>  
             <lb/>and burnt a lot of Old Houses &amp; other property 
             <lb/>we have had all our rooms but 3 in 
@@ -945,12 +938,12 @@
             <lb/>a trip I will offer you an invitation 
             <lb/><del type="recoverable" rend="overwritten" hand="WBA">t</del>we will if no accident get up about 
             <lb/>Saturday &amp; leave again about Tuesday 
-            <lb/><choice><corr>today</corr><sic>to day</sic></choice> it is all most suffocatingly hot 
+            <lb/><choice><corr>today</corr><sic>to day</sic></choice> it is <choice><corr>almost</corr><sic>all most</sic></choice> suffocatingly hot 
             <lb/>and the dust is so thick that I cannot 
             <lb/>scarcely see the buildings along the wharf  
             <lb/>&amp; I think we must surely have a gust soon  
             <lb/>I will stop for I expect to spend Sunday 
-            <lb/>with you &amp; the small ones <note target="n4">4</note> 
+            <lb/>with you &amp; the small ones 
           </p>
           <p>
             <lb/>tell <persName>Mary McNamee</persName> that WM was over 
@@ -959,7 +952,7 @@
             <lb/>Tuesday <choice><abbr>Eveng</abbr><expan>Evening</expan></choice>
           </p>
           <closer>
-            <lb/><salute>Affectionately &amp; <del type="recoverable" rend="overwritten" hand="WBA"></del>Truly Your</salute>
+            <salute>Affectionately &amp; <del type="recoverable" rend="overwritten" hand="WBA"></del>Truly Your</salute>
             <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WBA</abbr></choice></persName></signed>
           </closer>
           <!-- If there were a <postscript>, we have a tag for that. -->
@@ -968,7 +961,9 @@
     </text>
   </TEI>
   
-  <TEI xml:id="WBA_18620627" n="1862-06-27">
+  <!-- FINAL PROOFING AGAINST DIPLOMATIC VIEW 8 AUG 2019 -->
+  
+  <TEI xml:id="WBA_18620627" n="18620627">
     <teiHeader>
       <fileDesc>
         <titleStmt>
@@ -1075,7 +1070,7 @@
     </text>
   </TEI>
 
-  <TEI xml:id="WBA_18620711" n="1862-07-11">
+  <TEI xml:id="WBA_18620711" n="18620711">
     <!-- FILL IN THE VALUES ABOVE -->
     <teiHeader>
       <fileDesc>
@@ -1143,13 +1138,13 @@
           </figure>
           <lb/>
           <opener>
-            <lb/><dateline><address><placeName type="city" ref="PittsburghPA"><del>Pitts </del></placeName>
+            <lb/><dateline><address><del type="recoverable" hand="WBA" rend="overstrike"><placeName type="city" ref="PittsburghPA">Pitts </placeName></del>
               <placeName type="city" ref="CincinnatiOH">Cin<ptr type="noteAnchor" target="Cin"/><note resp="ed" xml:id="Cin">The "2" is somewhat unclear. 
                 It resembles a "4". However, later in the letter, the
                 author tells his wife to "be sure to write as before" and that he has "enclosed an envelope in
                 yesterday's letter. The day before (Friday) July 11, 1962 would have been a Thursday, whereas the 
                 day before (Monday) July 11, 1964 would have been a Sunday. Assuming the author literally enclosed and mailed
-                a letter containing an envelope, the date must be 1962 as he could not have sent mail out on Sunday.</note>
+                a letter containing an envelope, the date must be 1862 as he could not have sent mail out on Sunday.</note>
              </placeName></address>
               
               <date when="1862-07-11">July 11/62</date></dateline>
@@ -1247,7 +1242,7 @@
     </text>
   </TEI>
   
-  <TEI xml:id="WBA_18620728" n="1862-07-28">
+  <TEI xml:id="WBA_18620728" n="18620728">
     <!-- FILL IN THE VALUES ABOVE -->
     <teiHeader>
       <fileDesc>
@@ -1400,7 +1395,7 @@
     </text>
   </TEI>
 
-  <TEI xml:id="WBA_18620810" n="1862-08-10">
+  <TEI xml:id="WBA_18620810" n="18620810">
     <!-- FILL IN THE VALUES ABOVE -->
     <teiHeader>
       <fileDesc>
@@ -1534,7 +1529,7 @@
     </text>
   </TEI>
  
-  <TEI xml:id="WBA_18620816" n="1862-08-16">
+  <TEI xml:id="WBA_18620816" n="18620816">
     <!-- FIRST COPY THIS TEI ELEMENT!! -->
     <!-- FILL IN THE VALUES ABOVE -->
     <teiHeader>
@@ -1600,7 +1595,7 @@
           </figure>
           <lb/>
           <opener>
-            <lb/><dateline><date when="1862-08-16">Aug 16 /64</date><ptr type="noteAnchor" target="dateError"/>
+            <lb/><dateline><date when="1862-08-16">Aug 16 /62</date><ptr type="noteAnchor" target="dateError"/>
               <note resp="ed" xml:id="dateError">Anderson records the day as Sunday, but in August 1862, the 16th fell
                 on a Saturday.</note></dateline>
             <lb/><salute>My Dear<rs ref="#MLA">Wife</rs></salute>
@@ -1674,7 +1669,7 @@
     </text>
   </TEI>
   
-  <TEI xml:id="WBA_18620824" n="1862-08-24">
+  <TEI xml:id="WBA_18620824" n="18620824">
     <teiHeader>
       <fileDesc>
         <titleStmt>
@@ -1726,7 +1721,7 @@
         <div type="letter" xml:id="WBA_18620824_let">
           <pb facs="Letter07_pg1"/>
           <opener>
-            <lb/><dateline><date when="1862-08-24">Sunday Aug 24/64</date></dateline>
+            <lb/><dateline><date when="1862-08-24">Sunday Aug 24/62</date></dateline>
             <lb/><salute>My <choice><abbr>Dr</abbr><expan>Dear</expan></choice><rs ref="#MLA"> Wife</rs></salute>
           </opener>
           <p>
@@ -1796,7 +1791,7 @@
     </text>
   </TEI>
   
-  <TEI xml:id="WBA_18620901" n="1862-09-01">
+  <TEI xml:id="WBA_18620901" n="18620901">
     <!-- FIRST COPY THIS TEI ELEMENT!! -->
     <!-- FILL IN THE VALUES ABOVE -->
     <teiHeader>
@@ -1901,7 +1896,7 @@
     </text>
   </TEI>
 
-  <TEI xml:id="WBA_18620917" n="1862-09-17">
+  <TEI xml:id="WBA_18620917" n="18620917">
     <!-- FIRST COPY THIS TEI ELEMENT!! -->
     <!-- FILL IN THE VALUES ABOVE -->
     <teiHeader>
@@ -1926,7 +1921,7 @@
               <p>In this letter, Anderson shows a bit of emotion as he recounts his 
                 encounters with the war thus far. Anderson writes of the
                 impoverished life he and his fellow shipmates live and becomes nostalgic
-                over the simpler pleasures in life like Butter [sic] and Beef [sic]. 
+                over the simpler pleasures in life like butter and beef. 
                 Anderson asks his wife to pay a vist to John Russell in order to collect 
                 the money that Russell owes Anderson; Anderson fears that Russell
                 will be slow to repay if his wife does not express a strong sense of need. 
@@ -2048,7 +2043,7 @@
     </text>
   </TEI>
 
-  <TEI xml:id="WBA_18620928" n="1862-09-28">
+  <TEI xml:id="WBA_18620928" n="18620928">
     <!-- FIRST COPY THIS TEI ELEMENT!! -->
     <!-- FILL IN THE VALUES ABOVE -->
     <!-- ADD EDITOR'S NAME TO LIST -->
@@ -2194,7 +2189,7 @@
     </text>
   </TEI>
 
-  <TEI xml:id="WBA_18621007" n="1862-10-07">
+  <TEI xml:id="WBA_18621007" n="18621007">
     <!-- FIRST COPY THIS TEI ELEMENT!! -->
     <!-- FILL IN THE VALUES ABOVE -->
     <!-- ADD EDITOR'S NAME TO LIST -->
@@ -2354,7 +2349,7 @@
     </text>
   </TEI>
   
-  <TEI xml:id="WBA_18621016" n="1862-10-16">
+  <TEI xml:id="WBA_18621016" n="18621016">
     <!-- FIRST COPY THIS TEI ELEMENT!! -->
     <!-- FILL IN THE VALUES ABOVE -->
     <!-- ADD EDITOR'S NAME TO LIST -->
@@ -2540,7 +2535,7 @@
     </text>
   </TEI>
 
-  <TEI xml:id="WBA_18630619" n="1863-06-19">
+  <TEI xml:id="WBA_18630619" n="18630619">
     <!-- FIRST COPY THIS TEI ELEMENT!! -->
     <!-- FILL IN THE VALUES ABOVE -->
     <!-- ADD EDITOR'S NAME TO LIST -->
@@ -2682,7 +2677,7 @@
     </text>
   </TEI>
 
-  <TEI xml:id="WBA_18630701" n="1863-07-01">
+  <TEI xml:id="WBA_18630701" n="18630701">
     <!-- FIRST COPY THIS TEI ELEMENT!! -->
     <!-- FILL IN THE VALUES ABOVE -->
     <!-- ADD EDITOR'S NAME TO LIST -->
@@ -2827,7 +2822,7 @@
     </text>
   </TEI>
 
-  <TEI xml:id="WBA_18630705" n="1863-07-05">
+  <TEI xml:id="WBA_18630705" n="18630705">
     <!-- FIRST COPY THIS TEI ELEMENT!! -->
     <!-- FILL IN THE VALUES ABOVE -->
     <!-- ADD EDITOR'S NAME TO LIST -->
@@ -2989,7 +2984,7 @@
     </text>
   </TEI>
 
-  <TEI xml:id="WBA_18630718" n="1863-07-18">
+  <TEI xml:id="WBA_18630718" n="18630718">
     <!-- FIRST COPY THIS TEI ELEMENT!! -->
     <!-- FILL IN THE VALUES ABOVE -->
     <!-- ADD EDITOR'S NAME TO LIST -->
@@ -3105,7 +3100,7 @@
     </text>
   </TEI>
 
-  <TEI xml:id="WBA_18630731" n="1863-07-31">
+  <TEI xml:id="WBA_18630731" n="18630731">
     <!-- FIRST COPY THIS TEI ELEMENT!! -->
     <!-- FILL IN THE VALUES ABOVE -->
     <!-- ADD EDITOR'S NAME TO LIST -->
@@ -3259,7 +3254,7 @@
     </text>
   </TEI>
 
-  <TEI xml:id="WBA_18630801" n="1863-08-01">
+  <TEI xml:id="WBA_18630801" n="18630801">
     <!-- FIRST COPY THIS TEI ELEMENT!! -->
     <!-- FILL IN THE VALUES ABOVE -->
     <!-- ADD EDITOR'S NAME TO LIST -->
@@ -3369,7 +3364,7 @@
     </text>
   </TEI>
 
-  <TEI xml:id="WBA_18640810" n="1864-08-10">
+  <TEI xml:id="WBA_18640810" n="18640810">
     <!-- FIRST COPY THIS TEI ELEMENT!! -->
     <!-- FILL IN THE VALUES ABOVE -->
     <!-- ADD EDITOR'S NAME TO LIST -->
@@ -3510,7 +3505,7 @@
     </text>
   </TEI>
 
-  <TEI xml:id="WBA_18640814" n="1864-08-14">
+  <TEI xml:id="WBA_18640814" n="18640814">
     <!-- FIRST COPY THIS TEI ELEMENT!! -->
     <!-- FILL IN THE VALUES ABOVE -->
     <!-- ADD EDITOR'S NAME TO LIST -->

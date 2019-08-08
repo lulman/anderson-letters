@@ -706,10 +706,11 @@
       <xsl:apply-templates/>
    </xsl:template>
    <xsl:template match="tei:choice/tei:reg"/>
+<!--   NOT USED IN THIS EDITION
    <xsl:template match="tei:distinct[@type='babyTalk']">
       <xsl:apply-templates/> [sic] 
    </xsl:template>
-
+-->
    <!--MISCELLANEOUS TEXTUAL FEATURES. -->
 
    <!-- Quotes -->

@@ -131,7 +131,8 @@
         </p>
     </xsl:template>
     <xsl:template match="tei:choice/tei:sic">
-        <xsl:apply-templates/> [sic] </xsl:template>
+        <xsl:apply-templates/> [<xsl:element name="span"><xsl:attribute name="style">font-style: italic;</xsl:attribute>sic</xsl:element>]
+    </xsl:template>
     <xsl:template match="tei:choice/tei:corr"/>
     
     <!-- Recoverable cancellations by the author or another hand -->
