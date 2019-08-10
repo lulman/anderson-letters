@@ -559,7 +559,15 @@
                </bibl>
                <bibl xml:id="adamsexpress" n="adamsexpress">
                  <title level="m">Adams Express Company Journal</title>. Explore UK. https://exploreuk.uky.edu
-               </bibl>               
+               </bibl>
+               <bibl xml:id="McBurney" n="Gaines"> Gaines, W. Craig. <title level="m">Encyclopedia of
+              Civil War Shipwrecks</title>. LSU Press, 2008.
+               </bibl>
+               <bibl xml:id="historyof" n="historyof">
+                 <title level="m">History of Washington County, Ohio, with illustrations and biographical sketches</title>. Ohio, H. Z. Williams &amp; bro., 1881.
+               </bibl>
+               
+               
                
                
              </listBibl>
@@ -794,6 +802,7 @@
 
          <handNotes>
            <handNote xml:id="WBAink" medium="ink">Anderson, William B.</handNote>
+           <handNote xml:id="UnknownPencil">Pencilled notes in an unidentified hand.</handNote>
          </handNotes>
          
          <!-- FOR EACH LETTER, UPDATE LCSH KEYWORDS -->
@@ -839,11 +848,11 @@
   
   <!-- INDIVIDUAL LETTERS -->
     
-  <TEI xml:id="WBA_18620616" n="1862-06-16">
+  <TEI xml:id="WBA_18620616" n="18620616">
     <teiHeader>
       <fileDesc>
         <titleStmt>
-          <title>Letter from William B. Anderson to his Wife, Louisa, 16 June 1862</title>
+          <title>Letter from William B. Anderson to his wife, Louisa, 16 June 1862</title>
           <author>Anderson, William B.</author>
         </titleStmt>
         <publicationStmt>
@@ -859,10 +868,11 @@
               <idno>SPEC.RARE.CMS.0309</idno>
             </msIdentifier>
             <msContents>
-              <p>William B. Anderson writes home to his wife, Louisa, from Cincinnati, Ohio. He is hauling Coal Boat men from Louisville, Kentucky. 
-                While in Cincinnati, Anderson visits his mother-in-law, the 'old lady,' as well as family friends. During the dry, dusty, June weather, 
-                a fire breaks out near the Ohio River and Third St, destroying several houses. He opens his riverboat up as an improptu shelter for the fire
-                victims, even filling the typically unoccupied Ladies' Cabins. Anderson closes the letter by inviting Louisa to accompany him on his next
+              <p>Anderson writes home to Louisa from Cincinnati, Ohio. He is hauling Coal Boat men
+                from Louisville, Kentucky. While in Cincinnati, Anderson visits his mother-in-law
+                (whom he calls the "old lady") as well as family friends. During the dry, dusty,
+                June weather, a fire breaks out near the Ohio River and Third St, destroying several
+                houses. Anderson closes the letter by inviting Louisa to accompany him on his next
                 trip to Cincinnati.</p>
             </msContents>
             <physDesc>
@@ -983,28 +993,26 @@
               <idno>SPEC.RARE.CMS.0309</idno>
             </msIdentifier>
             <msContents>
-              <p>Anderson tells his wife that his boat's departure has been delayed by a day 
-                and asks her to send some food and clothes to him at the dock. He also expresses 
+              <p>Writing from Pittsburgh, Anderson tells Louisa that his boat's departure has been delayed by a day 
+                and asks her to send some food and clothes to him at the dock in Shousetown, PA. He also expresses 
                 anxiety about whether his trip will be profitable and asks his wife to request 
-                some money from [John?] Russell to help cover an upcoming payday for his crew.</p>
+                some money from a Mr. Russell to help cover an upcoming payday for his crew.</p>
             </msContents>
             <physDesc>
               <p>William B. Anderson's letter dated June 27, 1862 from Pittsburgh and
                 addressed to his wife Louisa is written in ink on one side of a 
-                loose sheet of paper measuring approximately 7.5 inches wide by 9.0 inches 
+                loose sheet of manilla-colored paper measuring approximately 7.5 inches wide by 9.0 inches 
                 tall (19 x 23 cm) and ruled with horizontal blue lines spaced .33 inches 
                 (0.8 cm) apart, except for a 1.5-inch (3.8 cm) unruled top margin. 
                 The left edge of the sheet is slightly ragged, while the other three edges 
                 are clean, suggesting that the sheet was torn from a notepad or bound notebook. 
-                It appears originally to have been folded once crosswise and twice lengthwise. 
-                At this writing, the ink appears brown and the paper off-white (cream). A .5-inch
-                by .5-inch (1.3 x 1.3 cm) embossed printer's mark appears in the upper lefthand 
-                corner of the sheet, 0.5 inches (1.3 cm) from the top edge and .25 inches 
-                (0.6 cm) from the left edge. Although the mark is indistinct, its shape 
-                closely matches that of a distinct, similarly sized and positioned printer's 
-                mark on a letter dated July 1, 1863, which reads "MT HOLLY PAPER CO." 
-                (see illustrations). Texture? Stiffness? Watermarks? I will have to visit 
-                the RBML.</p>
+                The sheet appears to have been folded in half once, then again into thirds. 
+                A .5-inch by .5-inch (1.3 x 1.3 cm) embossed 
+                printer's mark appears in the upper left- hand corner of the sheet, 0.5 inches
+                (1.3 cm) from the top edge and .25 inch (0.6 cm) from the left edge. 
+                Although the mark is indistinct, its shape closely matches that of a distinct, 
+                similarly sized and positioned printer's mark on a letter dated July 1, 1863,
+                which reads "MT HOLLY PAPER CO" over an ornate shield topped by a crown.</p>
               <accMat></accMat>
             </physDesc>
             <additional>
@@ -1021,25 +1029,21 @@
     <text>
       <body>
         <div type="letter" xml:id="WBA_18620627_let">
-          <pb facs="Letter01_pg1"/>
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
-          <lb/>
+          <pb facs="Letter03_pg1"/>
           <opener>
-            <lb/><dateline><date when="1862-06-27"></date>June 27/62</dateline>
+          <lb/><add place="margin"> Mr Geo Norris &amp; <unclear>Lady</unclear>
+          <lb/>Room # 6 </add><ptr type="noteAnchor" target="Norris"/><note resp="ed" xml:id="Norris">
+              This pencilled note appears in the top margin. It was presumably added after
+          the letter was composed, but the context is unknown.</note>
+            <lb/><dateline><placeName ref="#PittsburghPA">Pittsburgh</placeName> <date when="1862-06-27"></date>June 27/62</dateline>
             <lb/><salute>Dear <rs ref="MLA" type="recipient">Wife</rs></salute>
           </opener>
           <p>
-            
             <lb/> I wish to inform you that
             <lb/> we are not able to get out till tom<seg type="softhyphen">
             <lb/>=</seg>orrow we will not leave here till in the
             <lb/> afternoon we are getting a full load
-            <lb/> or will have a full load before we leave
+            <lb/> or will have a full load before we <choice><corr>leave</corr><sic>lave</sic></choice>
             <lb/> but Prices are low we are anxious to make 
             <lb/> money and cannot depend upon getting
             <lb/> any freight below here.  You may send
@@ -1062,7 +1066,7 @@
             
           <closer>
             <lb/><salute>Your </salute>
-            <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WB</abbr></choice> Anderson</persName></signed>
+            <signed><persName ref="#WBA"><choice><abbr type="initials">WB</abbr></choice> Anderson</persName></signed>
           </closer>
           <!-- If there were a <postscript>, we have a tag for that. -->
         </div>
@@ -1075,7 +1079,7 @@
     <teiHeader>
       <fileDesc>
         <titleStmt>
-          <title>Personal letter from William B. Anderson to his wife, Louisa, 11 July 1862</title>
+          <title>Letter from William B. Anderson to his wife, Louisa, 11 July 1862</title>
           <author>Anderson, William B.</author>
         </titleStmt>
         <publicationStmt>
@@ -1130,35 +1134,19 @@
         <div type="letter" xml:id="WBA_18620711_let">
           <!-- REVISE THE VALUES ABOVE -->
           <pb facs="Letter04_pg1"/>
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
-          <lb/>
           <opener>
-            <lb/><dateline><address><del type="recoverable" hand="WBA" rend="overstrike"><placeName type="city" ref="PittsburghPA">Pitts </placeName></del>
-              <placeName type="city" ref="CincinnatiOH">Cin<ptr type="noteAnchor" target="Cin"/><note resp="ed" xml:id="Cin">The "2" is somewhat unclear. 
-                It resembles a "4". However, later in the letter, the
-                author tells his wife to "be sure to write as before" and that he has "enclosed an envelope in
-                yesterday's letter. The day before (Friday) July 11, 1962 would have been a Thursday, whereas the 
-                day before (Monday) July 11, 1964 would have been a Sunday. Assuming the author literally enclosed and mailed
-                a letter containing an envelope, the date must be 1862 as he could not have sent mail out on Sunday.</note>
-             </placeName></address>
-              
-              <date when="1862-07-11">July 11/62</date></dateline>
+            <lb/><dateline><placeName type="city" ref="PittsburghPA"><del type="recoverable" hand="WBA" rend="overstrike">
+              Pitts</del></placeName> <placeName type="city" ref="CincinnatiOH">Cin
+             </placeName><date when="1862-07-11">July 11/62</date></dateline>
             <lb/><salute>Dear <rs type="recipient" ref="MLA">Wife</rs></salute>
           </opener>
           <p>
-            <lb/> I have but a moment to
+            <lb/> I have <del type="recoverable" rend="overstrike">on</del>but a moment to
             <lb/> drop you a line we are about to leave
             <lb/>here it is now 1 Oclock and we are
-            <lb/>anxious to leave ahead of the <name type="ship">Fanny M Burny</name><ptr type="noteAnchor" target="McBurnie"/><note resp="ed" xml:id="McBurnie">The author 
-              is most definitely referring to a riverboat. Although the writing is unclear, 
-              he may be naming the Fanny McBurnie. If so, he has misspelled the name by replacing 
-              the ‘ie’ with a ‘y’, writing M. Burny. I found no record of a boat that went by such 
-              a spelling. However, the Fanny McBurnie (or McBurney) seems to have existed (need citation).</note>
+            <lb/>anxious to leave ahead of the <name type="ship">Fanny McBurny</name><ptr type="noteAnchor" target="McBurny"/>
+            <note resp="ed" xml:id="McBurny">Presumably the Fanny McBurney (Fanny McBurnie), a Union stern-wheeled steamer built
+              at Cincinnati in 1860 <bibl>Gaines 94; History of Washington County 379</bibl>.</note>
             <lb/>for by doing so we Can beat her to <seg type="softhyphen">
             <lb/>=</seg>ville and by so doing will be benefitted
             <lb/>Materially our prospects are poor &amp; we can
