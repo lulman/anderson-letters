@@ -502,15 +502,15 @@
                  https://archive.org/details/historyofalleghe01cush/page/298
                </bibl>
                <bibl xml:id="hewitt" n="hewitt">
-                 <title level="u"> Lecture to English 569C, Digital Media and English Studies.</title> The Ohio State University. 
+                 Hewitt, Elizabeth.<title level="u"> Lecture to English 569C, Digital Media and English Studies.</title> The Ohio State University. 
                    6 Apr. 2006.
                </bibl>
                <bibl xml:id="Levy" n="Levy">
-                 <title level="m">Scrolling Forward: Making Sense of Documents in the Digital
+                 Levy, David. <title level="m">Scrolling Forward: Making Sense of Documents in the Digital
                    Age</title>. New York: Arcade, 2001.
                </bibl>
                <bibl xml:id="SmithG" n="SmithG">
-                 <title level="u">Lecture to English 569C, Digital Media and English Studies.</title>. The Ohio State University. 30 Mar. 2006.
+                 Smith, Geoff. <title level="u">Lecture to English 569C, Digital Media and English Studies.</title>. The Ohio State University. 30 Mar. 2006.
                </bibl>
                <bibl xml:id="BioRev" n="Biographical">
                  <title level="m">Biographical Review; v. 24, containing life sketches of leading citizens 
@@ -531,8 +531,8 @@
                <bibl xml:id="Neumeier" n="neumeier">
                  Neumeier, Franz and Carmen Winkler. <title level="m">http://www.steamboats.org/cgi-bin/database.pl</title>
                </bibl>
-               <bibl xml:id="WVE" n="WestVirginia">
-                 <title level="a">May 31, 2008: Mount de Chantal Visitation Academy Graduates Last Class</title>. <title level="m">West Virginia Encyclopedia</title>.
+               <bibl xml:id="WVE" n="May31">
+                 <title level="a">May 31, 2008: Mount de Chantal Visitation Academy Graduates Last Class.</title> <title level="m">West Virginia Encyclopedia</title>.
                   https://www.wvpublic.org/post/may-31-2008-mount-de-chantal-visitation-academy-graduates-last-class-0#stream/0.
                </bibl>
                <bibl xml:id="LMR" n="LittleMiami">
@@ -544,14 +544,14 @@
                  Publishing Company, 1915.
                </bibl>
                <bibl xml:id="Brodhead" n="Brodhead">
-                 <title level="a">Wright, Horatio Gouverneur.</title> <title level="m">American National
+                 Brodhead, Michael J. <title level="a">Wright, Horatio Gouverneur.</title> <title level="m">American National
                  Biography</title>. https://doi-org.proxy.lib.ohio-state.edu/10.1093/anb/9780198606697.article.0500857.
                </bibl>
                <bibl xml:id="histpitt" n="historic">
                  <title level="m">Historic Pittsburgh</title>. University of Pittsburgh Library System. https://historicpittsburgh.org
                </bibl>
                <bibl xml:id="rosenburg" n="rosenburg">
-                 Rosenburg, R. B. <title level="a">Morgan, John Hunt</title>. <title level="m">American National Biography</title>. February 2000. https://doi-org.proxy.lib.ohio-state.edu/10.1093/anb/9780198606697.article.0400720
+                 Rosenburg, R. B. <title level="a">Morgan, John Hunt.</title> <title level="m">American National Biography</title>. February 2000. https://doi-org.proxy.lib.ohio-state.edu/10.1093/anb/9780198606697.article.0400720
                </bibl>
                <bibl xml:id="regional" n="regional">
                  <title level="m">Regional Cooperation for Water Quality Improvement in Southwestern Pennsylvania</title>. Water Science and Technology Board. Washington,
@@ -1095,27 +1095,24 @@
               <idno>SPEC.RARE.CMS.0309</idno>
             </msIdentifier>
             <msContents>
-              <p>Anderson tells his wife that his boat will attempt to beat another riverboat 
-                to Murraysville, WV. He explains that his sleep has been restless, inquires about their two sons and asks 
-                her to write more and to write back regarding business prospects. He is rushed, and signs off three times.</p>
+              <p>Anderson writes that he hopes his boat will to beat riverboat Fanny McBurney to
+                Maysville, KY in order to realize more profit on the trip, though he thinks his "prospects are poor" and is concerned
+                about delays due to low water. He complains that his sleep has been restless because of mosquitoes,
+                and he asks Louisa to write more—and at greater length—about their children and their crops.</p>
             </msContents>
             <physDesc>
-              <p>William B. Anderson's letter dated July 11, 1862 from Cincinnati and
-                addressed to his wife Louisa is written in ink on both sides of a 
-                loose sheet of paper measuring approximately 7.5 inches wide by 12.5 inches 
-                tall (20 x 32 cm). The paper is not ruled as are others in this collection.  
-                The left edge of the sheet is slightly ragged, while the other three edges 
-                are clean, suggesting that the sheet was torn from a notepad or bound notebook. 
-                It appears originally to have been folded twice crosswise and not lengthwise, leaving
-                a 5 inch middle section without foldes. This may or may not illustrate the size of the envelope. 
-                At this writing, the ink appears brown and the paper off-white (cream). A .5-inch
-                by .5-inch (1.3 x 1.3 cm) embossed printer's mark appears in the upper lefthand 
-                corner of the sheet, 0.5 inches (1.3 cm) from the top edge and .25 inches 
-                (0.6 cm) from the left edge. Although the mark is indistinct, its shape 
-                closely matches that of a distinct, similarly sized and positioned printer's 
-                mark on a letter dated July 18, 1863, which reads "OWEN &amp; HURLBUT SO. LEE MASS" 
-                (see illustrations). Texture? Stiffness? Watermarks? I will have to visit 
-                the RBML.</p>
+              <p>Anderson's letter dated July 11, 1862 from Cincinnati is written in ink on both
+                sides of a loose sheet of manilla-colored, unlined paper measuring approximately 7.5
+                inches wide by 12.5 inches tall (20 x 32 cm). The left edge of the sheet is slightly
+                ragged, while the other three edges are clean, suggesting that the sheet was torn
+                from a notepad or bound notebook. It appears originally to have been folded twice
+                crosswise and twice lengthwise. At this writing, the ink appears
+                brown. A .5-inch by .5-inch (1.3 x 1.3 cm) embossed
+                printer's mark appears in the upper lefthand corner of the sheet, 0.5 inches (1.3
+                cm) from the top edge and .25 inches (0.6 cm) from the left edge. Although the mark
+                is indistinct, its shape closely matches that of a distinct, similarly sized and
+                positioned printer's mark on a letter dated July 18, 1863, which reads "OWEN &amp;
+                HURLBUT | SO. LEE | MASS."</p>
               <accMat></accMat>
             </physDesc>
             <additional>
@@ -1147,12 +1144,12 @@
             <lb/>anxious to leave ahead of the <name type="ship">Fanny McBurny</name><ptr type="noteAnchor" target="McBurny"/>
             <note resp="ed" xml:id="McBurny">Presumably the Fanny McBurney (Fanny McBurnie), a Union stern-wheeled steamer built
               at Cincinnati in 1860 <bibl>Gaines 94; History of Washington County 379</bibl>.</note>
-            <lb/>for by doing so we Can beat her to <seg type="softhyphen">
+            <lb/>for by doing so we Can beat her to Mays<seg type="softhyphen">
             <lb/>=</seg>ville and by so doing will be benefitted
             <lb/>Materially our prospects are poor &amp; we can
             <lb/>not count on making much this trip but
             <lb/>are bound <supplied reason ="omitted">to</supplied> Keep the Boat moving I
-            <lb/>Telegraphed to <placeName type="city" ref="PittsburghPA">Pitt</placeName> today to see what the 
+            <lb/>Telegraphed t<supplied reason="omitted">o</supplied> <placeName type="city" ref="PittsburghPA">Pitt</placeName> today to see what the 
             <lb/>prospect of water was &amp; have not got an
             <lb/>Answer to my dispatch yet,  I am extremely 
             <lb/>Anxious to get home and will go as soon
@@ -1161,9 +1158,9 @@
             <lb/>to put in, I never saw the like of the mosquitoes
             <lb/>I tried to Sleep in my room &amp; Failed and then
             <lb/>failed and tried in the recess at the stern and
-            <lb/>failed then also &amp; then in the Boiler deck &amp;
+            <lb/>failed then also &amp; then on the Boiler deck &amp;
             <lb/>from that to the hurricane deck &amp; still failed
-            <lb/>and John and I started up town and got a
+            <lb/>and John &amp; I started up town and got a
             <lb/>good room at the spence house and slept from
             <lb/>1 to 5 oclock which is the best sleep I have
             <lb/>had for a week.  You would not think that
@@ -1175,17 +1172,13 @@
             <lb/>place to write and I have not,  give my love
             <lb/>to the children and yourself  I am in a hurry
             <lb/>Excuse bad writing  
-            <!-- TEXT OF THE LETTER between OPENER and CLOSER. ADD NOTES!  -->
           </p> 
           <closer>
-            <lb/>
-            <lb/><salute>Your Husband</salute>
-            <lb/>
-            <signed>
+            <salute>Your Husband</salute>
+            <lb/><signed>
               <persName ref="WBA">WB Anderson</persName>
             </signed> 
-            <lb/>
-          </closer>
+           </closer>
           <!-- If there were a <postscript>, we have a tag for that. -->
           <postscript>
             <pb facs="Letter04_pg2"/>
@@ -1202,7 +1195,6 @@
             </p>
           </postscript>
             <closer>
-              <lb/>
               <lb/><salute>Your <choice><corr>respectfully</corr><sic>respectfuly</sic></choice></salute>
               <lb/>
               <signed>
@@ -1215,11 +1207,9 @@
               <lb/>PS be sure to write as before
               <lb/>I enclosed an <choice><corr>envelope</corr><sic>Envellop</sic></choice> in Yesterdays
               <lb/>letter
-              
-            </p>
+             </p>
             <closer>
-              <lb/>
-              <lb/>
+               <lb/>
               <signed>
                 <persName ref="WBA" type="person">WBA</persName>
               </signed>
@@ -1229,7 +1219,9 @@
       </body>
     </text>
   </TEI>
-  
+
+  <!-- FINAL PROOFING AGAINST DIPLOMATIC VIEW 10 AUG 2019 -->
+
   <TEI xml:id="WBA_18620728" n="18620728">
     <!-- FILL IN THE VALUES ABOVE -->
     <teiHeader>

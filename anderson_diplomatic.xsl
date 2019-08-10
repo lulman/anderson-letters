@@ -22,7 +22,9 @@
       appear in the manuscript. Text canceled by Anderson is presented in a red, strikethrough font.
       Uncertain readings are enclosed in square brackets and followed by a question mark. Text added
       by Anderson in the margins is surrounded by "pipe" characters (|) at the point in the main text that it
-      appears to follow. Links to external materials are colored and underlined.</xsl:variable>
+      appears to follow. Uncertain readings are enclosed in square brackets and followed by a
+      question mark, and text supplied by the editor for clarity is set in italics and surrounded
+      by square brackets.  Links to external materials are colored and underlined.</xsl:variable>
    <xsl:variable name="bodyRule">
       body {
       font-family: 'Fanwood Text',georgia, serif;
