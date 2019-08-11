@@ -1095,7 +1095,7 @@
               <idno>SPEC.RARE.CMS.0309</idno>
             </msIdentifier>
             <msContents>
-              <p>Anderson writes that he hopes his boat will to beat riverboat Fanny McBurney to
+              <p>Anderson writes that he hopes his boat will beat riverboat Fanny McBurney to
                 Maysville, KY in order to realize more profit on the trip, though he thinks his "prospects are poor" and is concerned
                 about delays due to low water. He complains that his sleep has been restless because of mosquitoes,
                 and he asks Louisa to write more—and at greater length—about their children and their crops.</p>
@@ -1285,15 +1285,9 @@
         <div type="letter" xml:id="WBA_18620728_let">
           <!-- REVISE THE VALUES ABOVE -->
           <pb facs="Letter20_pg1"/>
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
-          <lb/>
           <opener>
-            <lb/><dateline><date when="1862-07-28"></date>Monday 28 1862</dateline>
+            <lb/><dateline><placeName type="city" ref="CincinnatiOH">Cin
+            </placeName> <date when="1862-07-28"></date>Monday 28 1862</dateline>
             <lb/><salute>Dear<rs type="recipient">Wife</rs></salute>
           </opener>
           <p>
