@@ -1227,7 +1227,7 @@
     <teiHeader>
       <fileDesc>
         <titleStmt>
-          <title>Letter from William B. Anderson to his wife, Louisa, July[?] 28, 1862</title>
+          <title>Letter from William B. Anderson to his wife, Louisa, July 28, 1862</title>
           <author>Anderson, William B.</author>
         </titleStmt>
         <publicationStmt>
@@ -1243,30 +1243,23 @@
               <idno>SPEC.RARE.CMS.0309</idno>
             </msIdentifier>
             <msContents>
-              <p>William B. Anderson's letter was addressed to his wife, Louisa, telling her that he was 
-                glad to hear about her welfare and also to hear about the kids doing well. 
-                William says in the letter that the war is far from over even though some people might think otherwise. 
-                William also ask Louisa to write him back when she gets a chance because from the time he gets 
-                back he'll have another letter waiting.</p>
+              <p>Anderson discusses details of his trading and shares reflections on the war, including a group of
+                prisoners aboard his riverboat and his sense that the war is "far from over."</p>
             </msContents>
             <physDesc>
-              <p>William B. Anderson's letter dated July 28, 1862 and
-                addressed to his wife Louisa is written in ink on two sides of a 
-                loose sheet of paper measuring approximately 7.5 inches wide by 9.0 inches 
-                tall (19 x 23 cm) and ruled with horizontal blue lines spaced .33 inches 
-                (0.8 cm) apart, except for a 1.5-inch (3.8 cm) unruled top margin. On the second page 
-                William writes part of the letter on the left side because he ran out of room.
-                The left edge of the sheet is slightly ragged, while the other three edges 
-                are clean, suggesting that the sheet was torn from a notepad or bound notebook. 
-                It appears originally to have been folded once crosswise and twice lengthwise.
-                On the second page, William writes on the side of the page because maybe he was
-                running out of room.
-                At this writing, the ink appears brown and the paper off-white (cream). A .5-inch
-                by .5-inch (1.3 x 1.3 cm) embossed printer's mark appears in the upper lefthand 
-                corner of the sheet, 0.5 inches (1.3 cm) from the top edge and .25 inches 
-                (0.6 cm) from the left edge. Although the mark is indistinct, its shape 
-                closely matches that of a distinct, similarly sized and positioned printer's 
-                mark on a letter dated July 1, 1863, which reads "MT HOLLY PAPER CO."</p>
+              <p>Anderson's letter dated July 28, 1862 from Cincinnati and addressed to his wife
+                Louisa is written in ink on two sides of a loose sheet of manilla-colored paper
+                measuring approximately 7.5 inches wide by 9.0 inches tall (19 x 23 cm) and ruled
+                with horizontal blue lines spaced .33 inches (0.8 cm) apart, except for a 1.5-inch
+                (3.8 cm) unruled top margin. On the second page. William writes a postscript in the
+                left margin. The left edge of the sheet is slightly ragged, while the other three
+                edges are clean, suggesting that the sheet was torn from a notepad or bound
+                notebook. It appears originally to have been folded once crosswise and twice
+                lengthwise. A .5-inch by .5-inch (1.3 x 1.3 cm) embossed printer's mark appears in
+                the upper lefthand corner of the sheet, 0.5 inches (1.3 cm) from the top edge and
+                .25 inches (0.6 cm) from the left edge. Although the mark is indistinct, its shape
+                closely matches that of a distinct, similarly sized and positioned printer's mark on
+                a letter dated July 1, 1863, which reads "MT HOLLY PAPER CO."</p>
               <accMat></accMat>
             </physDesc>
             <additional>
@@ -1288,34 +1281,37 @@
           <opener>
             <lb/><dateline><placeName type="city" ref="CincinnatiOH">Cin
             </placeName> <date when="1862-07-28"></date>Monday 28 1862</dateline>
-            <lb/><salute>Dear<rs type="recipient">Wife</rs></salute>
+            <lb/><salute>Dear <rs type="recipient">Wife</rs></salute>
           </opener>
           <p>
             <lb/> Yours came safe to hand I was glad
             <lb/> to hear of the welfare of the children and
-            <lb/> sorry to hear of your affection though hope 
+            <lb/> sorry to hear of your <choice><corr>affliction</corr><sic>affection</sic></choice> though hope 
             <lb/> you will soon be well. We had a very
             <lb/> serious time getting down we got more
             <lb/> frt than we wanted and stuck fast
             <lb/> 36 Hours at the sisters <ptr type="noteAnchor" target="sisters"/><note resp="ed" xml:id="sisters">Andersons is probably referring to the Mount de Chantal Visitation Academy, 
               incorporated as the Wheeling Female Academy
-              under the auspices of the Sisters of Visitation in 1848.<bibl><ref target="WVE"></ref>West Virginia Encyclopedia</bibl>.</note>
+              under the auspices of the Sisters of Visitation in 1848 <bibl><ref target="WVE"></ref>"May 31, 2008: Mount de Chantal Visitation Academy Graduates Last Class"</bibl>.</note>
             above <choice><corr>Wheeling"></corr><sic>Wheeting</sic></choice> &amp; had
-            <lb/> to lighten &amp; then stuck again on <corr>Blennerhassett</corr><sic><seg type="softhyphen">Blanerh
-            <lb/> assets</seg></sic> Isld for 12 Hours &amp; had to lighten, &amp; had
+            <lb/> to lighten &amp; then stuck again on <choice><corr>Blennerhassett</corr><sic>Blanerh<seg type="softhyphen">
+            <lb/> assets</seg></sic></choice> Isld for 12 Hours &amp; had to lighten, &amp; had
             <lb/> fog &amp; consequently did not get here till
             <lb/> this Morning. I have entered into the Cin
             <lb/> &amp; Parkersburg Trade and will leave here
-            <lb/> for Parkersbug Tomorrow at 12 Oclock I have 
+            <lb/> for Parkersburg Tomorrow at 12 Oclock I have 
             <lb/> a full load engaged one item is 100 Beef
-            <lb/> Cattle for Kanatha for a government office
+            <lb/> Cattle for <choice><corr>Kanawha</corr><sic>Kanatha</sic></choice><ptr type="noteAnchor" target="kanawha"/><note resp="ed" xml:id="kanawha">
+              Anderson probably meant to write "Kanawha," referring either to Kanawha City, WV on
+              the Kanawha River, which flows into the Ohio at Point Pleasant, OH between Cincinnati and Parkersburg,
+              or the Little Kanawha River, which flows into the Ohio at Parkersburg.</note> for a government office
             <lb/> for which I get $300.no/00 and a full load 
-            <lb/> of Flour <choice><corr>whiskey</corr><sic>Whisky</sic></choice>> &amp;c. we had no accident
+            <lb/> of Flour <choice><corr>whiskey</corr><sic>Whisky</sic></choice> &amp;c. we had no accident
             <lb/> to occur on our down trip that will 
             <lb/> <choice><expan>amount</expan><abbr>amt.</abbr></choice> to anything serious though we wet
             <lb/> a few Sacks of Oats. I will not go down 
-            <lb/> to see the Old Lady to night as I want
-            <lb/> rest and if I feel not to much fatigued
+            <lb/> to see the Old Lady <choice><corr>tonight</corr><sic>to night</sic></choice> as I want
+            <lb/> rest and if I feel not <choice><corr>too</corr><sic>to</sic></choice> much fatigued
             <lb/> by morning I will go down while it is 
             <lb/> cool it has been exceedingly hot here
             
@@ -1328,13 +1324,15 @@
             <lb/> see me he looks very bad has a very 
             <lb/> long Beard. We had a short talk 
             <lb/> and he gives a <choice><corr>doleful</corr><sic>dollfull</sic></choice> account of 
-            <lb/> of his experience south. 
+            <lb/> <choice><corr></corr><sic>of</sic></choice> his experience south. 
           </p><p>
             <lb/> There was some of <choice><corr>the</corr><sic>thee</sic></choice> hardest passengers
             <lb/> down with us from Green <choice><expan>township's</expan><abbr>twps</abbr></choice> brig this
             <lb/> time I ever saw among the<del type="recoverable" rend="erased" hand="WBA">e</del> lot was
-            <lb/> 2 <corr>prisoners</corr><sic>Prissoners</sic> in Irons on their way to
-            <lb/> <choice><corr>Frankfort</corr><sic>Frankford</sic></choice> Prison one for downing a 
+            <lb/> 2 <choice><corr>prisoners</corr><sic>Prissoners</sic></choice> in Irons on their way to
+            <lb/> <choice><corr>Frankfort</corr><sic>Frankford</sic></choice> Prison<ptr type="noteAnchor" target="Frankfort"/>
+            <note resp="ed" xml:id="Frankfort">Presumably, Anderson is referring to the Kentucky State Prison in Frankfort, south
+              of Cincinnati.</note> one for downing a 
             <lb/> man &amp; the other for <choice><corr>stealing</corr><sic>steeling</sic></choice> sheep
             <lb/> you would think that the very devil 
             <lb/> had broke loose if you would see
@@ -1347,27 +1345,29 @@
             <lb/> I think we are in the right place
             <lb/> and have good prospects and will make
             <lb/> money right fast we made a little on
-            <lb/> our down trip I will stop give all the children 
-            <lb/> a kiss for me <choice><corr>tell</corr><sic>till</sic></choice> <choice><expan>William</expan><abbr>Wm</abbr></choice> to be a good boy
+            <lb/> our down trip I will stop give all the chil<seg type="softhyphen"> 
+            <lb/> </seg>dren a kiss for me <choice><corr>tell</corr><sic>till</sic></choice> <choice><expan>William</expan><abbr>Wm</abbr></choice> to be a good boy
             <lb/> and take care of your own <choice><corr>health</corr><sic>healh</sic></choice>
             </p> 
             <closer>
-              <lb/><salute>Affectionably your
+              <lb/><salute>Affectionatle<supplied reason="omitted">y</supplied> your
               <lb/>husband good night </salute><signed><persName ref="#WBA"><choice><expan>William B. Anderson</expan><abbr type="initials">WBA</abbr></choice></persName></signed>
             </closer>
            <postscript>
              <p>
-               <lb/><add place="margin">Write to me again as soon as you get this and the letter will
+               <lb/><add place="margin"> Write to me again as soon as you get this and the letter will
                <lb/>be here on our return I feel well though am almost worn out
                <lb/>though think I will have it easier now as we will not
                <lb/>stick so much in the <choice><sic>Parkersbug</sic><corr><placeName ref="#Parkersburg">Parkersburg</placeName></corr></choice> 
-                    track <persName><choice><abbr>WBA</abbr><expan>William B. Anderson</expan></choice></persName></add>
+                    trade <persName><choice><abbr>WBA</abbr><expan>William B. Anderson</expan></choice></persName> </add>
              </p>
            </postscript>
         </div>
       </body>
     </text>
   </TEI>
+  
+  <!-- PROOFREAD LETTER, CONTENTS, AND MS DESC 12 August 2019 -->
 
   <TEI xml:id="WBA_18620810" n="18620810">
     <!-- FILL IN THE VALUES ABOVE -->
@@ -1390,18 +1390,23 @@
               <idno>SPEC.RARE.CMS.0309</idno>
             </msIdentifier>
             <msContents>
-              <p>In this letter Anderson assures his wife that he is doing well and asks how she and 
-                the children are.  He also tells her of his visit to see her mother and that he has 
-                asked John Russell (a local businessman often referred to in Anderson’s letters) to 
-                pay his taxes in his absence.</p>
+              <p>Anderson complains of low water on the river, reports on a visit to Louisa's mother,
+              and assures her that he is unlikely to be drafted as long as he is "in part
+              in the government employ" transporting soldiers and government freight.</p>
             </msContents>
             <physDesc>
-              <p>William B. Anderson's letter dated August 10, 1862 from Cincinnati and addressed to his wife Louisa 
-                is written in ink on both sides of a loose sheet of paper measuring approximately 7.5 inches wide by 
-                10.0 inches tall (20cm by 24.5cm) and ruled with horizontal blue lines spaced about 0.75cm apart. 
-                The left edge of the sheet is slightly ragged, while the other three edges are clean, suggesting that 
-                the sheet was torn from a notepad or bound notebook.  It appears originally to have been folded once 
-                crosswise and three times lengthwise. At this writing, the ink appears dark brown and the paper off-white (cream).</p>
+              <p>Anderson's letter dated August 10, 1862 from Cincinnati is written in ink on two
+                sides of a loose sheet of lined manilla-colored paper measuring approximately 7.5
+                inches wide by 9.0 inches tall (19 x 23 cm) and ruled with horizontal blue lines
+                spaced .33 inches (0.8 cm) apart, except for a 1.5-inch (3.8 cm) unruled top margin. The left edge of
+                the sheet is slightly ragged, while the other three edges are clean, suggesting that
+                the sheet was torn from a notepad or bound notebook. It appears originally to have
+                been folded once crosswise and twice lengthwise. A .5-inch by .5-inch (1.3 x 1.3 cm)
+                embossed printer's mark appears in the upper lefthand corner of the sheet, 0.5
+                inches (1.3 cm) from the top edge and .25 inches (0.6 cm) from the left edge.
+                Although the mark is indistinct, its shape closely matches that of a distinct,
+                similarly sized and positioned printer's mark on a letter dated July 1, 1863, which
+                reads "MT HOLLY PAPER CO."</p>
               <accMat></accMat>
             </physDesc>
             <additional>
@@ -1420,24 +1425,17 @@
         <div type="letter" xml:id="WBA_18620810_let">
           <!-- REVISE THE VALUES ABOVE -->
           <pb facs="Letter05_pg1"/>
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
-          <lb/>
           <opener>
-            <lb/><dateline><placeName ref="#CincinnatiOH">Cin</placeName><date when="1862-08-10">Aug 10 /62</date></dateline>
-            <lb/><salute>My Dear<rs type="recipient">Wife</rs></salute>
+            <lb/><dateline><placeName ref="#CincinnatiOH">Cin</placeName><date when="1862-08-10"> Aug 10 /62</date></dateline>
+            <lb/><salute>My Dear <rs type="recipient">Wife</rs></salute>
           </opener>
           <p>
             <lb/>Your of 7 Came to hand    
             <lb/>today on our arrival &amp; I was glad to hear
             <lb/>of your health being better and that of the
-            <lb/>Children <ptr type="noteAnchor" target="children"/><note resp="ed" xml:id="children">At the time this letter was written,
+            <lb/>Children<ptr type="noteAnchor" target="children"/><note resp="ed" xml:id="children">At the time this letter was written,
               W.B. Anderson and his wife Lousia  had four children: William Y., Anna M., John L., and
-              Robert<bibl><ref target="HOAC">298-299</ref></bibl>.</note>
+              Robert<bibl><ref target="HOAC">298-299</ref></bibl>.</note> being good I have been well since
             <lb/>I wrote to you though have suffered by
             <lb/>heat Considerably we made 2 trips to 
             <lb/><placeName ref="#ParkersburgWV">Parkersburg</placeName> &amp; are bound up tomorrow again
@@ -1448,18 +1446,19 @@
             <lb/>mind for a little money we made between
             <lb/>3 and 400 <choice><expan>Dollars</expan><abbr>Dolls</abbr></choice> last week I cannot tell what our  
             <lb/>prospects will be this week yet but I hope
-            <lb/>we shall not lose anything
+            <lb/>we shall not lose anything</p>
+          <p>
             <lb/>I was down to see your mother this evening
-            <lb/>she &amp; are well I did not get down
+            <lb/>she &amp; Ella are well I did not get down
             <lb/>to see her last trip &amp; it was as well for
             <lb/>she had gone down to <placeName type= "township">South Bend</placeName> and
             <lb/>did not get up till Tuesday she says that
             <lb/>she enjoyed the trip and put up a 
             <lb/>large quantity of Blackberries Fruit of all
-            <lb/>kinds is very abundant and watter mellons
+            <lb/>kinds is very abundant and <choice><corr>watermelons</corr><sic>watter mellons</sic></choice>
             <lb/>are beginning to get plenty we had some
             <lb/>to eat on the boat this evening that
-            <lb/>the crew bot which were very fine
+            <lb/>the crew <choice><corr>bought</corr><sic>bot</sic></choice> which were very fine
             <pb facs="Letter05_pg2" n="01"/>
             <lb/>I wrote a letter to <persName ref="russel"> John Russell</persName> and
             <lb/>requested him to pay my taxes I cannot 
@@ -1469,7 +1468,7 @@
             <lb/>all I can out of her I will not leave
             <lb/>her in any bodys hands untill compelled
             <lb/>to by sickness or war I want you to
-            <lb/>try to make yourself as happy as as you
+            <lb/>try to make yourself as happy as <choice><corr></corr><sic>as</sic></choice> you
             <lb/>Can under the circumstances I know how 
             <lb/>you feel about this war matter but you
             <lb/>need not to make yourself uneasy on my
@@ -1483,7 +1482,7 @@
             <lb/>large <choice><corr>quantities</corr><sic>quantitys</sic></choice> 
             of <choice><expan>Government</expan><abbr>Gov</abbr></choice> <choice><expan>Freight</expan><abbr>Frt.</abbr></choice> I expect if the
             <lb/>water gets much lower we will not even
-            <lb/>get as far up as <placeName ref="parkersburg">Parkersburg</placeName> and may be
+            <lb/><supplied reason="omitted">get</supplied> as far up as <placeName ref="parkersburg">Parkersburg</placeName> and may be
             <lb/>employed to Carry <choice><expan>Government</expan><abbr>Gov</abbr></choice> <choice><expan>Freight</expan><abbr>Frt.</abbr></choice> &amp; soldiers up
             <lb/>as far as <placeName ref="gallipolis">Gallipolis</placeName> &amp; if such should be
             <lb/>the case then I will be Free from the draft
@@ -1494,15 +1493,17 @@
             <lb/>all the children for me and take care of yourself
             <lb/>and them for me</p>
           <closer>
-            <lb/><salute>Your affectionate husband</salute>
-            <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WBA</abbr></choice> Anderson</persName></signed>
+            <salute>Your affectionate husband</salute>
+            <lb/><signed><persName ref="#WBA"><choice><expan>William B.</expan><abbr type="initials">WB</abbr></choice> Anderson</persName></signed>
           </closer>
           <!-- If there were a <postscript>, we have a tag for that. -->
         </div>
       </body>
     </text>
   </TEI>
- 
+
+  <!-- PROOFREAD LETTER, CONTENTS, AND MS DESC 12 August 2019 -->
+
   <TEI xml:id="WBA_18620816" n="18620816">
     <!-- FIRST COPY THIS TEI ELEMENT!! -->
     <!-- FILL IN THE VALUES ABOVE -->
