@@ -1526,24 +1526,27 @@
               <idno>SPEC.RARE.CMS.0309</idno>
             </msIdentifier>
             <msContents>
-              <p>In this letter, Anderson writes to his wife about his daily tasks and his hardships while being a riverboat captain.
-                He reports that a shaft has broken on the boat, and hopes the new part will arrive soon. Anderson continues his letter and describes how he feels about boarding soldiers on his riverboat. 
-                His emotions of grief and sadness overrun the second half of his letter, and he explains that he feels terrible watching families be torn apart. Anderson closes with warm wishes to his family
-                and that he hopes to hear from them soon.</p>
+              <p>In this letter, Anderson writes to his wife about his daily tasks and his hardships
+                while being a riverboat captain. He reports that a shaft has broken on the boat, and
+                hopes the new part will arrive soon. Anderson continues his letter and describes how
+                he feels about boarding soldiers on his riverboat. His emotions of grief and sadness
+                overrun the second half of his letter, and he explains that he feels terrible
+                watching families be torn apart. Anderson closes with warm wishes to his family and
+                that he hopes to hear from them soon.</p>
             </msContents>
             <physDesc>
-              <p>William B. Anderson's letter dated August 16, 1862 from Cincinnati and
-                addressed to his wife Louisa is written in ink on two sides of a 
-                loose sheet of paper measuring approximately 7.5 inches wide by 9.0 inches 
-                tall (19 x 23 cm) and ruled with horizontal blue lines spaced .33 inches 
-                (0.8 cm) apart, except for a 1.5-inch (3.8 cm) unruled top margin. 
-                All four edges of the letter, 
-                are clean, suggesting that the sheet was bought as a package of looseleaf. 
-                It appears originally to have been folded once crosswise and twice lengthwise. 
-                At this writing, the ink appears brown and the paper off-white (cream). A .5-inch
-                by .5-inch (1.3 x 1.3 cm) embossed printer's mark appears in the upper lefthand 
-                corner of the sheet, 0.5 inches (1.3 cm) from the top edge and .25 inches 
-                (0.6 cm) from the left edge.</p>
+              <p>Anderson's letter dated August 16, 1862 from Cincinnati is written in ink on two
+                sides of a loose sheet of lined manilla-colored paper measuring approximately 7.5
+                inches wide by 9.0 inches tall (19 x 23 cm) and ruled with horizontal blue lines
+                spaced .33 inches (0.8 cm) apart, except for a 1.5-inch (3.8 cm) unruled top margin. The left edge of
+                the sheet is slightly ragged, while the other three edges are clean, suggesting that
+                the sheet was torn from a notepad or bound notebook. It appears originally to have
+                been folded once crosswise and twice lengthwise. A .5-inch by .5-inch (1.3 x 1.3 cm)
+                embossed printer's mark appears in the upper lefthand corner of the sheet, 0.5
+                inches (1.3 cm) from the top edge and .25 inches (0.6 cm) from the left edge.
+                Although the mark is indistinct, its shape closely matches that of a distinct,
+                similarly sized and positioned printer's mark on a letter dated July 1, 1863, which
+                reads "MT HOLLY PAPER CO."</p>
               <accMat></accMat>
             </physDesc>
             <additional>
@@ -1562,15 +1565,8 @@
         <div type="letter" xml:id="WBA_18620816_let">
           <!-- REVISE THE VALUES ABOVE -->
           <pb facs="Letter06_pg1"/>
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
-          <lb/>
           <opener>
-            <lb/><dateline><date when="1862-08-16">Aug 16 /62</date><ptr type="noteAnchor" target="dateError"/>
+            <lb/><dateline><placeName ref="#CincinnatiOH">Cin </placeName><date when="1862-08-16">Sunday 16th August 1862</date><ptr type="noteAnchor" target="dateError"/>
               <note resp="ed" xml:id="dateError">Anderson records the day as Sunday, but in August 1862, the 16th fell
                 on a Saturday.</note></dateline>
             <lb/><salute>My Dear<rs ref="#MLA">Wife</rs></salute>
@@ -1578,29 +1574,30 @@
           <p>
             <lb/> As <persName>John</persName> is going home I take 
             <lb/> the opportunity of dropping you a few lines
-            <lb/> to inform you that I am well.  We arrived here
+            <lb/> to inform you that I am well.  we arrived here
             <lb/> at noon today we have had bad luck since
-            <lb/> I wrote you last. We broke our shaft on our up 
+            <lb/> I wrote you last. we broke our shaft on our up 
             <lb/> trip and shall have to lay here for several
             <lb/> days to have it mended or probably a
             <lb/> new one made.  I cannot learn what our
             <lb/> luck will be in getting it <choice><corr>repaired</corr><sic>repared</sic></choice> till Morning
             <lb/> I will probably get time to go up and see
             <lb/> you while the <choice><corr>repairing</corr><sic>reparing</sic></choice> is going on if I can
-            <lb/> leave with any kind of propriety.  It was one
+            <lb/> leave with any kind of propriety.  it was one
             <lb/> of the worst times that an accident could 
             <lb/> happen as the river is low and Government
             <lb/> wants us and at good prices we were pressed
             <lb/> into <choice><expan>Government</expan><abbr>Gov</abbr></choice> Service at <placeName ref="#gallipolis">Gallipolis</placeName> but were released
-            <lb/> on account of our broke shaft
-            <lb/> We brought down part of 3 companies of 
-            <lb/> soldiers from <placeName ref="#gallipolis">Gallipolis</placeName> to <placeName ref="#campPortsmouth">camp Portsmouth</placeName>
+            <lb/> on account of our broke shaft</p>
+          <p>
+            <lb/> We brought down part of 3 Companies of 
+            <lb/> Soldiers from <placeName ref="#gallipolis">Gallipolis</placeName> to <placeName ref="#campPortsmouth">Camp Portsmouth</placeName>
             <lb/> and it would have made the hardest heart
-            <lb/> melt to have heard the women and children
+            <lb/> melt to have heard the <choice><corr>women</corr><sic>woman</sic></choice> and children
             <lb/> weeping on the wharf Boat while the men
             <lb/> were being ordered on board there was at least
             <lb/> 70 women &amp; 100 children there to take perhaps
-            <lb/> the last leave of their husbands Brothers &amp; Sons
+            <lb/> the last leave of their Husbands Brothers &amp; Sons
             
             <pb facs="Letter06_pg2"/> 
             
@@ -1608,13 +1605,13 @@
             <lb/> to try and restore peace and restore this
             <lb/> once Glorious Country to peace.  You see
             <lb/> or Know nothing about this war or the
-            <lb/> effects produced upon families <del type="unrecoverable" rend="overstrike" hand="WBA">[deleted word]</del> by it
-            <lb/> I am sick and tired of soldiers and soldiering
+            <lb/> effects produced upon families <del type="unrecoverable" rend="overstrike" extent="one word" hand="WBA"/> by it
+            <lb/> I am sick and <choice><corr>tired</corr><sic>tiard</sic></choice> of <choice><corr>soldiers</corr><sic>solders</sic></choice> and <choice><corr>soldiering</corr><sic>soldering</sic></choice>
             <lb/> we see nor hear but little else and what
-            <lb/> I am most fearfull of is that the end is
+            <lb/> I am most fearfull <add place="supralinear" rend="caret">of</add> is that the end is
             <lb/> not close at hand we carry every trip more
             <lb/> or less sick and wounded men and any amount
-            <lb/> of women on their way to look up their sons
+            <lb/> of <choice><corr>women</corr><sic>woman</sic></choice> on their way to look up their sons
             <lb/> Husbands or Brothers while I am writing the
             <lb/> wharf is covered from Broadway to Main
             <lb/> street with fresh recruits from <placeName>Indiana</placeName> &amp;
@@ -1623,18 +1620,18 @@
             <lb/> I have not been down today to see your <rs ref="#MAF">mother</rs>
             <lb/> but will before I write again or go up
             <lb/> to see you I will not get to more than
-            <lb/> just go up one day and return the next
+            <lb/> just go up one day &amp; return the next
             <lb/> if I do go at <choice><corr>all</corr><sic>al</sic></choice>.  Write to me soon and
             <lb/> give me all the news and take care
             <lb/> of yourself and all the children
             <lb/> you need not be disappointed if I don’t
-            <lb/> go up through if I can learn alot I will
+            <lb/> go up though if I can leave at al<supplied reason="omitted">l</supplied> I will
             <lb/> be sure to write to me as soon as you
             <lb/> get this in care of <orgName>Isham Fisher &amp; Co</orgName> <placeName ref="#CincinnatiOH"><choice><expan>Cincinnati</expan><abbr>Cin</abbr></choice></placeName>
             <lb/> give my love to the children 
           </p> 
           <closer>
-            <lb/><salute>Your Affectionate Husband</salute>
+            <lb/><salute>Your affectionate husband</salute>
             <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WB</abbr></choice> Anderson</persName></signed>
           </closer>
           <!-- If there were a <postscript>, we have a tag for that. -->
