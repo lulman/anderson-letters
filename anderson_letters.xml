@@ -1819,31 +1819,24 @@
         <div type="letter" xml:id="WBA_18620901_lett" corresp="XXX" >
           <!-- REVISE THE VALUES ABOVE -->
           <pb facs="Letter08_pg1"/>
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
-          <lb/>
           <opener>
-            <lb/><dateline><choice><expan>Cincinnati</expan><abbr>Cin</abbr></choice><date when="1862-09-21">Sept 1st   1862,</date></dateline>
-            <lb/><salute>My Dear<rs ref="MLA">Wife</rs></salute>
+            <lb/><dateline><choice><expan>Cincinnati</expan><abbr>Cin</abbr></choice> <date when="1862-09-21">Sept 1st   1862</date></dateline>
+            <lb/><salute>My Dear <rs ref="MLA">Wife</rs></salute>
           </opener>
           <p>
             <lb/>Yours came safe to hand &amp; I was
             <lb/>glad to hear from you though sorry to hear that
             <lb/>all was not well but hope that before this all are
-            <lb/>fully recoved.  I have been quite unwell since I left
+            <lb/>fully <choice><corr>recovered</corr><sic>recoved</sic></choice>.  I have been quite unwell since I left
             <lb/>here but have got better so took a load of Oats
             <lb/>for the Government up to Gallipolis and from there
             <lb/>we went up to take our Wheat that we left
-            <lb/>at Grahams Station and and succeeded in getting
+            <lb/>at Grahams Station and <choice><sic>and</sic></choice> succeeded in getting
             <lb/>up as far as the foot of Blennerhassets Island
             <lb/>and there we dug a <choice><corr>chute</corr><sic>Shute</sic></choice> wide and deep enough
             <lb/>to draw a flat drawing but 13 inches over and at
             <lb/>3 lads got our wheat over and then hired a man
-            <lb/>and a team of oxen to haul the flat <choice><corr>off</corr><sic>of</sic></choice> and left
+            <lb/>and a team of oxen to haul the flat up and left
             <lb/>the 2nd clerk there to attend to it  we arrived here
             <lb/>this morning and will leave at noon for Maysville with a
             <lb/>load of Mules and then I don’t know what we will
@@ -1858,9 +1851,14 @@
             <lb/>and you		  
           </p> 
           <closer>
-            <lb/><salute>Your affectionate husband</salute>
+            <salute>Your affectionate husband</salute>
             <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WB</abbr></choice> Anderson</persName></signed>
           </closer>
+          <postscript>
+            <p>
+              <lb/>PS. Write as before
+            </p>
+          </postscript>
           <!-- If there were a <postscript>, we have a tag for that. -->
         </div>
         <!-- Or an enclosure: <div type="enclosure" xml:id="WBA_18600101enc"></div> -->
