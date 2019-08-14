@@ -939,7 +939,8 @@
             <lb/>we have had all our rooms but 3 in 
             <lb/>the ladies Cabin full since last night but 
             <lb/>we have not up till this time had a lady 
-            <lb/>passenger on our boat the <rs ref="#MAF">old lady</rs> says 
+            <lb/>passenger on our boat<ptr type="noteAnchor" target="glide"/><note resp="ed" xml:id="glide">Perhaps
+              the <title level="m">Glide</title>, a river steamer which Anderson eventually sold to the U.S. government.<bibl><ref target="#genealogical">Jordan</ref>506</bibl>.</note> the <rs ref="#MAF">old lady</rs> says 
             <lb/>she would like to have you pay her a 
             <lb/>visit so if you think you would enjoy 
             
@@ -1672,7 +1673,7 @@
                 (0.8 cm) apart, except for a 1.5-inch (3.8 cm) unruled top margin. The left edge of
                 the sheet is ragged, while the other three edges are clean, suggesting that
                 the sheet was torn from a notepad or bound notebook. It appears originally to have
-                been folded once crosswise and twice lengthwise. Unlike the other sheets of paper in
+                been folded once crosswise and twice lengthwise. Unlike most other sheets of paper in
               this collection of letters, this sheet bears no embossed printer's mark.</p>
               <accMat></accMat>
             </physDesc>
@@ -1892,25 +1893,22 @@
               <idno>SPEC.RARE.CMS.0309</idno>
             </msIdentifier>
             <msContents>
-              <p>In this letter, Anderson shows a bit of emotion as he recounts his 
-                encounters with the war thus far. Anderson writes of the
-                impoverished life he and his fellow shipmates live and becomes nostalgic
-                over the simpler pleasures in life like butter and beef. 
-                Anderson asks his wife to pay a vist to John Russell in order to collect 
-                the money that Russell owes Anderson; Anderson fears that Russell
-                will be slow to repay if his wife does not express a strong sense of need. 
-                Anderson closes the letter optimistically speaking of great times to 
-                come with his wife and children once he returns home. </p>
+              <p>Anderson notes that a battle is expected soon in Kentucky. He writes that he has
+                "lost all horrors" that he had about war and would enlist if he "were stout" and had
+                no family, yet at the same time stresses that he "will never go unless compelled"
+                and would do so primarily "in defence of my own property and for the preservation of
+                the Union." He also describes the hardships of life on the river and muses about a
+                happy life with his family after the war.</p>
             </msContents>
             <physDesc>
-              <p>This letter in written on a single thin piece of blue-lined paper as the writing on the opposite side shows through. 
-                The singular, vertical jagged edge on the left side of the paper suggests that the paper was 
-                torn from a notebook or journal. The paper is approximately 8 x 9.75 inches in dimension. 
-                Anderson wrote the letter in brown ink  and folded the letter three times( once crosswise and
-                twice length-wise) to create 
-                six equally-sized sections so that the letter could fit into one 
-                of his standard envelopes. On the bottom of the first page, several words are smudged perhaps as a result of
-                moisture on the captain's hand from the summer heat or from a rapid writing pace that did not allow the ink to dry sufficiently.</p>
+              <p>Anderson's letter of 17 September 1862 from Cincinnati is written in ink on two sides
+                of a loose sheet of manilla-colored paper measuring approximately 7.5 inches wide by
+                9.0 inches tall (19 x 23 cm) and ruled with horizontal blue lines spaced .33 inches
+                (0.8 cm) apart, except for a 1.5-inch (3.8 cm) unruled top margin. The left edge of
+                the sheet is ragged, while the other three edges are clean, suggesting that
+                the sheet was torn from a notepad or bound notebook. It appears originally to have
+                been folded once crosswise and twice lengthwise. Unlike most other sheets of paper in
+                this collection of letters, this sheet bears no embossed printer's mark.</p>
               <accMat></accMat>
             </physDesc>
             <additional>
@@ -1929,16 +1927,9 @@
         <div type="letter" xml:id="WBA_1862-09-17_let">
           <!-- REVISE THE VALUES ABOVE -->
           <pb facs="Letter09_pg1"/>
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
-          <lb/>
           <opener>
-            <lb/><dateline><date when="1862-09-17"></date>Sept 17th 1862</dateline>
-            <lb/><salute>My Dear<rs type="recipient">Wife</rs></salute>
+            <lb/><dateline><choice><expan>Cincinnati</expan><abbr>Cin</abbr></choice> <date when="1862-09-17">Sept 17th 1862</date></dateline>
+            <lb/><salute>My Dear <rs type="recipient">Wife</rs></salute>
           </opener>
           <p>
             <lb/>Yours Came to hand this morning
@@ -1959,7 +1950,7 @@
             <lb/>to war as not if I were stout and had no family
             <lb/>for it has almost became a fashion to go all that
             <lb/>are left out of the military ranks are old and
-            <lb/>decripped, and it seems as that it has became a 
+            <lb/><choice><corr>decrepit</corr><sic>decripped</sic></choice>, and it seems as that it has <choice><corr>become</corr><sic>became</sic></choice> a 
             <lb/>necessity to turn out.  I will never go unless compelled
             <lb/>to and that in defence of my own property and for
             <lb/>the preservation of the Union  I am sure that the South will
@@ -1972,19 +1963,19 @@
             <pb facs="Letter09_pg2" n="2"></pb>
             
             <lb/>I have not seen <rs ref="#MAF">your mother</rs> since I last wrote
-            <lb/>to you as I have to stay on the Boat<ptr type="noteAnchor" target="glide"/><note resp="ed" xml:id="glide">Anderson built
-              the Glide, a river steamer which he eventually sold to the U.S. government.<bibl><ref target="#genealogical">Jordan</ref>506</bibl>.</note> I have no
+            <lb/>to you as I have to stay on the Boat I have no
             <lb/>opportunity of seeing any body or any thing only soldiers
             <lb/>guns and Cannons.  We are almost <choice><corr>tired</corr><sic>tiard</sic></choice> of this kind 
             <lb/>of work we live almost <choice><corr>miserably</corr><sic>misserably</sic></choice> poor I have not
             <lb/>tasted any Butter for 4 weeks that I could stand and
             <lb/>as for sauce we never have any thing of the kind we
             <lb/>have Beef poor at that and Bakers <choice><corr>bread</corr><sic>Bred</sic></choice> and the poorest
-            <lb/>Kind of <choice><corr>vegetables</corr><sic>vegatibles</sic></choice> I ever saw all kinds of marketting is dur
+            <lb/>Kind of <choice><corr>vegetables</corr><sic>vegatibles</sic></choice> I ever saw all kinds of
+            <choice><corr>marketing</corr><sic>marketting</sic></choice> is due
             <lb/>and poor the Country is as dry as a chip for all we have
             <lb/>showers frequenty yesterday and last night and today
             <lb/>is as warm a time as we have had this summer and the
-            <lb/>Mosquitoes are the worst I ever saw.  I wish you would
+            <lb/>mosquitoes are the worst I ever saw.  I wish you would
             <lb/>Call on <persName ref="#russell">John Russell</persName> and tell him you want some
             <lb/>Money and keep all that you know to be good such
             <lb/>as U.S. and all Pittsburgh Banks I fear that I shall
@@ -1997,7 +1988,7 @@
             <lb/>saved and I will go up town some of those days after
             <lb/><choice><corr>business</corr><sic>bussiness</sic></choice> resumes more fully and buy each of them some
             <lb/>thing that will please them. I have thought frequently
-            <lb/>about <del type="overstrike">about</del> our whereabouts and pleasures nine years
+            <lb/>about <del type="recoverable" rend="overstrike">about</del> our whereabouts and pleasures nine years
             <lb/>ago, and how as you thought what may our position
             <lb/>be nine year from now.  I hope that we may have no
             <lb/>more to mar our happiness than we have had and
@@ -2008,7 +1999,7 @@
           </p> 
           <closer>
             <lb/><salute>Ever Truly your husband </salute>
-            <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WB</abbr></choice> Anderson</persName></signed>
+            <signed><persName ref="#WBA"><choice><abbr type="initials">WB</abbr></choice> Anderson</persName></signed>
           </closer>
           <!-- If there were a <postscript>, we have a tag for that. -->
         </div>
