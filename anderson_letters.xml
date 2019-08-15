@@ -1877,7 +1877,7 @@
     <teiHeader>
       <fileDesc>
         <titleStmt>
-          <title>A homesick letter to Mary Louisa Anderson written from Cincinnati on Sept. 17, 1862, by William B. Anderson</title>
+          <title>Letter from William B. Anderson to Mary Louisa Anderson from Cincinnati dated Sept. 17, 1862</title>
           <author>Anderson, William B.</author>
         </titleStmt>
         <publicationStmt>
@@ -1903,8 +1903,8 @@
             <physDesc>
               <p>Anderson's letter of 17 September 1862 from Cincinnati is written in ink on two sides
                 of a loose sheet of manilla-colored paper measuring approximately 7.5 inches wide by
-                9.0 inches tall (19 x 23 cm) and ruled with horizontal blue lines spaced .33 inches
-                (0.8 cm) apart, except for a 1.5-inch (3.8 cm) unruled top margin. The left edge of
+                9.0 inches tall (19 x 23 cm) and ruled ruled on the recto side with horizontal
+                blue lines spaced .33 inches (0.8 cm) apart; the verso is unlined. The left edge of
                 the sheet is ragged, while the other three edges are clean, suggesting that
                 the sheet was torn from a notepad or bound notebook. It appears originally to have
                 been folded once crosswise and twice lengthwise. Unlike most other sheets of paper in
@@ -2008,6 +2008,8 @@
     </text>
   </TEI>
 
+<!-- PROOFED LETTER, MSDESC, AND CONTENTS DESC 14 AUGUST 2019 -->
+
   <TEI xml:id="WBA_18620928" n="18620928">
     <!-- FIRST COPY THIS TEI ELEMENT!! -->
     <!-- FILL IN THE VALUES ABOVE -->
@@ -2032,23 +2034,22 @@
               <idno>SPEC.RARE.CMS.0309</idno>
             </msIdentifier>
             <msContents>
-              <p>William B Anderson tells his wife how he must take soldiers to Augusta, Kentucky.  Anderson reports that 
-                he is doing well and that he is happy to hear that his wife's mother is also doing well.  He wants his wife to take care 
-                of herself and the children.  He describes when he thinks he may be home and for his wife to take 
-                care of the house and the work that needs to be done.</p>
+              <p>Anderson tells his wife that he has been ordered to take soldiers to Augusta, KY in
+                support of the Union Army's response to the Battle of Augusta the previous day. He
+                notes that he has finally sold his boat and offers some business advice regarding
+              the home farm. Apparently in response to Louisa's claim that he is "indifferent
+              about home," he writes that he longs "to stay there the Bal of my days."</p>
             </msContents>
             <physDesc>
-              <p>This document is letter number 10 from a man named William B. Anderson 
-                that he wrote to his wife, Louisa in September of 1862 from Cincinnati.  In 
-                all, there were 26 letters written to Louisa from 1862 to 1864.  This particular
-                letter is 2 pages long and is written on loose paper measuring approximately
-                7.5 inches wide by 9.0 inches tall, lined with blue horizontal lines.  The first page
-                of the letter is in pretty good condition.  However, there are numerous brown stains
-                that could possibly be dirt.  The second page of the letter is in slightly better condition,
-                with only a few smudges.  Both pages seem to have been folded, twice long ways
-                and once shorts ways.  While the ink is black and legible throughout, there are still
-                errors both in spelling and with ink smudges.  The paper William used is a cream 
-                color.</p>
+              <p>Anderson's letter of 17 September 1862 from Cincinnati is written in ink on two
+                sides of a loose sheet of manilla-colored paper measuring approximately 7.5 inches
+                wide by 9.0 inches tall (19 x 23 cm) and ruled on the recto side with horizontal
+                blue lines spaced .33 inches (0.8 cm) apart, except for a 1.5-inch (3.8 cm) unruled
+                top margin; the verso is unlined. The left edge of the sheet is ragged, while the
+                other three edges are clean, suggesting that the sheet was torn from a notepad or
+                bound notebook. It appears originally to have been folded once crosswise and twice
+                lengthwise. Unlike most other sheets of paper in this collection of letters, this
+                sheet bears no embossed printer's mark. </p>
               <accMat></accMat>
             </physDesc>
             <additional>
@@ -2068,16 +2069,9 @@
           <!-- REVISE THE VALUES ABOVE -->
           <pb facs="Letter10_pg1"/>
           <!-- MAKE SURE TO REVISE THE FACS VALUE! -->
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
-          <lb/>
           <opener>
             <lb/><dateline><placeName><choice><expan>Cincinnati</expan><abbr>Cin</abbr></choice></placeName> <date when="1862-09-28"></date>Sunday Sept 28/62</dateline>
-            <lb/><salute>My Dear<rs type="recipient">Wife</rs></salute>
+            <lb/><salute>My Dear <rs type="recipient">Wife</rs></salute>
           </opener>
           <p>
             <lb/> I am ordered to take up 
@@ -2087,9 +2081,9 @@
             <lb/>land them Below to attract and whip
             <lb/>the Rebels if they can I will land
             <lb/>a good piece Below too as I don’t want
-            <lb/>shot.  I will write a full <choice><expan>account</expan><abbr>acct</abbr></choice> on our
+            <lb/>Shot.  I will write a full <choice><expan>account</expan><abbr>acct.</abbr></choice> on our
             <lb/>return  I have no time to write much now,
-            <lb/><rs ref="#MAF">your Mother</rs> was here yesterday and is well
+            <lb/><rs ref="#MAF">your Mother</rs> was here yesterday &amp; is well
             <lb/> I am well &amp; Hope you and all the children
             <lb/>are well take good care of your Health
             <lb/>and that of the children. I wrote you
@@ -2098,13 +2092,13 @@
             <lb/>is not well but hope he will soon recover
             <lb/>give my respects to all and write 
             <lb/>often and longer I yesterday learned what 
-            <lb/>we are to get for our Boat and my
-            <lb/>Portions is forty Dollars clear each day
+            <lb/>we are to get for our Boat and <hi rend="underlined">my</hi>
+            <lb/>Portions is <hi rend="underlined">forty</hi> <hi rend="underlined">Dollars</hi> clear each day
             <lb/>say nothing about it I hope to stay here
             <lb/>Some time yet  
           </p> 
           <closer>
-            <lb/><salute>Ever Yours truly</salute>
+            <salute>Ever Yours truly</salute>
             <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WB</abbr></choice> Anderson</persName></signed>
           </closer>
           <!-- If there were a <postscript>, we have a tag for that. -->
@@ -2126,14 +2120,14 @@
               <lb/> Hole what potatoes you <del rend="overstrike" resp="WBA">want</del> <add place="supralinear">dont</add> want
               <lb/>in the Cellar down in the field where they
               <lb/>are and secure them by a fence around there  
-              <lb/>and Keep the Cows from there where he pastures
+              <lb/>&amp; Keep the Cows from there when he pastures
               <lb/> the Stalks.  You can manage things the best
               <lb/>way you think till I come I cannot tell
               <lb/>when I will be back home now but may
               <lb/>accidentally get home sooner that I look
               <lb/>for <del rend="overstrike" resp="WBA">I will</del> it has the appearance of rain this
               <lb/> morning and if water comes to let larger Boats
-              <lb/> run there we are done here and home I will go
+              <lb/> run there we are done here &amp; home I will go
               <lb/>you cannot <choice><corr>censure</corr><sic>Sensure</sic></choice> me for being so indifferent
               <lb/> as appearing so indifferent about home when
               <lb/> you know what I am to get for staying away
@@ -2144,7 +2138,7 @@
               <lb/> <choice><corr>bye</corr><sic>Bie</sic></choice> write soon and give all the news
               <lb/>and Kiss the children</p>  
             <closer>
-              <lb/><salute>Yours ever</salute>
+              <salute>Yours ever</salute>
               <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WBA</abbr></choice></persName></signed>
               <lb/>Excuse all ever as I am in haste
             </closer>
@@ -2153,7 +2147,8 @@
       </body>
     </text>
   </TEI>
-
+  <!-- PROOFED LETTER, MSDESC, AND CONTENTS DESC 15 AUGUST 2019 -->
+  
   <TEI xml:id="WBA_18621007" n="18621007">
     <!-- FIRST COPY THIS TEI ELEMENT!! -->
     <!-- FILL IN THE VALUES ABOVE -->
