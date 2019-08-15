@@ -1792,7 +1792,7 @@
                 complains that business in Cincinnati is "stopped."</p>
             </msContents>
             <physDesc>
-              <p> Anderson's letter dated 1 September 1862 from Cincinnati is written in ink on one
+              <p>Anderson's letter dated 1 September 1862 from Cincinnati is written in ink on one
                 side of a loose sheet of lined manilla-colored paper measuring approximately 7.5
                 inches wide by 9.0 inches tall (19 x 23 cm) and ruled with horizontal blue lines
                 spaced .33 inches (0.8 cm) apart (unlike his other stationery, this sheet does not
@@ -2156,7 +2156,8 @@
     <teiHeader>
       <fileDesc>
         <titleStmt>
-          <title>October 7, 1862 Letter from William B. Anderson Pertaining to Everyday Life During the Civil War</title>
+          <title>Letter from William B Anderson to his wife, Louisa, dated
+            October 7, 1862.</title>
           <author>Anderson, William B.</author>
         </titleStmt>
         <publicationStmt>
@@ -2173,17 +2174,20 @@
             </msIdentifier>
             <msContents>
               <p>
-                In this letter, Anderson reports hearing shooting along the river.  He references two captains
-                who were put in jail for cowardice.  He expresses concern that he does not know what his orders will be from
-                one day to the next.  He speaks of a funeral of a friend's son in Maysville, and worries that his wife 
-                is sick or mad because he has not heard from her.  This letter was written in October, making it one of the latest
-                in the season, possibly indicating unseasonably warm weather or extenuating circumstances.
+                In his letter of 7 October 1862, Anderson reports on various changes affecting all of the boats
+                in government service, and mentions the jailing of two riverboat captains for cowardice. Turning to
+                family matters, he notes that he attended a funeral in Maysville for a friend's son, which affected
+                him deeply.
               </p>
             </msContents>
             <physDesc>
-              <p>This document is a transcript of a letter written by William B. Anderson to his wife Louisa Fischgens
-                in 1862.  It includes one sheet of paper, front and back.  It is written on unlined paper that is approximately 20 cm wide by 32 cm tall.  .  
-                This is the first publication of this letter. </p>
+              <p>Anderson's letter of 7 October 1862 from Cincinnati is written in ink on two side
+                of a loose sheet of unlined manilla-colored paper measuring approximately 20 cm wide
+                by 32 cm tallThe left edge of the sheet is slightly ragged, while the other three
+                edges are clean, suggesting that the sheet was torn from a notepad or bound
+                notebook. It appears originally to have been folded once crosswise and twice
+                lengthwise. An embossed printer's mark appears in the upper lefthand corner of the
+                sheet, with "A.P.CO" written on a scroll bordered by stalks of grain.</p>
               <accMat></accMat>
             </physDesc>
             <additional>
@@ -2203,22 +2207,15 @@
           <!-- REVISE THE VALUES ABOVE -->
           <pb facs="Letter11_pg1"/>
           <!-- MAKE SURE TO REVISE THE FACS VALUE! -->
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
-          <lb/>
           <opener>
-            <lb/><dateline><placeName ref="#CincinnatiOH"><choice><expan>Cincinnati</expan><abbr>Cin</abbr></choice></placeName> <date when="1862-10-07"></date>>Oct 7th 1862</dateline>
-            <lb/><salute>My Dear<rs type="recipient">Wife</rs></salute>
+            <lb/><dateline><placeName ref="#CincinnatiOH"><choice><expan>Cincinnati</expan><abbr>Cin</abbr></choice></placeName> <date when="1862-10-07"><del type="recoverable" rend="overwritten">S</del>Oct 7th 1862</date></dateline>
+            <lb/><salute>My Dear <rs type="recipient">Wife</rs></salute>
           </opener>
           <p>
             <lb/>As I have found out what we
             <lb/>are to do for a little while I let you know
             <lb/>this morning we were ordered to go below the Bridge
-            <lb/>and go in one old trade that is to go in the dispatch
+            <lb/>and go in our old trade that is to go in the dispatch
             <lb/><choice><corr>business</corr><sic>bussiness</sic></choice> and we still carry our Gun Squad of
             <lb/>Eleven Men we have just made a trip down to the 
             <lb/> J B Gurly at Andersons ferry &amp; back &amp; found all well 
@@ -2237,9 +2234,9 @@
             <lb/>dissatisfied at some of the boats engaged in the
             <lb/>flottilla and the intention is to call all in and
             <lb/>dismiss all, and such as are absolutely needed he
-            <lb/>will engage again.  I feel safe that we shall
+            <lb/>will <choice><corr>reengage</corr><sic>renengage</sic></choice> again.  I feel safe that we shall
             <lb/>fare well and if there is any money to be got out
-            <lb/>of the chartering <choice><corr>business</corr><sic>bussiness</sic></choice> we will fare to. You
+            <lb/>of the chartering <choice><corr>business</corr><sic>bussiness</sic></choice> we will fare too You
             <lb/>may think that this is a strange sort of life  
             
             <!-- Page 2 -->
@@ -2247,7 +2244,7 @@
             <lb/>and so do I!  I cannot tell today what
             <lb/>I shall do tomorrow nor can a I find out by
             <lb/>enquiry as the <choice><corr>Commodore</corr><sic><rs type="title">Comadore</rs></sic></choice> of the fleet is subject to
-            <lb/>the orders of <persName ref="#HGWright">Gen Wright</persName> I suppose you heard
+            <lb/>the orders of <persName ref="#HGWright">Gen Wright</persName>. I suppose you heard
             <lb/>by the papers of the cowardice of <persName>Capt Adams</persName>
             <lb/>and the <rs type="title">Capt</rs> of the <name type="ship">Florence Miller</name> who are both in
             <lb/>Jail and likely to be Kept there I don’t Know
@@ -2277,8 +2274,8 @@
             <lb/>bye
           </p> 
           <closer>
-            <lb/><salute>Your affectionate husband,</salute>
-            <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WBA</abbr></choice></persName></signed>
+            <salute>Your affectionate husband</salute>
+            <signed><persName ref="#WBA"><choice><abbr type="initials">WBA</abbr></choice></persName></signed>
           </closer>
           <!-- If there were a <postscript>, we have a tag for that. -->
         </div>
@@ -2308,6 +2305,7 @@
       </body>
     </text>
   </TEI>
+  <!-- PROOFED LETTER, MSDESC, AND CONTENTS DESC 15 AUGUST 2019 -->
   
   <TEI xml:id="WBA_18621016" n="18621016">
     <!-- FIRST COPY THIS TEI ELEMENT!! -->
