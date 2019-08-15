@@ -1543,7 +1543,7 @@
                 been folded once crosswise and twice lengthwise. A .5-inch by .5-inch (1.3 x 1.3 cm)
                 embossed printer's mark appears in the upper lefthand corner of the sheet, 0.5
                 inches (1.3 cm) from the top edge and .25 inches (0.6 cm) from the left edge.
-                On a diagonal bar across a sheild topped by a crown, the mark reads, "YORK."</p>
+                On a diagonal bar across a shield topped by a crown, the mark reads, "YORK."</p>
               <accMat></accMat>
             </physDesc>
             <additional>
@@ -2330,28 +2330,17 @@
               <idno>SPEC.RARE.CMS.0309</idno>
             </msIdentifier>
             <msContents>
-              <p>Anderson tells his wife that his boat's departure has been delayed by a day 
-                and asks her to send some food and clothes to him at the dock. He also expresses 
-                anxiety about whether his trip will be profitable and asks his wife to request 
-                some money from [John?] Russell to help cover an upcoming payday for his crew.</p>
+              <p>Anderson's letter of 10 October 1862 focuses on arrangements for a visit from his
+                wife and on business matters, both at home and on the river.</p>
             </msContents>
             <physDesc>
-              <p>William B. Anderson's letter dated June 27, 1862 from Pittsburgh and
-                addressed to his wife Louisa is written in ink on one side of a 
-                loose sheet of paper measuring approximately 7.5 inches wide by 9.0 inches 
-                tall (19 x 23 cm) and ruled with horizontal blue lines spaced .33 inches 
-                (0.8 cm) apart, except for a 1.5-inch (3.8 cm) unruled top margin. 
-                The left edge of the sheet is slightly ragged, while the other three edges 
-                are clean, suggesting that the sheet was torn from a notepad or bound notebook. 
-                It appears originally to have been folded once crosswise and twice lengthwise. 
-                At this writing, the ink appears brown and the paper off-white (cream). A .5-inch
-                by .5-inch (1.3 x 1.3 cm) embossed printer's mark appears in the upper lefthand 
-                corner of the sheet, 0.5 inches (1.3 cm) from the top edge and .25 inches 
-                (0.6 cm) from the left edge. Although the mark is indistinct, its shape 
-                closely matches that of a distinct, similarly sized and positioned printer's 
-                mark on a letter dated July 1, 1863, which reads "MT HOLLY PAPER CO." 
-                (see illustrations). Texture? Stiffness? Watermarks? I will have to visit 
-                the RBML.</p>
+              <p>Anderson's letter dated 16 October 1862 from Cincinnati is written in ink on three
+                pages of a loose folio of manilla-colored paper, each page measuring approximately
+                7.5 inches wide by 9.0 inches tall (19 x 23 cm) and ruled with horizontal blue lines
+                spaced .33 inches (0.8 cm) apart, except for a 1.5-inch (3.8 cm) unruled top margin.
+                The folio appears to have been folded once crosswise and twice lengthwise. An
+                embossed printer's mark appears in the upper lefthand corner of the first page and
+                has a diagonal bar containing the word "YORK" across a shield topped by a crown.</p>
               <accMat></accMat>
             </physDesc>
             <additional>
@@ -2371,15 +2360,8 @@
           <!-- REVISE THE VALUES ABOVE -->
           <pb facs="Letter12_pg1"/>
           <!-- MAKE SURE TO REVISE THE FACS VALUE! -->
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
-          <lb/>
           <opener>
-            <lb/><dateline><date when="1862-06-16"></date>June 16/62</dateline>
+            <lb/><dateline><placeName ref="#CincinnatiOH"><choice><expan>Cincinnati</expan><abbr>Cin</abbr></choice></placeName> <date when="1862-06-16"></date>October 16th 1862</dateline>
             <lb/><salute>My <choice><expan>Dear</expan><abbr>Dr</abbr></choice><rs type="recipient" ref="#MLA"> Wife</rs></salute>
           </opener>
           <p>
@@ -2387,7 +2369,7 @@
             <lb/>arrival to the City this afternoon &amp; was glad 
             <lb/>to hear from you.  I have been absent from 
             <lb/>the City for a few days on a trip to Maysville 
-            <lb/>we are sill in Gov employ and I suppose we 
+            <lb/>we are still in Gov employ and I suppose we 
             <lb/>will continue some time yet as there is no prospect 
             <lb/>of water.  I will have to be <choice><corr>disappointed</corr><sic>dissapointed</sic></choice> in 
             <lb/>my prospects of going home for while and 
@@ -2398,8 +2380,8 @@
             <lb/>be very happy to see them but you could not be 
             <lb/>at liberty to go any place you might wish with 
             <lb/>them and there is no reason why you could not 
-            <lb/>leave them in care of Mary McNamee and Julia 
-            <lb/>Porter for that time.  You can make your own 
+            <lb/>leave them in care of <persName>Mary McNamee</persName> and <persName>Julia 
+            <lb/>Porter</persName> for that time.  You can make your own 
             <lb/>arrangements about the children as I leave the 
             <lb/>care of them altogether to you I think if you 
             <lb/>will come down 
@@ -2428,7 +2410,7 @@
             <lb/>and he might just as well had 200$ dollars 
             <lb/>while he has been at home as not if you should 
             <lb/>come down or have any chance to send me 
-            <lb/>that pair of Blue pants &amp; belt down I would 
+            <lb/>that pair of Blue Pants &amp; belt down I would 
             <lb/>like to have them as my Pants are getting thin 
             <lb/>and I don’t want to spend any money I can 
             <lb/>help.  I have not seen your mother for 
@@ -2465,21 +2447,20 @@
             <lb/>what I am making but one thing I do 
             <lb/>know is this that I am doing as well as I 
             <lb/>want to with a boat my share of the <choice><corr>profits</corr><sic>proffits</sic></choice> 
-            <lb/>and wages is at least 40 <choice><expan>dollars</expan><abbr>>dolls</abbr></choice> per day and that 
+            <lb/>and wages is at least 40 <choice><expan>dollars</expan><abbr>dolls</abbr></choice> per day and that 
             <lb/>is not bad but keep it to yourself. I will stop 
             <lb/>as the mail Closes at 8 Oclock this evening I 
             <lb/>will write soon again but write immediately 
-            <lb/>and give me all the news and take good 
+            <lb/><choice><corr>and</corr><sic>any</sic></choice> give me all the news and take good 
             <lb/>Care of yourself and the children and kiss 
             <lb/>all of them for me and tell them to be good 
           </p> 
           <closer>
             <lb/><salute>Your Affectionate Husband</salute>
-            <lb/><signed><persName ref="#WBA"><choice><expan>Anderson</expan><abbr type="initials">WB</abbr></choice></persName></signed>
+            <lb/><signed><persName ref="#WBA"><choice><expan>William B.</expan><abbr type="initials">WB</abbr></choice> Anderson</persName></signed>
           </closer>
           <!-- If there were a <postscript>, we have a tag for that. -->
-        </div>
-        <postscript>
+         <postscript>
           <p>
             <lb/>Excuse Haste &amp; Bad writing as there is a constant
             <lb/>ta<del type="recoverable" rend="overwritten" hand="WBA">k</del>lking and fun in the Hall           
@@ -2489,10 +2470,13 @@
           </closer>
         </postscript>
         <!-- Or an enclosure: <div type="enclosure" xml:id="WBA_18600101enc"></div> -->
-      </body>
+        </div>
+     </body>
     </text>
   </TEI>
-
+  
+  <!-- PROOFED LETTER, MSDESC, AND CONTENTS DESC 15 AUGUST 2019 -->
+  
   <TEI xml:id="WBA_18630619" n="18630619">
     <!-- FIRST COPY THIS TEI ELEMENT!! -->
     <!-- FILL IN THE VALUES ABOVE -->
