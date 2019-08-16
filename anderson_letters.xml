@@ -2484,7 +2484,7 @@
     <teiHeader>
       <fileDesc>
         <titleStmt>
-          <title>My Dear Wife: A Riverboat Captain's Missive to His Love</title>
+          <title>Letter from William B. Anderson to his wife, Louisa, 19 June 1863.</title>
           <author>Anderson, William B.</author>
         </titleStmt>
         <publicationStmt>
@@ -2500,26 +2500,19 @@
               <idno>SPEC.RARE.CMS.0309</idno>
             </msIdentifier>
             <msContents>
-              <p>On June 19th, 1863, riverboat captain William B. Anderson penned a letter to his wife 
-                from St. Louis, Missouri, in which he informs his spouse of matters concerning river
-                travel, his salary, and a bout of illness that left him bedridden.</p>
+              <p>Anderson writes about business prospects and recounts a recent illness.</p>
             </msContents>
             <physDesc>
-              <p>The single folded sheet, yellowed with age, has
-                writing on both the front and back in black ink, as well as a printer's mark in the upper left hand corner.
-                William B. Anderson's letter dated June 19th, 1863 from St. Louis, Missouri, is
-                addressed to his wife Louisa and is written in ink on both sides of a 
-                loose sheet of off-white paper measuring approximately 7.5 inches wide by 9.0 inches 
-                tall (19 x 23 cm).  The paper is ruled with horizontal lines of a blue color that are spaced .33 
-                inches (0.8 cm) apart, except for a 1.5-inch (3.8 cm) top margin that is unruled. 
-                The sheet's left edge is not a clean line like the remaining three, suggesting that it was
-                most likely  torn from a notepad of some sort.  Written in black ink, the letter appears to 
-                have originally been folded once horizontally and twice vertically. 
-                A .5-inch by .5-inch (1.3 x 1.3 cm) embossed printer's mark appears in the upper left 
-                corner of the sheet, 0.5 inches (1.3 cm) from the top edge of the paper and .25 inches 
-                (0.6 cm) from the left edge. Although the exact origins of the mark is inconclusive, it
-                resembles a similarly sized and placed printer's mark on a letter dated July 1, 1863, that
-                reads: "MT HOLLY PAPER CO."</p>
+              <p>Anderson's letter dated June 19th, 1863 from St. Louis, Missouri is written in ink
+                on both sides of a loose sheet of manilla-collored, lined paper measuring
+                approximately 7.5 inches wide by 9.0 inches tall (19 x 23 cm). The paper is ruled
+                with horizontal blue lines spaced .33 inches (0.8 cm) apart, except for a 1.5-inch
+                (3.8 cm) top margin that is unruled. The sheet's left edge is ragged, the remaining
+                three clean, suggesting that the sheet was torn from a notepad or from a larger
+                sheet. The letter appears to have originally been folded once horizontally and twice
+                vertically. An embossed printer's mark appears in the upper left corner of the
+                sheet; though indistict, it resembles a similarly sized and placed printer's mark on
+                a letter dated July 1, 1863, that reads: "MT HOLLY PAPER CO."</p>
               <accMat></accMat>
             </physDesc>
             <additional>
@@ -2539,16 +2532,9 @@
           <!-- REVISE THE VALUES ABOVE -->
           <pb facs="Letter02_pg1"/>
           <!-- MAKE SURE TO REVISE THE FACS VALUE! -->
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
-          <lb/>
           <opener>
             <lb/><dateline>St Louis <date when="1863-06-19"></date>Saturday June 19th 63</dateline><ptr type="noteAnchor" target="June19"/><note resp="ed" xml:id="June19">June 19, 1863 fell on a Friday, not Saturday.</note>
-            <lb/><salute>My Dear<rs type="recipient">Wife</rs></salute>
+            <lb/><salute>My Dear <rs type="recipient">Wife</rs></salute>
           </opener>
           <p>
             <lb/>I will commence a letter to you 
@@ -2562,7 +2548,7 @@
             <lb/>night we shall have all we can carry I had thought
             <lb/>somebody would be here and offer to buy the boat but
             <lb/>the Boat fervor has subsided greatly I had a visit
-            <lb/>from <persName>Capt. R. C. Gray</persName> today &amp; he says that he thinks that
+            <lb/>from <persName>Capt R C Gray</persName> today &amp; he says that he thinks that
             <lb/>the upper <placeName>Mississippi river</placeName> trade would pay us better
             <lb/>than the <placeName ref="#SLM">St Louis</placeName> and <placeName ref="#CincinnatiOH"><choice><expan>Cincinnati</expan><abbr>Cin.</abbr></choice></placeName> trade but I dont wish to go up 
             <lb/>there for the present. I had an offer at <placeName ref="#CincinnatiOH"><choice><expan>Cincinnati</expan><abbr>Cin.</abbr></choice></placeName> to sell &amp; I will
@@ -2580,13 +2566,13 @@
             <lb/>of my face &amp; jaw pained me constantly
             <lb/>and my teeth ached &amp; I had one of them 
             <lb/>pulled and it did not do any good and
-            <lb/>for 48 hours, I had not eaten one bite nor
+            <lb/>for 48 hours I had not eaten one bite nor
             <lb/>slept one minute.  I was not well one minute
             <lb/>at a time until I took the medicine and it
             <lb/>acted like a charm I am of course weak
             <lb/>but feel well and tomorrow I want to go 
             <lb/>and see <persName>Belle Ferguson</persName> I have not been out
-            <lb/>of my room nor in fact out of bed all
+            <lb/>of my room nor in fact out of Bed all
             <lb/>day till this Evening. I would not have
             <lb/>believed that a few doses of medicine would
             <lb/>do so much in so short a time.  I will
@@ -2594,11 +2580,11 @@
             <lb/>hope you are well give my love to 
             <lb/>the children excuse this poor letter
             <lb/>for I can assure you that I have had 
-            <lb/>better to say – I will leave here for
-            <lb/>Cin Tomorrow night without I get
+            <lb/><choice><corr>better</corr><sic>letter</sic></choice> to say – I will leave here for
+            <lb/>Cin tomorrow night without I get
             <lb/>disappointed. I have been unable to go 
-            <lb/>up Town to see how it looks but will
-            <lb/>Tomorrow if nothing happens &amp; my 
+            <lb/>up town to see how it looks but will
+            <lb/>tomorrow if nothing happens &amp; my 
             <lb/>health improves I <choice><corr>feel</corr><sic>feell</sic></choice> sure I will
             <lb/>be all right again in a day or two
           </p> 
@@ -2608,7 +2594,7 @@
           </closer>
           <postscript>
            <p>
-            <lb/>P.S. I will write again Tomorrow any how
+            <lb/>P.S. I will write again tomorrow any how
            </p>
             <lb/><signed><persName ref="#WBA"><choice><expan>William B. Anderson</expan><abbr type="initials">WBA</abbr></choice></persName></signed>
           </postscript>
