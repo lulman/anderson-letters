@@ -2604,8 +2604,8 @@
       </body>
     </text>
   </TEI>
-  <!-- PROOFED LETTER, MSDESC, AND CONTENTS DESC 16 AUGUST 2019 -->
-  
+ <!-- PROOFED LETTER, MSDESC, AND CONTENTS DESC 16 AUGUST 2019 -->
+   
   <TEI xml:id="WBA_18630701" n="18630701">
     <!-- FIRST COPY THIS TEI ELEMENT!! -->
     <!-- FILL IN THE VALUES ABOVE -->
@@ -2613,7 +2613,7 @@
     <teiHeader>
       <fileDesc>
         <titleStmt>
-          <title>A letter from William B. Anderson to his wife, Mary Louisa, from July 1, 1863 written in Cincinnati</title>
+          <title>Letter from William B. Anderson to his wife, Mary Louisa, on July 1, 1863</title>
           <author>Anderson, William B.</author>
         </titleStmt>
         <publicationStmt>
@@ -2736,7 +2736,8 @@
       </body>
     </text>
   </TEI>
-
+  <!-- PROOFED LETTER, MSDESC, AND CONTENTS DESC 16 AUGUST 2019 -->
+  
   <TEI xml:id="WBA_18630705" n="18630705">
     <!-- FIRST COPY THIS TEI ELEMENT!! -->
     <!-- FILL IN THE VALUES ABOVE -->
@@ -2744,7 +2745,7 @@
     <teiHeader>
       <fileDesc>
         <titleStmt>
-          <title>W.B. Anderson During The Burning of Lebanon During the Cival War</title>
+          <title>Letter from William B. Anderson to his wife, Mary Louisa, on July 5, 1863</title>
           <author>Anderson, William B.</author>
         </titleStmt>
         <publicationStmt>
@@ -2760,23 +2761,21 @@
               <idno>SPEC.RARE.CMS.0309</idno>
             </msIdentifier>
             <msContents>
-              <p>In this letter W.B. Anderson gives us a description of the difficulty he has unloading
-                a shipment because of the civil war. More importantly though Anderson gives us an insight
-                in this letter to the burning of Lebanon during the civil war, from the stand point of
-                a civilian in public enterprise during this time. Some of the impact that we are given 
-                insight to includes the organization of local troops and how it is holding back Anderson 
-                and his shipment.</p>
+              <p>Anderson writes that "a rioting spree" by Irish workers in Cincinnati has disrupted
+                work on the wharves and that "the city was all on uproar" over reports that Morgan's
+                Raiders had "Burned down Lebanon" Kentucky. Anderson is skeptical of calls to send
+                men to Kentucky to protect Lexington and Louisville, believing that the real purpose
+                of the call up is "to get recruits and then . . . march them on to Richmond."</p>
             </msContents>
             <physDesc>
-              <p>This three page long letter written by W.B. Anderson on July fifth 1863 is written with a 
-                brown/black ink on a loose piece of off-white, blue lined paper, approximately 7.5inches 
-                wide by 10 inches long. The letter in its current state is appears as if it was folded twice
-                vertically and once horizontally. The document was written front and back on 2 sheets of 
-                paper for a total of 3 pages in length. The page also contains a printer’s mark in the upper
-                right hand corner of the page which is now indistinguishable. This printer’s mark closely 
-                resembles other printers marks found on several of Anderson’s letters including the letter 
-                of 27 June 1862 and the letter of 1 July 1863. On these other letters you can more clearly 
-                read "MT HOLLY PAPER CO."</p>
+              <p>Anderson's letter of 5 October 1863 from Cincinnati is written in ink on three
+                pages of a loose folio of manilla-colored paper, each page measuring approximately
+                7.5 inches wide by 9.0 inches tall (19 x 23 cm) and ruled with horizontal blue lines
+                spaced .33 inches (0.8 cm) apart, except for a 1.5-inch (3.8 cm) unruled top margin.
+                The folio appears to have been folded once crosswise and twice lengthwise. An
+                embossed printer's mark appears in the upper lefthand corner of the first page and,
+                while indistinct, appears similar to others in this collection that read "MT HOLLY
+                PAPER CO" written on an ornate shield.</p>
               <accMat></accMat>
             </physDesc>
             <additional>
@@ -2796,16 +2795,11 @@
           <!-- REVISE THE VALUES ABOVE -->
           <pb facs="Letter17_pg1"/>
           <!-- MAKE SURE TO REVISE THE FACS VALUE! -->
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
-          <lb/>
           <opener>
-            <lb/><dateline><placeName ref="#CincinnatiOH"><choice><expan>Cincinnati</expan><abbr>Cin</abbr></choice></placeName><date when="1862-07-05"></date> Sunday Afternoon</dateline>
-            <lb/><salute>Dear<rs facs="#MLA">Wife</rs></salute>
+            <lb/><dateline><placeName ref="#CincinnatiOH"><choice><expan>Cincinnati</expan><abbr>Cin</abbr></choice></placeName>
+              <date when="1862-07-05"></date> Sunday Afternoon</dateline><ptr type="noteAnchor" target="Lebanon"/><note resp="ed" xml:id="Lebanon">Anderson's mention
+                of the Battle of Lebanon places the date of the letter on Sunday, July 5, 1863.</note>
+            <lb/><salute>Dear <rs facs="#MLA">Wife</rs></salute>
           </opener>
           <p>
             <lb/>I take my pen to let you know
@@ -2824,24 +2818,22 @@
             <lb/>men and the Irish would not let them
             <lb/>cross on the ferry Boat so we had a good time
             <lb/>to get our load out but finally succeeded
-            <lb/>and got back out of <placeName ref="#licking">Licking</placeName> and to the
+            <lb/>and got back out of <placeName ref="#licking">licking</placeName> and to the
             <lb/>Wharf here about 10 Oclock at night and
             <lb/>yesterday took all the <choice><expan>freight</expan><abbr>Frt.</abbr></choice> we could get for
             <lb/><placeName ref="#PittsburghPA">Pitt</placeName> and will I think by tomorrow Evening
-            <lb/>have a load we have now on and insight
-            <lb/>half enough.  but the devil has broke loose
+            <lb/>have a load we have now on and in sight
+            <lb/>half enough.  but the <choice><corr>devil</corr><sic>divel</sic></choice> has broke loose
             <lb/>over in <placeName>Kentucky</placeName> again last night the <rs>Mayor</rs>
             <lb/>Received a dispatch to send all the Forces
-          </p>
           
           
           <!-- Page 2 -->
           <pb facs="Letter17_pg2"/>
-          <p>
             <lb/>that could be got over to go out to <placeName ref="#lexington">Lexington</placeName>
             <lb/>as <persName ref="#Morgan">Morgan</persName> and 3000 men had Burned down
-            <lb/> <placeName ref="#lebanon">Lebanon</placeName>and were likely to take <placeName ref="#lexington">Lexington</placeName>
-            <lb/>and the city was all one uproar last
+            <lb/><placeName ref="#lebanon">Lebanon</placeName> and were likely to take <placeName ref="#lexington">Lexington</placeName>
+            <lb/>and the City was all one uproar last
             <lb/>night and to day the <rs ref="#hatch">Mayor</rs> then ordered
             <lb/>all the Police 200 in number to start at
             <lb/>2 Oclock with as many more citizens as
@@ -2850,7 +2842,7 @@
             <lb/>on 5th street and could not get to hear one
             <lb/>word in ten that was spoken while I was
             <lb/>there there was a dispatch arrived to <unclear>Morgan
-            <lb/>Hatch</unclear> to send our men and arms to save
+            <lb/>Hatch</unclear> to send on men and arms to save
             <lb/>the city as <placeName ref="#lexington">Lexington<placeName/> was in <choice><corr>imminent</corr><sic>iminent</sic></choice> danger
             <lb/>as for <placeName ref="#LouisvilleKY">Louisville</placeName> they had enough to do
             <lb/> to take care of it them selves and <placeName ref="#CincinnatiOH"><choice><expan>Cincinnati</expan><abbr>Cin</abbr></choice></placeName>.
@@ -2859,8 +2851,8 @@
             <lb/>I don’t think that the danger is as great
             <lb/>as is anticipated  I think that all this is
             <lb/>done to get recruits and then they will march
-            <lb/>them on to <placeName ref="#richmond">Richmond</placeName> but be it as it may if
-            <lb/>they played the very mischief with business in
+            <lb/>them on to <placeName ref="#richmond">Richmond</placeName> but be it as it may it
+            <lb/>thus played the very mischief with business in
             <lb/>the city for a few days.  I was down to see the
             <lb/>old Lady to day and <persName>Ella</persName> came up with me
             <lb/>and is on the Boat now and is well the old
@@ -2869,15 +2861,15 @@
           </placeName>
           <pb facs="Letter17_pg3"/>            
             <lb/>on the street cars and send her down home and
-            <lb/>Mail this if nothing more happens than I know
-            <lb/>if at this time  we will be up about Friday
+            <lb/>mail this if nothing more happens than I know
+            <lb/>of at this time  we will be up about Friday
             <lb/>or Saturday our trip will not be as good
             <lb/>as the last on account of our down trip
-            <lb/>being so poor  tell <persName>Mary <choice><corr>"McNamee"</corr><sic>McName</sic></choice></persName> that <name>Wm</name>
+            <lb/>being so poor  tell <persName>Mary McNamee"</persName> that <name>Wm</name>
             <lb/>is now on the boat on a visit and is well
             <lb/>I will buy a Half Barrel of white sugar and
             <lb/> <del type="unrecoverable" rend="overwritten" hand="WBA"></del>put off as we go up <choice><corr>if</corr><sic>is</sic></choice> I can get it right
-            <lb/>everything is high and money scarce gold and
+            <lb/>everything is high and money scarce Gold and
             <lb/>Silver is from 10 to 15 per <choice><expan>cent</expan><abbr>ct</abbr></choice> better than paper
             <lb/>money here  I will go up on 5th st tomorrow
             <lb/> and see <persName> Sue <choice><corr>Whitaker</corr><sic>Whitake</sic></choice></persName> as I have to pass where
@@ -2886,7 +2878,7 @@
             <lb/>about half of it is down yet &amp; I have to see the
             <lb/>shipper tomorrow to let him know definitely about
             <lb/>our time of leaving I will stop as I have no
-            <lb/>more news to write about<lb/>
+            <lb/>more news to write about
           </p>
           <closer>
             <lb/><salute>Your affectionate husband</salute>
@@ -2898,7 +2890,8 @@
       </body>
     </text>
   </TEI>
-
+  <!-- PROOFED LETTER, MSDESC, AND CONTENTS DESC 17 AUGUST 2019 -->
+  
   <TEI xml:id="WBA_18630718" n="18630718">
     <!-- FIRST COPY THIS TEI ELEMENT!! -->
     <!-- FILL IN THE VALUES ABOVE -->
