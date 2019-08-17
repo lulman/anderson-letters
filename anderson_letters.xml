@@ -2604,7 +2604,8 @@
       </body>
     </text>
   </TEI>
-
+  <!-- PROOFED LETTER, MSDESC, AND CONTENTS DESC 16 AUGUST 2019 -->
+  
   <TEI xml:id="WBA_18630701" n="18630701">
     <!-- FIRST COPY THIS TEI ELEMENT!! -->
     <!-- FILL IN THE VALUES ABOVE -->
@@ -2628,26 +2629,20 @@
               <idno>SPEC.RARE.CMS.0309</idno>
             </msIdentifier>
             <msContents>
-              <p>In this letter, from July 1, 1863, William B. Anderson writes to his wife, Mary Louisa, from
-                Cincinnati.  Anderson tells his wife about the Government cargo he is shipping, and the hard
-                work that goes along with handling the cargo in the summer heat.  Anderson also gives Mary Louisa
-                advice pertaining to family and financial affairs back home in Pittsburgh.  He ends the letter 
-                as he does most, with affection for his wife and telling her to kiss "the little ones" for him.</p>
+              <p>Anderson writes about the government cargo he is shipping—potatoes and clothing—and the hard
+                work involved in handling the cargo in the summer heat. He also advises Louisa
+                about financial affairs back home in Pittsburgh.</p>
             </msContents>
             <physDesc>
-              <p>William B. Anderson's letter dated July 1, 1863 from Cincinnati and
-                addressed to his wife Louisa is written in ink on one side of a 
-                loose sheet of paper measuring approximately 7.5 inches wide by 9.0 inches 
-                tall (19 x 23 cm) and ruled with horizontal blue lines spaced .33 inches 
-                (0.8 cm) apart, except for a 1.5-inch (3.8 cm) unruled top margin. 
-                The left edge of the sheet is slightly ragged, while the other three edges 
-                are clean, suggesting that the sheet was torn from a notepad or bound notebook. 
-                It appears originally to have been folded once crosswise and twice lengthwise. 
-                At this writing, the ink appears brown and the paper off-white (cream). A .5-inch
-                by .5-inch (1.3 x 1.3 cm) embossed printer's mark appears in the upper lefthand 
-                corner of the sheet, 0.5 inches (1.3 cm) from the top edge and .25 inches 
-                (0.6 cm) from the left edge. It reads "MT HOLLY PAPER CO" 
-                (see illustration).</p>
+              <p>William B. Anderson's letter dated July 1, 1863 from Cincinnati is written in ink
+                on two sides of a loose sheet of manilla-colored paper measuring approximately 7.5
+                inches wide by 9.0 inches tall (19 x 23 cm) and ruled with horizontal blue lines
+                spaced .33 inches (0.8 cm) apart, except for a 1.5-inch (3.8 cm) unruled top margin.
+                The left edge of the sheet is slightly ragged, while the other three edges are
+                clean, suggesting that the sheet was torn from a notepad or bound notebook, or from
+                a larger sheet. It appears originally to have been folded once crosswise and twice
+                lengthwise. An embossed printer's mark appears in the upper lefthand corner of the
+                sheet and reads "MT HOLLY PAPER CO" written on an ornate shield.</p>
               <accMat></accMat>
             </physDesc>
             <additional>
@@ -2667,27 +2662,20 @@
           <!-- REVISE THE VALUES ABOVE -->
           <pb facs="Letter13_pg1"/>
           <!-- MAKE SURE TO REVISE THE FACS VALUE! -->
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
-          <lb/>
           <opener>
             <lb/><dateline><placeName ref="#CincinnatiOH"><choice><expan>Cincinnati</expan><abbr>Cin</abbr></choice></placeName><date when="1863-07-01"></date> July 1st 1863</dateline>
-            <lb/><salute>My <choice><expan>Dear</expan><abbr>Dr</abbr></choice><rs ref="#MLA">Wife</rs></salute>
+            <lb/><salute>My <choice><expan>Dear</expan><abbr>Dr</abbr></choice> <rs ref="#MLA">Wife</rs></salute>
           </opener>
           <p>
             <lb/>As  I have an opportunity of sending
             <lb/>you a letter by <persName>Mr Wm Russell</persName> I thought I
-            <lb/>would embrace the opportunity.  I am well and hope
+            <lb/>would embrace the opportunity.  I am well &amp; hope
             <lb/>you are also. we start this evening for <placeName ref="#nashville">Nashville</placeName>
             <lb/>Our cargo is principally <choice><expan>Government</expan><abbr>Gov.</abbr></choice> <choice><expan>Freight</expan><abbr>Frt</abbr></choice> we have for 
             <lb/>one item 1000 Barrels Potatoes there is lots of <choice><expan>Freight</expan><abbr>frt</abbr></choice>
             <lb/>to Go to <placeName ref="#nashville">Nashville</placeName>  I had the offer of 280
-            <lb/>six Horses <choice><corr>Wagons</corr><sic>Waggons</sic></choice> 150 ambulances and Horses for
-            <lb/>June and 450 tons clothing.  I take 100 tons or
+            <lb/>six Horses <choice><corr>Wagons</corr><sic>Waggons</sic></choice> 150 ambulances &amp; Horses for
+            <lb/>June &amp; 450 tons clothing.  I take 100 tons or
             <lb/>one thousand Barrels Potatoes and as many
             <lb/>boxes of Clothing As I can carry on the water
             <lb/>which will <choice><expan>amount</expan><abbr>amt</abbr></choice> to in all about 1500$ <choice><expan>Dollars</expan><abbr>Dolls</abbr></choice>
@@ -2697,7 +2685,7 @@
             <lb/>a good trip it is excessively Hot today I can
             <lb/>scarcely stand it but I hope we will have it
             <lb/>Cooler when we get underway. I have been very
-            <lb/>buissily engaged all day have had a good ell
+            <lb/><choice><corr>busily</corr><sic>buissily</sic></choice> engaged all day have had a good ell
             <lb/>of work to do to get our trip secured there is a
             <lb/>good many way of dodging.  I can not tell
             <lb/>you when I will be home I had some hope of
@@ -2710,30 +2698,29 @@
             <lb/>what I will do next If I cannot make it pay 
             <lb/>&amp; I don’t sell I will lay up till Cool weather
             <lb/>it is murdering ones self by degrees to Boat
-            <lb/>such times as those.  I suppose you have best
+            <lb/>such times as those.  I suppose you had best
             <lb/>get a Barrell of N.O. Sugar at <placeName ref="#PittsburghPA"><choice><expan>Pittsburgh</expan><abbr>Pitt</abbr></choice></placeName> either
             <lb/>from  Holmes &amp; Co Market St <ptr type="noteAnchor" target="holmes"/><note resp="ed" xml:id="holmes">A lot labeled "Holmes" appears
               at 15 Market Street on an 1872 map of Pittsburg. <bibl> Historic Pittsburgh, https://historicpittsburgh.org/islandora/object/pitt%3A1872p015/viewer</bibl>.</note> or from Mirer and  
             <lb/>Robinson <placeName>Allegheny</placeName> I would send you the
             <lb/>Money but I suppose you can get it from
             <lb/><persName>Russell</persName> it will cost about 35 or 40 <choice><expan>Dollars</expan><abbr>Dolls</abbr></choice>
-            <lb/>you can get <persName>Russell</persName> to get it for you and
+            <lb/>you can get <persName>Russell</persName> to get it for you &amp;
             <lb/>let him charge it.  I will send him a 
-            <lb/>note by Bill and he can get it and have it
+            <lb/>note by Bill &amp; he can get it &amp; have it
             <lb/>sent to his store have him get it over
             <lb/>the River &amp; all.
           </p>
           <p>
             <lb/>I have no news to write about but to
             <lb/>say your letter the first one came yesterday
-            <lb/>and I was pleased to hear from you
+            <lb/>&amp; I was pleased to hear from you
             <lb/>give my love to all the little ones
             <lb/>and Kiss them for me
           </p>
           <closer>
             <lb/><salute>Ever your affectionate Husband</salute>
-            <lb/>
-            <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WB</abbr></choice> Anderson</persName></signed>
+             <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WB</abbr></choice> Anderson</persName></signed>
           </closer>
           <postscript>
            <p><lb/>P.S.
