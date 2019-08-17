@@ -3003,7 +3003,7 @@
     <teiHeader>
       <fileDesc>
         <titleStmt>
-          <title>Letter from riverboat captain William B. Anderson to his wife at home in Pittsburgh, dated July 31, 1863, from Cincinnati.</title>
+          <title>Letter William B. Anderson to his wife, dated July 31, 1863, from Cincinnati.</title>
           <author>Anderson, William B.</author>
         </titleStmt>
         <publicationStmt>
@@ -3027,25 +3027,17 @@
                 Morgan raid may have interfered with mail delivery.</p>
             </msContents>
             <physDesc>
-              <p>William B. Anderson's letter dated July 31, 1863, from Cincinnati and
-                addressed to his wife Mary Louisa is written in dark ink on both sides of a 
-                loose sheet of paper measuring approximately 7.5 inches wide by 10.0 inches 
-                tall (19.5 x 25 cm) and ruled with horizontal blue lines spaced .33 inches 
-                (0.8 cm) apart, except for a 1.5-inch (3.8 cm) unruled top margin on the front 
-                of the sheet and a 0.9-inch (2 cm) unruled top margin on the back of the sheet. 
-                The left edge of the sheet is slightly ragged, while the other three edges 
-                are straight, suggesting that the sheet was torn from a notepad or bound notebook. 
-                It appears to have been folded once crosswise and twice lengthwise. 
-                At this writing, the ink appears very dark brown and the paper off-white (cream). A .5-inch
-                by .5-inch (1.3 x 1.3 cm) embossed printer's mark appears in the upper lefthand 
-                corner of the sheet, 0.5 inches (1.3 cm) from the top edge and .25 inches 
-                (0.6 cm) from the left edge. Although the mark is hard to see, its shape 
-                closely matches that of a distinct, similarly sized and positioned printer's 
-                mark on a letter dated July 1, 1863, which reads "MT HOLLY PAPER CO." 
-                (see illustrations), so it is likely this letter was of the same paper supply.  
-                The Ohio State University Library's Rare Books and Manuscripts Library
-                is currently inaccessible due to its relocation in preparation for renovation, so
-                no further information about the original letter is currently available.</p>
+              <p>Anderson's letter dated July 31, 1863 from Cincinnati is written in ink on two
+                sides of a loose sheet of lined manilla-colored paper measuring approximately 7.5
+                inches wide by 9.0 inches tall (19 x 23 cm) and ruled with horizontal blue lines
+                spaced .33 inches (0.8 cm) apart, except for a 1.5-inch (3.8 cm) unruled top margin. The left edge of
+                the sheet is slightly ragged, while the other three edges are clean, suggesting that
+                the sheet was torn from a notepad or bound notebook, or from a larger sheet. It appears originally to have
+                been folded once crosswise and twice lengthwise. An
+                embossed printer's mark appears in the upper lefthand corner of the sheet.
+                Although indistinct, its shape closely matches that of a distinct,
+                similarly sized and positioned printer's mark on a letter dated July 1, 1863, which
+                reads "MT HOLLY PAPER CO." over an ornate shield.</p>
               <accMat></accMat>
             </physDesc>
             <additional>
@@ -3065,16 +3057,9 @@
           <!-- REVISE THE VALUES ABOVE -->
           <pb facs="Letter15_pg1"/>
           <!-- MAKE SURE TO REVISE THE FACS VALUE! -->
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
-          <lb/>
           <opener>
-            <lb/><dateline><placeName ref="#CincinnatiOH"><choice><expan>Cincinnati</expan><abbr>Cin</abbr></choice></placeName><date when="1863-07-31"> Friday July 31st 1863</date><placeName ref="#CincinnatiOH"><choice><expan>Cincinnati</expan><abbr>Cin</abbr></choice></placeName></dateline>
-            <lb/><salute>My <choice><expan>Dear</expan><abbr>Dr</abbr></choice><rs ref="#MLA">Wife</rs></salute>
+            <lb/><dateline><placeName ref="#CincinnatiOH"><choice><expan>Cincinnati</expan><abbr>Cin</abbr></choice></placeName><date when="1863-07-31"> Friday July 31st 1863</date></dateline>
+            <lb/><salute>My <choice><expan>Dear</expan><abbr>Dr</abbr></choice> <rs ref="#MLA">Wife</rs></salute>
           </opener>
           <p>
             <lb/> Your of 26 came in due time &amp; I
@@ -3140,8 +3125,8 @@
             <lb/> will drop you a line before we leave
           </p> 
           <closer>
-            <lb/><salute><!-- From salute --></salute>
-            <lb/><signed><persName ref="#WBA"><choice><abbr type="initials">WBA</abbr></choice></persName></signed>
+            <lb/><salute>Affectionately &amp;truly yours</salute>
+            <lb/><signed><persName ref="#WBA"><choice><expan>William B.</expan><abbr type="initials">WB</abbr></choice> Anderson</persName></signed>
           </closer>
           <!-- If there were a <postscript>, we have a tag for that. -->
         </div>
@@ -3149,7 +3134,8 @@
       </body>
     </text>
   </TEI>
-
+  <!-- PROOFED LETTER, MSDESC, AND CONTENTS DESC 17 AUGUST 2019 -->
+  
   <TEI xml:id="WBA_18630801" n="18630801">
     <!-- FIRST COPY THIS TEI ELEMENT!! -->
     <!-- FILL IN THE VALUES ABOVE -->
