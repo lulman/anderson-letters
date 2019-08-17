@@ -2915,25 +2915,19 @@
               <idno>SPEC.RARE.CMS.0309</idno>
             </msIdentifier>
             <msContents>
-              <p>Anderson shares with his wife the status of his crew and currently what cargo he is carrying, though he does
-                not share with her his destination, he promises to write to her from either Evansville or Nashville. He also tells
-                her that he has prepared the finances and taxes for Russell and for her to get any sugar she would like from him.
-                He asks her to kiss his children for him and wishes them well while he is gone. He also apologizes for mistakes
-                in spelling and other errors.</p>
+              <p>In this short letter, Anderson shares details about the health of a crew member,
+                describes his current cargo of Sutlers' goods, scolds Louisa for not writing, and
+                alerts her to some business arrangments.</p>
             </msContents>
             <physDesc>
-              <p>William B. Anderson's letter dated June 18, 1863 from Cincinnati and
-                addressed to his wife Louisa is written in ink on one side of a 
-                loose sheet of paper measuring approximately 7.5 inches wide by 9.0 inches 
-                tall (19 x 23 cm).
-                The left edge of the sheet is slightly ragged, while the other three edges 
-                are clean, suggesting that the sheet was torn from a notepad or bound notebook. 
-                It appears originally to have been folded once crosswise and twice lengthwise. 
-                At this writing, the ink appears brown and the paper off-white (cream). A .5-inch
-                by .5-inch (1.3 x 1.3 cm) embossed printer's mark appears in the upper lefthand 
-                corner of the sheet, 0.5 inches (1.3 cm) from the top edge and .25 inches 
-                (0.6 cm) from the left edge. There is no image, only the text "OWEN &amp; HURLEBUT So Lee MASS."
-                (see illustrations).</p>
+              <p>William B. Anderson's letter dated July 18, 1863 from Cincinnati is written in ink
+                on one side of a loose sheet of manilla-colored, unlined paper measuring
+                approximately 7.5 inches wide by 9.0 inches tall (19 x 23 cm). The left edge of the
+                sheet is slightly ragged, while the other three edges are clean, suggesting that the
+                sheet was torn from a notepad or bound notebook, or from a larger sheet. It appears
+                originally to have been folded once crosswise and twice lengthwise. An embossed
+                printer's mark in the upper left-hand corner of the sheet reads "OWEN &amp; HURLEBUT
+                | So Lee | MASS."</p>
               <accMat></accMat>
             </physDesc>
             <additional>
@@ -2953,24 +2947,17 @@
           <!-- REVISE THE VALUES ABOVE -->
           <pb facs="Letter14_pg1"/>
           <!-- MAKE SURE TO REVISE THE FACS VALUE! -->
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
-          <lb/>
           <opener>
             <lb/><dateline><placeName ref="#CincinnatiOH"><choice><expan>Cincinnati</expan><abbr>Cin</abbr></choice></placeName> <date when="1863-07-18"></date>July 18/63</dateline>
-            <lb/><salute>My Dear<rs ref="#MLA">Wife</rs></salute>
+            <lb/><salute>My Dear <rs ref="#MLA">Wife</rs></salute>
           </opener>
           <p>
             <lb/>We are on the eve of
             <lb/>leaving for <placeName ref="#nashville">Nashville</placeName> “prospects good”
             <lb/>I have not read any letter from you since
-            <lb/>I wrote and am disappointed! <persName>Ella</persName> was here
+            <lb/>I wrote &amp; am disappointed! <persName>Ella</persName> was here
             <lb/>yesterday &amp; today <rs ref="#MAF">your mother</rs> is well as
-            <lb/>usual <persName>Elias</persName><ptr type="noteAnchor" target="Elias"/><note resp="ed" xml:id="Elias">Unidentified but often mentioned.</note> is sick and I could not leave
+            <lb/>usual <persName>Elias</persName><ptr type="noteAnchor" target="Elias"/><note resp="ed" xml:id="Elias">Unidentified but often mentioned.</note> is sick &amp; I could not leave
             <lb/>the boat long enough to see your mother
             <lb/>Our Cargo Consists of Sutlers goods<ptr type="noteAnchor" target="sutlers"/><note resp="ed" xml:id="sutlers">Sutlers goods were 
               the everyday necessities such as food and tools made available to the soldiers in the war.<bibl>Dictionary</bibl>.</note> and              
@@ -2981,12 +2968,12 @@
             <lb/>&amp; if we are successful will make a good
             <lb/>trip. I have been very well &amp; all on
             <lb/>board are well except <persName>Elias</persName> I got <persName>Dr Dave
-            <lb/>Indkins</persName> to See him and I think he will get well
+            <lb/>Juddkins</persName> to See him &amp; I think he will get well
             <lb/>the water appears to <choice><corr>disagree</corr><sic>dissagree</sic></choice> with him
             <lb/>I think he is mending now I will
-            <lb/>write you from <placeName ref="#evansville">Evansville</placeName> or <placeName ref="#nashville">Nashville</placeName>
-            <lb/>again Kiss all the <rs>children</rs> and tell them
-            <lb/>to be good I wrote to <persName ref="#russell">Russell</persName><seg><note target="n8">8</note></seg> to day
+            <lb/>write you from <placeName ref="#evansville"><choice><corr>Evansville</corr><sic>Evansvile</sic></choice></placeName> or <placeName ref="#nashville">Nashville</placeName>
+            <lb/>again Kiss all the <rs>children</rs> &amp; tell them
+            <lb/>to be good I wrote to <persName ref="#russell">J Russell</persName><seg><note target="n8">8</note></seg> to day
             <lb/>&amp; Sent him a statement of My income
             <lb/>Tax to Pay it?  I am in a great hurry
             <lb/>and have not time to write long
@@ -3007,7 +2994,8 @@
       </body>
     </text>
   </TEI>
-
+  <!-- PROOFED LETTER, MSDESC, AND CONTENTS DESC 17 AUGUST 2019 -->
+  
   <TEI xml:id="WBA_18630731" n="18630731">
     <!-- FIRST COPY THIS TEI ELEMENT!! -->
     <!-- FILL IN THE VALUES ABOVE -->
