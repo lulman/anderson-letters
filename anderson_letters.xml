@@ -3394,18 +3394,24 @@
               <idno>SPEC.RARE.CMS.0309</idno>
             </msIdentifier>
             <msContents>
-              <p>Anderson informs his wife that he has arrived in Louisville, KY. He reports that a canal was closed and tells his wife that he was forced to
-                hire men to keep some tobacco safe and slept with it on a subsequent night incase it rained.  Anderson reports the local weather and asks her to send him pictures of their children.
-                He also advises her of a new address to send letters to.</p>
+              <p>Anderson informs his wife that he has arrived in Cincinnati from Louisville. He
+                reports that a canal in Louisville was closed, resulting in various problems, from
+                having to come back to Cincinnati with "but 1/4 of a load," then having to offload a
+                shipment of tobacco only to reload it to protect it from rain. In addition to relating various
+                business matters, Anderson asks Louisa to send "Likenesses of You &amp; the children to look
+                at occasionally."
+              </p>
             </msContents>
             <physDesc>
-              <p>William B. Anderson's letter dated August 14, 1864 from Cincinatti and addressed to
-                his wife Louisa is written in ink on two sides of a loose sheet of paper measuring
-                approximately 7.5 inches wide by 10 inches tall (19.5 x ? 25cm) and is unruled. The
-                left edge of the sheet is slightly ragged, while the other three edges are clean,
-                suggesting that the sheet was torn from a notepad or bound notebook. It appears
-                originally to have been folded once crosswise and twice lengthwise. At this writing,
-                the ink appears brown and the paper off-white (cream).</p>
+              <p>Anderson's letter of 14 August 1864 from Cincinnati is written in ink on two sides
+                of a loose sheet of manilla-colored paper measuring approximately 7.5 inches wide by
+                9.0 inches tall (19 x 23 cm) and ruled on the recto side with horizontal blue lines
+                spaced .33 inches (0.8 cm) apart, except for a 1.5-inch (3.8 cm) unruled top margin;
+                the verso is unlined. The left edge of the sheet is ragged, while the other three
+                edges are clean, suggesting that the sheet was torn from a notepad or bound
+                notebook, or a larger sheet. It appears originally to have been folded once
+                crosswise and twice lengthwise. An indistinct, embossed printer's mark appears in
+                the upper left-hand corner of the lined side of the sheet. </p>
               <accMat></accMat>
             </physDesc>
             <additional>
@@ -3425,26 +3431,19 @@
           <!-- REVISE THE VALUES ABOVE -->
           <pb facs="Letter22_pg1"/>
           <!-- MAKE SURE TO REVISE THE FACS VALUE! -->
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
-          <lb/>
           <opener>
             <lb/><dateline><placeName ref="#CincinnatiOH"><choice><expan>Cincinnati</expan><abbr>Cin</abbr></choice></placeName> <date when="1864-08-14"></date>Sunday Aug 14 /64</dateline>
-            <lb/><salute>My Dear<rs type="recipient">Wife</rs></salute>
+            <lb/><salute>My Dear <rs type="recipient">Wife</rs></salute>
           </opener>
           <p>
             <lb/>Yours of <date when="1864-08-09">9th</date> Came safe to hand
             <lb/>I was pleased to hear from you.  We arrived
             <lb/>from <placeName ref="#LouisvilleKY">Louisville</placeName> on Friday Evening made a
             <lb/>quick trip but very little Money when we got
-            <lb/>to <placeName ref="#LouisvilleKY">Louisville</placeName> the Canal was closed to repare
+            <lb/>to <placeName ref="#LouisvilleKY">Louisville</placeName> the Canal was closed to <choice><corr>repair</corr><sic>repare</sic></choice>
             <lb/>and we came back with but  1/4 of a load
             <lb/>on account of the R Road here having Teleg<seg type="softhyphen">
-              <lb/>=</seg>raphed down to not ship up any more Frt
+              <lb/>=</seg>raphed down to not Ship up any more Frt
             <lb/>as they were blocked full of Frt &amp; could not
             <lb/>take it in the Depots consequently could not
             <lb/>take it off the wharf  I put our Tobacco off
@@ -3452,7 +3451,7 @@
             <lb/>put it onboard the Boat today to Keep it safe
             <lb/>for fear of rain now I have to lay here with it in
             <lb/>the Boat till Tuesday &amp; then I am to commence to
-            <lb/>load again for <placeName ref="#LouisvilleKY">Louisville</placeName> I have a  little better
+            <lb/>load again for <placeName ref="#LouisvilleKY">Louisville</placeName> I have a  little <del type="recoverable" rend="overwritten">pro</del>better
             <lb/>prospect than before.  I left you that <placeName ref="#PittsburghPA"><choice><expan>Pittsburgh</expan><abbr>Pittsbg</abbr></choice></placeName>
             <lb/>Money &amp; put it in that Big Pocket Book I Took
             <lb/>the Gov money &amp; Pd <persName>Mr Hamilton</persName> the 168$ to pay
@@ -3480,7 +3479,7 @@
             <lb/>to be good</p>
           <p> <lb/>let me hear often from you &amp; tell
             <lb/>me how the crops look &amp;c. &amp;c. get
-            <lb/>a girl soon as you can &amp; take
+            <lb/>a girl as soon as you can &amp; take
             <lb/>care of your own health &amp; that of the
             <lb/>children
           </p> 
@@ -3501,6 +3500,7 @@
       </body>
     </text>
   </TEI>
+  <!-- PROOFED LETTER, MSDESC, AND CONTENTS DESC 19 AUGUST 2019 -->
   
   <!-- More TEI Documents? -->
 </teiCorpus>
