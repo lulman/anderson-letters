@@ -2047,7 +2047,7 @@
                 blue lines spaced .33 inches (0.8 cm) apart, except for a 1.5-inch (3.8 cm) unruled
                 top margin; the verso is unlined. The left edge of the sheet is ragged, while the
                 other three edges are clean, suggesting that the sheet was torn from a notepad or
-                bound notebook. It appears originally to have been folded once crosswise and twice
+                bound notebook, or a larger sheet. It appears originally to have been folded once crosswise and twice
                 lengthwise. Unlike most other sheets of paper in this collection of letters, this
                 sheet bears no embossed printer's mark. </p>
               <accMat></accMat>
@@ -3143,7 +3143,7 @@
     <teiHeader>
       <fileDesc>
         <titleStmt>
-          <title>W. B. Anderson Letter--8/1/1863--A busy moment for family and business.</title>
+          <title>Letter from William B. Anderson to his wife, Louisa, 1 August 1863</title>
           <author>Anderson, William B.</author>
         </titleStmt>
         <publicationStmt>
@@ -3159,22 +3159,22 @@
               <idno>SPEC.RARE.CMS.0309</idno>
             </msIdentifier>
             <msContents>
-              <p>Anderson shoots off a short letter announcing a dinner with his wife's mother and Ella 
-                (as yet an unknown relative or friend mentioned in several of Anderson's letters). 
-                He suggests that the boat (Glide II) will leave that afternoon from Cincinnati for Nashville with 200 mules 
-                aboard. He sends by Adams Express $3600 for business-related expenses (Adams Express was a very profitable 
-                delivery company started in the 1850s and had parallel systems of delivery in the south during the war (Pixley, 2002).
-                and reminds his wife that he sent $60 for family expenses with the previous letter.</p>
-              <p>In this one-page, hurried letter to his wife--which followed  a longer letter just the day  
-                before--Anderson suggests many things about the times and activities on the riverboat. He mentions the transport of 
-                animals (200 mules) along with personal commitments: Anderson met
-                his wife's mother and Ella (an unknown relative or friend) on the boat (Glide II) and was about to leave for dinner. 
-                Before the afternoon departure, he was also intent upon sending business funds to his wife and money for family expenses: 
-                All this in one page on lined notebook paper with little punctuation and a postscript anticipating 
-                a subsequent letter from Nashville.</p>
+              <p>In his brief letter of 1 August 1863, Anderson shares some family and business
+                news—a visit to the boat by Louisa's mother, a shipment of 200 mules, $3,600 sent by
+                express to Pittsburgh to cover outstanding notes.</p>
             </msContents>
             <physDesc>
-              <p>one page on lined notebook paper </p>
+              <p>Anderson's letter dated July 31, 1863 from Cincinnati is written in ink on two
+                sides of a loose sheet of lined manilla-colored paper measuring approximately 7.5
+                inches wide by 9.0 inches tall (19 x 23 cm) and ruled with horizontal blue lines
+                spaced .33 inches (0.8 cm) apart, except for a 1.5-inch (3.8 cm) unruled top margin. The left edge of
+                the sheet is slightly ragged, while the other three edges are clean, suggesting that
+                the sheet was torn from a notepad or bound notebook, or from a larger sheet. It appears originally to have
+                been folded once crosswise and twice lengthwise. An
+                embossed printer's mark appears in the upper lefthand corner of the sheet.
+                Although indistinct, its shape closely matches that of a distinct,
+                similarly sized and positioned printer's mark on a letter dated July 1, 1863, which
+                reads "MT HOLLY PAPER CO." over an ornate shield.</p>
               <accMat></accMat>
             </physDesc>
             <additional>
@@ -3194,16 +3194,9 @@
           <!-- REVISE THE VALUES ABOVE -->
           <pb facs="Letter16_pg1"/>
           <!-- MAKE SURE TO REVISE THE FACS VALUE! -->
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
-          <lb/>
           <opener>
-            <lb/><dateline><placeName ref="#CincinnatiOH"><choice><expan>Cincinnati</expan><abbr>Cin</abbr></choice></placeName><date when="1863-08-01">Aug 1st 1863</date></dateline>
-            <lb/><salute>Dear<rs type="recipient">Wife</rs></salute>
+            <lb/><dateline><placeName ref="#CincinnatiOH"><choice><expan>Cincinnati</expan><abbr>Cin</abbr></choice></placeName> <date when="1863-08-01">Aug 1st 1863</date></dateline>
+            <lb/><salute>Dear <rs type="recipient">Wife</rs></salute>
           </opener>
           <p>
             <lb/> As we leave this Evening
@@ -3219,10 +3212,10 @@
             <lb/> write about I send by Adams Express<ptr type="noteAnchor" target="adamsex"/><note resp="ed" xml:id="adamsex">During the Civil War,he 
               Adams Express Company shipped goods to and from Union troops.<bibl>Adams Express Company Journal</bibl>.</note>
             <lb/> to <placeName ref="#PittsburghPA">Pitt</placeName> today 
-            (3600.<del type="unrecoverable" rend="overstrike" hand="WBA">[deleted numbers]</del> Three thousand six hundred
+            (3600.<del type="unrecoverable" rend="overstrike" hand="WBA">00</del> Three thousand six hundred
                 <lb/> <choice><expan>Dollars</expan><abbr>Dolls</abbr></choice> to pay our 1st notes give my respects 
-            <lb/> to all I am in a hurry and have not
-            <lb/> time write or think of any thing that
+            <lb/> to all I am in a hurry &amp; have not
+            <lb/> time <supplied reason="omitted">to</supplied> write or think of any thing that
             <lb/> will interest you give my respects to 
             <lb/> all I sent a letter last night by <persName ref="#Elias">Elias</persName> 
             <lb/> and $60.00 in cash for you Kiss all the small 
@@ -3237,7 +3230,7 @@
            <p>
              <lb/>P.S. I will write from <placeName ref="#nashville">Nashville</placeName>
              <lb/>again 
-             <lb/><persName ref="#WBA"><choice><expan>William B. Anderson</expan><abbr type="initials">WBA</abbr></choice></persName> 
+             <persName ref="#WBA"><choice><expan>William B. Anderson</expan><abbr type="initials">WBA</abbr></choice></persName> 
            </p> 
           </postscript>
         </div>
@@ -3245,7 +3238,9 @@
       </body>
     </text>
   </TEI>
-
+  
+  <!-- PROOFED LETTER, MSDESC, AND CONTENTS DESC 19 AUGUST 2019 -->
+  
   <TEI xml:id="WBA_18640810" n="18640810">
     <!-- FIRST COPY THIS TEI ELEMENT!! -->
     <!-- FILL IN THE VALUES ABOVE -->
@@ -3269,25 +3264,20 @@
               <idno>SPEC.RARE.CMS.0309</idno>
             </msIdentifier>
             <msContents>
-              <p>Summary here!</p>
+              <p>Anderson writes about negotiations the government "with a view of making a Gun Boat of us"—a
+              proposal that falls through because they could not agree on terms—as well as various other details
+              of his shipping business.</p>
             </msContents>
             <physDesc>
-              <p>CHECK! William B. Anderson's letter dated June 27, 1862 from Pittsburgh and
-                addressed to his wife Louisa is written in ink on one side of a 
-                loose sheet of paper measuring approximately 7.5 inches wide by 9.0 inches 
-                tall (19 x 23 cm) and ruled with horizontal blue lines spaced .33 inches 
-                (0.8 cm) apart, except for a 1.5-inch (3.8 cm) unruled top margin. 
-                The left edge of the sheet is slightly ragged, while the other three edges 
-                are clean, suggesting that the sheet was torn from a notepad or bound notebook. 
-                It appears originally to have been folded once crosswise and twice lengthwise. 
-                At this writing, the ink appears brown and the paper off-white (cream). A .5-inch
-                by .5-inch (1.3 x 1.3 cm) embossed printer's mark appears in the upper lefthand 
-                corner of the sheet, 0.5 inches (1.3 cm) from the top edge and .25 inches 
-                (0.6 cm) from the left edge. Although the mark is indistinct, its shape 
-                closely matches that of a distinct, similarly sized and positioned printer's 
-                mark on a letter dated July 1, 1863, which reads "MT HOLLY PAPER CO." 
-                (see illustrations). Texture? Stiffness? Watermarks? I will have to visit 
-                the RBML.</p>
+              <p>Anderson's letter of 10 August 1864 from Cincinnati is written in ink on two
+                sides of a loose sheet of manilla-colored paper measuring approximately 7.5 inches
+                wide by 9.0 inches tall (19 x 23 cm) and ruled on both sides with horizontal
+                blue lines spaced .33 inches (0.8 cm) apart, except for a 1.5-inch (3.8 cm) unruled
+                top margin. The left edge of the sheet is ragged, while the
+                other three edges are clean, suggesting that the sheet was torn from a notepad or
+                bound notebook, or a larger sheet. It appears originally to have been folded once crosswise and twice
+                lengthwise. Unlike most other sheets of paper in this collection of letters, this
+                sheet bears no embossed printer's mark. </p>
               <accMat></accMat>
             </physDesc>
             <additional>
@@ -3307,16 +3297,9 @@
           <!-- REVISE THE VALUES ABOVE -->
           <pb facs="Letter21_pg1"/>
           <!-- MAKE SURE TO REVISE THE FACS VALUE! -->
-          <head type="letterhead"></head>
-          <figure rend="link">
-            <head></head>
-            <graphic url=""></graphic>
-            <figDesc></figDesc>
-          </figure>
-          <lb/>
           <opener>
             <lb/><dateline><placeName ref="#CincinnatiOH"><choice><expan>Cincinnati</expan><abbr>Cin</abbr></choice></placeName> <date when="1864-08-10">Aug 10 /64</date></dateline>
-            <lb/><salute>My Dear<rs ref="#MLA">Wife</rs></salute>
+            <lb/><salute>My Dear <rs ref="#MLA">Wife</rs></salute>
           </opener>
           <p>
             <lb/>We arrived here on Monday 
@@ -3325,14 +3308,14 @@
             <lb/>were <choice><corr>detained</corr><sic>detaned</sic></choice> by the Navy department 
             <lb/>with a view of making a Gun Boat 
             <lb/>of us until this morning &amp; then 
-            <lb/>rejected on <unclear>ap</unclear> of me not agreeing 
+            <lb/>rejected on <unclear>act</unclear> of me not agreeing 
             <lb/>with them on terms &amp;c. now I have 
             <lb/>no alternative but to take a load to 
-            <lb/>Louisville at low prices &amp; then am 
+            <lb/>Louisville at low prices &amp; there am 
             <lb/>required to report to the commissary 
             <lb/>department &amp; expect to be sent to 
             <lb/>Tennesee River though have a hope 
-            <lb/>of getting to come back to Cin on 
+            <lb/>of getting to Come back to Cin on 
             <lb/>my own account if we are sent 
             <lb/>below I will write from <placeName ref="#LouisvilleKY"><choice><corr>Louisville</corr><sic>Louisvill</sic></choice></placeName> 
             <lb/>if not will write from here on my 
@@ -3352,8 +3335,8 @@
             <lb/>I left home and the mosquitoes are 
             <lb/>very bad I have not had any offer 
             <lb/>to sell the boat I will sell if any 
-            <lb/>good Chance offers. I stopped at <corr>Gallipolis</corr><sic>Gall<seg type="softhyphen">
-              <lb/>=</seg>ipoli</sic> on our downward trip and proposed 
+            <lb/>good Chance offers. I stopped at <choice><corr>Gallipolis</corr><sic>Gall<seg type="softhyphen">
+              <lb/>=</seg>ipoli</sic></choice> on our downward trip and proposed 
             <lb/>to put her in the <placeName ref="#gallipolis"><choice><corr>Gallipolis</corr><sic>Gallipols</sic></choice></placeName> &amp; Pitt trade 
             <lb/>in the fall &amp; got the promise of all 
             <lb/>the patronage there which will be I 
@@ -3386,7 +3369,8 @@
       </body>
     </text>
   </TEI>
-
+  <!-- PROOFED LETTER, MSDESC, AND CONTENTS DESC 19 AUGUST 2019 -->
+  
   <TEI xml:id="WBA_18640814" n="18640814">
     <!-- FIRST COPY THIS TEI ELEMENT!! -->
     <!-- FILL IN THE VALUES ABOVE -->
