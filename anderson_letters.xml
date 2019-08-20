@@ -930,7 +930,7 @@
             
             <lb/>We have laid over and will leave this 
             <lb/>Evening we are getting all we want I have 
-            <lb/>just been down to see your <rs ref="#MAF">mother</rs><ptr type="noteAnchor" target="mother"/><note resp="ed" xml:id="mother">Mary Louisa Anderson's mother.<bibl><ref target="HOAC"></ref></bibl>.</note> she is not 
+            <lb/>just been down to see your <rs ref="#MAF">mother</rs><ptr type="noteAnchor" target="mother"/><note resp="ed" xml:id="mother">Mary Louisa Anderson's mother, Ann (Woolslayer) Fischgens <bibl><ref target="HOAC"></ref><title level="m">History of Allegheny County</title> 298</bibl>.</note> she is not 
             <lb/>very well Today sends her respects  <persName>Ella</persName><ptr type="noteAnchor" target="ella"/><note resp="ed" xml:id="ella">Though unidentified, Ella appears in many letters (context? relations?).</note>
             <lb/>was at school I did not see her. There was 
             <lb/>a large fire down between Third St and The river 
@@ -954,7 +954,16 @@
             <lb/>scarcely see the buildings along the wharf  
             <lb/>&amp; I think we must surely have a gust soon  
             <lb/>I will stop for I expect to spend Sunday 
-            <lb/>with you &amp; the small ones 
+            <lb/>with you &amp; the small ones<ptr type="noteAnchor" target="typhoid"/><note resp="ed" xml:id="typhoid">According 
+              to information from Anderson descendent Jamie Danker, at the time of this letter the Andersons had four young children: William Y. 
+              (Young?), age seven or eight; Anna Margaret, age six; John L., age four; and Robert Edward, 
+              age two.  A fifth child, Harry C., would be born in January 1865.  Tragically, William Y., 
+              Robert Edward, and Harry C. would all die of typhoid fever in 1890 (Robert Edward and Harry C. just a day 
+              apart), while Anna Margaret and John L. survived the disease that year.  
+              In a 2005 report, the Water Science and Technology Board states that Pittsburgh had the highest 
+              national typhoid death rate for large cities in the years 1873-1907; before the establishment of an 
+              effective water filtration system in 1907, the city drew its drinking water directly from the polluted 
+              Allegheny River <bibl>Danker; <title level="m">Regional Cooperation</title>, 36–37 </bibl>.</note>
           </p>
           <p>
             <lb/>tell <persName>Mary McNamee</persName> that WM was over 
@@ -1291,7 +1300,7 @@
             <lb/> you will soon be well. We had a very
             <lb/> serious time getting down we got more
             <lb/> frt than we wanted and stuck fast
-            <lb/> 36 Hours at the sisters <ptr type="noteAnchor" target="sisters"/><note resp="ed" xml:id="sisters">Andersons is probably referring to the Mount de Chantal Visitation Academy, 
+            <lb/> 36 Hours at the sisters <ptr type="noteAnchor" target="sisters"/><note resp="ed" xml:id="sisters">Anderson is probably referring to the Mount de Chantal Visitation Academy, 
               incorporated as the Wheeling Female Academy
               under the auspices of the Sisters of Visitation in 1848 <bibl><ref target="WVE"></ref>"May 31, 2008: Mount de Chantal Visitation Academy Graduates Last Class"</bibl>.</note>
             above <choice><corr>Wheeling"></corr><sic>Wheeting</sic></choice> &amp; had
@@ -3064,16 +3073,7 @@
           <p>
             <lb/> Your of 26 came in due time &amp; I
             <lb/> was pleased to hear from you &amp; hope you &amp; all the
-            <lb/> little ones are well<ptr type="noteAnchor" target="typhoid"/><note resp="ed" xml:id="typhoid">According 
-              to information from Anderson descendent Jamie Danker, at the time of this letter the Andersons had four young children: William Y. 
-              (Young?), age seven or eight; Anna Margaret, age six; John L., age four; and Robert Edward, 
-              age two.  A fifth child, Harry C., would be born in January 1865.  Tragically, William Y., 
-              Robert Edward, and Harry C. would all die of typhoid fever in 1890 (Robert Edward and Harry C. just a day 
-              apart), while Anna Margaret and John L. survived the disease that year.  
-              In a 2005 report, the Water Science and Technology Board states that Pittsburgh had the highest 
-              national typhoid death rate for large cities in the years 1873-1907; before the establishment of an 
-              effective water filtration system in 1907, the city drew its drinking water directly from the polluted 
-              Allegheny River.<bibl>Danker; <title level="m">Regional Cooperation</title>, 36–37.</bibl></note> I send with <persName ref="#Elias">Elias</persName><note target="note004">4</note> 60$ <choice><expan>dollars</expan><abbr>Dolls</abbr></choice>
+            <lb/> little ones are well I send with <persName ref="#Elias">Elias</persName><note target="note004">4</note> 60$ <choice><expan>dollars</expan><abbr>Dolls</abbr></choice>
             <lb/> as he is going home to stop off till his health
             <lb/> gets better I will see your <rs ref="#MAF">Mother</rs> this
             <lb/> Evening I have been very <choice><corr>busily</corr><sic>buissily</sic></choice> engaged
