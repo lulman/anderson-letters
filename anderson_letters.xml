@@ -501,7 +501,7 @@
                  Apfelbaum, Charles. <title level="a">Capt. William B. Anderson.</title> <title level="m">History of Allegheny County, Pennsylvania</title>. Chicago: A. Warner &amp; Co., 1889. 298–299. 
                  https://archive.org/details/historyofalleghe01cush/page/298
                </bibl>
-               <bibl xml:id="hewitt" n="hewitt">
+               <bibl xml:id="hewitt" n="Hewitt">
                  Hewitt, Elizabeth.<title level="u"> Lecture to English 569C, Digital Media and English Studies.</title> The Ohio State University. 
                    6 Apr. 2006.
                </bibl>
@@ -509,8 +509,8 @@
                  Levy, David. <title level="m">Scrolling Forward: Making Sense of Documents in the Digital
                    Age</title>. New York: Arcade, 2001.
                </bibl>
-               <bibl xml:id="SmithG" n="SmithG">
-                 Smith, Geoff. <title level="u">Lecture to English 569C, Digital Media and English Studies.</title>. The Ohio State University. 30 Mar. 2006.
+               <bibl xml:id="SmithG" n="SmithGeoff">
+                 Smith, Geoff. <title level="u">Lecture to English 569C, Digital Media and English Studies.</title> The Ohio State University. 30 Mar. 2006.
                </bibl>
                <bibl xml:id="BioRev" n="Biographical">
                  <title level="m">Biographical Review; v. 24, containing life sketches of leading citizens 
@@ -524,11 +524,15 @@
                  Danker, Jamie. <title level="u">"Re: Request for permission to reproduce two
                    photos from your  Anderson family site"</title>. Email to H. Lewis Ulman. 20 May 2006.
                </bibl>
+               <bibl xml:id="DankerSite" n="DankerSite">
+                 Danker, Jamie. <title level="m">William B. Anderson Letters</title>. https://www.jamiedanker.com/WBALetters.htm
+               </bibl>
+               
                <bibl xml:id="Green" n="Green">
                  Green, Jerry. <title level="a">Steubenville, Ohio, and the Nineteenth-Century 
                    Steamboat Trade</title>. <title level="m">Ohio History</title> 113 (Winter-Spring 2004): 18-30. http://publications.ohiohistory.org.
                </bibl>               
-               <bibl xml:id="Neumeier" n="neumeier">
+               <bibl xml:id="Neumeier" n="Neumeier">
                  Neumeier, Franz and Carmen Winkler. <title level="m">http://www.steamboats.org/cgi-bin/database.pl</title>
                </bibl>
                <bibl xml:id="WVE" n="May31">
@@ -547,23 +551,23 @@
                  Brodhead, Michael J. <title level="a">Wright, Horatio Gouverneur.</title> <title level="m">American National
                  Biography</title>. https://doi-org.proxy.lib.ohio-state.edu/10.1093/anb/9780198606697.article.0500857.
                </bibl>
-               <bibl xml:id="histpitt" n="historic">
+               <bibl xml:id="histpitt" n="Historic">
                  <title level="m">Historic Pittsburgh</title>. University of Pittsburgh Library System. https://historicpittsburgh.org
                </bibl>
-               <bibl xml:id="rosenburg" n="rosenburg">
+               <bibl xml:id="rosenburg" n="Rosenburg">
                  Rosenburg, R. B. <title level="a">Morgan, John Hunt.</title> <title level="m">American National Biography</title>. February 2000. https://doi-org.proxy.lib.ohio-state.edu/10.1093/anb/9780198606697.article.0400720
                </bibl>
-               <bibl xml:id="regional" n="regional">
+               <bibl xml:id="regional" n="Regional">
                  <title level="m">Regional Cooperation for Water Quality Improvement in Southwestern Pennsylvania</title>. Water Science and Technology Board. Washington,
                  D.C., 2005. https://www.nap.edu/read/11196/chapter/4#36
                </bibl>
-               <bibl xml:id="adamsexpress" n="adamsexpress">
-                 <title level="m">Adams Express Company Journal</title>. Explore UK. https://exploreuk.uky.edu
+               <bibl xml:id="adamsexpress" n="Adamsexpress">
+                 <title level="a">Adams Express Company Journal</title>. <title level="m">Explore UK</title>. https://exploreuk.uky.edu/fa/findingaid/?id=xt7bk35m9b43
                </bibl>
                <bibl xml:id="McBurney" n="Gaines"> Gaines, W. Craig. <title level="m">Encyclopedia of
               Civil War Shipwrecks</title>. LSU Press, 2008.
                </bibl>
-               <bibl xml:id="historyof" n="historyof">
+               <bibl xml:id="historyof" n="Historyof">
                  <title level="m">History of Washington County, Ohio, with illustrations and biographical sketches</title>. Ohio, H. Z. Williams &amp; bro., 1881.
                </bibl>
                
@@ -931,7 +935,8 @@
             <lb/>We have laid over and will leave this 
             <lb/>Evening we are getting all we want I have 
             <lb/>just been down to see your <rs ref="#MAF">mother</rs><ptr type="noteAnchor" target="mother"/><note resp="ed" xml:id="mother">Mary Louisa Anderson's mother, Ann (Woolslayer) Fischgens <bibl><ref target="HOAC"></ref><title level="m">History of Allegheny County</title> 298</bibl>.</note> she is not 
-            <lb/>very well Today sends her respects  <persName>Ella</persName><ptr type="noteAnchor" target="ella"/><note resp="ed" xml:id="ella">Though unidentified, Ella appears in many letters (context? relations?).</note>
+            <lb/>very well Today sends her respects <persName>Ella</persName><ptr type="noteAnchor" target="ella"/><note resp="ed" xml:id="ella">Ella was Louisa Fischgen's younger sister, born ca. 1851. 
+            She died in Cincinnati on September 4, 1863 <bibl>Danker, <title level="m">William B. Anderson Letters</title></bibl><ref target="#DankerSite"/>.</note>
             <lb/>was at school I did not see her. There was 
             <lb/>a large fire down between Third St and The river 
             <lb/>yesterday just one <choice><corr>square</corr><sic>squear</sic></choice> above the old <choice><corr>lady's"</corr><sic>ladys</sic></choice>  
@@ -940,7 +945,7 @@
             <lb/>the ladies Cabin full since last night but 
             <lb/>we have not up till this time had a lady 
             <lb/>passenger on our boat<ptr type="noteAnchor" target="glide"/><note resp="ed" xml:id="glide">Perhaps
-              the <title level="m">Glide</title>, a river steamer which Anderson eventually sold to the U.S. government.<bibl><ref target="#genealogical">Jordan</ref>506</bibl>.</note> the <rs ref="#MAF">old lady</rs> says 
+              the <title level="m">Glide</title>, a river steamer which Anderson eventually sold to the U.S. government <bibl><ref target="#genealogical">Jordan</ref> 506</bibl>.</note> the <rs ref="#MAF">old lady</rs> says 
             <lb/>she would like to have you pay her a 
             <lb/>visit so if you think you would enjoy 
             
@@ -954,16 +959,18 @@
             <lb/>scarcely see the buildings along the wharf  
             <lb/>&amp; I think we must surely have a gust soon  
             <lb/>I will stop for I expect to spend Sunday 
-            <lb/>with you &amp; the small ones<ptr type="noteAnchor" target="typhoid"/><note resp="ed" xml:id="typhoid">According 
-              to information from Anderson descendent Jamie Danker, at the time of this letter the Andersons had four young children: William Y. 
-              (Young?), age seven or eight; Anna Margaret, age six; John L., age four; and Robert Edward, 
-              age two.  A fifth child, Harry C., would be born in January 1865.  Tragically, William Y., 
-              Robert Edward, and Harry C. would all die of typhoid fever in 1890 (Robert Edward and Harry C. just a day 
-              apart), while Anna Margaret and John L. survived the disease that year.  
-              In a 2005 report, the Water Science and Technology Board states that Pittsburgh had the highest 
-              national typhoid death rate for large cities in the years 1873-1907; before the establishment of an 
-              effective water filtration system in 1907, the city drew its drinking water directly from the polluted 
-              Allegheny River <bibl>Danker; <title level="m">Regional Cooperation</title>, 36–37 </bibl>.</note>
+            <lb/>with you &amp; the small ones<ptr type="noteAnchor" target="typhoid"/>
+            <note resp="ed" xml:id="typhoid">According to information from Anderson descendent Jamie
+              Danker, at the time this letter was written the Andersons had four young children: William Y.,
+              born 1855; Anna Margaret, born 1857; John L., born 1859; and Robert Edward, born 1861.
+              A fifth child, Harry C., would be born in January 1865. William, Robert, and Harry
+              would all die of typhoid fever in 1890 (Robert and Harry just a day apart), while Anna
+              Margaret and John survived the disease that year. In a 2005 report, the Water Science
+              and Technology Board states that Pittsburgh had the highest national typhoid death
+              rate for large cities in the years 1873-1907; before the establishment of an effective
+              water filtration system in 1907, the city drew its drinking water directly from the
+              polluted Allegheny River <bibl>Danker, "Re: Request for permission"; <title level="m"
+                  >Regional Cooperation</title>, 36–37 </bibl>.</note>
           </p>
           <p>
             <lb/>tell <persName>Mary McNamee</persName> that WM was over 
@@ -1443,9 +1450,7 @@
             <lb/>Your of 7 Came to hand    
             <lb/>today on our arrival &amp; I was glad to hear
             <lb/>of your health being better and that of the
-            <lb/>Children<ptr type="noteAnchor" target="children"/><note resp="ed" xml:id="children">At the time this letter was written,
-              W.B. Anderson and his wife Lousia  had four children: William Y., Anna M., John L., and
-              Robert<bibl><ref target="HOAC">298-299</ref></bibl>.</note> being good I have been well since
+            <lb/>Children being good I have been well since
             <lb/>I wrote to you though have suffered by
             <lb/>heat Considerably we made 2 trips to 
             <lb/><placeName ref="#ParkersburgWV">Parkersburg</placeName> &amp; are bound up tomorrow again
@@ -2966,10 +2971,10 @@
             <lb/>I have not read any letter from you since
             <lb/>I wrote &amp; am disappointed! <persName>Ella</persName> was here
             <lb/>yesterday &amp; today <rs ref="#MAF">your mother</rs> is well as
-            <lb/>usual <persName>Elias</persName><ptr type="noteAnchor" target="Elias"/><note resp="ed" xml:id="Elias">Unidentified but often mentioned.</note> is sick &amp; I could not leave
+            <lb/>usual <persName>Elias</persName> is sick &amp; I could not leave
             <lb/>the boat long enough to see your mother
             <lb/>Our Cargo Consists of Sutlers goods<ptr type="noteAnchor" target="sutlers"/><note resp="ed" xml:id="sutlers">Sutlers goods were 
-              the everyday necessities such as food and tools made available to the soldiers in the war.<bibl>Dictionary</bibl>.</note> and              
+              the everyday items such as food, tools, and clothing sold by peddlers to the soldiers in the war.</note> and              
             <lb/>as they are in so many small <choice><expan>packages</expan><abbr>pkgs</abbr></choice> it
             <lb/>Kept <persName>Joe</persName> &amp; I both <choice><corr>busily</corr><sic>bussily</sic></choice> engaged all the
             <lb/>time on the wharf till late at night
@@ -3209,8 +3214,8 @@
             <lb/> I get ready we are to have 200 mules
             <lb/> down after dinner &amp; shall get out by
             <lb/> 4 or 5 oclock I have no news to 
-            <lb/> write about I send by Adams Express<ptr type="noteAnchor" target="adamsex"/><note resp="ed" xml:id="adamsex">During the Civil War,he 
-              Adams Express Company shipped goods to and from Union troops.<bibl>Adams Express Company Journal</bibl>.</note>
+            <lb/> write about I send by Adams Express<ptr type="noteAnchor" target="adamsex"/><note resp="ed" xml:id="adamsex">During the Civil War, the 
+              Adams Express Company shipped goods and money to and from Union troops <bibl><title level="a">Adams Express Company Journal</title></bibl>.</note>
             <lb/> to <placeName ref="#PittsburghPA">Pitt</placeName> today 
             (3600.<del type="unrecoverable" rend="overstrike" hand="WBA">00</del> Three thousand six hundred
                 <lb/> <choice><expan>Dollars</expan><abbr>Dolls</abbr></choice> to pay our 1st notes give my respects 

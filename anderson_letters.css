@@ -322,7 +322,7 @@ h2 {
 	text-align: left;
 }
 
-h2:before {
+h2::before {
 display: block;
 content: " ";
 margin-top: -150px;
@@ -338,7 +338,7 @@ h3 {
    font-weight: bold;
 }
 
-h3:before {
+h3::before {
 display: block;
 content: " ";
 margin-top: -150px;
@@ -347,7 +347,7 @@ visibility: hidden;
 }
 
 /* space before links to letters in TOC */
-.TOCtarget:before {
+.TOCtarget::before {
 display: block;
 content: " ";
 margin-top: -150px;
@@ -367,7 +367,7 @@ a:link {
   text-decoration: none;
 }
 
-p.hang15 a:before, p.hang25 a:before, p.hang35 a:before {
+p.hang15 a::before, p.hang25 a::before, p.hang35 a::before {
 display: inline-block;
 content: " ";
 margin-top: -180px;
@@ -384,7 +384,7 @@ p.aboutView {
     margin-left:25px;
 }
 
-a.notePointer:before {
+a.notePointer::before {
 display: inline-block;
 content: " ";
 margin-top: -180px;
@@ -461,7 +461,7 @@ sup.noteAnchor {
 
 p.listing { margin-top: 10px;  } 
                                         
-p.listing a:before {
+p.listing a::before {
 	display: inline-block;
     content: " ";
     margin-top: -300px;
