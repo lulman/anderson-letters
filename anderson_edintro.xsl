@@ -474,7 +474,7 @@
    
    <!-- Format the introductory notes. -->
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:notesStmt/tei:note[@type='introductory']">
-      <h2><xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>Introduction: Anderson Letters Intro Title</h2>
+      <h2><xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>The Distress of "The Human Family" During Wartime</h2>
       <hr/>
       <xsl:apply-templates/>
    </xsl:template>
@@ -766,22 +766,17 @@
          <xsl:apply-templates/>
       </strong>
    </xsl:template>
-   <xsl:template match="emph[@rend='italics']">
-      <I>
+   <xsl:template match="tei:emph[@rend='italic']">
+      <em style="font-style:italic;text-decoration:none;">
          <xsl:apply-templates/>
-      </I>
+      </em>
    </xsl:template>
-   <xsl:template match="emph[@rend='italic']">
-      <I>
-         <xsl:apply-templates/>
-      </I>
-   </xsl:template>
-   <xsl:template match="emph[@rend='underline']">
+   <xsl:template match="tei:emph[@rend='underline']">
       <U>
          <xsl:apply-templates/>
       </U>
    </xsl:template>
-   <xsl:template match="emph[@rend='sup']">
+   <xsl:template match="tei:emph[@rend='sup']">
       <sup>
          <xsl:apply-templates/>
       </sup>
