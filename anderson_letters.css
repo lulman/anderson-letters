@@ -358,8 +358,9 @@ visibility: hidden;
 a[name="topofpage"] {
 display: block;
 content: " ";
-margin-top: -180px;
-height: 180px;
+/* changed from -180 180 */
+margin-top: -150px;
+height: 150px;
 visibility: hidden;
 }
 
@@ -370,8 +371,9 @@ a:link {
 p.hang15 a::before, p.hang25 a::before, p.hang35 a::before {
 display: inline-block;
 content: " ";
-margin-top: -180px;
-height: 180px;
+/* changed from -180 180 */
+margin-top: -150px;
+height: 150px;
 visibility: hidden;	
 }
 
@@ -387,8 +389,9 @@ p.aboutView {
 a.notePointer::before {
 display: inline-block;
 content: " ";
-margin-top: -180px;
-height: 180px;
+/* changed from -180 180 */
+margin-top: -150px;
+height: 150px;
 visibility: hidden;	
 }
 sup.noteAnchor {

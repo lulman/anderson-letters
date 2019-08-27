@@ -4,22 +4,23 @@
          <fileDesc>
            <!-- For each letter, add editor, scanner, and initial markup -->
              <titleStmt>
-               <title>William B. Anderson's Civil War correspondence, 1862-1864</title>
+               <title>William B. Anderson's Civil War Correspondence, 1862-1864</title>
+               <editor><persName ref="KLA">Katie Leigh Adams</persName></editor>
+               <editor><persName ref="KLA">Michelle Leigh Amos</persName></editor>
+               <editor><persName ref="CMC">Christopher M. Clark</persName></editor>
+               <editor><persName ref="KLA">Jamie Danker</persName></editor>
                <editor><persName ref="SPF">Sara Pauline Finch</persName></editor>
                <editor><persName ref="MEG">Meghan Elaine Griesemer</persName></editor>
-               <editor role="Principal-editor"><persName ref="#HLU">H. Lewis Ulman</persName></editor>
-               <editor><persName ref="CMC">Christopher M. Clark</persName></editor>
-               <editor><persName ref="JMK">Jenna Marlene Kamrass</persName></editor>
-               <editor><persName ref="KS">Kristin Stack</persName></editor>
                <editor><persName ref="ZAH">Zachary A. Hess</persName></editor>
-               <editor><persName ref="MEP">Marie E. Pesut</persName></editor>
-               <editor><persName ref="KLA">Katie Leigh Adams</persName></editor>
-               <editor><persName ref="KLA">Steve W. Sikes-Gilbert</persName></editor>
-               <editor><persName ref="KLA">Jeremy A Smith</persName></editor>
+               <editor><persName ref="JMK">Jenna Marlene Kamrass</persName></editor>
                <editor><persName ref="KLA">Kathryn H. Owsley</persName></editor>
-               <editor><persName ref="KLA">Sarah Beth Sitzler</persName></editor>
+               <editor><persName ref="MEP">Marie E. Pesut</persName></editor>
                <editor><persName ref="KLA">Richard (Dickie) J. Selfe</persName></editor>
-               <editor><persName ref="KLA">Michelle Leigh Amos</persName></editor>
+               <editor><persName ref="KLA">Steve W. Sikes-Gilbert</persName></editor>
+               <editor><persName ref="KLA">Sarah Beth Sitzler</persName></editor>
+               <editor><persName ref="KLA">Jeremy A. Smith</persName></editor>
+               <editor><persName ref="KS">Kristin Stack</persName></editor>
+               <editor role="Principal-editor"><persName ref="#HLU">H. Lewis Ulman</persName></editor>
                
            <respStmt>
              <resp>Creation of digital scans of manuscript pages: </resp>
@@ -28,22 +29,22 @@
            
            <respStmt>
              <resp>Creation of initial machine-readable transcript: </resp>
-             <persName ref="SA">Steve Agricola</persName>
-             <persName ref="MEG">Meghan Elaine Griesemer</persName>
-             <persName ref="SPF">Sara Pauline Finch</persName>
-             <persName ref="CMC">Christopher M. Clark</persName>
-             <persName ref="JMK">Jenna Marlene Kamrass</persName>
-             <persName ref="KS">Kristin Stack</persName>
-             <persName ref="ZAH">Zachary A. Hess</persName>
              <persName ref="KLA">Katie Leigh Adams</persName>
-             <persName ref="MEP">Marie E. Pesut</persName>
-             <persName ref="KLA">Steve W. Sikes-Gilbert</persName>
-             <persName ref="KLA">Jeremy A Smith</persName>
-             <persName ref="KLA">Kathryn H. Owsley</persName>
-             <persName ref="KLA">Sarah Beth Sitzler</persName>
-             <persName ref="KLA">Richard (Dickie) J. Selfe</persName>
-             <persName ref="KLA">Jamie Danker</persName>
              <persName ref="KLA">Michelle Leigh Amos</persName>
+             <persName ref="CMC">Christopher M. Clark</persName>
+             <persName ref="KLA">Jamie Danker</persName>
+             <persName ref="SPF">Sara Pauline Finch</persName>
+             <persName ref="MEG">Meghan Elaine Griesemer</persName>
+             <persName ref="ZAH">Zachary A. Hess</persName>
+             <persName ref="JMK">Jenna Marlene Kamrass</persName>
+             <persName ref="KLA">Kathryn H. Owsley</persName>
+             <persName ref="MEP">Marie E. Pesut</persName>
+             <persName ref="KLA">Richard (Dickie) J. Selfe</persName>
+             <persName ref="KLA">Steve W. Sikes-Gilbert</persName>
+             <persName ref="KLA">Sarah Beth Sitzler</persName>
+             <persName ref="KLA">Jeremy A. Smith</persName>
+             <persName ref="KS">Kristin Stack</persName>
+             <persName ref="#HLU">H. Lewis Ulman</persName>
              
            </respStmt>
            
@@ -111,7 +112,7 @@
 	                 <p><emph rend="bold">Selection of the Source Text</emph>. This edition contains
 	                 the twenty letters written by William B. Anderson to his wife, Louisa
 	                 Anderson, taking a literal rather than figurative clue from what Anderson calls in one letter the
-	                 "distres [sic] that this war has brought on the human family." By contrast, the additional
+	                 "distres [<emph rend="italic">sic</emph>] that this war has brought on the human family." By contrast, the additional
 	                 letter in the collection and the four receipts deal exclusively with Anderson's
 	                 shipping business.</p>
 	                 
@@ -139,7 +140,7 @@
                 midst of the American Civil War. In several other letters, Anderson also reflects more
                 broadly on the uncertainties, vicissitudes, and suffering faced by civilians and
                 soldiers alike in wartime.</p>
-              <p>However, this letter is also unique. All but two of the letters were written from
+              <p>However, this letter is in some ways unique. All but two of the letters were written from
                 Cincinnati, a thriving center of commerce on the Ohio River approximately halfway
                 between its source at the confluence of the Allegheny and Monongahela Rivers in
                 Pittsburgh, Pennsylvania and its confluence with the Mississippi River a mile or so
@@ -156,16 +157,17 @@
                 Anderson in Pittsburgh overnight on June 27. He wants to secure a full load before
                 leaving Pittsburgh because he "cannot depend upon getting any freight below here."
                 He takes the opportunity to ask Louisa to send down "the Can of milk and 2 jars of
-                lard and my clothes and overcoat." The definite article stands out: <emph rend="italic">the</emph> can of milk. One wonders whether, in his
-                habitual haste (on which he often blames poor spelling and handwriting), he has
-                simply rushed off and forgotten these items, and Louisa has sent him a note asking
-                what she should do with them. In any case, in his haste to send her instructions, he
-                crosses out the next two lines of his letter and recomposes them.
-                Characteristically, the life of a riverboat captain seems frenetic.</p>
+                lard and my clothes and overcoat." Perhaps in his habitual haste (on which he often
+                blames poor spelling and handwriting), he has simply rushed off and forgotten these
+                items, and Louisa has sent him a note asking what she should do with them. In any
+                case, in his haste to send her instructions, he crosses out the next two lines of
+                his letter and recomposes them. The content and the form of the letters suggest
+                that the life of a riverboat captain was frenetic.</p>
 	                 <p>It is also worth noting that he arranges to convey a note to his wife via "some one on the Shore at 
 	                   Shousetown." While the Andersons clearly handled much of their correspondence through the U.S. 
 	                   mail (he mentions post offices several times, and the collection includes one stamped envelope), 
-	                   they often convey both messages and goods through intermediaries traveling by rail or river.</p>
+	                   they often convey both messages and goods through intermediaries traveling by rail or river,
+	                 adapting to the sometimes chaotic circumstances on the river.</p>
 	                 <p>Anderson's closing request constitutes something of a refrain in the letters. He asks Louisa to call 
 	                   on a Mr. Russell (probably John Russell, a local merchant) in order to collect money owed him, 
 	                   noting that he must meet his obligations on the crew's upcoming payday. Aside from suggesting that 
@@ -500,10 +502,11 @@
              <!-- FOR EACH LETTER, UPDATE BIBLIOGRAPHY -->
              <listBibl>
                <head>Works Cited in Notes</head>
-               <bibl xml:id="HOAC" n="Apfelbaum">
-                 Apfelbaum, Charles. <title level="a">Capt. William B. Anderson.</title> <title level="m">History of Allegheny County, Pennsylvania</title>. Chicago: A. Warner &amp; Co., 1889. 298–299. 
-                 https://archive.org/details/historyofalleghe01cush/page/298
-               </bibl>
+          <bibl xml:id="HOAC" n="Apfelbaum">Apfelbaum, Charles. <title level="a">Capt. William B.
+              Anderson.</title>
+            <title level="m">History of Allegheny County, Pennsylvania</title>. Chicago: A. Warner
+            &amp; Co., 1889. 298–299. https://archive.org/details/historyofalleghe01cush/page/298
+          </bibl>
                <bibl xml:id="hewitt" n="Hewitt">
                  Hewitt, Elizabeth.<title level="u"> Lecture to English 569C, Digital Media and English Studies.</title> The Ohio State University. 
                    6 Apr. 2006.
@@ -520,12 +523,12 @@
                    of Pittsburg and the vicinity, Pennsylvania</title>. Boston: Biographical Review Publishing Co. 1897.
                </bibl>
                <bibl xml:id="PittAtlas" n="1876">
-                 <title level="a">1876 - Atlas of the Cities of Pittsburgh, Allegheny and Adjoining Boroughs: Plate 41</title>
+                 <title level="a">1876 - Atlas of the Cities of Pittsburgh, Allegheny and Adjoining Boroughs: Plate 41.</title>
                  <title level="m">Historic Pittsburgh</title>. http://images.library.pitt.edu/cgi-bin/maps/showmap.pl?client=maps&amp;image=76v01p41.
                </bibl>
                <bibl xml:id="JDE" n="DankerEmail">
                  Danker, Jamie. <title level="u">"Re: Request for permission to reproduce two
-                   photos from your  Anderson family site"</title>. Email to H. Lewis Ulman. 20 May 2006.
+                   photos from your  Anderson family site."</title> Email to H. Lewis Ulman. 20 May 2006.
                </bibl>
                <bibl xml:id="DankerSite" n="DankerSite">
                  Danker, Jamie. <title level="m">William B. Anderson Letters</title>. https://www.jamiedanker.com/WBALetters.htm
@@ -533,10 +536,10 @@
                
                <bibl xml:id="Green" n="Green">
                  Green, Jerry. <title level="a">Steubenville, Ohio, and the Nineteenth-Century 
-                   Steamboat Trade</title>. <title level="m">Ohio History</title> 113 (Winter-Spring 2004): 18-30. http://publications.ohiohistory.org.
+                   Steamboat Trade.</title> <title level="m">Ohio History</title> 113 (Winter-Spring 2004): 18-30. http://publications.ohiohistory.org.
                </bibl>               
                <bibl xml:id="Neumeier" n="Neumeier">
-                 Neumeier, Franz and Carmen Winkler. <title level="m">http://www.steamboats.org/cgi-bin/database.pl</title>
+                 Neumeier, Franz and Carmen Winkler. <title level="m">Steamboat Database (Test)</title>. http://www.steamboats.org/cgi-bin/database.pl
                </bibl>
                <bibl xml:id="WVE" n="May31">
                  <title level="a">May 31, 2008: Mount de Chantal Visitation Academy Graduates Last Class.</title> <title level="m">West Virginia Encyclopedia</title>.
@@ -565,13 +568,13 @@
                  D.C., 2005. https://www.nap.edu/read/11196/chapter/4#36
                </bibl>
                <bibl xml:id="adamsexpress" n="Adamsexpress">
-                 <title level="a">Adams Express Company Journal</title>. <title level="m">Explore UK</title>. https://exploreuk.uky.edu/fa/findingaid/?id=xt7bk35m9b43
+                 <title level="a">Adams Express Company Journal.</title> <title level="m">Explore UK</title>. https://exploreuk.uky.edu/fa/findingaid/?id=xt7bk35m9b43
                </bibl>
                <bibl xml:id="McBurney" n="Gaines"> Gaines, W. Craig. <title level="m">Encyclopedia of
               Civil War Shipwrecks</title>. LSU Press, 2008.
                </bibl>
                <bibl xml:id="historyof" n="Historyof">
-                 <title level="m">History of Washington County, Ohio, with illustrations and biographical sketches</title>. Ohio, H. Z. Williams &amp; bro., 1881.
+                 <title level="m">History of Washington County, Ohio, with illustrations and biographical sketches</title>. Marietta, Ohio: H. Z. Williams &amp; Bro., 1881.
                </bibl>
                
                
@@ -591,8 +594,9 @@
              include "Selected Entries from the Lucius Clark Smith Diaries,
              30 July 1862 to 31 December 1862"; "My Dear Elizabeth," five letters written by Sophia Peabody Hawthorne to her
              sister Elizabeth Palmer Peabody between ca. 1837 and 1868; "Journal of a Tour to Europe," 
-             by Samuel Sullivan Cox; and Louisa A. Doane's "Journal
-             of Two Ocean Voyages (1852-1853)."</p>
+             by Samuel Sullivan Cox; Louisa A. Doane's "Journal
+             of Two Ocean Voyages (1852-1853)," and "Selected Letters from the Ivan S. Gilbert Collection of 
+             Stephens Family Travel Letters and Ephemera."</p>
            
            <p>Each text was initially edited in connection with an undergraduate or graduate course
              on electronic textual editing offered by H. Lewis Ulman, Associate Professor of
@@ -610,7 +614,7 @@
              explored four threads inextricably woven into the work of electronic textual editing:
              the lives and historical milieu evoked by the texts; the history, characteristics,
              and preservation of physical and digital texts; the editorial processes and decisions
-             that shape particular interpretations and presentations texts; and the mediation of
+             that shape particular interpretations and presentations of texts; and the mediation of
              electronic delivery systems.</p>
            
            <p>These conceptual focuses, along with the time constraints of academic terms and the
@@ -633,13 +637,7 @@
              representations of single documents—designed to provide wider exposure and access to
              manuscript materials that might otherwise be overlooked, and to provide users with a
              variety of tools for studying those texts.</p>
-           
-        <p>While providing a reliable textual edition is a <hi style="font-style:italic;">sine qua non</hi>, the Stephens edition also
-          explores ways of telling four stories inextricably woven into our work: the lives and
-          historical milieu evoked by the texts, the history of the physical documents, the
-          editorial process that gave rise to this particular interpretation of the texts, and the
-          mediation of our electronic delivery system. </p>
-           
+                      
            <p> Over the course of several years following the classes in which students worked on
              the editions, Professor Ulman revised the introductory materials to ensure stylistic
              consistency and proofed the transcription and encoding. He also redesigned the
@@ -660,10 +658,11 @@
            </p>
            
            <p><emph rend="bold">Transcription</emph>. Editing of the Anderson letters emphasizes diplomatic transcription: 
-             abbreviations, recoverable cancelations, punctuation, spelling, underlining, additions above and below
+             abbreviations, recoverable cancellations, punctuation, spelling, underlining, additions above and below
              the line or in the margins, capitalization, line breaks, and page breaks 
-             have all been transcribed and encoded as they appear in the original manuscripts. The
-             representation of those features varies depending on the view of the letter. An explanation of 
+             have all been transcribed and encoded as they appear in the original manuscripts, though the distinction
+             between uppercase and lowercase letters in Anderson's hasty writing is often conjectural. The
+             presentation of features such as line and paragraph breaks varies depending on the view of the letter. An explanation of 
              the presentation in each view of the letters can be read via the "About this View" link
              at the top of each view's page.</p>
              
@@ -838,15 +837,12 @@
        </profileDesc>
        
        <revisionDesc>
-         <change when="2019-01-01" who="#HLU">Redesign of the edition to match the design approved by NINES peer reviewers;
+         <change when="2019-09-01" who="#HLU">Redesign of the edition to match the design approved by NINES peer reviewers;
            editing and proofreading of all files.<roleName>H. Lewis Ulman</roleName></change>
          <change when="2006-08-22" who="#HLU">Manuscripts read aloud by assistant (Catherine A. Ulman) while principal editor 
            checked transcriptions.<roleName>H. Lewis Ulman</roleName></change>
          <change when="2006-08-10" who="#HLU">Cross-check against independent transcription by Jamie Danker (principal editor evaluated discrepancies).
            <roleName>H. Lewis Ulman</roleName></change>
-         <change when="2006-08-08" who="#HLU">Spot-check of corrections.<roleName>H. Lewis Ulman</roleName></change>
-         <change when="2006-06-06" who="#HLU">Redesign of the edition to match the design approved by NINES peer reviewers;
-           editing and proofreading of all files.<roleName>H. Lewis Ulman</roleName></change>
          <change when="2006-06-06" who="#HLU">Initial encoding and editorial work by students in an undergraduate course
            on textual editing.<roleName>The editors</roleName></change>
          <change when="2005" who="#HLU">Initial machine-readable transcription.<roleName>Steve Agricola</roleName></change>
