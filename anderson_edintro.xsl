@@ -589,19 +589,26 @@
    <xsl:template match="tei:listPerson[@type='editors']"/>
 -->         
    
-   <!-- Format the list of people mentioned -->
+   <!-- OLD TEMPLATE for formatting the list of people mentioned -->
    
-   <xsl:template match="tei:listPerson[@type='mentioned']">
+<!--   <xsl:template match="tei:listPerson[@type='mentioned']">
       <hr/>
-      <h3 id="peopleMentioned">List of People Mentioned</h3>
+      <h3 id="peopleMentioned">People Mentioned in Anderson's Letters</h3>
+      <p><xsl:value-of select="tei:head"/></p>
       <xsl:for-each select="tei:person">
          <xsl:sort select="tei:persName[1]"/>
          <p>
             <strong><xsl:value-of select="tei:persName"/></strong>
             <xsl:if test="tei:birth or tei:death">
                <xsl:choose>
+                  <xsl:when test="tei:birth=''"></xsl:when>
                   <xsl:when test="tei:birth[@notAfter]"> (b. not before <xsl:value-of select="tei:birth/@notAfter"/></xsl:when>
-                  <xsl:when test="tei:birth[@when]"> (b. <xsl:value-of select="tei:birth/@when"/></xsl:when>
+                  <xsl:when test="tei:birth[@when]"> (b. <xsl:value-of select="tei:birth/@when"/>
+                     <xsl:choose>
+                        <xsl:when test="tei:birth/tei:placeName!=''">, <xsl:value-of select="tei:birth/tei:placeName"/></xsl:when>
+                        <xsl:otherwise></xsl:otherwise>
+                     </xsl:choose>
+                  </xsl:when>
                   <xsl:otherwise> (</xsl:otherwise></xsl:choose>
                <xsl:choose>
                   <xsl:when test="not(tei:birth)"></xsl:when>
@@ -609,18 +616,52 @@
                   <xsl:otherwise>; </xsl:otherwise>
                </xsl:choose>
                <xsl:choose>
+                  <xsl:when test="tei:death=''"></xsl:when>
                   <xsl:when test="tei:death[@notBefore]">d. not before <xsl:value-of select="tei:death/@notBefore"/></xsl:when>
-                  <xsl:when test="tei:death[@when]">d. <xsl:value-of select="tei:death/@when"/></xsl:when>
-                  <xsl:otherwise></xsl:otherwise></xsl:choose>)</xsl:if>.
-            <xsl:apply-templates select="tei:note[@type='biographical']"/>
+                  <xsl:when test="tei:death[@when]">d. <xsl:value-of select="tei:death/@when"/>
+                     <xsl:choose>
+                        <xsl:when test="tei:death/tei:placeName!=''">, <xsl:value-of select="tei:death/tei:placeName"/></xsl:when>
+                        <xsl:otherwise></xsl:otherwise>
+                     </xsl:choose>
+                  </xsl:when>
+                  <xsl:otherwise></xsl:otherwise>
+               </xsl:choose>). 
+            </xsl:if>
+            <xsl:apply-templates select="tei:note[@type='biographical']"/> 
+            (<xsl:apply-templates select="tei:bibl"/>).
          </p>
       </xsl:for-each>
    </xsl:template>
-   
+--> 
+   <xsl:template match="tei:listPerson[@type='mentioned']">
+      <hr/>
+      <h3 id="peopleMentioned">People Mentioned in Anderson's Letters</h3>
+      <p><xsl:value-of select="tei:head"/></p>
+      <xsl:for-each select="tei:person">
+         <xsl:sort select="tei:persName[1]"/>
+         <p>
+            <strong><xsl:value-of select="tei:persName"/></strong>
+       <xsl:choose>
+          <xsl:when test="(tei:birth/tei:placeName) and (tei:death/tei:placeName)">
+             (b. <xsl:value-of select="tei:birth/@when"/>, <xsl:value-of select="tei:birth/tei:placeName"/> -  
+             d. <xsl:value-of select="tei:death/@when"/>, <xsl:value-of select="tei:death/tei:placeName"/>).
+          </xsl:when>
+          <xsl:when test="(tei:birth) and not (tei:birth/tei:placeName)">
+             (b. <xsl:value-of select="tei:birth/@when"/> -  
+             d. <xsl:value-of select="tei:death/@when"/>). 
+          </xsl:when>
+          <xsl:otherwise>. </xsl:otherwise>
+       </xsl:choose>
+            <xsl:apply-templates select="tei:note[@type='biographical']"/> 
+            (<xsl:apply-templates select="tei:bibl"/>).
+         </p>
+      </xsl:for-each>
+   </xsl:template>
+ 
    <!-- Format the list of organizations mentioned -->
    <xsl:template match="tei:listOrg">
        <hr/>
-     <h3 id="organizationsMentioned">List of Organizations Mentioned</h3>
+      <h3 id="organizationsMentioned">Organizations Mentioned in Anderson's Letters</h3>
       <xsl:for-each select="tei:org">
          <xsl:sort select="tei:orgName[1]"/>
          <p>
@@ -632,22 +673,22 @@
    
    <!-- Format the list of places mentioned -->
    <xsl:template match="tei:listPlace">
-      <a name="PlacesMentioned"/>
        <hr/>
-     <h3>List of Places Mentioned in the Letters</h3>
+      <h3 id="placesMentioned">Places Mentioned in Anderson's Letters</h3>
+      <xsl:value-of select="tei:head"/>
       <xsl:for-each select="tei:place">
          <xsl:sort select="tei:geogName"/>
          <xsl:sort select="tei:placeName[1]"/>
          <p>
-            <xsl:if test="tei:geogName[1]"><strong><xsl:value-of select="tei:geogName[1]"/></strong></xsl:if>
-            <xsl:if test="tei:geogName[2]"> (<xsl:value-of select="tei:geogName[2]"/>)</xsl:if>
-            <xsl:if test="tei:placeName[1]"><strong><xsl:value-of select="tei:placeName[1]"/></strong></xsl:if>
-            <xsl:if test="tei:placeName[2]"> (<xsl:value-of select="tei:placeName[2]"/>)</xsl:if>.
-            <xsl:value-of select="tei:country"/> 
-            <xsl:if test="tei:region">; <xsl:value-of select="tei:region"/></xsl:if>
+            <xsl:if test="tei:geogName[1]"><strong><xsl:value-of select="tei:geogName[1]"/>, <xsl:value-of select="tei:region[@type='state']"/></strong></xsl:if>
+            <xsl:if test="tei:geogName[2]"> (<xsl:value-of select="tei:geogName[2]"/>, <xsl:value-of select="tei:region[@type='state']"/></xsl:if>
+            <xsl:if test="tei:placeName[1]"><strong><xsl:value-of select="tei:placeName[1]"/>, <xsl:value-of select="tei:region[@type='state']"/></strong></xsl:if>
+            <xsl:if test="tei:placeName[2]"> (<xsl:value-of select="tei:placeName[2]"/>, <xsl:value-of select="tei:region[@type='state']"/>)</xsl:if> 
+            <!--<xsl:value-of select="tei:country"/> 
+            <xsl:if test="tei:region">; <xsl:value-of select="tei:region"/></xsl:if>-->
             <xsl:if test="tei:location/tei:geo"> (Lat/Long: 
                <xsl:value-of select="tei:location/tei:geo"/>)</xsl:if>. 
-            <xsl:value-of select="tei:desc"/>
+               <xsl:value-of select="tei:desc"/>
          </p>
       </xsl:for-each>
    </xsl:template>
@@ -785,7 +826,7 @@
       "<xsl:apply-templates/>"
    </xsl:template>
    <xsl:template match="tei:note[@type='introductory']//tei:bibl">(<xsl:apply-templates/>)</xsl:template>
-   <xsl:template match="tei:title[@level='a']">"<xsl:apply-templates/>"</xsl:template>
+  <xsl:template match="tei:title[@level='a']">"<xsl:apply-templates/>"</xsl:template>
    <xsl:template match="tei:title[@level='m']"><cite><xsl:apply-templates/></cite></xsl:template>
    <xsl:template match="tei:title[@level='j']">
       <cite>

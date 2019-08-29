@@ -199,13 +199,13 @@
              <!-- FOR EACH LETTER, UPDATE LIST OF PLACES -->
              
              <listPlace>
-               <head>Places Mentioned in the Text</head>
+               <head>This list includes the principle places mentioned in the letters.</head>
                <place type="city" xml:id="LouisvilleKY" source="#TGN">
                  <placeName>Louisville</placeName>
-                 <desc>In his letter of June 16, Anderson notes that he did not 
-                 write to Louisa during a previous stop in Louisville, KY.</desc>
+                 <desc>Louisville was a regular stop for Anderson's boat, and in his letter
+                   of July 5, 1863, he mentions Union plans to defend Louisville from Morgan's Raiders.</desc>
                  <country>United States</country>
-                 <region type="state">Kentucky</region>
+                 <region type="state">KY</region>
                  <region type="county">Jefferson</region>
                  <location>
                    <geo>38.2500 -85.7500</geo>
@@ -215,10 +215,12 @@
                  </event>
                </place>
                <place type="city" xml:id="CincinnatiOH" source="#TGN">
-                 <placeName>Cincinnati, OH</placeName>
-                 <desc></desc>
+                 <placeName>Cincinnati</placeName>
+                 <desc>Most of the letters in this collection were written from Cincinnati, an
+                 important stop for merchant boats on the Ohio River. When he is in Cincinnati, Anderson
+                 often visits Louisa's mother.</desc>
                  <country>United States</country>
-                 <region type="state">Ohio</region>
+                 <region type="state">OH</region>
                  <region type="county">Hamilton</region>
                  <location>
                    <geo>39.1500 -84.4500</geo>
@@ -229,10 +231,10 @@
                </place>
                <place type="city" xml:id="Shousetown" source="#TGN">
                  <placeName>Shousetown</placeName>
-                 <desc></desc>
+                 <desc>William and Louisa's homestead was in Shousetown, PA outside of Pittsburgh.</desc>
                  <country>United States</country>
-                 <region type="Pennsylvania"></region>
-                 <region type="Allegheny"></region>
+                 <region type="state">PA</region>
+                 <region type="county">Allegheny</region>
                  <location>
                    <geo>40.560833 -80.223200</geo>
                  </location>
@@ -242,9 +244,11 @@
                </place>
                <place type="city" xml:id="PittsburghPA" source="#TGN">
                  <placeName>Pittsburgh</placeName>
-                 <desc></desc>
+                 <desc>The Ohio River begins at the confluence of the Allegheny and Monongahela
+                 Rivers in Pittsburgh, which appears to be the eastern terminus of Anderson's business,
+                 as well as his home.</desc>
                  <country>United States</country>
-                 <region type="state">Pennsylvania</region>
+                 <region type="state">PA</region>
                  <region type="county">Allegheny</region>
                  <location>
                    <geo>40.4333 -79.9833</geo>
@@ -252,10 +256,11 @@
                </place>
                <place type="city" xml:id="MaysvilleKY" source="#TGN">
                  <placeName>Maysville</placeName>
-                 <desc></desc>
+                 <desc>Maysville appears to have been a regular port of call for Anderson, as well as
+                 the home of a friend whose child's funeral he attend in October 1862.</desc>
                  <country>United States</country>
-                 <region type="Kentucky"></region>
-                 <region type="Mason"></region>
+                 <region type="state">KY</region>
+                 <region type="county">Mason</region>
                  <location>
                    <geo>38.6333 -83.7333</geo>
                  </location>
@@ -268,7 +273,7 @@
                    during the American Civil War, the Battle of Buffington Island, took place on 
                    July 19, 1863.</desc>
                  <country>United States</country>
-                 <region type="state">Ohio</region>
+                 <region type="state">OH</region>
                  <region type="county">Meigs</region>
                  <location>
                    <geo>38.9833 -81.7667</geo>
@@ -279,27 +284,28 @@
                  <desc>In his letter of 10 August 1862, Anderson describes having to lighten his ship's load
                  to navigate around Blennerhassett Island, near Belpre, Ohio</desc>
                  <country>United States</country>
-                 <region type="state">West Virgina</region>
+                 <region type="state">WV</region>
                  <region type="county">Wood</region>
                  <location>
                    <geo>39.2667 -81.6167</geo>
                  </location>
                </place>
-               <place type="township" xml:id="southbend" source="#TGN">
+<!--               <place type="township" xml:id="southbend" source="#TGN">
                  <placeName>South Bend</placeName>
                  <desc></desc>
                  <country>United States</country>
-                 <region type="state">Pennsylvania</region>
+                 <region type="state">PA</region>
                  <region type="county">Armstrong</region>
                  <location>
                    <geo>40.6167 -79.3667</geo>
                  </location>
                </place>
-               <place type="city" xml:id="gallipolis" source="#TGN">
+-->               <place type="city" xml:id="gallipolis" source="#TGN">
                  <placeName>Gallipolis</placeName>
-                 <desc>Gallipolis is a city along the Ohio River in Gallia County, Southeast Ohio</desc>
+                 <desc>Anderson mentions several stops in Gallipolis in the summer of 1862 while
+                 handling government freight.</desc>
                  <country>United States</country>
-                 <region type="state">Ohio</region>
+                 <region type="state">OH</region>
                  <region type="county">Gallia</region>
                  <location>
                    <geo>38.7833 -82.2000</geo>
@@ -308,10 +314,10 @@
                <place type="army_camp" xml:id="campPort" source="#TGN">
                  <placeName>Camp Portsmouth</placeName>
                  <desc>Camp Portsmouth served as a training and organizational camp from 1861-1862 for
-                   The 117th Regiment Ohio Volunteer Infantry, the 1st Regiment Ohio Heavy Artillery, and the 18th Regiment Ohio Light Artillery
-                 <bibl><ref target="#campPortsmouth"></ref>"Camp Portsmouth"</bibl>.</desc>
+                   The 117th Regiment Ohio Volunteer Infantry, the 1st Regiment Ohio Heavy Artillery, 
+                   and the 18th Regiment Ohio Light Artillery.</desc>
                  <country>United States</country>
-                 <region type="state">Ohio</region>
+                 <region type="state">OH</region>
                  <region type="county">Scioto</region>
                  <location>
                    <geo>38.7167 -82.9833</geo>
@@ -319,32 +325,34 @@
                </place>
                <place type="city" xml:id="gramsta" source="#TGN">
                  <placeName notBefore="1837">Graham's Station</placeName>
-                 <desc>Graham's Station, Ohio was incorporated in 1841 and was later renamed Racine.</desc>
+                 <desc>Graham's Station, Ohio was incorporated in 1841 and was later renamed Racine. Anderson
+                 refers to it by both names in letters written in August and September 1862.</desc>
                  <country>United States</country>
-                 <region type="state">Ohio</region>
+                 <region type="state">OH</region>
                  <region type="county">Meigs</region>
                  <location>
                    <geo>38.9667 -81.9000</geo>
                  </location>
                </place>
                <place type="city" xml:id="augusta" source="#TGN">
-                 <placeName>Augusta, Kentucky</placeName>
-                 <desc>A city in Kentucky along the Ohio River east of Cincinnati, Ohio. In his letter
-                 of 28 September 1862, Anderson reports that he has been ordered to take soldiers to Augusta
-                 in response to the Battle of Augusta, which took place the previous day.
-                 </desc>
+                 <placeName>Augusta</placeName>
+              <desc>In his letter of 28 September 1862, Anderson reports that he has been ordered to
+              take soldiers to Augusta in response to the Battle of Augusta, which took place the
+              previous day.</desc>
                  <country>United States</country>
-                 <region type="state">Kentucky</region>
+                 <region type="state">KY</region>
                  <region type="county">Bracken</region>
                  <location>
                    <geo>38.7667 -84.0000</geo>
                  </location>
                </place>
                <place type="city" xml:id="SLM" source="#TGN">
-                 <placeName>Saint Louis, Missouri</placeName>
-                 <desc>Anderson writes from St. Louis on 19 June 1863.</desc>
+                 <placeName>Saint Louis</placeName>
+              <desc>Anderson writes only one of the letters in this collection from St. Louis—his
+              letter of 19 June 1863—in which he notes that he prefers "the St Louis and Cin. trade"
+              to the prospects on the "upper Mississippi."</desc>
                  <country>United States</country>
-                 <region type="state">Missouri</region>
+                 <region type="state">MO</region>
                  <region type="county"></region>
                  <location>
                    <geo>38.6167 -90.1833</geo>
@@ -352,30 +360,33 @@
                </place>
                <place type="city" xml:id="nashville" source="#TGN">
                  <placeName>Nashville</placeName>
-                 <desc>In his letter of 1 July 1863, Anderson he will start for Nashville, Tennessee that evening. Nashville 
-                   could be reached from the Ohio River via the Cumberland River, which meets the Ohio at mile 933.</desc>
+            <desc>In his letter of 1 July 1863, Anderson writes that he will start for Nashville,
+              Tennessee that evening. Nashville could be reached from the Ohio River via the
+              Cumberland River, which meets the Ohio at mile 933.</desc>
                  <country>United States</country>
-                 <region type="state">Tennessee</region>
+                 <region type="state">TN</region>
                  <region type="county">Davidson</region>
                  <location>
                    <geo>36.1540 -86.7610 </geo>
                  </location>
                </place>
-               <place type="city" xml:id="allegheny" source="#TGN">
+<!--               <place type="city" xml:id="allegheny" source="#TGN">
                  <placeName notBefore="1788" notAfter="1907">Allegheny City</placeName>
                  <desc></desc>
                  <country>United States</country>
-                 <region type="state">Pennsylvania</region>
+                 <region type="state">PA</region>
                  <region type="county">Allegheny</region>
                  <location>
                    <geo>40.451029 -80.015539</geo>
                  </location>
                </place>
-               <place type="city" xml:id="lebanon" source="#TGN">
+-->               <place type="city" xml:id="lebanon" source="#TGN">
                  <placeName>Lebanon</placeName>
-                 <desc></desc>
+                 <desc>In his letter of 5 October 1863, Anderson discusses the battle of Lebanon,
+                   writing that "the divel [<emph rend="italic">sic</emph>] has broke loose over in Kentucky again" and caused
+                 great concern throughout the region.</desc>
                  <country>United States</country>
-                 <region type="state">Kentucky</region>
+                 <region type="state">KY</region>
                  <region type="county">Marion</region>
                  <location>
                    <geo>37.5667 -85.2500</geo>
@@ -389,7 +400,7 @@
                  <desc>In his letter of 5 July 1863, Anderson mentions navigating a mile
                  up the Licking River to deliver a load of metal.</desc>
                  <country>United States</country>
-                 <region type="state">Kentucky</region>
+                 <region type="state">KY</region>
                  <region type="county">Morgan</region>
                  <location>
                    <geo>37.9333 -83.3000</geo>
@@ -400,7 +411,7 @@
                  <desc>In his letter of 5 July 1863, Anderson notes that General Morgan's forces
                  were likely to take Lexington, but in fact they did not.</desc>
                  <country>United States</country>
-                 <region type="state">Kentucky</region>
+                 <region type="state">KY</region>
                  <region type="county">Fayette</region>
                  <location>
                    <geo>38.0333 -84.5000</geo>
@@ -411,56 +422,60 @@
                </place>
                <place type="city" xml:id="richmond" source="#TGN">
                  <placeName>Richmond</placeName>
-                 <desc>The capital of Virgina.</desc>
+            <desc>The capital of the Confederate States of America. In his letter of 5 July 1863, Anderson is
+              skeptical of calls to send men to Kentucky to protect Lexington and Louisville,
+              believing that the real purpose of the call up is "to get recruits and then . . .
+              march them on to Richmond."</desc>
                  <country>United States</country>
-                 <region type="state">Virginia</region>
+                 <region type="state">VA</region>
                  <region type="county">Henrico</region>
                  <location>
                    <geo>37.540304 -77.433150</geo>
                  </location>
                </place>
-               <place type="city" xml:id="evansville" source="#TGN">
+<!--               <place type="city" xml:id="evansville" source="#TGN">
                  <placeName>Evansville</placeName>
                  <desc>Located on the Ohio River opposite Henderson, Kentucky.</desc>
                  <country>United States</country>
-                 <region type="state">Indiana</region>
+                 <region type="state">IN</region>
                  <region type="county">Vanderburgh</region>
                  <location>
                    <geo>37.9667 -87.5500</geo>
                  </location>
                </place>
-               <place type="city" xml:id="Parkersburg" source="#TGN">
-                 <placeName>Parkersburg, WV</placeName>
+-->               <place type="city" xml:id="Parkersburg" source="#TGN">
+                 <placeName>Parkersburg</placeName>
                  <desc>In his Letter of 24 August 1864, Anderson speculates about whether
-                 water levels will allow him to navigate as far upstream as Parkersburg, WV.</desc>
+                 water levels will allow him to navigate as far upstream as Parkersburg, WV.
+                 Water levels appear to have been a constant threat to navigation on the Ohio at the time.</desc>
                  <country>United States</country>
-                 <region type="state">West Virginia</region>
+                 <region type="state">WV</region>
                  <region type="county">Wood</region>
                  <location>
                    <geo>39.2667  -81.5500</geo>
                  </location>
                </place>
-               <place type="city" xml:id="Racine" source="#TGN">
-                 <placeName>Racine, OH</placeName>
+<!--               <place type="city" xml:id="Racine" source="#TGN">
+                 <placeName>Racine</placeName>
                  <desc>Left freight here when he broke a shaft.</desc>
                  <country>United States</country>
-                 <region type="state">Ohio</region>
+                 <region type="state">OH</region>
                  <region type="county">Meigs</region>
                  <location>
                    <geo>38.9667 -81.9000</geo>
                  </location>
                </place>
                <place type="city" xml:id="Memphis" source="#TGN">
-                 <placeName>Memphis, TN</placeName>
+                 <placeName>Memphis</placeName>
                  <desc>Ship Kenton in Memphis trade.</desc>
                  <country>United States</country>
-                 <region type="state">Tennessee</region>
+                 <region type="state">TN</region>
                  <region type="county">Shelby</region>
                  <location>
                    <geo>35.1333 -90.0333</geo>
                  </location>
                </place>
-               
+-->               
                
                
                
@@ -477,16 +492,16 @@
                  <orgName>Little Miami Rairoad</orgName>
                  <state type="company"></state>
                  <desc>The Little Miami Railroad 
-                   was only the second railroad to be built in Ohio.  
+                   was only the second railroad built in Ohio.  
                    The state legislature granted the Little Miami Railroad Company 
-                   a charter in March 1836.  The purpose was to connect the city of Cincinnati 
-                   to Springfield.  The line was completed between 1837 and 1848</desc>
+                   a charter in March 1836. The purpose was to connect the city of Cincinnati 
+                   to Springfield. The line was completed between 1837 and 1848.</desc>
                  <bibl><ref target="#LMR"></ref>Ohio History Central.</bibl>
                </org>
                <org xml:id="andersonFerry" source="OHC">
                  <orgName>Anderson Ferry</orgName>
                  <state type="company" from="1817"></state>
-                 <desc>Ferry service across the Ohio River from Cincinnati, OH to Covington, KY. [NEED CITATION]</desc>
+                 <desc>Ferry service across the Ohio River from Cincinnati, OH to Covington, KY.</desc>
                  <location>
                    <geo>39.085907 -84.622564</geo>
                  </location>
@@ -502,11 +517,14 @@
              <!-- FOR EACH LETTER, UPDATE BIBLIOGRAPHY -->
              <listBibl>
                <head>Works Cited in Notes</head>
-          <bibl xml:id="HOAC" n="Apfelbaum">Apfelbaum, Charles. <title level="a">Capt. William B.
+          <bibl xml:id="HOAC" n="Cushing">Cushing, Thomas. <title level="a">Capt. William B.
               Anderson.</title>
-            <title level="m">History of Allegheny County, Pennsylvania</title>. Chicago: A. Warner
-            &amp; Co., 1889. 298–299. https://archive.org/details/historyofalleghe01cush/page/298
-          </bibl>
+            <title level="m">History of Allegheny County, Pennsylvania. Including Its Early
+              Settlement and Progress to the Present Time; a Description of Its Historic and
+              Interesting Localities; Its Cities, Towns and Villages; Religious, Educational, Social
+              and Military History; Mining, Manufacturing and Commercial Interests, Improvements,
+              Resources, Statistics, Etc. Also. Biographies of Many of Its Representative
+              Citizens</title>. Chicago: A. Warner &amp; Co., 1889.</bibl>
                <bibl xml:id="hewitt" n="Hewitt">
                  Hewitt, Elizabeth.<title level="u"> Lecture to English 569C, Digital Media and English Studies.</title> The Ohio State University. 
                    6 Apr. 2006.
@@ -576,8 +594,21 @@
                <bibl xml:id="historyof" n="Historyof">
                  <title level="m">History of Washington County, Ohio, with illustrations and biographical sketches</title>. Marietta, Ohio: H. Z. Williams &amp; Bro., 1881.
                </bibl>
-               
-               
+               <bibl xml:id="Jordan" n="Jordan">
+                 Jordan, John W. <title level="m">Genealogical and Personal History of Western Pennsylvania. New York: Lewis Historical Publishing Company, 1915.</title>.
+               </bibl>
+               <bibl xml:id="Weber" n="Weber">
+                 Weber, Lola. <title level="a">Capt William B. Anderson.</title>. <title level="m">Fina a Grave</title>. https://www.findagrave.com/memorial/102915053/william-b_-anderson
+               </bibl>              
+               <bibl xml:id="Doherty" n="Doherty">
+                 Doherty, Jean. <title level="a">Mary Louisa Fischgens Anderson.</title>. <title level="m">Fina a Grave</title>. https://www.findagrave.com/memorial/103024849/mary-louisa-anderson
+               </bibl>              
+               <bibl xml:id="Konrad" n="Konrad">
+                 Konrad, Linda. <title level="a">Anna Mary Woolslayer Fischgens.</title>. <title level="m">Fina a Grave</title>. https://www.findagrave.com/memorial/112642492/anna-mary-fischgens
+               </bibl>              
+               <bibl xml:id="Miller" n="Miller">
+                 Miller, Richard F. <title level="m">States At War: A Reference Guide for Ohio in the Civil War</title>. Vol. 5 Hanover: University Press of New England, 2013.
+               </bibl>
                
                
              </listBibl>
@@ -720,75 +751,87 @@
          
          <particDesc>
            <listPerson type="mentioned">
-             <head>People Mentioned in William B. Anderson's Letters</head>
+             <head>This list includes the principal persons mentioned in the letters.</head>
              <person xml:id="MLA" source="HOAC">
                <persName>Anderson, Mary Louisa, née Fischgens</persName>
-               <note type="biographical">Mary Louisa Fischgens (1837-1911) and Capt. William B. Anderson (1822-1897) were married September
-                 15, 1853 in Cincinnati, Ohio. They had five children.</note>
-               <birth when="1837"><placeName></placeName></birth>
-               <death when="1911"><placeName></placeName></death>
-               <bibl><ref target="HOAC"><title level="m">History of Allegheny County</title> (298).</ref></bibl>
+               <note type="biographical">Mary Louisa Fischgens and Capt. William B. Anderson were married September
+                 15, 1853 in Cincinnati, Ohio. As the letters show, during the time that
+                 William was on the river, Louisa both cared for their five children and managed business transactions
+               related to both their homestead and riverboat</note>
+               <birth when="1837-04-14"><placeName>Pittsburgh, PA</placeName></birth>
+               <death when="1911-08-25"><placeName>Pittsburgh, PA</placeName></death>
+               <bibl><ref target="HOAC"/>Cushing 298; Doherty</bibl>
              </person>
              <person xml:id="MAF" source="XXX">
                <persName>Fischgens, Anna Mary, née Woolslayer</persName>
-               <note type="biographical">Mary Louisa Anderson's mother.</note>
-               <birth when="1812-07-12"><placeName></placeName></birth>
-               <death when="1897-11-25"><placeName></placeName></death>
-               <bibl><ref target="HOAC"><title level="m">History of Allegheny County</title></ref>298.</bibl>
+               <note type="biographical">Mary Louisa Anderson's mother, whom Anderson sometimes refers to in the letters
+                 as "the old lady," is living in Cincinnati, OH with her daughter Ella during the period covered by the letters</note>
+               <birth when="1812-07-12"><placeName>Pittsburgh, PA</placeName></birth>
+               <death when="1897-11-25"><placeName>Pittsburgh, PA</placeName></death>
+               <bibl><ref target="HOAC"/>Cushing 298; Konrad</bibl>
              </person>
              <person xml:id="WBA" source="HOAC">
                <persName>Anderson, William B.</persName>
-               <note type="biographical"></note>
-               <birth when="1822"><placeName></placeName></birth>
-               <death when="1897"><placeName></placeName></death>
-               <bibl><ref target="HOAC"><title level="m">History of Allegheny County</title> (298).</ref></bibl>
+            <note type="biographical">Captain William B. Anderson was involved in lake and river
+              commerce for over twenty-five years. He was both a boat builder and captain, and
+              maintained a farm and homestead in Allegheny County, PA. Mary Louisa Fischgens and
+              William B. Anderson were married September 15, 1853 in Cincinnati, Ohio and had four
+              children at the time these letters were written</note>
+               <birth when="1822-10-10"><placeName>Washington County, PA</placeName></birth>
+               <death when="1897-11-15"><placeName>Allegheny County, PA</placeName></death>
+               <bibl><ref target="HOAC"/>Cushing 298; Weber</bibl>
              </person>
              <person xml:id="WYA" source="HOAC">
                <persName>Anderson, William Y.</persName>
                <note type="biographical">Son of William B. Anderson and Mary Louisa Fischgens Anderson. 
-                 He Married Nancy C. McKinely. He resided in Shoustown, Pa. He died of typhoid in PA, leaving a widow and 
-                 two children. He is buried in Allegheny Cemetery.  He left a widow and two young children.</note>
-               <birth when="1855"><placeName></placeName></birth>
-               <death when="1890"><placeName></placeName></death>
-               <bibl><ref target="HOAC"><title level="m">History
-                 of Allegheny County</title></ref>298</bibl>
+                 He Married Nancy C. McKinley and resided in Shousetown, Pa. He died of typhoid in 180, leaving a widow and 
+                 two children</note>
+               <birth when="1855"></birth>
+               <death when="1890-11-23"></death>
+               <bibl><ref target="HOAC"/>Cushing 298; Danker, "RE: Request"</bibl>
              </person>
              <person xml:id="JLA" source="HOAC">
                <persName>Anderson, John L.</persName>
-               <note type="biographical">John L. Anderson (1859-1922). Son of William B. Anderson and Mary Louisa Fischgens Anderson. 
-                 Resided at the homestead. Wounded in Spottsylvania, Va., May 14, 1864, while serving the sixty-second 
-                 Pennsylvania volunteers from Antietam to Appomattox. He survived typhoid in 1890. He never married. He is 
-                 buried in the Allegheny Cemetery.</note>
-               <birth when="1859"><placeName></placeName></birth>
-               <death when="1922"><placeName></placeName></death>
-               <bibl><ref target="HOAC"><title level="m">History
-                 of Allegheny County</title></ref>298</bibl>
+               <note type="biographical">Son of William B. Anderson and Mary Louisa Fischgens Anderson. He survived the typhoid in 1890 that
+                 killed three of his siblings. He never married</note>
+               <birth when="1859"></birth>
+               <death when="1922-05-27"></death>
+               <bibl><ref target="HOAC"/>Cushing 298; Danker, "RE: Request"</bibl>
              </person>
              <person xml:id="russell" source="BioRev">
                <persName>Russel, John</persName>
                <note type="biographical">John Russel was “a prominent merchant 
-                 on Liberty Street for many years.”</note>
-               <bibl><ref target="BioRev"><title level="m">Biographical Review</title></ref>205</bibl>
+                 on Liberty Street, Pittsburgh, PA, for many years”</note>
+               <bibl><ref target="BioRev"/><title level="m">Biographical Review</title> 205</bibl>
              </person>
              <person xml:id="HGWright" source="Brodhead">
                <persName>Wright, Horatio Gouverneur</persName>
-               <note type="biographical">General Wright commanded the Division of Ohio from August 1862 to March 1863.</note>
+               <note type="biographical">General Wright commanded the Division of Ohio from August 1862 to March 1863</note>
                <birth when="1820-03-06"><placeName>Clinton, Connecticut</placeName></birth>
                <death when="1899-07-02"><placeName>Washington, D.C.</placeName></death>
                <bibl><ref target="ANB">American National Biography</ref>https://doi-org.proxy.lib.ohio-state.edu/10.1093/anb/9780198606697.article.0500857</bibl>
              </person>
-             <person xml:id="Morgan" source="TGN">
+             <person xml:id="Morgan" source="Rosenburg">
                <persName>Morgan, John Hunt</persName>
                <note type="biographical">In his letter of 5 July 1863, Anderson refers to the burning
-                 of Lebanon, KY during one of General Morgan's raids on Union forces.</note>
+                 of Lebanon, KY during one of General Morgan's raids on Union forces</note>
                <birth when="1825-06-01"><placeName>Huntsville, Alabama</placeName></birth>
                <death when="1864-09-04"><placeName>Greenville, Tennessee</placeName></death>
-               <bibl>Rosenburg, R. B.</bibl>
+               <bibl>Rosenburg</bibl>
              </person>
              <person xml:id="hatch" source="States">
-               <persName>George Hatch</persName>
-               <note type="biographical">George Hatch served as mayor of Cincinnati from 1861-1863.</note>
-               <bibl>States at War, Volume 5: A Reference Guide for Ohio in the Civil War. <!--https://books.google.com/books?id=VMFRCgAAQBAJ&pg=PA165&lpg=PA165&dq=George+Hatch+mayor++cincinnati&source=bl&ots=pTmwDOcAR2&sig=ACfU3U16FTG0UkK9YFtEs7SIsWX6ZxQqnw&hl=en&sa=X&ved=2ahUKEwi_97q67_XiAhUBiqwKHb8EA9M4ChDoATAHegQIBxAB#v=onepage&q=George%20Hatch%20mayor%20%20cincinnati&f=false--></bibl>
+               <persName>Hatch, George</persName>
+               <note type="biographical">George Hatch served as mayor of Cincinnati from 1861-1863</note>
+               <bibl>Miller 165</bibl>
+             </person>
+             <person xml:id="Ella" source="FG">
+               <persName>Fischgens, Ella Jane</persName>
+               <note type="biographical">Anderson mentions Louisa Anderson's younger sister Ella in 
+               many of the letters. He last mentions her in his letter of 1 August 1863, a little more
+               than a month before she died, but he does not mention that she has been ill</note>
+               <birth when="1851-09-21"><placeName>New Jersey</placeName></birth>
+               <death when="1863-09-04"><placeName>Cincinnati, OH</placeName></death>
+               <bibl>Find A Grave; Danker, <title level="m">William B. Anderson Letters</title></bibl>
              </person>
              
              
@@ -934,7 +977,7 @@
             <lb/>We have laid over and will leave this 
             <lb/>Evening we are getting all we want I have 
             <lb/>just been down to see your <rs ref="#MAF">mother</rs><ptr type="noteAnchor" target="mother"/><note resp="ed" xml:id="mother">Mary Louisa Anderson's mother, Ann (Woolslayer) Fischgens <bibl><ref target="HOAC"></ref><title level="m">History of Allegheny County</title> 298</bibl>.</note> she is not 
-            <lb/>very well Today sends her respects <persName>Ella</persName><ptr type="noteAnchor" target="ella"/><note resp="ed" xml:id="ella">Ella was Louisa Fischgen's younger sister, born ca. 1851. 
+            <lb/>very well Today sends her respects <persName>Ella</persName><ptr type="noteAnchor" target="ella"/><note resp="ed" xml:id="ella">Ella Jane Fis was Louisa's younger sister, born in 1851. 
             She died in Cincinnati on September 4, 1863 <bibl>Danker, <title level="m">William B. Anderson Letters</title></bibl><ref target="#DankerSite"/>.</note>
             <lb/>was at school I did not see her. There was 
             <lb/>a large fire down between Third St and The river 
