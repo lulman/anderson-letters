@@ -489,7 +489,6 @@
       <p><strong>Title</strong>: "<xsl:value-of select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:title"/>" 
          <br/><strong>Extent</strong>: <xsl:value-of select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:extent"/>
       </p>
-      <p>See individual letters (under "Views of the Letters") for physical descriptions of each letter.</p>
       <xsl:apply-templates/>
    </xsl:template>
    
