@@ -609,6 +609,10 @@
                <bibl xml:id="Miller" n="Miller">
                  Miller, Richard F. <title level="m">States At War: A Reference Guide for Ohio in the Civil War</title>. Vol. 5 Hanover: University Press of New England, 2013.
                </bibl>
+               <bibl xml:id="Ash" n="Ash">
+                 Ash, Stephen V. <title level="a">Civil War Occupation.</title> <title level="m">Tennessee Encyclopedia</title>. March 2018.  
+                 http://tennesseeencyclopedia.net/entries/civil-war-occupation/
+               </bibl>
                
                
              </listBibl>
@@ -1339,7 +1343,12 @@
           <pb facs="Letter20_pg1"/>
           <opener>
             <lb/><dateline><placeName type="city" ref="CincinnatiOH">Cin
-            </placeName> <date when="1862-07-28"></date>Monday 28 1862</dateline>
+            </placeName> <date when="1862-07-28"></date>Monday 28 1862</dateline><ptr type="noteAnchor" target="july28"/><note resp="ed" xml:id="july28">
+              While Anderson does not include the month in his dateline, July was the only month in 1862
+              in which the 28th fell on a Monday. His reference to "the late news" from Tennessee that caused him to
+              turn down business opportunities probably refers to the capture of Nashville by the Union Army on February 25th,
+              followed by the fall of Memphis in June
+              <bibl>Ash</bibl>.</note>
             <lb/><salute>Dear <rs type="recipient">Wife</rs></salute>
           </opener>
           <p>

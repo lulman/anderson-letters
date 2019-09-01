@@ -328,6 +328,7 @@ content: " ";
 margin-top: -150px;
 height: 150px;
 visibility: hidden;
+z-index: 1;
 }
 
 h3 {
@@ -344,6 +345,7 @@ content: " ";
 margin-top: -150px;
 height: 150px;
 visibility: hidden;
+z-index: 1;
 }
 
 /* space before links to letters in TOC */
@@ -353,6 +355,7 @@ content: " ";
 margin-top: -150px;
 height: 150px;
 visibility: hidden;
+z-index: 1;
 }
 
 a[name="topofpage"] {
@@ -375,6 +378,7 @@ content: " ";
 margin-top: -150px;
 height: 150px;
 visibility: hidden;	
+z-index: 1;
 }
 
 p.aboutView {
@@ -393,6 +397,7 @@ content: " ";
 margin-top: -150px;
 height: 150px;
 visibility: hidden;	
+z-index: 1;
 }
 sup.noteAnchor {
   font-size:.85em;
@@ -470,6 +475,7 @@ p.listing a::before {
     margin-top: -300px;
     height: 300px;
     visibility: hidden;
+    z-index: 1;
 }
 hr { color: #888833; 
        clear: both;
