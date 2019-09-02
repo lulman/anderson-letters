@@ -344,14 +344,27 @@
                <p class="aboutView"><a href="#View">About this view.</a></p>
                <div class="container">
                   <p class="font-size-label">Font Size <button id="up">+</button> <button id="down">-</button></p>
-                  <!--<p id="font-size"></p>-->
-<!--                  <p><button>Switch between Cox's original pencilled text and overwritten and altered inked text.</button></p>
-
-                  <p>
-                     <span class="pencil">Pencil text displayed.</span>
-                      <span class="ink inktoggle">Ink changes displayed.</span>
+                  <p style="font-size:smaller">
+                     <strong>Edited by</strong><br/>
+                     Katie Leigh Adams<br/>
+                     Michelle Leigh Amos<br/>
+                     Christopher M. Clark<br/>
+                     Jamie Danker<br/>
+                     Sara Pauline Finch<br/>
+                     Martha Fissel<br />
+                     Meghan Elaine Griesemer<br/>
+                     Zachary A. Hess<br/>
+                     Jenna Marlene Kamrass<br/>
+                     Kathryn H. Owsley<br/>
+                     Marie E. Pesut<br/>
+                     Emily Rosen<br />
+                     Richard (Dickie) J. Selfe<br/>
+                     Steve W. Sikes-Gilbert<br/>
+                     Sarah Beth Sitzler<br/>
+                     Jeremy A Smith<br/>
+                     Kristin Stack<br/>
+                     H. Lewis Ulman<br/>
                   </p>
--->                                                     
                   <!-- Start NINES Widget -->
                   <form method="get"
                      style="font-size-adjust:none;font-style:normal;font-variant:normal;font-weight:normal;line-height:1.231;color:#000000;"
