@@ -6803,11 +6803,11 @@ ${caret}</String>
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>anderson_diplomatic.xsl</String>
+                                    <String>anderson_reading.xsl</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>anderson_diplomatic</String>
+                                        <String>anderson-reading</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -6818,11 +6818,11 @@ ${caret}</String>
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>anderson_reading.xsl</String>
+                                    <String>anderson_diplomatic.xsl</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>anderson-reading</String>
+                                        <String>anderson_diplomatic</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
