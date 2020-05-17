@@ -2,7 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
    xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" 
    xmlns:tei="http://www.tei-c.org/ns/1.0"
-   exclude-result-prefixes="xd"
+   exclude-result-prefixes="xd tei"
    version="2.0">
    <xd:doc scope="stylesheet">
       <xd:desc>
@@ -163,6 +163,7 @@
             <img class="pageview">
                <xsl:attribute name="src"><xsl:value-of select="@facs"/>_small.jpg</xsl:attribute>
                <xsl:attribute name="width">425</xsl:attribute>
+               <xsl:attribute name="alt">Thumbnail image of manuscript facsimile</xsl:attribute>
             </img>
          </a>
       </div>
@@ -170,12 +171,13 @@
    
    <xsl:template match="tei:lb">
       <br/>
+<!--  WE ARE NOT ENCODING IDS FOR EACH LINE IN THIS EDITION    
       <a>
-         <xsl:attribute name="name">
+         <xsl:attribute name="id">
             <xsl:number count="tei:lb" format="0001" level="any" from="tei:div[@type='letter']"/>
          </xsl:attribute>
       </a>
-      &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;<xsl:number count="tei:lb" format="0001" level="any" from="tei:div[@type='letter']"/>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;
+-->      &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;<xsl:number count="tei:lb" format="0001" level="any" from="tei:div[@type='letter']"/>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;
    </xsl:template>
    <xsl:template match="tei:fileDesc/tei:titleStmt/tei:title/tei:lb">
       <br/><xsl:apply-templates/>
