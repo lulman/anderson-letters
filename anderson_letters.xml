@@ -113,7 +113,6 @@
 	             </publicationStmt>
 	             <notesStmt>
 	               <note type="descriptive">
-	                 <p>
 	                   <figure rend="embed" n="250">
 	                     <head>Printer's Mark</head>
 	                     <graphic url="./image_mt_holly_mark.jpg"/>
@@ -121,7 +120,8 @@
 	                       Printer's Mark
 	                     </figDesc>
 	                   </figure>
-	                 Most of the letters in the Anderson collection were written on one or two sides
+	                   <p>
+	                     Most of the letters in the Anderson collection were written on one or two sides
 	                 of a single sheet of lined, manilla-colored writing paper torn from a tablet, notebook,
 	                 or larger sheet. Many bear a printer's mark in the upper left-hand corner. See individual letters (under "Views of the Letters") for a detailed physical description of each letter.</p>
 	                 <p><emph rend="bold">Selection of the Source Text</emph>. This edition contains
@@ -133,7 +133,6 @@
 	                 
 	               </note>
 	               <note type="introductory">
-	                 <p>
 	                   <figure rend="embed" n="250">
 	                     <head>Salutation from letter of 27 June 1862</head>
 	                     <graphic url="./image_mydearwife.png"/>
@@ -141,7 +140,6 @@
 	                       My Dear Wife
 	                     </figDesc>
 	                   </figure>
-	                 </p>
 	                 
               <p> In some ways, William B. Anderson's short letter of 27 June 1862 to his wife, Mary
                 Louisa, typifies the twenty letters from William to Louisa that survive in the

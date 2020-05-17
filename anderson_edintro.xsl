@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-   xmlns:tei="http://www.tei-c.org/ns/1.0" version="2.0">
+   xmlns:tei="http://www.tei-c.org/ns/1.0" version="2.0" exclude-result-prefixes="tei">
+   <xsl:output method="html" version="5.0" encoding="UTF-8" indent="yes"/>
    <xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" scope="stylesheet">
       <xd:desc>
          <xd:p><xd:b>Created on:</xd:b> Jul 24, 2012</xd:p>
@@ -109,7 +110,7 @@
             <script src="jquery-ui-1.9.2.custom.js"/>
                         
             <!-- CALL VARIABLES -->  
-            <style type="text/css">
+            <style>
                <xsl:value-of select="$maintextRule"/>
                <xsl:value-of select="$navBarRule"/>
                <xsl:value-of select="$bodyRule"/>
@@ -185,7 +186,7 @@
                </div> <!-- End div id navigation -->
                
                <div id="titleBar">
-                  <p align="center"><span class="projectTitle"><xsl:apply-templates
+                  <p style="text-align: center"><span class="projectTitle"><xsl:apply-templates
                      select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></span><br/><br/></p>
                   <hr style="border: 2px solid crimson;"/>
                </div> <!-- END titleBar -->
@@ -444,8 +445,8 @@
 -->      
 
       <hr style="border: 2px solid crimson;"/>
-      <a name="WorksCited"/>
-            <h2 id="worksCited">List of Works Cited</h2>
+      <a id="WorksCited"/>
+            <h2>List of Works Cited</h2>
       <hr/>
             <xsl:apply-templates
                select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listBibl"/>
@@ -458,10 +459,8 @@
                select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPlace"/>
             <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:revisionDesc"/>
       <hr style="border: 2px solid crimson;"/>
-      <p>
                <h2>About this Editorial Introduction</h2>
-            </p>
-            <p><a name="view"/>Text on this page derives from the
+            <p><a id="view"/>Text on this page derives from the
                edition's XML source document, anderson_letters.xml, transformed with anderson_edintro.xsl.</p>
             <hr/>
             <p>&#x2192; <a href="anderson_reading.html">Link to the text of the journal</a>.
@@ -475,7 +474,7 @@
    
    <!-- Format the introductory notes. -->
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:notesStmt/tei:note[@type='introductory']">
-      <h2><xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>The Distress of "The Human Family" During Wartime</h2>
+      <h2><!--<xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>-->The Distress of "The Human Family" During Wartime</h2>
       <hr/>
       <xsl:apply-templates/>
    </xsl:template>
@@ -484,8 +483,8 @@
    <xsl:template
       match="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:notesStmt/tei:note[@type='descriptive']">
       <hr style="border: 2px solid crimson;"/>
-      <a name="source"/>
-      <h2 id="source">About the Source Documents</h2>
+      <a id="source"/>
+      <h2>About the Source Documents</h2>
       <hr/>
       <p><strong>Title</strong>: "<xsl:value-of select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:title"/>" 
          <br/><strong>Extent</strong>: <xsl:value-of select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:extent"/>
@@ -501,9 +500,7 @@
    
    <!-- Format the Availability Statement -->
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability">
-      <p>
             <xsl:apply-templates/>
-      </p>
    </xsl:template>
 
    <!-- Format information about your project. -->
@@ -511,16 +508,14 @@
       <hr style="border: 2px solid crimson;"/>
       <h2 id="projectDescription">Project Description</h2>
       <hr/>
-      <p>
          <xsl:apply-templates/>
-      </p>
    </xsl:template>
    
    <!-- Format information about your electronic edition -->
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt">
       <hr style="border: 2px solid crimson;"/>
-      <a name="edition"/>
-      <h2 id="edition">About the Electronic Edition</h2>
+      <a id="edition"/>
+      <h2>About the Electronic Edition</h2>
       <hr/>
       <p><strong>Title</strong>: "<xsl:value-of select="tei:title"/>"</p>
          <p><strong>Editors</strong>: <xsl:for-each select="tei:editor/tei:persName">
@@ -564,7 +559,7 @@
       <xsl:for-each select="tei:bibl">
          <xsl:sort select="@n"/>
          <p class="hang25"><a>
-            <xsl:attribute name="name"><xsl:value-of select="@xml:id"/></xsl:attribute></a>
+            <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute></a>
             <xsl:apply-templates/></p>
       </xsl:for-each>
    </xsl:template>
@@ -703,9 +698,9 @@
                disable-output-escaping="yes"/>
          </p>
       <hr style="border: 2px solid crimson;"/>
-      <a name="revision"/>
-         <h2 id="revision">Revision History</h2>
-      <table width="90%">
+      <a id="revision"/>
+         <h2>Revision History</h2>
+      <table style="width:90%">
          <tr>
             <td>
                <h3>Date</h3>
@@ -716,17 +711,17 @@
             </td>
  -->        <td>
                <h3>Name</h3>
+            </td>
             <td>
                <h3>Change</h3>
             </td>
-         </td>
          </tr>
          <xsl:for-each select="tei:change">
-            <tr class="revTable" valign="top">
-               <td nowrap="nowrap">
+            <tr class="revTable" style="vertical-align:top">
+               <td style="white-space: nowrap">
                   <xsl:value-of select="@when"/>
                </td>
-               <td nowrap="nowrap">
+               <td style="white-space: nowrap">
                   <xsl:value-of select="tei:roleName"/>
                </td>
 <!-- 
@@ -740,7 +735,7 @@
             </tr>
          </xsl:for-each>
       </table>
-      <p><lb/></p>
+      <p> </p>
    </xsl:template>
 
    <!-- Format miscellaneous elements -->
@@ -846,10 +841,10 @@
          <xsl:attribute name="HREF">
             <xsl:value-of select="tei:graphic/@url"/>
          </xsl:attribute>
-         <xsl:attribute name="alt">
+<!--         <xsl:attribute name="alt">
             <xsl:value-of select="tei:figDesc"/>
          </xsl:attribute>
-         <xsl:attribute name="target">blank</xsl:attribute>
+-->         <xsl:attribute name="target">blank</xsl:attribute>
          <xsl:value-of select="tei:head"/>
       </a></xsl:template>
    <xsl:template match="tei:figure[@rend='embed']">
