@@ -445,7 +445,7 @@
 -->      
 
       <hr style="border: 2px solid crimson;"/>
-      <a id="WorksCited"/>
+      <a id="worksCited"/>
             <h2>List of Works Cited</h2>
       <hr/>
             <xsl:apply-templates
