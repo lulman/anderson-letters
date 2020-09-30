@@ -139,7 +139,7 @@
 -->                        
                         </ul>
                      </li>
-                     <li class="link"><a class="main"  href="./anderson_letters.html#projectDescription">Editorial Introduction</a>
+                     <li class="link"><a class="main"  href="">Editorial Introduction</a>
                         <ul class="sub">
                            <li><a href="./anderson_letters.html#projectDescription">Project Description</a></li>
                            <li><a href="./anderson_letters.html#source">The Source Document</a></li>
@@ -157,7 +157,7 @@
                      <li class="link"><a class="main"  href="">Appendices</a>
                         <ul class="sub">
                            <li><a href="./anderson_appendices_markup.html">Markup Guidelines</a></li>
-                           <li><a href="./anderson_appendices_hand.html">Guide to Anderson's Hand</a></li>
+                           <li><a href="./anderson_appendices_hand.html">Anderson's Hand</a></li>
                            <li><a href="./anderson_appendices_pageimages.html">Images of the MS Pages</a></li>
                            <li><a href="./anderson_appendices_maps.html">Maps</a></li>
                            <li><a href="./anderson_letters.html#peopleMentioned">People Mentioned</a></li>
