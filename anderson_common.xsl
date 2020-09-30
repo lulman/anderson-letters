@@ -135,7 +135,7 @@
                            <li><a href="./anderson_edintro.xsl">XSL: Ed. Intro</a></li>
                            <li><a href="./anderson_letters.css">CSS: Style Sheet</a></li>
                            <li><a href="./anderson_letters.odd.txt">ODD: TEI Customization</a></li>
-                           <li><a href="./anderson_letters.rnc.txt">RNG: Schema</a></li>
+                           <li><a href="./anderson_letters.rnc.txt">RNC: Schema</a></li>
                         </ul>
                      </li>
                   </ul> <!-- End ul class nav -->
