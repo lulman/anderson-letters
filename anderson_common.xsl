@@ -205,7 +205,7 @@
                <div id="display3">
                   <button class="modalb" id="b3"><img id="myImg3" src="image_NH102732_Glide2.jpg" alt="USS Glide off Brashear City, Louisiana, 29 January 1864" title="USS Glide off Brashear City, Louisiana, 29 January 1864" width="100"/></button>
                   <div id="myModal3" class="modal">
-                     <a href="image_NH102732_Glide2.jpg" class="description">[Description]</a><br/>
+                     <a href="image_NH102732_Glide2_longdesc.html" class="description">[Description]</a><br/>
                      <button class=" modalb close" onclick="document.getElementById('myModal3').style.display='none'">[Close]</button>
                      <img class="modal-content" id="img3" src="image_NH102732_Glide2.jpg" alt="USS Glide off Brashear City, Louisiana, 29 January 1864"/>
                      <div id="caption3">
@@ -487,7 +487,7 @@
             <!-- Insert link to home page, creation date, and licensing statement.-->
             <p style="text-align:left">
                <a href="#top"
-                  target="self">Top of Page</a>
+                  target="_self">Top of Page</a>
                <br/>
                <br/>
                Created: <xsl:apply-templates
