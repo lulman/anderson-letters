@@ -502,7 +502,7 @@
                  <desc>A private catholic women's school in Wheeling, WV established in 1848.</desc>
                </org>
                <org xml:id="LMRR" source="OHC">
-                 <orgName>Little Miami Rairoad</orgName>
+                 <orgName>Little Miami Railroad</orgName>
                  <state type="company"></state>
                  <desc>The Little Miami Railroad 
                    was only the second railroad built in Ohio.  
@@ -697,7 +697,7 @@
          <editorialDecl>
            <p>
              <emph rend="bold">Scanning</emph>. The manuscript pages were scanned as 24-bit TIFF images
-             at 400 dots per inch (dpi), then coverted to 8-bit JPEG images at 400 dpi and full
+             at 400 dots per inch (dpi), then converted to 8-bit JPEG images at 400 dpi and full
              quality. All edges were overscanned by at least 1/4 inch. No color correction was used at any stage of image
              preparation, but a scan of a photographer's 18% grey card on the same scanner
              produced RGB values at the center of 91/95/107 after applying a 150% Gaussian Blur in
@@ -994,7 +994,7 @@
             <lb/>We have laid over and will leave this 
             <lb/>Evening we are getting all we want I have 
             <lb/>just been down to see your <rs ref="#MAF">mother</rs><ptr type="noteAnchor" target="mother"/><note resp="ed" xml:id="mother">Mary Louisa Anderson's mother, Ann (Woolslayer) Fischgens <bibl><ref target="HOAC"></ref><title level="m">History of Allegheny County</title> 298</bibl>.</note> she is not 
-            <lb/>very well Today sends her respects <persName>Ella</persName><ptr type="noteAnchor" target="ella"/><note resp="ed" xml:id="ella">Ella Jane Fis was Louisa's younger sister, born in 1851. 
+            <lb/>very well Today sends her respects <persName>Ella</persName><ptr type="noteAnchor" target="ella"/><note resp="ed" xml:id="ella">Ella Jane Fischgens was Louisa's younger sister, born in 1851. 
             She died in Cincinnati on September 4, 1863 <bibl>Danker, <title level="m">William B. Anderson Letters</title></bibl><ref target="#DankerSite"/>.</note>
             <lb/>was at school I did not see her. There was 
             <lb/>a large fire down between Third St and The river 
@@ -2364,7 +2364,7 @@
             <figDesc>Envelope for letter of 7 October 1862</figDesc>
           </figure>
             <ab type="postalAddress">
-              <persName>Mrs Louisa anderson</persName>
+              <persName>Mrs Louisa Anderson</persName>
               <address>
                 <addrLine>Shousetown</addrLine>
                 <addrLine>Allegheny County</addrLine>
@@ -2580,14 +2580,14 @@
             </msContents>
             <physDesc>
               <p>Anderson's letter dated June 19th, 1863 from St. Louis, Missouri is written in ink
-                on both sides of a loose sheet of manilla-collored, lined paper measuring
+                on both sides of a loose sheet of manilla-colored, lined paper measuring
                 approximately 7.5 inches wide by 9.0 inches tall (19 x 23 cm). The paper is ruled
                 with horizontal blue lines spaced .33 inches (0.8 cm) apart, except for a 1.5-inch
                 (3.8 cm) top margin that is unruled. The sheet's left edge is ragged, the remaining
                 three clean, suggesting that the sheet was torn from a notepad or from a larger
                 sheet. The letter appears to have originally been folded once horizontally and twice
                 vertically. An embossed watermark appears in the upper left corner of the
-                sheet; though indistict, it resembles a similarly sized and placed watermark on
+                sheet; though indistinct, it resembles a similarly sized and placed watermark on
                 a letter dated July 1, 1863, that reads: "MT HOLLY PAPER CO."</p>
               <accMat></accMat>
             </physDesc>
@@ -2623,7 +2623,7 @@
             <lb/>to go back to  <placeName ref="#LouisvilleKY">Louisville</placeName> &amp; <choice><expan>Cincinnati</expan><abbr>Cin.</abbr></choice> &amp; I think by Monday
             <lb/>night we shall have all we can carry I had thought
             <lb/>somebody would be here and offer to buy the boat but
-            <lb/>the Boat fervor has subsided greatly I had a visit
+            <lb/>the Boat fervor has subsided greatly I had a visittr
             <lb/>from <persName>Capt R C Gray</persName> today &amp; he says that he thinks that
             <lb/>the upper <placeName>Mississippi river</placeName> trade would pay us better
             <lb/>than the <placeName ref="#SLM">St Louis</placeName> and <placeName ref="#CincinnatiOH"><choice><expan>Cincinnati</expan><abbr>Cin.</abbr></choice></placeName> trade but I dont wish to go up 
@@ -2775,7 +2775,7 @@
             <lb/>&amp; I don’t sell I will lay up till Cool weather
             <lb/>it is murdering ones self by degrees to Boat
             <lb/>such times as those.  I suppose you had best
-            <lb/>get a Barrell of N.O. Sugar at <placeName ref="#PittsburghPA"><choice><expan>Pittsburgh</expan><abbr>Pitt</abbr></choice></placeName> either
+            <lb/>get a <choice><sic>Barrell</sic><corr>barrel</corr></choice> of N.O. Sugar at <placeName ref="#PittsburghPA"><choice><expan>Pittsburgh</expan><abbr>Pitt</abbr></choice></placeName> either
             <lb/>from  Holmes &amp; Co Market St <ptr type="noteAnchor" target="holmes"/><note resp="ed" xml:id="holmes">A lot labeled "Holmes" appears
               at 15 Market Street on an 1872 map of Pittsburg. <bibl> Historic Pittsburgh, https://historicpittsburgh.org/islandora/object/pitt%3A1872p015/viewer</bibl>.</note> or from Mirer and  
             <lb/>Robinson <placeName>Allegheny</placeName> I would send you the
@@ -2800,7 +2800,7 @@
           </closer>
           <postscript>
            <p><lb/>P.S.
-              <lb/>I am interupted all the time or
+              <lb/>I am <choice><sic>interupted</sic><corr>interrupted</corr></choice> all the time or
               <lb/>I would write more
               <lb/>good bye for a while
            </p>
@@ -2993,7 +2993,7 @@
             <msContents>
               <p>In this short letter, Anderson shares details about the health of a crew member,
                 describes his current cargo of Sutlers' goods, scolds Louisa for not writing, and
-                alerts her to some business arrangments.</p>
+                alerts her to some business arrangements.</p>
             </msContents>
             <physDesc>
               <p>William B. Anderson's letter dated July 18, 1863 from Cincinnati is written in ink
@@ -3409,7 +3409,7 @@
             <lb/>the patronage there which will be I 
             <lb/>think what I will do if I don’t sell 
             <lb/>I hope to hear from you on my return 
-            <lb/>here.  I have nothing of intrest to write 
+            <lb/>here.  I have nothing of <choice><sic>intrest</sic><corr>interest</corr></choice> to write 
             <lb/>about we will leave here tomorrow 
             <lb/>try &amp; take good care of yourself and 
             <lb/>the children &amp; get a girl as soon as 
