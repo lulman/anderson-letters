@@ -756,132 +756,133 @@
            
          </fileDesc>
        
-       <encodingDesc>
-         <projectDesc>
-           <p>This edition belongs to a series of collaboratively produced electronic editions of
-             previously unpublished nineteenth-century American manuscripts held in the Rare Books
-             and Manuscripts Library (RBMS) at The Ohio State University Libraries. Other editions
-             include "Selected Entries from the Lucius Clark Smith Diaries,
-             30 July 1862 to 31 December 1862"; "My Dear Elizabeth," five letters written by Sophia Peabody Hawthorne to her
-             sister Elizabeth Palmer Peabody between ca. 1837 and 1868; "Journal of a Tour to Europe," 
-             by Samuel Sullivan Cox; Louisa A. Doane's "Journal
-             of Two Ocean Voyages (1852-1853)," and "Selected Letters from the Ivan S. Gilbert Collection of 
-             Stephens Family Travel Letters and Ephemera."</p>
-           
-           <p>Each text was initially edited in connection with an undergraduate or graduate course
-             on electronic textual editing offered by H. Lewis Ulman, Associate Professor of
-             English at The Ohio State University. The courses provided students with an
-             opportunity to explore issues of textuality and mediation that arise when our
-             cultural archives spread from page to screen and from library shelves to networked
-             databases. Electronic textual editing served as each class's context for examining
-             what happens—and envisioning what might happen—when artifacts in one medium are
-             represented in another medium, especially with regard to the interpretive work of
-             reading. Electronic textual editions also provided a contact zone that helped
-             students reflect on what manuscript, print, and "born digital" artifacts can tell us
-             about their unique properties and their relationships to one another.</p>
-           
-           <p>While the students' work focused on providing reliable textual editions, they also
-             explored four threads inextricably woven into the work of electronic textual editing:
-             the lives and historical milieu evoked by the texts; the history, characteristics,
-             and preservation of physical and digital texts; the editorial processes and decisions
-             that shape particular interpretations and presentations of texts; and the mediation of
-             electronic delivery systems.</p>
-           
-           <p>These conceptual focuses, along with the time constraints of academic terms and the
-             need to train students who had, typically, no prior experience in textual editing or
-             the various technologies employed in electronic textual editing, strongly influenced
-             the selection of texts in this series. Working with curators in the RBMS, Professor
-             Ulman identified previously unpublished manuscript materials that were of potentially
-             broad interest and that reflected a curatorial focus of the RBMS collection—for
-             example, letters and personal diaries that connect private lives with larger
-             historical contexts. Focusing on unique manuscript materials not, in all but one
-             case, associated with other copies or later published versions also eliminated the
-             need to compare multiple copies or states of the same work, perhaps held in other
-             archives, an impractical task in the course of an academic term. Other practical
-             matters also informed the choice of materials, including the possibility of scanning
-             the source documents before the class so that students could work with both the
-             original documents and high-resolutions facsimiles as they transcribed and encoded
-             the source texts.</p>
-           
-           <p>Thus, the editions in this series are documentary editions—interpretations and
-             representations of single documents—designed to provide wider exposure and access to
-             manuscript materials that might otherwise be overlooked, and to provide users with a
-             variety of tools for studying those texts.</p>
-                      
-           <p> Over the course of several years following the classes in which students worked on
-             the editions, Professor Ulman revised the introductory materials to ensure stylistic
-             consistency and proofed the transcription and encoding. He also redesigned the
-             structure of the editions to meet the requirements of Ohio State's institutional
-             repository, evolving accessibility standards, and feedback from peer reviewers.
-             However, he did not undertake a complete retranscription of the source text or
-             revision of the students' introductory essays and annotations.</p>
-         </projectDesc>
-         <editorialDecl>
-           <p>
-             <emph rend="bold">Scanning</emph>. The manuscript pages were scanned as 24-bit TIFF images
-             at 400 dots per inch (dpi), then converted to 8-bit JPEG images at 400 dpi and full
-             quality. All edges were overscanned by at least 1/4 inch. No color correction was used at any stage of image
-             preparation, but a scan of a photographer's 18% grey card on the same scanner
-             produced RGB values at the center of 91/95/107 after applying a 150% Gaussian Blur in
-             Adobe Photoshop to average color values. Thus, a properly configured monitor should
-             provide a reasonable approximation of colors on the manuscript pages.. 
-           </p>
-           
-           <p><emph rend="bold">Transcription</emph>. Editing of the Anderson letters emphasizes diplomatic transcription: 
-             abbreviations, recoverable cancellations, punctuation, spelling, underlining, additions above and below
-             the line or in the margins, capitalization, line breaks, and page breaks 
-             have all been transcribed and encoded as they appear in the original manuscripts, though the distinction
-             between uppercase and lowercase letters in Anderson's hasty writing is often conjectural. The
-             presentation of features such as line and paragraph breaks varies depending on the view of the letter. An explanation of 
-             the presentation in each view of the letters can be read via the "About this View" link
-             at the top of each view's page.</p>
-             
-           <p><emph rend="bold">Markup and Annotation</emph>. XML encoding of the Anderson letters follows The
-             Text Encoding Initiative's (TEI) <title level="m">P5: Guidelines for Electronic Text Encoding and Interchange</title>,
-             as customized for the project using the TEI's ODD ("One Document Does it All") process.
-             This editorial introduction and the three "views" of the letters were generated from the main XML file
-             using XSL transformations to produce HTML Web pages. Several of the appendices were encoded in HTML separately.
-             A more detailed description of the markup can be found via the "Appendices" menu, and all source files
-             (XML, XSL, CSS, ODD, RNC) can be viewed and downloaded via the "Source Files" menu.</p>
-             
-             <p>Introductory material (such as this editorial introduction) as well as annotated lists of people, places, ships, 
-               and organizations mentioned in the letters are encoded in the TEI header of the main XML
-             document. Other explanatory annotations are linked directly from the text. Separate appendices provide 
-             further information about the project (e.g., acknowledgements, editors' bios, and so on). 
-             All these ancillary materials can be viewed via the menus at the top of each page.</p>
-           
-           <p>
-             <emph rend="bold">Proofing</emph>. Students who created the original transcriptions proofread their own
-             transcription and encoding. In preparation for peer review by NINES and preservation in The Ohio State University's 
-             Knowledge Bank, the transcriptions and encoding were once again proofread by Professor Ulman.
-           </p>
-           <p>
-             <emph rend="bold">Peer Review</emph>. Anonymous reviewers for NINES provided peer-reviews for the editions, in response to 
-             which they were revised and then reviewed by NINES editors before being listed in the NINES database.
-           </p>
-           <p>
-             <emph rend="bold">Production and Archival Location of Digital Assets</emph>.
-             All of the files associated with this edition are accessed via, and archived in, The Ohio State University's
-             institutional repository, the Knowledge Bank.
-           </p>
-         </editorialDecl>
-         <refsDecl>          
-             <p>
-             <emph rend="bold">Encoding Guidelines</emph>. The TEI-compliant transcripts of the source documents follows the 
-             P5 version of the Text Encoding Initiative's <title level="m">P5: Guidelines for Electronic Text Encoding and Interchange</title>, 
-             as customized using the .ODD file listed under the "Source Files" menu.
-           </p>         
-         </refsDecl>
-         
-         <classDecl>
-           <taxonomy xml:id="LCSH">
-             <bibl>
-               <title>Library of Congress Subject Headings</title>
-             </bibl>
-           </taxonomy>
-         </classDecl>
-         
-       </encodingDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This edition belongs to a series of collaboratively produced electronic editions of
+          previously unpublished nineteenth-century American manuscripts held in the Rare Books and
+          Manuscripts Library (RBMS) at The Ohio State University Libraries. Other editions include
+          "Selected Entries from the Lucius Clark Smith Diaries, 30 July 1862 to 31 December 1862";
+          "My Dear Elizabeth," five letters written by Sophia Peabody Hawthorne to her sister
+          Elizabeth Palmer Peabody between ca. 1837 and 1868; "Journal of a Tour to Europe," by
+          Samuel Sullivan Cox; Louisa A. Doane's "Journal of Two Ocean Voyages (1852-1853)," and
+          "Selected Letters from the Ivan S. Gilbert Collection of Stephens Family Travel Letters
+          and Ephemera."</p>
+
+        <p>Each text was initially edited in connection with an undergraduate or graduate course on
+          electronic textual editing offered by H. Lewis Ulman, Associate Professor of English at
+          The Ohio State University. The courses provided students with an opportunity to explore
+          issues of textuality and mediation that arise when our cultural archives spread from page
+          to screen and from library shelves to networked databases. Electronic textual editing
+          served as each class's context for examining what happens—and envisioning what might
+          happen—when artifacts in one medium are represented in another medium, especially with
+          regard to the interpretive work of reading. Electronic textual editions also provided a
+          contact zone that helped students reflect on what manuscript, print, and "born digital"
+          artifacts can tell us about their unique properties and their relationships to one
+          another.</p>
+
+        <p>While the students' work focused on providing reliable textual editions, they also
+          explored four threads inextricably woven into the work of electronic textual editing: the
+          lives and historical milieu evoked by the texts; the history, characteristics, and
+          preservation of physical and digital texts; the editorial processes and decisions that
+          shape particular interpretations and presentations of texts; and the mediation of
+          electronic delivery systems.</p>
+
+        <p>These conceptual focuses, along with the time constraints of academic terms and the need
+          to train students who had, typically, no prior experience in textual editing or the
+          various technologies employed in electronic textual editing, strongly influenced the
+          selection of texts in this series. Working with curators in the RBMS, Professor Ulman
+          identified previously unpublished manuscript materials that were of potentially broad
+          interest and that reflected a curatorial focus of the RBMS collection—for example, letters
+          and personal diaries that connect private lives with larger historical contexts. Focusing
+          on unique manuscript materials not, in all but one case, associated with other copies or
+          later published versions also eliminated the need to compare multiple copies or states of
+          the same work, perhaps held in other archives, an impractical task in the course of an
+          academic term. Other practical matters also informed the choice of materials, including
+          the possibility of scanning the source documents before the class so that students could
+          work with both the original documents and high-resolutions facsimiles as they transcribed
+          and encoded the source texts.</p>
+
+        <p>Thus, the editions in this series are documentary editions—interpretations and
+          representations of single documents—designed to provide wider exposure and access to
+          manuscript materials that might otherwise be overlooked, and to provide users with a
+          variety of tools for studying those texts.</p>
+
+        <p> Over the course of several years following the classes in which students worked on the
+          editions, Professor Ulman revised the introductory materials to ensure stylistic
+          consistency and proofed the transcription and encoding. He also redesigned the structure
+          of the editions to meet the requirements of Ohio State's institutional repository,
+          evolving accessibility standards, and feedback from peer reviewers. However, he did not
+          undertake a complete retranscription of the source text or revision of the students'
+          introductory essays and annotations.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>
+          <emph rend="bold">Scanning</emph>. The manuscript pages were scanned as 24-bit TIFF images
+          at 400 dots per inch (dpi), then converted to 8-bit JPEG images at 400 dpi and full
+          quality. All edges were overscanned by at least 1/4 inch. No color correction was used at
+          any stage of image preparation, but a scan of a photographer's 18% grey card on the same
+          scanner produced RGB values at the center of 91/95/107 after applying a 150% Gaussian Blur
+          in Adobe Photoshop to average color values. Thus, a properly configured monitor should
+          provide a reasonable approximation of colors on the manuscript pages.. </p>
+
+        <p><emph rend="bold">Transcription</emph>. Editing of the Anderson letters emphasizes
+          diplomatic transcription: abbreviations, recoverable cancellations, punctuation, spelling,
+          underlining, additions above and below the line or in the margins, capitalization, line
+          breaks, and page breaks have all been transcribed and encoded as they appear in the
+          original manuscripts, though the distinction between uppercase and lowercase letters in
+          Anderson's hasty writing is often conjectural. The presentation of features such as line
+          and paragraph breaks varies depending on the view of the letter. An explanation of the
+          presentation in each view of the letters can be read via the "About this View" link at the
+          top of each view's page.</p>
+
+        <p><emph rend="bold">Markup and Annotation</emph>. XML encoding of the Anderson letters
+          follows The Text Encoding Initiative's (TEI) <title level="m">P5: Guidelines for
+            Electronic Text Encoding and Interchange</title>, as customized for the project using
+          the TEI's ODD ("One Document Does it All") process. This editorial introduction and the
+          three "views" of the letters were generated from the main XML file using XSL
+          transformations to produce HTML Web pages. Several of the appendices were encoded in HTML
+          separately. A more detailed description of the markup can be found via the "Appendices"
+          menu, and all source files (XML, XSL, CSS, ODD, RNC) can be viewed and downloaded via the
+          "Source Files" menu.</p>
+
+        <p>Introductory material (such as this editorial introduction) as well as annotated lists of
+          people, places, ships, and organizations mentioned in the letters are encoded in the TEI
+          header of the main XML document. Other explanatory annotations are linked directly from
+          the text. Separate appendices provide further information about the project (e.g.,
+          acknowledgements, editors' bios, and so on). All these ancillary materials can be viewed
+          via the menus at the top of each page.</p>
+
+        <p>
+          <emph rend="bold">Proofing</emph>. Students who created the original transcriptions
+          proofread their own transcription and encoding. In preparation for peer review by NINES
+          and preservation in The Ohio State University's Knowledge Bank, the transcriptions and
+          encoding were once again proofread by Professor Ulman. </p>
+        <p>
+          <emph rend="bold">Peer Review</emph>. Anonymous reviewers for NINES provided peer-reviews
+          for the editions, in response to which they were revised and then reviewed by NINES
+          editors before being listed in the NINES database. </p>
+        <p>
+          <emph rend="bold">Production and Archival Location of Digital Assets</emph>. All of the
+          files associated with this edition are accessed via, and archived in, The Ohio State
+          University's institutional repository, the Knowledge Bank. </p>
+      </editorialDecl>
+      <refsDecl>
+        <p>
+          <emph rend="bold">Encoding Guidelines</emph>. The TEI-compliant transcripts of the source
+          documents follows the P5 version of the Text Encoding Initiative's <title level="m">P5:
+            Guidelines for Electronic Text Encoding and Interchange</title>, as customized using the
+          .ODD file listed under the "Source Files" menu. </p>
+      </refsDecl>
+
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <title>Library of Congress Subject Headings</title>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+
+    </encodingDesc>
        
     <profileDesc>
       <creation>
@@ -897,8 +898,8 @@
               married September 15, 1853 in Cincinnati, Ohio. As the letters show, during the time
               that William was on the river, Louisa both cared for their five children and managed
               business transactions related to both their homestead and riverboat</note>
-            <birth when="1837-04-14"><placeName>Pittsburgh, PA</placeName></birth>
-            <death when="1911-08-25"><placeName>Pittsburgh, PA</placeName></death>
+            <birth when="1837-04-14"><placeName ref="#PittsburghPA">Pittsburgh, PA</placeName></birth>
+            <death when="1911-08-25"><placeName ref="#PittsburghPA">Pittsburgh, PA</placeName></death>
             <bibl><ref target="#HOAC"/>Cushing 298; Doherty</bibl>
           </person>
           <person xml:id="MAF" source="XXX">
@@ -906,8 +907,8 @@
             <note type="biographical">Mary Louisa Anderson's mother, whom Anderson sometimes refers
               to in the letters as "the old lady," is living in Cincinnati, OH with her daughter
               Ella during the period covered by the letters</note>
-            <birth when="1812-07-12"><placeName>Pittsburgh, PA</placeName></birth>
-            <death when="1897-11-25"><placeName>Pittsburgh, PA</placeName></death>
+            <birth when="1812-07-12"><placeName ref="#PittsburghPA">Pittsburgh, PA</placeName></birth>
+            <death when="1897-11-25"><placeName ref="#PittsburghPA">Pittsburgh, PA</placeName></death>
             <bibl><ref target="#HOAC"/>Cushing 298; Konrad</bibl>
           </person>
           <person xml:id="WBA" source="HOAC">
@@ -975,20 +976,14 @@
               more than a month before she died, but he does not mention that she has been
               ill</note>
             <birth when="1851-09-21"><placeName>New Jersey</placeName></birth>
-            <death when="1863-09-04"><placeName>Cincinnati, OH</placeName></death>
+            <death when="1863-09-04"><placeName ref="#CincinnatiOH">Cincinnati, OH</placeName></death>
             <bibl>ind A Grave; Danker, <title level="m">William B. Anderson Letters</title></bibl>
           </person>
 
 
         </listPerson>
 
-        <listPerson type="editors">
-          <head/>
-          <person>
-            <persName/>
-          </person>
-        </listPerson>
-      </particDesc>
+     </particDesc>
 
       <langUsage>
         <language ident="eng">English</language>
@@ -1098,16 +1093,16 @@
         <div type="letter" xml:id="WBA_18620616_let">
           <pb facs="Letter01_pg1"/>
           <opener>
-            <lb/><dateline><placeName><choice><expan>Cincinnati</expan><abbr>Cin</abbr></choice></placeName> <date when="1862-06-16"></date>June 16/62</dateline>
+            <lb/><dateline><placeName ref="#CincinnatiOH"><choice><expan>Cincinnati</expan><abbr>Cin</abbr></choice></placeName> <date when="1862-06-16"></date>June 16/62</dateline>
             <lb/><salute>My Dear <rs type="recipient">Wife</rs></salute>
           </opener>
           <p>
             <lb/>I did not write to you 
-            <lb/>from <placeName ref=" LouisvilleKY">Louisville</placeName> on account of our 
+            <lb/>from <placeName ref="#LouisvilleKY">Louisville</placeName> on account of our 
             <lb/>short stay there &amp; thought we would 
             <lb/><choice><corr>beat</corr><sic>beet</sic></choice> the Mail up, we will leave 
             <lb/>here <choice><corr>tonight</corr><sic>to night</sic></choice> we had a good trip 
-            <lb/>of Coal boat men up here from <placeName ref=" LouisvilleKY">
+            <lb/>of Coal boat men up here from <placeName ref="#LouisvilleKY">
               <choice><corr>Louisville</corr><sic>Louisvile</sic></choice></placeName>
             <lb/>but our prospects are poor for a trip 
             <lb/>of either Freight or <choice><corr>passengers</corr><sic>Passenger</sic></choice> up, though 
@@ -1256,7 +1251,7 @@
             <lb/> <del hand="WBA" rend="overstrike" type="recoverable">I will bring down and hand to</del> 
             <lb/> <del hand="WBA" rend="overstrike" type="recoverable">some one on the shore</del> I will hand
             <lb/> a note for you to some one on the Shore
-            <lb/> at <placeName ref="Shousetown" type="place">Shousetown</placeName>.  
+            <lb/> at <placeName ref="#Shousetown" type="place">Shousetown</placeName>.  
             I spoke to <persName ref="#russell">Russell</persName> about
             <lb/> Money and you had better Call on him
             <lb/> as soon in the week as possible as
@@ -1336,8 +1331,8 @@
           <!-- REVISE THE VALUES ABOVE -->
           <pb facs="Letter04_pg1"/>
           <opener>
-            <lb/><dateline><placeName type="city" ref="PittsburghPA"><del type="recoverable" hand="WBA" rend="overstrike">
-              Pitts</del></placeName> <placeName type="city" ref="CincinnatiOH">Cin
+            <lb/><dateline><placeName type="city" ref="#PittsburghPA"><del type="recoverable" hand="WBA" rend="overstrike">
+              Pitts</del></placeName> <placeName type="city" ref="#CincinnatiOH">Cin
              </placeName><date when="1862-07-11">July 11/62</date></dateline>
             <lb/><salute>Dear <rs type="recipient" ref="MLA">Wife</rs></salute>
           </opener>
@@ -1353,7 +1348,7 @@
             <lb/>Materially our prospects are poor &amp; we can
             <lb/>not count on making much this trip but
             <lb/>are bound <supplied reason ="omitted">to</supplied> Keep the Boat moving I
-            <lb/>Telegraphed t<supplied reason="omitted">o</supplied> <placeName type="city" ref="PittsburghPA">Pitt</placeName> today to see what the 
+            <lb/>Telegraphed t<supplied reason="omitted">o</supplied> <placeName type="city" ref="#PittsburghPA">Pitt</placeName> today to see what the 
             <lb/>prospect of water was &amp; have not got an
             <lb/>Answer to my dispatch yet,  I am extremely 
             <lb/>Anxious to get home and will go as soon
@@ -1483,7 +1478,7 @@
           <!-- REVISE THE VALUES ABOVE -->
           <pb facs="Letter20_pg1"/>
           <opener>
-            <lb/><dateline><placeName type="city" ref="CincinnatiOH">Cin
+            <lb/><dateline><placeName type="city" ref="#CincinnatiOH">Cin
             </placeName> <date when="1862-07-28"></date>Monday 28 1862</dateline><ptr type="noteAnchor" target="july28"/><note resp="ed" xml:id="july28">
               While Anderson does not include the month in his dateline, July was the only month in 1862
               in which the 28th fell on a Monday. His reference to "the late news" from Tennessee that caused him to
@@ -1647,8 +1642,8 @@
             <lb/>heat Considerably we made 2 trips to 
             <lb/><placeName ref="#ParkersburgWV">Parkersburg</placeName> &amp; are bound up tomorrow again
             <lb/>we have had uncommon hard work to
-            <lb/>get up have had to lighten at<placeName ref="Buffington"> Buffington</placeName>  
-            <lb/>&amp;<placeName ref="Blennerhassett"> Blennerhassetts</placeName> Island &amp; line flats &amp; Barges
+            <lb/>get up have had to lighten at<placeName ref="#Buffington"> Buffington</placeName>  
+            <lb/>&amp;<placeName ref="#Blennerhassett"> Blennerhassetts</placeName> Island &amp; line flats &amp; Barges
             <lb/>and had a good ell of work and anxiety of
             <lb/>mind for a little money we made between
             <lb/>3 and 400 <choice><expan>Dollars</expan><abbr>Dolls</abbr></choice> last week I cannot tell what our  
@@ -1689,9 +1684,9 @@
             <lb/>large <choice><corr>quantities</corr><sic>quantitys</sic></choice> 
             of <choice><expan>Government</expan><abbr>Gov</abbr></choice> <choice><expan>Freight</expan><abbr>Frt.</abbr></choice> I expect if the
             <lb/>water gets much lower we will not even
-            <lb/><supplied reason="omitted">get</supplied> as far up as <placeName ref="parkersburg">Parkersburg</placeName> and may be
+            <lb/><supplied reason="omitted">get</supplied> as far up as <placeName ref="#Parkersburg">Parkersburg</placeName> and may be
             <lb/>employed to Carry <choice><expan>Government</expan><abbr>Gov</abbr></choice> <choice><expan>Freight</expan><abbr>Frt.</abbr></choice> &amp; soldiers up
-            <lb/>as far as <placeName ref="gallipolis">Gallipolis</placeName> &amp; if such should be
+            <lb/>as far as <placeName ref="#gallipolis">Gallipolis</placeName> &amp; if such should be
             <lb/>the case then I will be Free from the draft
             <lb/>I will expect a letter here when I return
             <lb/>which will be on this day week I will drop
@@ -2275,7 +2270,7 @@
           <pb facs="Letter10_pg1"/>
           <!-- MAKE SURE TO REVISE THE FACS VALUE! -->
           <opener>
-            <lb/><dateline><placeName><choice><expan>Cincinnati</expan><abbr>Cin</abbr></choice></placeName> <date when="1862-09-28"></date>Sunday Sept 28/62</dateline>
+            <lb/><dateline><placeName ref="#CincinnatiOH"><choice><expan>Cincinnati</expan><abbr>Cin</abbr></choice></placeName> <date when="1862-09-28"></date>Sunday Sept 28/62</dateline>
             <lb/><salute>My Dear <rs type="recipient">Wife</rs></salute>
           </opener>
           <p>
