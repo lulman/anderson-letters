@@ -5,24 +5,24 @@
            <!-- For each letter, add editor, scanner, and initial markup -->
              <titleStmt>
                <title>William B. Anderson's Civil War Correspondence, 1862-1864</title>
-               <editor><persName ref="KLA">Katie Leigh Adams</persName></editor>
-               <editor><persName ref="KLA">Michelle Leigh Amos</persName></editor>
-               <editor><persName ref="CMC">Christopher M. Clark</persName></editor>
-               <editor><persName ref="KLA">Jamie Danker</persName></editor>
-               <editor><persName ref="SPF">Sara Pauline Finch</persName></editor>
-               <editor><persName ref="MF">Martha Fissel</persName></editor>
-               <editor><persName ref="MEG">Meghan Elaine Griesemer</persName></editor>
-               <editor><persName ref="ZAH">Zachary A. Hess</persName></editor>
-               <editor><persName ref="JMK">Jenna Marlene Kamrass</persName></editor>
-               <editor><persName ref="KLA">Kathryn H. Owsley</persName></editor>
-               <editor><persName ref="MEP">Marie E. Pesut</persName></editor>
-               <editor><persName ref="ER">Emily Rosen</persName></editor>
-               <editor><persName ref="KLA">Richard (Dickie) J. Selfe</persName></editor>
-               <editor><persName ref="KLA">Steve W. Sikes-Gilbert</persName></editor>
-               <editor><persName ref="KLA">Sarah Beth Sitzler</persName></editor>
-               <editor><persName ref="KLA">Jeremy A. Smith</persName></editor>
-               <editor><persName ref="KS">Kristin Stack</persName></editor>
-               <editor role="Principal-editor"><persName ref="#HLU">H. Lewis Ulman</persName></editor>
+               <editor><persName ref="#KAdams">Katie Leigh Adams</persName></editor>
+               <editor><persName ref="#MAmos">Michelle Leigh Amos</persName></editor>
+               <editor><persName ref="#CClark">Christopher M. Clark</persName></editor>
+               <editor><persName ref="#JDanker">Jamie Danker</persName></editor>
+               <editor><persName ref="#SFinch">Sara Pauline Finch</persName></editor>
+               <editor><persName ref="#MFissel">Martha Fissel</persName></editor>
+               <editor><persName ref="#MGriesemer">Meghan Elaine Griesemer</persName></editor>
+               <editor><persName ref="#ZHess">Zachary A. Hess</persName></editor>
+               <editor><persName ref="#JKamrass">Jenna Marlene Kamrass</persName></editor>
+               <editor><persName ref="#KOwsley">Kathryn H. Owsley</persName></editor>
+               <editor><persName ref="#MPesut">Marie E. Pesut</persName></editor>
+               <editor><persName ref="#ERosen">Emily Rosen</persName></editor>
+               <editor><persName ref="#RSelfe">Richard (Dickie) J. Selfe</persName></editor>
+               <editor><persName ref="#SSikes">Steve W. Sikes-Gilbert</persName></editor>
+               <editor><persName ref="#SSitzler">Sarah Beth Sitzler</persName></editor>
+               <editor><persName ref="#JSmith">Jeremy A. Smith</persName></editor>
+               <editor><persName ref="#KStack">Kristin Stack</persName></editor>
+               <editor role="Principal-editor"><persName ref="#LUlman">H. Lewis Ulman</persName></editor>
                
            <respStmt>
              <resp>Creation of digital scans of manuscript pages: </resp>
@@ -31,24 +31,24 @@
            
            <respStmt>
              <resp>Creation of initial machine-readable transcript: </resp>
-             <persName ref="KLA">Katie Leigh Adams</persName>
-             <persName ref="KLA">Michelle Leigh Amos</persName>
-             <persName ref="CMC">Christopher M. Clark</persName>
-             <persName ref="KLA">Jamie Danker</persName>
-             <persName ref="SPF">Sara Pauline Finch</persName>
-             <persName ref="MF">Martha Fissel</persName>
-             <persName ref="MEG">Meghan Elaine Griesemer</persName>
-             <persName ref="ZAH">Zachary A. Hess</persName>
-             <persName ref="JMK">Jenna Marlene Kamrass</persName>
-             <persName ref="KLA">Kathryn H. Owsley</persName>
-             <persName ref="MEP">Marie E. Pesut</persName>
-             <persName ref="ER">Emily Rosen</persName>
-             <persName ref="KLA">Richard (Dickie) J. Selfe</persName>
-             <persName ref="KLA">Steve W. Sikes-Gilbert</persName>
-             <persName ref="KLA">Sarah Beth Sitzler</persName>
-             <persName ref="KLA">Jeremy A. Smith</persName>
-             <persName ref="KS">Kristin Stack</persName>
-             <persName ref="#HLU">H. Lewis Ulman</persName>
+             <persName ref="#KAdams">Katie Leigh Adams</persName>
+             <persName ref="#MAmos">Michelle Leigh Amos</persName>
+             <persName ref="#CClark">Christopher M. Clark</persName>
+             <persName ref="#JDanker">Jamie Danker</persName>
+             <persName ref="#SFinch">Sara Pauline Finch</persName>
+             <persName ref="#MFissel">Martha Fissel</persName>
+             <persName ref="#MGriesemer">Meghan Elaine Griesemer</persName>
+             <persName ref="#ZHess">Zachary A. Hess</persName>
+             <persName ref="#JKamrass">Jenna Marlene Kamrass</persName>
+             <persName ref="#KOwsley">Kathryn H. Owsley</persName>
+             <persName ref="#MPesut">Marie E. Pesut</persName>
+             <persName ref="#ERosen">Emily Rosen</persName>
+             <persName ref="#RSelfe">Richard (Dickie) J. Selfe</persName>
+             <persName ref="#SSikes">Steve W. Sikes-Gilbert</persName>
+             <persName ref="#SSitzler">Sarah Beth Sitzler</persName>
+             <persName ref="#JSmith">Jeremy A. Smith</persName>
+             <persName ref="#KStack">Kristin Stack</persName>
+             <persName ref="#LUlman">H. Lewis Ulman</persName>
              
            </respStmt>
            
@@ -210,6 +210,81 @@
              
              <!-- SEE STEPHENS FOR OTHER LIST TYPES -->
              <!-- FOR EACH LETTER, UPDATE LIST OF PLACES -->
+             
+             <listPerson type="editors">
+               <person xml:id="KAdams">
+                 <persName>Katie Leigh Adams</persName>
+                 <note type="biographical">Katie Adams is a senior in Women's Studies at The Ohio State University. She is planning a career in feminism. In her spare time she enjoys collecting Aboriginal Australian art, listening to folk music, and watching <title>Antiques Roadshow</title>.</note>
+               </person>
+               <person xml:id="MAmos">
+                 <persName>Michelle Leigh Amos</persName>
+                 <note type="biographical">Michelle Amos is a graduate student from Roanoke, VA, who is studying sculpture. She has a BFA in sculpture from Virginia Commonwealth University and is planning on teaching and pursuing a career as a professional artist.</note>
+               </person>
+               <person xml:id="CClark">
+                 <persName>Christopher M. Clark</persName>
+                 <note type="biographical">Christopher Clark is a senior from Oregon, Ohio majoring in English with a concentration in Business and Technical Communication. He is planning a career in Public Relations in Chicago after graduation summer 2006.</note>
+               </person>
+               <person xml:id="JDanker">
+                 <persName>Jamie Danker</persName>
+                 <note type="biographical">Jamie Danker is a descendant of William B. and Mary Louisa Anderson. She maintains a genealogical site devoted to her family history at http://www.jamiedanker.com.</note>
+               </person>
+               <person xml:id="SFinch">
+                 <persName>Sara Pauline Finch</persName>
+                 <note type="biographical">Sara Finch is a second-year M.A. student in Women's Studies at The Ohio State University. Her interests are advanced feminist theory, epistemology and feminist science. She will be attending the University of Pittsburgh to advance her career in academic librarianship in the autumn of 2006.</note>
+               </person>
+               <person xml:id="MFissel">
+                 <persName>Martha Fissel</persName>
+                 <note type="biographical">Martha Fissel is a graduating senior majoring in English. She is beginning graduate school this summer at The Ohio State University for Secondary English Education.</note>
+               </person>
+               <person xml:id="MGriesemer">
+                 <persName>Meghan Elaine Griesemer</persName>
+                 <note type="biographical">Meghan Griesemer is a graduating senior in English with a focus in digital media studies. She is currently living in Columbus, and plans on attending graduate school in order to pursue a masters degree in folklore.</note>
+               </person>
+               <person xml:id="ZHess">
+                 <persName>Zachary A. Hess</persName>
+                 <note type="biographical">Zack Hess is a senior from Clayton, Ohio majoring in English. He is graduating this quarter and plans to move out West to pursue a job.</note>
+               </person>
+               <person xml:id="JKamrass">
+                 <persName>Jenna Marlene Kamrass</persName>
+                 <note type="biographical"></note>
+               </person>
+               <person xml:id="KOwsley">
+                 <persName>Kathryn H. Owsley</persName>
+                 <note type="biographical"></note>
+               </person>
+               <person xml:id="MPesut">
+                 <persName>Marie E. Pesut</persName>
+                 <note type="biographical">Marie Pesut is a senior from Youngstown, Ohio, who is pursuing degrees in English literature and journalism.  She hopes to work for a publication such as <title>Vogue</title> or <title>National Geographic</title>.</note>
+               </person>
+               <person xml:id="ERosen">
+                 <persName>Emily Rosen</persName>
+                 <note type="biographical">Emily Rosen is a senior from Baltimore, Maryland majoring in English.  She is planning a career in Marketing.</note>
+               </person>
+               <person xml:id="RSelfe">
+                 <persName>Richard (Dickie) J. Selfe</persName>
+                 <note type="biographical">Dr. Richard (Dickie) Selfe is a recent hire in Humanities Information Systems at The Ohio State University. He teaches undergraduate and graduate courses in the English Department and holds the position of Senior Instructional Technology Consultant in the College of Humanities. Because of his interest in database-driven systems and their interaction with and influence on multimodal projects, he is 'sitting in' on this course and editing one of the Anderson letters. "I've learned a great deal about creating a sustainable electronic edition. It's an amazing amount of work for the project leader (Dr. Lewis Ulman) and each student!"</note>
+               </person>
+               <person xml:id="SSikes">
+                 <persName>Steve W. Sikes-Gilbert</persName>
+                 <note type="biographical">Steve Sikes-Gilbert is a senior from Yellow Springs, OH majoring in English with a focus on Film Studies.  He is planning a career in film editing or criticism.</note>
+               </person>
+               <person xml:id="SSitzler">
+                 <persName>Sarah Beth Sitzler</persName>
+                 <note type="biographical"></note>
+               </person>
+               <person xml:id="JSmith">
+                 <persName>Jeremy A Smith</persName>
+                 <note type="biographical">Jeremy Smith is a senior, from Vermilion Ohio, majoring in English. Jeremy is planning a career working within the Ohio State Library system while working on a creative writing career focused in poetry during his free time.</note>
+               </person>
+               <person xml:id="KStack">
+                 <persName>Kristin Stack</persName>
+                 <note type="biographical">Kristin Stack is a senior graduating with a B.A. in English and a minor in Professional Writing.  This month, she will be starting as an Assistant Allocator at the Abercrombie &amp; Fitch Home Office in New Albany.</note>
+               </person>
+               <person xml:id="LUlman">
+                 <persName>H. Lewis Ulman</persName>
+                 <note type="biographical">H. Lewis Ulman, Principal Editor, is Associate Professor of English at The Ohio State University and Assistant Dean for Instructional and Research Technology in the College of Humanities. He has edited <title>The Minutes of the Aberdeen Philosophical Society, 1758–1773</title> (Aberdeen University Press, 1990) and, with Dennis Quon, “Semiotics in Eighteenth-century Aberdeen: Thomas Gordon’s Contributions to the Aberdeen Philosophical Society” (<title>Studies on Voltaire and the Eighteenth-Century</title> 317 (1994): 57–115). He is delighted to be living and working at a time when print culture and digital culture are encountering and accommodating one another, allowing him and his students to learn more about both media than they could by studying either in isolation.</note>
+               </person>
+             </listPerson>
              
              <listPlace>
                <head>This list includes the principle places mentioned in the letters.</head>
@@ -1901,7 +1976,7 @@
           <!-- REVISE THE VALUES ABOVE -->
           <pb facs="Letter08_pg1"/>
           <opener>
-            <lb/><dateline><choice><expan>Cincinnati</expan><abbr>Cin</abbr></choice> <date when="1862-09-21">Sept 1st   1862</date></dateline>
+            <lb/><dateline><choice><expan>Cincinnati</expan><abbr>Cin</abbr></choice> <date when="1862-09-01">Sept 1st   1862</date></dateline>
             <lb/><salute>My Dear <rs ref="MLA">Wife</rs></salute>
           </opener>
           <p>
