@@ -211,80 +211,124 @@
              <!-- SEE STEPHENS FOR OTHER LIST TYPES -->
              <!-- FOR EACH LETTER, UPDATE LIST OF PLACES -->
              
-             <listPerson type="editors">
-               <person xml:id="KAdams">
-                 <persName>Katie Leigh Adams</persName>
-                 <note type="biographical">Katie Adams is a senior in Women's Studies at The Ohio State University. She is planning a career in feminism. In her spare time she enjoys collecting Aboriginal Australian art, listening to folk music, and watching <title>Antiques Roadshow</title>.</note>
-               </person>
-               <person xml:id="MAmos">
-                 <persName>Michelle Leigh Amos</persName>
-                 <note type="biographical">Michelle Amos is a graduate student from Roanoke, VA, who is studying sculpture. She has a BFA in sculpture from Virginia Commonwealth University and is planning on teaching and pursuing a career as a professional artist.</note>
-               </person>
-               <person xml:id="CClark">
-                 <persName>Christopher M. Clark</persName>
-                 <note type="biographical">Christopher Clark is a senior from Oregon, Ohio majoring in English with a concentration in Business and Technical Communication. He is planning a career in Public Relations in Chicago after graduation summer 2006.</note>
-               </person>
-               <person xml:id="JDanker">
-                 <persName>Jamie Danker</persName>
-                 <note type="biographical">Jamie Danker is a descendant of William B. and Mary Louisa Anderson. She maintains a genealogical site devoted to her family history at http://www.jamiedanker.com.</note>
-               </person>
-               <person xml:id="SFinch">
-                 <persName>Sara Pauline Finch</persName>
-                 <note type="biographical">Sara Finch is a second-year M.A. student in Women's Studies at The Ohio State University. Her interests are advanced feminist theory, epistemology and feminist science. She will be attending the University of Pittsburgh to advance her career in academic librarianship in the autumn of 2006.</note>
-               </person>
-               <person xml:id="MFissel">
-                 <persName>Martha Fissel</persName>
-                 <note type="biographical">Martha Fissel is a graduating senior majoring in English. She is beginning graduate school this summer at The Ohio State University for Secondary English Education.</note>
-               </person>
-               <person xml:id="MGriesemer">
-                 <persName>Meghan Elaine Griesemer</persName>
-                 <note type="biographical">Meghan Griesemer is a graduating senior in English with a focus in digital media studies. She is currently living in Columbus, and plans on attending graduate school in order to pursue a masters degree in folklore.</note>
-               </person>
-               <person xml:id="ZHess">
-                 <persName>Zachary A. Hess</persName>
-                 <note type="biographical">Zack Hess is a senior from Clayton, Ohio majoring in English. He is graduating this quarter and plans to move out West to pursue a job.</note>
-               </person>
-               <person xml:id="JKamrass">
-                 <persName>Jenna Marlene Kamrass</persName>
-                 <note type="biographical"></note>
-               </person>
-               <person xml:id="KOwsley">
-                 <persName>Kathryn H. Owsley</persName>
-                 <note type="biographical"></note>
-               </person>
-               <person xml:id="MPesut">
-                 <persName>Marie E. Pesut</persName>
-                 <note type="biographical">Marie Pesut is a senior from Youngstown, Ohio, who is pursuing degrees in English literature and journalism.  She hopes to work for a publication such as <title>Vogue</title> or <title>National Geographic</title>.</note>
-               </person>
-               <person xml:id="ERosen">
-                 <persName>Emily Rosen</persName>
-                 <note type="biographical">Emily Rosen is a senior from Baltimore, Maryland majoring in English.  She is planning a career in Marketing.</note>
-               </person>
-               <person xml:id="RSelfe">
-                 <persName>Richard (Dickie) J. Selfe</persName>
-                 <note type="biographical">Dr. Richard (Dickie) Selfe is a recent hire in Humanities Information Systems at The Ohio State University. He teaches undergraduate and graduate courses in the English Department and holds the position of Senior Instructional Technology Consultant in the College of Humanities. Because of his interest in database-driven systems and their interaction with and influence on multimodal projects, he is 'sitting in' on this course and editing one of the Anderson letters. "I've learned a great deal about creating a sustainable electronic edition. It's an amazing amount of work for the project leader (Dr. Lewis Ulman) and each student!"</note>
-               </person>
-               <person xml:id="SSikes">
-                 <persName>Steve W. Sikes-Gilbert</persName>
-                 <note type="biographical">Steve Sikes-Gilbert is a senior from Yellow Springs, OH majoring in English with a focus on Film Studies.  He is planning a career in film editing or criticism.</note>
-               </person>
-               <person xml:id="SSitzler">
-                 <persName>Sarah Beth Sitzler</persName>
-                 <note type="biographical"></note>
-               </person>
-               <person xml:id="JSmith">
-                 <persName>Jeremy A Smith</persName>
-                 <note type="biographical">Jeremy Smith is a senior, from Vermilion Ohio, majoring in English. Jeremy is planning a career working within the Ohio State Library system while working on a creative writing career focused in poetry during his free time.</note>
-               </person>
-               <person xml:id="KStack">
-                 <persName>Kristin Stack</persName>
-                 <note type="biographical">Kristin Stack is a senior graduating with a B.A. in English and a minor in Professional Writing.  This month, she will be starting as an Assistant Allocator at the Abercrombie &amp; Fitch Home Office in New Albany.</note>
-               </person>
-               <person xml:id="LUlman">
-                 <persName>H. Lewis Ulman</persName>
-                 <note type="biographical">H. Lewis Ulman, Principal Editor, is Associate Professor of English at The Ohio State University and Assistant Dean for Instructional and Research Technology in the College of Humanities. He has edited <title>The Minutes of the Aberdeen Philosophical Society, 1758–1773</title> (Aberdeen University Press, 1990) and, with Dennis Quon, “Semiotics in Eighteenth-century Aberdeen: Thomas Gordon’s Contributions to the Aberdeen Philosophical Society” (<title>Studies on Voltaire and the Eighteenth-Century</title> 317 (1994): 57–115). He is delighted to be living and working at a time when print culture and digital culture are encountering and accommodating one another, allowing him and his students to learn more about both media than they could by studying either in isolation.</note>
-               </person>
-             </listPerson>
+        <listPerson type="editors">
+          <person xml:id="KAdams">
+            <persName>Katie Leigh Adams</persName>
+            <note type="biographical">Katie Adams is a senior in Women's Studies at The Ohio State
+              University. She is planning a career in feminism. In her spare time she enjoys
+              collecting Aboriginal Australian art, listening to folk music, and watching
+                <title>Antiques Roadshow</title>.</note>
+          </person>
+          <person xml:id="MAmos">
+            <persName>Michelle Leigh Amos</persName>
+            <note type="biographical">Michelle Amos is a graduate student from Roanoke, VA, who is
+              studying sculpture. She has a BFA in sculpture from Virginia Commonwealth University
+              and is planning on teaching and pursuing a career as a professional artist.</note>
+          </person>
+          <person xml:id="CClark">
+            <persName>Christopher M. Clark</persName>
+            <note type="biographical">Christopher Clark is a senior from Oregon, Ohio majoring in
+              English with a concentration in Business and Technical Communication. He is planning a
+              career in Public Relations in Chicago after graduation summer 2006.</note>
+          </person>
+          <person xml:id="JDanker">
+            <persName>Jamie Danker</persName>
+            <note type="biographical">Jamie Danker is a descendant of William B. and Mary Louisa
+              Anderson. She maintains a genealogical site devoted to her family history at
+              http://www.jamiedanker.com.</note>
+          </person>
+          <person xml:id="SFinch">
+            <persName>Sara Pauline Finch</persName>
+            <note type="biographical">Sara Finch is a second-year M.A. student in Women's Studies at
+              The Ohio State University. Her interests are advanced feminist theory, epistemology
+              and feminist science. She will be attending the University of Pittsburgh to advance
+              her career in academic librarianship in the autumn of 2006.</note>
+          </person>
+          <person xml:id="MFissel">
+            <persName>Martha Fissel</persName>
+            <note type="biographical">Martha Fissel is a graduating senior majoring in English. She
+              is beginning graduate school this summer at The Ohio State University for Secondary
+              English Education.</note>
+          </person>
+          <person xml:id="MGriesemer">
+            <persName>Meghan Elaine Griesemer</persName>
+            <note type="biographical">Meghan Griesemer is a graduating senior in English with a
+              focus in digital media studies. She is currently living in Columbus, and plans on
+              attending graduate school in order to pursue a masters degree in folklore.</note>
+          </person>
+          <person xml:id="ZHess">
+            <persName>Zachary A. Hess</persName>
+            <note type="biographical">Zack Hess is a senior from Clayton, Ohio majoring in English.
+              He is graduating this quarter and plans to move out West to pursue a job.</note>
+          </person>
+          <person xml:id="JKamrass">
+            <persName>Jenna Marlene Kamrass</persName>
+            <note type="biographical"/>
+          </person>
+          <person xml:id="KOwsley">
+            <persName>Kathryn H. Owsley</persName>
+            <note type="biographical"/>
+          </person>
+          <person xml:id="MPesut">
+            <persName>Marie E. Pesut</persName>
+            <note type="biographical">Marie Pesut is a senior from Youngstown, Ohio, who is pursuing
+              degrees in English literature and journalism. She hopes to work for a publication such
+              as <title>Vogue</title> or <title>National Geographic</title>.</note>
+          </person>
+          <person xml:id="ERosen">
+            <persName>Emily Rosen</persName>
+            <note type="biographical">Emily Rosen is a senior from Baltimore, Maryland majoring in
+              English. She is planning a career in Marketing.</note>
+          </person>
+          <person xml:id="RSelfe">
+            <persName>Richard (Dickie) J. Selfe</persName>
+            <note type="biographical">Dr. Richard (Dickie) Selfe is a recent hire in Humanities
+              Information Systems at The Ohio State University. He teaches undergraduate and
+              graduate courses in the English Department and holds the position of Senior
+              Instructional Technology Consultant in the College of Humanities. Because of his
+              interest in database-driven systems and their interaction with and influence on
+              multimodal projects, he is 'sitting in' on this course and editing one of the Anderson
+              letters. "I've learned a great deal about creating a sustainable electronic edition.
+              It's an amazing amount of work for the project leader (Dr. Lewis Ulman) and each
+              student!"</note>
+          </person>
+          <person xml:id="SSikes">
+            <persName>Steve W. Sikes-Gilbert</persName>
+            <note type="biographical">Steve Sikes-Gilbert is a senior from Yellow Springs, OH
+              majoring in English with a focus on Film Studies. He is planning a career in film
+              editing or criticism.</note>
+          </person>
+          <person xml:id="SSitzler">
+            <persName>Sarah Beth Sitzler</persName>
+            <note type="biographical"/>
+          </person>
+          <person xml:id="JSmith">
+            <persName>Jeremy A Smith</persName>
+            <note type="biographical">Jeremy Smith is a senior, from Vermilion Ohio, majoring in
+              English. Jeremy is planning a career working within the Ohio State Library system
+              while working on a creative writing career focused in poetry during his free
+              time.</note>
+          </person>
+          <person xml:id="KStack">
+            <persName>Kristin Stack</persName>
+            <note type="biographical">Kristin Stack is a senior graduating with a B.A. in English
+              and a minor in Professional Writing. This month, she will be starting as an Assistant
+              Allocator at the Abercrombie &amp; Fitch Home Office in New Albany.</note>
+          </person>
+          <person xml:id="LUlman">
+            <persName>H. Lewis Ulman</persName>
+            <note type="biographical">H. Lewis Ulman, Principal Editor, is Associate Professor of
+              English at The Ohio State University and Assistant Dean for Instructional and Research
+              Technology in the College of Humanities. He has edited <title>The Minutes of the
+                Aberdeen Philosophical Society, 1758–1773</title> (Aberdeen University Press, 1990)
+              and, with Dennis Quon, “Semiotics in Eighteenth-century Aberdeen: Thomas Gordon’s
+              Contributions to the Aberdeen Philosophical Society” (<title>Studies on Voltaire and
+                the Eighteenth-Century</title> 317 (1994): 57–115). He is delighted to be living and
+              working at a time when print culture and digital culture are encountering and
+              accommodating one another, allowing him and his students to learn more about both
+              media than they could by studying either in isolation.</note>
+          </person>
+        </listPerson>
              
              <listPlace>
                <head>This list includes the principle places mentioned in the letters.</head>
@@ -836,140 +880,146 @@
          
        </encodingDesc>
        
-       <profileDesc>
-         <creation>
-           <date>2006-06-06</date>
-         </creation>
-         
-         <particDesc>
-           <listPerson type="mentioned">
-             <head>This list includes the principal persons mentioned in the letters.</head>
-             <person xml:id="MLA" source="HOAC">
-               <persName>Anderson, Mary Louisa, née Fischgens</persName>
-               <note type="biographical">Mary Louisa Fischgens and Capt. William B. Anderson were married September
-                 15, 1853 in Cincinnati, Ohio. As the letters show, during the time that
-                 William was on the river, Louisa both cared for their five children and managed business transactions
-               related to both their homestead and riverboat</note>
-               <birth when="1837-04-14"><placeName>Pittsburgh, PA</placeName></birth>
-               <death when="1911-08-25"><placeName>Pittsburgh, PA</placeName></death>
-               <bibl><ref target="HOAC"/>Cushing 298; Doherty</bibl>
-             </person>
-             <person xml:id="MAF" source="XXX">
-               <persName>Fischgens, Anna Mary, née Woolslayer</persName>
-               <note type="biographical">Mary Louisa Anderson's mother, whom Anderson sometimes refers to in the letters
-                 as "the old lady," is living in Cincinnati, OH with her daughter Ella during the period covered by the letters</note>
-               <birth when="1812-07-12"><placeName>Pittsburgh, PA</placeName></birth>
-               <death when="1897-11-25"><placeName>Pittsburgh, PA</placeName></death>
-               <bibl><ref target="HOAC"/>Cushing 298; Konrad</bibl>
-             </person>
-             <person xml:id="WBA" source="HOAC">
-               <persName>Anderson, William B.</persName>
+    <profileDesc>
+      <creation>
+        <date>2006-06-06</date>
+      </creation>
+
+      <particDesc>
+        <listPerson type="mentioned">
+          <head>This list includes the principal persons mentioned in the letters.</head>
+          <person xml:id="MLA" source="HOAC">
+            <persName>Anderson, Mary Louisa, née Fischgens</persName>
+            <note type="biographical">Mary Louisa Fischgens and Capt. William B. Anderson were
+              married September 15, 1853 in Cincinnati, Ohio. As the letters show, during the time
+              that William was on the river, Louisa both cared for their five children and managed
+              business transactions related to both their homestead and riverboat</note>
+            <birth when="1837-04-14"><placeName>Pittsburgh, PA</placeName></birth>
+            <death when="1911-08-25"><placeName>Pittsburgh, PA</placeName></death>
+            <bibl><ref target="HOAC"/>Cushing 298; Doherty</bibl>
+          </person>
+          <person xml:id="MAF" source="XXX">
+            <persName>Fischgens, Anna Mary, née Woolslayer</persName>
+            <note type="biographical">Mary Louisa Anderson's mother, whom Anderson sometimes refers
+              to in the letters as "the old lady," is living in Cincinnati, OH with her daughter
+              Ella during the period covered by the letters</note>
+            <birth when="1812-07-12"><placeName>Pittsburgh, PA</placeName></birth>
+            <death when="1897-11-25"><placeName>Pittsburgh, PA</placeName></death>
+            <bibl><ref target="HOAC"/>Cushing 298; Konrad</bibl>
+          </person>
+          <person xml:id="WBA" source="HOAC">
+            <persName>Anderson, William B.</persName>
             <note type="biographical">Captain William B. Anderson was involved in lake and river
               commerce for over twenty-five years. He was both a boat builder and captain, and
               maintained a farm and homestead in Allegheny County, PA. Mary Louisa Fischgens and
               William B. Anderson were married September 15, 1853 in Cincinnati, Ohio and had four
               children at the time these letters were written</note>
-               <birth when="1822-10-10"><placeName>Washington County, PA</placeName></birth>
-               <death when="1897-11-15"><placeName>Allegheny County, PA</placeName></death>
-               <bibl><ref target="HOAC"/>Cushing 298; Weber</bibl>
-             </person>
-             <person xml:id="WYA" source="HOAC">
-               <persName>Anderson, William Y.</persName>
-               <note type="biographical">Son of William B. Anderson and Mary Louisa Fischgens Anderson. 
-                 He Married Nancy C. McKinley and resided in Shousetown, Pa. He died of typhoid in 180, leaving a widow and 
-                 two children</note>
-               <birth when="1855"></birth>
-               <death when="1890-11-23"></death>
-               <bibl><ref target="HOAC"/>Cushing 298; Danker, "RE: Request"</bibl>
-             </person>
-             <person xml:id="JLA" source="HOAC">
-               <persName>Anderson, John L.</persName>
-               <note type="biographical">Son of William B. Anderson and Mary Louisa Fischgens Anderson. He survived the typhoid in 1890 that
-                 killed three of his siblings. He never married</note>
-               <birth when="1859"></birth>
-               <death when="1922-05-27"></death>
-               <bibl><ref target="HOAC"/>Cushing 298; Danker, "RE: Request"</bibl>
-             </person>
-             <person xml:id="russell" source="BioRev">
-               <persName>Russel, John</persName>
-               <note type="biographical">John Russel was “a prominent merchant 
-                 on Liberty Street, Pittsburgh, PA, for many years”</note>
-               <bibl><ref target="BioRev"/><title level="m">Biographical Review</title> 205</bibl>
-             </person>
-             <person xml:id="HGWright" source="Brodhead">
-               <persName>Wright, Horatio Gouverneur</persName>
-               <note type="biographical">General Wright commanded the Division of Ohio from August 1862 to March 1863</note>
-               <birth when="1820-03-06"><placeName>Clinton, Connecticut</placeName></birth>
-               <death when="1899-07-02"><placeName>Washington, D.C.</placeName></death>
-               <bibl><ref target="ANB">American National Biography</ref>https://doi-org.proxy.lib.ohio-state.edu/10.1093/anb/9780198606697.article.0500857</bibl>
-             </person>
-             <person xml:id="Morgan" source="Rosenburg">
-               <persName>Morgan, John Hunt</persName>
-               <note type="biographical">In his letter of 5 July 1863, Anderson refers to the burning
-                 of Lebanon, KY during one of General Morgan's raids on Union forces</note>
-               <birth when="1825-06-01"><placeName>Huntsville, Alabama</placeName></birth>
-               <death when="1864-09-04"><placeName>Greenville, Tennessee</placeName></death>
-               <bibl>Rosenburg</bibl>
-             </person>
-             <person xml:id="hatch" source="States">
-               <persName>Hatch, George</persName>
-               <note type="biographical">George Hatch served as mayor of Cincinnati from 1861-1863</note>
-               <bibl>Miller 165</bibl>
-             </person>
-             <person xml:id="Ella" source="FG">
-               <persName>Fischgens, Ella Jane</persName>
-               <note type="biographical">Anderson mentions Louisa Anderson's younger sister Ella in 
-               many of the letters. He last mentions her in his letter of 1 August 1863, a little more
-               than a month before she died, but he does not mention that she has been ill</note>
-               <birth when="1851-09-21"><placeName>New Jersey</placeName></birth>
-               <death when="1863-09-04"><placeName>Cincinnati, OH</placeName></death>
-               <bibl>Find A Grave; Danker, <title level="m">William B. Anderson Letters</title></bibl>
-             </person>
-             
-             
-           </listPerson>
-           
-           <listPerson type="editors">
-             <head></head>
-             <person>
-               <persName></persName>
-             </person>
-           </listPerson>
-         </particDesc>
-         
-         <langUsage>
-           <language ident="eng">English</language>
-         </langUsage>
+            <birth when="1822-10-10"><placeName>Washington County, PA</placeName></birth>
+            <death when="1897-11-15"><placeName>Allegheny County, PA</placeName></death>
+            <bibl><ref target="HOAC"/>Cushing 298; Weber</bibl>
+          </person>
+          <person xml:id="WYA" source="HOAC">
+            <persName>Anderson, William Y.</persName>
+            <note type="biographical">Son of William B. Anderson and Mary Louisa Fischgens Anderson.
+              He Married Nancy C. McKinley and resided in Shousetown, Pa. He died of typhoid in 180,
+              leaving a widow and two children</note>
+            <birth when="1855"/>
+            <death when="1890-11-23"/>
+            <bibl><ref target="HOAC"/>Cushing 298; Danker, "RE: Request"</bibl>
+          </person>
+          <person xml:id="JLA" source="HOAC">
+            <persName>Anderson, John L.</persName>
+            <note type="biographical">Son of William B. Anderson and Mary Louisa Fischgens Anderson.
+              He survived the typhoid in 1890 that killed three of his siblings. He never
+              married</note>
+            <birth when="1859"/>
+            <death when="1922-05-27"/>
+            <bibl><ref target="HOAC"/>Cushing 298; Danker, "RE: Request"</bibl>
+          </person>
+          <person xml:id="russell" source="BioRev">
+            <persName>Russel, John</persName>
+            <note type="biographical">John Russel was “a prominent merchant on Liberty Street,
+              Pittsburgh, PA, for many years”</note>
+            <bibl><ref target="BioRev"/><title level="m">Biographical Review</title> 205</bibl>
+          </person>
+          <person xml:id="HGWright" source="Brodhead">
+            <persName>Wright, Horatio Gouverneur</persName>
+            <note type="biographical">General Wright commanded the Division of Ohio from August 1862
+              to March 1863</note>
+            <birth when="1820-03-06"><placeName>Clinton, Connecticut</placeName></birth>
+            <death when="1899-07-02"><placeName>Washington, D.C.</placeName></death>
+            <bibl><ref target="ANB">American National
+              Biography</ref>https://doi-org.proxy.lib.ohio-state.edu/10.1093/anb/9780198606697.article.0500857</bibl>
+          </person>
+          <person xml:id="Morgan" source="Rosenburg">
+            <persName>Morgan, John Hunt</persName>
+            <note type="biographical">In his letter of 5 July 1863, Anderson refers to the burning
+              of Lebanon, KY during one of General Morgan's raids on Union forces</note>
+            <birth when="1825-06-01"><placeName>Huntsville, Alabama</placeName></birth>
+            <death when="1864-09-04"><placeName>Greenville, Tennessee</placeName></death>
+            <bibl>Rosenburg</bibl>
+          </person>
+          <person xml:id="hatch" source="States">
+            <persName>Hatch, George</persName>
+            <note type="biographical">George Hatch served as mayor of Cincinnati from
+              1861-1863</note>
+            <bibl>Miller 165</bibl>
+          </person>
+          <person xml:id="Ella" source="FG">
+            <persName>Fischgens, Ella Jane</persName>
+            <note type="biographical">Anderson mentions Louisa Anderson's younger sister Ella in
+              many of the letters. He last mentions her in his letter of 1 August 1863, a little
+              more than a month before she died, but he does not mention that she has been
+              ill</note>
+            <birth when="1851-09-21"><placeName>New Jersey</placeName></birth>
+            <death when="1863-09-04"><placeName>Cincinnati, OH</placeName></death>
+            <bibl>Find A Grave; Danker, <title level="m">William B. Anderson Letters</title></bibl>
+          </person>
 
-         <handNotes>
-           <handNote xml:id="WBAink" medium="ink">Anderson, William B.</handNote>
-           <handNote xml:id="UnknownPencil">Pencilled notes in an unidentified hand.</handNote>
-         </handNotes>
-         
-         <!-- FOR EACH LETTER, UPDATE LCSH KEYWORDS -->
-         <textClass>
-           <keywords scheme="#LCSH">
-             <term>Anderson, William B. (1822-1897)</term>
-             <term>Anderson, Mary Louisa Fischgens (1837-1911)</term>
-             <term>Morris, George</term>
-             <term>Pennsylvania -- Pittsburgh</term>
-             <term>Pennsylvania -- Shousetown</term>
-             <term>River boats -- United States</term>
-             <term>Ohio -- Cincinnati</term>
-             <term>Kentucky -- Louisville</term>
-             <term>Woolslayer, Mary Ann</term>
-             <term>McNamer, Mary</term>
-             <term>River boats -- United States -- Sources</term>
-             <term>United States -- History -- Civil War, 1861-1865</term>
-             <term>Tennessee -- Nashville</term>
-             <term>Pennsylvania -- Parkersburg</term>
-             <term>Pennsylvania -- Lumkford Prison</term>
-             <term>River boats -- United States</term>
-             
-           </keywords>
-         </textClass>
-         
-       </profileDesc>
+
+        </listPerson>
+
+        <listPerson type="editors">
+          <head/>
+          <person>
+            <persName/>
+          </person>
+        </listPerson>
+      </particDesc>
+
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+
+      <handNotes>
+        <handNote xml:id="WBAink" medium="ink">Anderson, William B.</handNote>
+        <handNote xml:id="UnknownPencil">Pencilled notes in an unidentified hand.</handNote>
+      </handNotes>
+
+      <!-- FOR EACH LETTER, UPDATE LCSH KEYWORDS -->
+      <textClass>
+        <keywords scheme="#LCSH">
+          <term>Anderson, William B. (1822-1897)</term>
+          <term>Anderson, Mary Louisa Fischgens (1837-1911)</term>
+          <term>Morris, George</term>
+          <term>Pennsylvania -- Pittsburgh</term>
+          <term>Pennsylvania -- Shousetown</term>
+          <term>River boats -- United States</term>
+          <term>Ohio -- Cincinnati</term>
+          <term>Kentucky -- Louisville</term>
+          <term>Woolslayer, Mary Ann</term>
+          <term>McNamer, Mary</term>
+          <term>River boats -- United States -- Sources</term>
+          <term>United States -- History -- Civil War, 1861-1865</term>
+          <term>Tennessee -- Nashville</term>
+          <term>Pennsylvania -- Parkersburg</term>
+          <term>Pennsylvania -- Lumkford Prison</term>
+          <term>River boats -- United States</term>
+
+        </keywords>
+      </textClass>
+
+    </profileDesc>
        
        <revisionDesc>
          <change when="2019-09-01" who="#HLU">Redesign of the edition to match the design approved by NINES peer reviewers;
@@ -1069,7 +1119,7 @@
             <lb/>We have laid over and will leave this 
             <lb/>Evening we are getting all we want I have 
             <lb/>just been down to see your <rs ref="#MAF">mother</rs><ptr type="noteAnchor" target="mother"/><note resp="ed" xml:id="mother">Mary Louisa Anderson's mother, Ann (Woolslayer) Fischgens <bibl><ref target="HOAC"></ref><title level="m">History of Allegheny County</title> 298</bibl>.</note> she is not 
-            <lb/>very well Today sends her respects <persName>Ella</persName><ptr type="noteAnchor" target="ella"/><note resp="ed" xml:id="ella">Ella Jane Fischgens was Louisa's younger sister, born in 1851. 
+            <lb/>very well Today sends her respects <persName ref="#Ella">Ella</persName><ptr type="noteAnchor" target="ella"/><note resp="ed" xml:id="ella">Ella Jane Fischgens was Louisa's younger sister, born in 1851. 
             She died in Cincinnati on September 4, 1863 <bibl>Danker, <title level="m">William B. Anderson Letters</title></bibl><ref target="#DankerSite"/>.</note>
             <lb/>was at school I did not see her. There was 
             <lb/>a large fire down between Third St and The river 
@@ -1316,7 +1366,7 @@
             <lb/>1 to 5 oclock which is the best sleep I have
             <lb/>had for a week.  You would not think that
             <lb/>the mosquitoes could be as large and <choice><corr>plentiful</corr><sic>plentifull</sic></choice> as
-            <lb/>they are <persName>John</persName> says that they are worse than
+            <lb/>they are <persName ref="#JLA">John</persName> says that they are worse than
             <lb/>they were at California.  Enough of Complaints 
             <lb/>I think you might string out your letters
             <lb/>a little longer as you have a good and cool
@@ -1340,8 +1390,8 @@
               <lb/>also what you and <rs type="person">the Maid</rs> have been
               <lb/>doing and how she <choice><corr>turned</corr><sic>tured</sic></choice> out is 
               <persName type="nickname">Willy</persName>
-              <lb/>at school &amp; has <persName>John</persName> got stout
-              <lb/>I am interrupted by <persName type="person">Jo</persName> &amp; others and must
+              <lb/>at school &amp; has <persName ref="#JLA">John</persName> got stout
+              <lb/>I am interrupted by <persName>Jo</persName> &amp; others and must
               <lb/>stop so good <choice><corr>bye</corr><sic>by</sic></choice> 
             </p>
           </postscript>
@@ -1349,7 +1399,7 @@
               <lb/><salute>Your <choice><corr>respectfully</corr><sic>respectfuly</sic></choice></salute>
               <lb/>
               <signed>
-                <persName ref="WBA" type="person">WB Anderson</persName>
+                <persName ref="#WBA" type="person">WB Anderson</persName>
               </signed>
               <lb/>
             </closer>
@@ -1362,7 +1412,7 @@
             <closer>
                <lb/>
               <signed>
-                <persName ref="WBA" type="person">WBA</persName>
+                <persName ref="#WBA" type="person">WBA</persName>
               </signed>
             </closer>
           </postscript>
@@ -1515,7 +1565,7 @@
                <lb/>be here on our return I feel well though am almost worn out
                <lb/>though think I will have it easier now as we will not
                <lb/>stick so much in the <choice><sic>Parkersbug</sic><corr><placeName ref="#Parkersburg">Parkersburg</placeName></corr></choice> 
-                    trade <persName><choice><abbr>WBA</abbr><expan>William B. Anderson</expan></choice></persName> </add>
+                    trade <persName ref="#WBA"><choice><abbr>WBA</abbr><expan>William B. Anderson</expan></choice></persName> </add>
              </p>
            </postscript>
         </div>
@@ -1614,7 +1664,7 @@
             <lb/>to eat on the boat this evening that
             <lb/>the crew <choice><corr>bought</corr><sic>bot</sic></choice> which were very fine
             <pb facs="Letter05_pg2" n="01"/>
-            <lb/>I wrote a letter to <persName ref="russel"> John Russell</persName> and
+            <lb/>I wrote a letter to <persName ref="#russel"> John Russell</persName> and
             <lb/>requested him to pay my taxes I cannot 
             <lb/>tell you when you may look for me
             <lb/>up as it is very uncertain when I can
@@ -1862,11 +1912,11 @@
           <lb/>on our return to sell or Charter if the river still 
           <lb/>continues to fall. Our expenses for repairs have been 
           <lb/>considerable though not as much as I had anticipated 
-          <lb/>I caught the <rs>old lady</rs> &amp; <persName>Ella</persName> in bed yesterday 
+          <lb/>I caught the <rs>old lady</rs> &amp; <persName ref="#Ella">Ella</persName> in bed yesterday 
           <lb/>morning when I went in to see them. I went in 
           <lb/>and ran upstairs as I usually do and found 
           <lb/>the doors open and the <rs>old lady</rs> laying on the Sofa 
-          <lb/>and <persName>Ella</persName> on the floor both sound asleep and the 
+          <lb/>and <persName ref="#Ella">Ella</persName> on the floor both sound asleep and the 
           <lb/>bed standing as it has stood since I first went 
           <lb/>down there while the Kenton was in the <placeName>Memphis</placeName> 
           <lb/>Trade. Though I suppose it is their choice and of 
@@ -1894,7 +1944,7 @@
           <p>
           <lb/>I will have to stop for I have no news of 
           <lb/>any importance <supplied reason="omitted">to</supplied> write about give my love to the 
-          <lb/>children and watch <persName>Anna</persName> for I think that she 
+          <lb/>children and watch <persName ref="#MAF">Anna</persName> for I think that she 
           <lb/>is in need of close attention I was in great hopes 
           <lb/>to sell the boat but this far have been unsuccessfull 
           <lb/>I will expect you to write to me on the receipt of 
@@ -2439,7 +2489,7 @@
             <figDesc>Envelope for letter of 7 October 1862</figDesc>
           </figure>
             <ab type="postalAddress">
-              <persName>Mrs Louisa Anderson</persName>
+              <persName ref="#MLA">Mrs Louisa Anderson</persName>
               <address>
                 <addrLine>Shousetown</addrLine>
                 <addrLine>Allegheny County</addrLine>
@@ -2855,8 +2905,8 @@
               at 15 Market Street on an 1872 map of Pittsburg. <bibl> Historic Pittsburgh, https://historicpittsburgh.org/islandora/object/pitt%3A1872p015/viewer</bibl>.</note> or from Mirer and  
             <lb/>Robinson <placeName>Allegheny</placeName> I would send you the
             <lb/>Money but I suppose you can get it from
-            <lb/><persName>Russell</persName> it will cost about 35 or 40 <choice><expan>Dollars</expan><abbr>Dolls</abbr></choice>
-            <lb/>you can get <persName>Russell</persName> to get it for you &amp;
+            <lb/><persName ref="#russell">Russell</persName> it will cost about 35 or 40 <choice><expan>Dollars</expan><abbr>Dolls</abbr></choice>
+            <lb/>you can get <persName ref="#russell">Russell</persName> to get it for you &amp;
             <lb/>let him charge it.  I will send him a 
             <lb/>note by Bill &amp; he can get it &amp; have it
             <lb/>sent to his store have him get it over
@@ -3005,10 +3055,10 @@
             <lb/>them on to <placeName ref="#richmond">Richmond</placeName> but be it as it may it
             <lb/>thus played the very mischief with business in
             <lb/>the city for a few days.  I was down to see the
-            <lb/>old Lady to day and <persName>Ella</persName> came up with me
+            <lb/>old Lady to day and <persName ref="#Ella">Ella</persName> came up with me
             <lb/>and is on the Boat now and is well the old
             <lb/>lady is well I have some Pears the <rs ref="#MAF">old lady</rs> 
-            <lb/>sent you.  I will take <persName>Ella</persName> and put her
+            <lb/>sent you.  I will take <persName ref="#Ella">Ella</persName> and put her
           </placeName>
           <pb facs="Letter17_pg3"/>            
             <lb/>on the street cars and send her down home and
@@ -3106,7 +3156,7 @@
             <lb/>We are on the eve of
             <lb/>leaving for <placeName ref="#nashville">Nashville</placeName> “prospects good”
             <lb/>I have not read any letter from you since
-            <lb/>I wrote &amp; am disappointed! <persName>Ella</persName> was here
+            <lb/>I wrote &amp; am disappointed! <persName ref="#Ella">Ella</persName> was here
             <lb/>yesterday &amp; today <rs ref="#MAF">your mother</rs> is well as
             <lb/>usual <persName>Elias</persName> is sick &amp; I could not leave
             <lb/>the boat long enough to see your mother
@@ -3215,7 +3265,7 @@
           <p>
             <lb/> Your of 26 came in due time &amp; I
             <lb/> was pleased to hear from you &amp; hope you &amp; all the
-            <lb/> little ones are well I send with <persName ref="#Elias">Elias</persName><note target="note004">4</note> 60$ <choice><expan>dollars</expan><abbr>Dolls</abbr></choice>
+            <lb/> little ones are well I send with <persName>Elias</persName><note target="note004">4</note> 60$ <choice><expan>dollars</expan><abbr>Dolls</abbr></choice>
             <lb/> as he is going home to stop off till his health
             <lb/> gets better I will see your <rs ref="#MAF">Mother</rs> this
             <lb/> Evening I have been very <choice><corr>busily</corr><sic>buissily</sic></choice> engaged
@@ -3344,7 +3394,7 @@
             <lb/> As we leave this Evening
             <lb/> I <choice><corr>thought</corr><sic>thot</sic></choice> I would drop you a line
             <lb/> to let you know that I have seen 
-            <lb/> your <rs ref="#MAF">mother</rs> she &amp; <persName ref="#ella">Ella</persName> 
+            <lb/> your <rs ref="#MAF">mother</rs> she &amp; <persName ref="#Ella">Ella</persName> 
               are on the <name type="ship" ref="#glide">Boat</name>
             <lb/> now &amp; have been for an hour I have
             <lb/> to go up <rs ref="#CincinnatiOH">town</rs> and they are waiting till 
@@ -3359,7 +3409,7 @@
             <lb/> to all I am in a hurry &amp; have not
             <lb/> time <supplied reason="omitted">to</supplied> write or think of any thing that
             <lb/> will interest you give my respects to 
-            <lb/> all I sent a letter last night by <persName ref="#Elias">Elias</persName> 
+            <lb/> all I sent a letter last night by <persName>Elias</persName> 
             <lb/> and $60.00 in cash for you Kiss all the small 
             <lb/> ones for me good bye
           </p>
