@@ -1813,7 +1813,7 @@
             <lb/> Husbands or Brothers while I am writing the
             <lb/> wharf is covered from Broadway to Main
             <lb/> street with fresh recruits from <placeName>Indiana</placeName> &amp;
-            <lb/> Ohio on their way to the Little Miami <choice><expan>Railroad</expan><abbr>RR</abbr></choice> 
+            <lb/> Ohio on their way to the <orgName ref="#LMRR">Little Miami <choice><expan>Railroad</expan><abbr>RR</abbr></choice></orgName> 
             <lb/> Depot on their way to Camps to be uniformed
             <lb/> I have not been down today to see your <rs ref="#MAF">mother</rs>
             <lb/> but will before I write again or go up
@@ -2138,7 +2138,7 @@
             <lb/>that the the children were well  I am also well and
             <lb/>am still employed in the same way as a dispatch
             <lb/>Boat and our trips only extend down as far of late
-            <lb/>as <orgName>Andersons Ferry</orgName> 8 miles we made but two yesterday
+            <lb/>as <orgName ref="#andersonFerry">Andersons Ferry</orgName> 8 miles we made but two yesterday
             <lb/>one at noon and one in the night all is quiet here
             <lb/>now and the majority of the stores are open but there
             <lb/>is nothing doing but what appertains to the war it
@@ -3399,7 +3399,7 @@
             <lb/> I get ready we are to have 200 mules
             <lb/> down after dinner &amp; shall get out by
             <lb/> 4 or 5 oclock I have no news to 
-            <lb/> write about I send by Adams Express<ptr type="noteAnchor" target="adamsex"/><note resp="ed" xml:id="adamsex">During the Civil War, the 
+            <lb/> write about I send by <orgName ref="#adams">Adams Express</orgName><ptr type="noteAnchor" target="adamsex"/><note resp="ed" xml:id="adamsex">During the Civil War, the 
               Adams Express Company shipped goods and money to and from Union troops <bibl><title level="a">Adams Express Company Journal</title></bibl>.</note>
             <lb/> to <placeName ref="#PittsburghPA">Pitt</placeName> today 
             (3600.<del type="unrecoverable" rend="overstrike" hand="WBA">00</del> Three thousand six hundred
