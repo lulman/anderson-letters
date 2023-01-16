@@ -144,6 +144,10 @@
                            <li><a href="./anderson_letters.html#projectDescription">Project Description</a></li>
                            <li><a href="./anderson_letters.html#source">The Source Document</a></li>
                            <li><a href="./anderson_letters.html#edition">The Electronic Edition</a></li>
+                           <li><a href="./anderson_letters.html#worksCited">Works Cited</a></li>
+                           <li><a href="./anderson_letters.html#peopleMentioned">People Mentioned</a></li>
+                           <li><a href="./anderson_letters.html#organizationsMentioned">Organizations Mentioned</a></li>                           
+                           <li><a href="./anderson_letters.html#placesMentioned">Places Mentioned</a></li>
                            <li><a href="./anderson_letters.html#revision">Revision History</a></li>
                         </ul>
                      </li>
@@ -160,11 +164,6 @@
                            <li><a href="./anderson_appendices_hand.html">Anderson's Hand</a></li>
                            <li><a href="./anderson_appendices_pageimages.html">Images of the MS Pages</a></li>
                            <li><a href="./anderson_appendices_maps.html">Maps</a></li>
-                           <li><a href="./anderson_letters.html#peopleMentioned">People Mentioned</a></li>
-                           <li><a href="./anderson_letters.html#placesMentioned">Places Mentioned</a></li>
-                           <li><a href="./anderson_letters.html#organizationsMentioned">Organizations Mentioned</a></li>                           
-                           <li><a href="./anderson_letters.html#worksCited">Works Cited</a></li>
-                           <li><a href="./anderson_letters.html#revision">Revision History</a></li>
                            <li><a href="./anderson_appendices_acknowledgements.html">Acknowledgements</a></li>
                            <li><a href="./anderson_appendices_editors.html">About the Editors</a></li>
                         </ul>
