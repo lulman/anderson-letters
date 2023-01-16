@@ -4,7 +4,7 @@
          <fileDesc>
            <!-- For each letter, add editor, scanner, and initial markup -->
              <titleStmt>
-               <title>William B. Anderson's Civil War Correspondence, 1862-1864</title>
+               <title><bibl><title level="m">William B. Anderson's Civil War Correspondence, 1862-1864</title>. Edited by H. Lewis Ulman et al., The Ohio State University Knowledge Bank, 2020. http://hdl.handle.net/1811/92221</bibl></title>
                <editor><persName ref="#KAdams">Katie Leigh Adams</persName></editor>
                <editor><persName ref="#MAmos">Michelle Leigh Amos</persName></editor>
                <editor><persName ref="#CClark">Christopher M. Clark</persName></editor>

@@ -516,7 +516,7 @@
       <a id="edition"/>
       <h2>About the Electronic Edition</h2>
       <hr/>
-      <p><strong>Title</strong>: "<xsl:value-of select="tei:title"/>"</p>
+      <p><strong>Preferred Citation</strong>: <xsl:value-of select="tei:title"/></p>
          <p><strong>Editors</strong>: <xsl:for-each select="tei:editor/tei:persName">
             <xsl:choose>
                <xsl:when test="current()=//tei:titleStmt/tei:editor[1]">
@@ -542,7 +542,7 @@
          select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability/tei:p[@xml:id='CreativeCommons']"
          disable-output-escaping="yes"/>
    </xsl:template>
-   
+      
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:editorialDecl">
       <hr style="border: 2px solid crimson;"/>
        <h2>Editorial Method</h2>
