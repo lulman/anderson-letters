@@ -185,8 +185,7 @@
                </div> <!-- End div id navigation -->
                
                <div id="titleBar">
-                  <p style="text-align: center"><span class="projectTitle"><xsl:apply-templates
-                     select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></span><br/><br/></p>
+                  <p style="text-align: center"><span class="projectTitle">William B. Anderson's Civil War correspondence, 1862-1864</span><br/></p>
                   <hr style="border: 2px solid crimson;"/>
                </div> <!-- END titleBar -->
             </div> <!-- END masthead -->
